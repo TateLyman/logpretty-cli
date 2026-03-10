@@ -1,0 +1,28 @@
+{
+  "name": "logpretty-cli",
+  "version": "1.0.0",
+  "description": "Pretty-print JSON logs in the terminal. Supports pino, winston, and bunyan formats.",
+  "bin": {
+    "logpretty": "bin/logpretty.js"
+  },
+  "keywords": [
+    "log",
+    "pretty",
+    "json",
+    "pino",
+    "winston",
+    "bunyan",
+    "structured-logging",
+    "cli"
+  ],
+  "author": "Tate Lyman",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TateLyman/logpretty-cli.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "homepage": "https://github.com/TateLyman/logpretty-cli"
+}
