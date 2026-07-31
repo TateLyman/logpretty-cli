@@ -34,8 +34,10 @@ fi
 
 echo "[00] GEO search for a developmental age series"
 $PY src/s00_search_geo.py
-echo "[01] QC, integration, clustering, zone assignment"
+echo "[01] QC, integration, clustering"
 $PY src/s01_build.py
+echo "[01b] chondrocyte gate and zone assignment"
+$PY src/s01b_zones.py
 echo "[02] HDAC4 activity scores (decoupler ULM + scaled mean)"
 $PY src/s02_score.py
 echo "[03] analyses A-D"

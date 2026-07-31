@@ -49,7 +49,7 @@ def regulon(genes):
 
 
 def score_species(species):
-    ad = sc.read_h5ad(C.PROC / f"{species}.h5ad")
+    ad = sc.read_h5ad(C.PROC / f"{species}_zoned.h5ad")
     print(f"=== {species}: {ad.n_obs} cells ===")
     coverage = {}
 

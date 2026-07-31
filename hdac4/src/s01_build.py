@@ -115,34 +115,10 @@ def process(ad, species):
     return ad
 
 
-def assign_zones(ad, full, species):
-    """Score zone markers on the full (unsubsetted) expression, assign per cluster."""
-    markers = C.ZONE_MARKERS if species == "human" else {
-        k: C.to_mouse(v) for k, v in C.ZONE_MARKERS.items()
-    }
-    present = {}
-    for zone, genes in markers.items():
-        g = [x for x in genes if x in full.var_names]
-        present[zone] = g
-        sc.tl.score_genes(full, g, score_name=f"zs_{zone}", random_state=C.SEED)
-        ad.obs[f"zs_{zone}"] = full.obs[f"zs_{zone}"].values
-        print(f"  zone markers {zone}: {len(g)}/{len(genes)} present -> {g}")
-
-    zcols = [f"zs_{z}" for z in C.ZONE_ORDER]
-    per_cluster = ad.obs.groupby("leiden", observed=True)[zcols].mean()
-    # z-score each marker score across clusters so sets of different size compare fairly
-    z = (per_cluster - per_cluster.mean()) / per_cluster.std(ddof=0).replace(0, np.nan)
-    assign = z.idxmax(axis=1).str.replace("zs_", "", regex=False)
-    ad.obs["zone"] = ad.obs["leiden"].map(assign).astype(str)
-    ad.obs["zone"] = pd.Categorical(ad.obs["zone"], categories=C.ZONE_ORDER, ordered=True)
-    per_cluster.assign(zone=assign).to_csv(
-        C.TAB / f"cluster_zone_assignment_{species}.tsv", sep="\t"
-    )
-    return ad, present
-
-
 def main():
-    counts = []
+    """QC, integrate and cluster. Chondrocyte gating and zone assignment are a
+    separate stage (src/s01b_zones.py) so that stage can be re-run without
+    repeating Harmony integration."""
     for species, loader in (("human", load_human), ("mouse", load_mouse)):
         print(f"=== {species} ===")
         ad = loader()
@@ -152,26 +128,14 @@ def main():
         sc.pp.log1p(full)
         ad = process(ad, species)
         full = full[ad.obs_names].copy()
-        ad, present = assign_zones(ad, full, species)
 
-        # carry clustering/zone back onto the all-gene object, which is what gets scored
-        for col in ("leiden", "zone", "S_score", "G2M_score", "stress_score"):
+        # carry clustering back onto the all-gene object, which is what gets scored
+        for col in ("leiden", "S_score", "G2M_score", "stress_score"):
             full.obs[col] = ad.obs[col].values
         full.obsm["X_umap"] = ad.obsm["X_umap"]
-        full.uns["zone_markers_present"] = {k: list(v) for k, v in present.items()}
         full.write(C.PROC / f"{species}.h5ad")
-
-        tab = (
-            full.obs.groupby(["sample", "zone"], observed=False)
-            .size().rename("n_cells").reset_index()
-        )
-        tab["species"] = species
-        tab["flag_under_100"] = tab.n_cells < C.MIN_CELLS_PER_ZONE
-        counts.append(tab)
-        print(full.obs.groupby("zone", observed=False).size())
-
-    pd.concat(counts).to_csv(C.TAB / "zone_cell_counts.tsv", sep="\t", index=False)
-    print("\nwrote zone_cell_counts.tsv")
+        print(f"  wrote {species}.h5ad: {full.n_obs} cells, "
+              f"{full.obs.leiden.nunique()} clusters")
 
 
 if __name__ == "__main__":
