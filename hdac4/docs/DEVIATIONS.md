@@ -52,6 +52,41 @@ the classification can be checked rather than taken on trust.
 **Consequence:** the GP2 restriction is a data-driven reconstruction of the authors'
 labelling, not their labelling itself.
 
+## 4b. Chondrocyte gate added before zone assignment (not in the protocol)
+
+**Protocol:** "Standard QC per dataset: filter cells, regress cell cycle and stress
+signatures, cluster," then assign zones by marker.
+
+**Problem found:** growth plate biopsies are not pure cartilage. In GSE288028, **50.2% of
+post-QC human cells are not chondrocytes** — immune (PTPRC+, including CD3E+ T cells),
+myeloid (LYZ/CD68+), endothelial (PECAM1/VWF+), erythroid (HBB+), smooth muscle (MYH11+) and
+COL1A1-high perichondrial/fibroblastic populations. Assigning zones by argmax over the four
+marker sets forced every one of those clusters into a zone: eight human clusters had
+*negative* scores for all four zone marker sets and were all assigned "prehypertrophic".
+Left uncorrected, non-cartilage would have driven the analysis-A gradient.
+
+**Fix:** cells are gated to chondrocytes at the cluster level before zones are assigned, and
+chondrocytes are then re-clustered on their own (a Leiden partition over the whole tissue
+under-resolves substructure within cartilage). Gate: cluster-mean `COL2A1 >= 4.0` AND
+`ACAN >= 2.0` AND `PTPRC < 0.5`. The gate genes are disjoint from the zone markers and from
+every scoring set, so the gate cannot contaminate the score.
+
+**Margin.** In human the threshold sits inside a very large empirical gap — highest excluded
+cluster-mean ACAN 0.86 versus lowest included 3.31 — so the exact cut-off is immaterial.
+**In mouse the margin is narrow**: highest excluded 1.97 (cluster 22, which is also excluded
+by the COL2A1 criterion at 3.72, and is COL1A1-high at 3.70, i.e. perichondrial) versus
+lowest included 2.07 (cluster 6, n=293). That borderline cluster is 2.6% of gated mouse
+chondrocytes and cannot materially move the mouse gradient, but the narrow margin is recorded
+rather than presented as clean. Per-cluster values for both species are in
+`results/tables/cluster_identity_{species}.tsv` so the gate can be audited.
+
+**Residual limitation:** within gated chondrocytes, a few clusters still show no strong
+enrichment for any zone (all four z-scores near or below zero) and are assigned to the nearest
+zone by argmax. Within cartilage this is defensible — every such cell is a growth plate
+chondrocyte in some state — but those assignments are weaker than the clusters with clear
+marker enrichment. The full z-score matrix is in
+`results/tables/cluster_zone_assignment_{species}.tsv`.
+
 ## 5. decoupler regulon construction
 
 MEF2C and RUNX2 are curated as a **single source** ("MEF2C_RUNX2") over the target set, with

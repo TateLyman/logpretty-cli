@@ -63,13 +63,22 @@ def gate_chondrocytes(ad, species):
     prof["is_chondrocyte"] = is_chondro
     prof.to_csv(C.TAB / f"cluster_identity_{species}.tsv", sep="\t")
 
-    # Report the margin so the threshold can be judged, not just trusted.
-    hi = prof.loc[is_chondro, acan].min() if is_chondro.any() else np.nan
-    lo = prof.loc[~is_chondro, acan].max() if (~is_chondro).any() else np.nan
+    # Report the margin on BOTH gate genes so the threshold can be judged, not
+    # just trusted, and flag clusters sitting close to either boundary.
     n_ch = int(prof.loc[is_chondro, "n_cells"].sum())
     print(f"  [{species}] chondrocyte clusters: {list(prof.index[is_chondro])}")
-    print(f"  [{species}] ACAN gap across the gate: highest excluded {lo:.2f} "
-          f"vs lowest included {hi:.2f} (threshold {GATE['ACAN']})")
+    for gene, thr in ((acan, GATE["ACAN"]), (col2, GATE["COL2A1"])):
+        hi = prof.loc[is_chondro, gene].min() if is_chondro.any() else np.nan
+        lo = prof.loc[~is_chondro, gene].max() if (~is_chondro).any() else np.nan
+        print(f"  [{species}] {gene} margin: highest excluded {lo:.2f} vs lowest "
+              f"included {hi:.2f} (threshold {thr}) -> gap {hi - lo:+.2f}")
+    border = prof.index[
+        is_chondro & ((prof[acan] < 1.25 * GATE["ACAN"]) | (prof[col2] < 1.25 * GATE["COL2A1"]))
+    ]
+    if len(border):
+        nb = int(prof.loc[border, "n_cells"].sum())
+        print(f"  [{species}] BORDERLINE included clusters {list(border)}: {nb} cells "
+              f"({100 * nb / n_ch:.1f}% of gated chondrocytes) — see docs/DEVIATIONS.md")
     print(f"  [{species}] kept {n_ch}/{ad.n_obs} cells "
           f"({100 * n_ch / ad.n_obs:.1f}%) as chondrocytes")
 

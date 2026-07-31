@@ -28,6 +28,8 @@ import config as C  # noqa: E402
 warnings.filterwarnings("ignore")
 np.random.seed(C.SEED)
 
+BSIZE = 2000  # cells per ULM batch; keeps peak memory ~0.3 GB
+
 SETS = {
     "primary": C.TARGETS_PRIMARY,
     "full": C.TARGETS_FULL,
@@ -67,8 +69,12 @@ def score_species(species):
         ad.obs[f"score_mean_{name}"] = -ad.obs[f"_raw_mean_{name}"]
 
         # --- Method 1: decoupler ULM ----------------------------------------
+        # bsize is observations per batch. The default (250k) exceeds the cell
+        # count, so the whole sparse matrix would be densified in one go (~4.3 GB
+        # for the human object, plus ULM internals) and the process is OOM-killed.
+        # Batching changes no result, only peak memory.
         net = regulon(present)
-        dc.mt.ulm(data=ad, net=net, tmin=3, verbose=False)
+        dc.mt.ulm(data=ad, net=net, tmin=3, verbose=False, bsize=BSIZE)
         ulm = ad.obsm["score_ulm"]["MEF2C_RUNX2"].values
         ad.obs[f"score_ulm_{name}"] = -ulm
         del ad.obsm["score_ulm"], ad.obsm["padj_ulm"]
@@ -96,7 +102,8 @@ def score_species(species):
     )
     pb["species"] = species
     pb["flag_under_100"] = pb.n_cells < C.MIN_CELLS_PER_ZONE
-    return ad, pb
+    del ad
+    return None, pb
 
 
 def pathway_table(species):
@@ -126,9 +133,11 @@ def pathway_table(species):
 
 
 def main():
+    import gc
     pbs, paths, pers = [], [], []
     for species in ("human", "mouse"):
         _, pb = score_species(species)
+        gc.collect()
         pbs.append(pb)
         p, per = pathway_table(species)
         paths.append(p)
