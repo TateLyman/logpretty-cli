@@ -144,7 +144,8 @@ def fig_network(df):
     if not f.exists():
         return
     c = pd.read_csv(f)
-    top = df[df.CRISPR_CAUSAL.fillna(False) & ~df.BLACKLIST].sort_values(
+    top = df[df.CRISPR_CAUSAL.fillna(False) & ~df.BLACKLIST
+             & ~df.EXCLUDED_OBVIOUS.fillna(False)].sort_values(
         "total_score", ascending=False).head(12).index
     c = c[c.mouse_gene.isin(top)]
     if c.empty:
@@ -178,9 +179,9 @@ def fig_network(df):
     nx.draw_networkx_labels(Gr, pos, {n: n for n in tg}, font_size=9, font_color=INK, ax=ax)
     nx.draw_networkx_labels(Gr, pos, {n: n for n in cp}, font_size=6.5, font_color=INK2, ax=ax)
     ax.set_title("Target - compound network (top scoring, non-blacklisted targets)",
-                 loc="left", color=INK)
-    ax.text(0, 1.005, "edges: curated ChEMBL/DGIdb interactions; blue = pharmacology matches the desired direction",
-            transform=ax.transAxes, fontsize=8.5, color=INK2)
+                 loc="left", color=INK, pad=22)
+    ax.text(0, 1.012, "edges: curated ChEMBL/DGIdb interactions; blue = pharmacology matches the desired direction",
+            transform=ax.transAxes, fontsize=8.5, color=INK2, va="bottom")
     ax.axis("off")
     ax.legend(loc="lower left", fontsize=8.5, scatterpoints=1)
     fig.tight_layout()
