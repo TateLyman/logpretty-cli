@@ -1,0 +1,6 @@
+.venv/
+data/raw/*.tar
+data/raw/GSE288028/
+data/raw/GSE288529/
+data/processed/*.h5ad
+__pycache__/

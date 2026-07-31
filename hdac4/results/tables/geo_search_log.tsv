@@ -1,0 +1,16 @@
+query	total_hits	retrieved
+growth plate	107	107
+physis	107	107
+epiphyseal	17	17
+resting zone	20	20
+chondrocyte	555	500
+growth plate AND chondrocyte	68	68
+growth plate AND postnatal	25	25
+growth plate AND juvenile	5	5
+growth plate AND pubertal	1	1
+growth plate AND age	45	45
+physis AND single cell	43	43
+epiphyseal AND single cell	7	7
+resting zone AND chondrocyte	6	6
+growth plate AND time course	0	0
+growth plate AND development AND single cell	43	43
