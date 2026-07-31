@@ -237,9 +237,9 @@ def main():
             continue
         row = hp.loc[g]
         pd_rest = row.get("pct_detected_resting", np.nan)
-        w(f"| {g} | " + " | ".join(f"{row[c]:.3f}" for c in order) +
-          f" | {pd_rest:.1%} |" if pd_rest == pd_rest else
-          f"| {g} | " + " | ".join(f"{row[c]:.3f}" for c in order) + " | n/a |")
+        cells = " | ".join(f"{row[c]:.3f}" for c in order)
+        det = f"{pd_rest:.1%}" if pd_rest == pd_rest else "n/a"
+        w(f"| {g} | {cells} | {det} |")
     w("")
     if "HDAC4" in hp.index:
         h4 = hp.loc["HDAC4"]
