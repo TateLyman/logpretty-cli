@@ -1,0 +1,10 @@
+
+SR-1 check
+  naive series-wise total : 59
+  unique by GSM           : 44
+  phantom samples avoided : 15
+  overlapping GSMs        : GSM425046..GSM425060 (15 arrays)
+
+Batch structure (submission date -> zones)
+  Aug 05 2010: Epiphyseal cartilage, Proliferative-hypertrophic transition zone
+  Jul 07 2009: Hypertrophic zone, Proliferative zone, Resting zone

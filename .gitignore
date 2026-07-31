@@ -1,0 +1,5 @@
+growth-plate-pde/*.gz
+growth-plate-pde/*.h5
+growth-plate-pde/GPL*_full.txt
+growth-plate-pde/gse*_gsm.txt
+growth-plate-pde/__pycache__/
