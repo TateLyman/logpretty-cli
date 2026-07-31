@@ -1,0 +1,67 @@
+====================================================================================
+QC AND ZONE ASSIGNMENT  (within donor)
+====================================================================================
+  donor1 (GSM9328218):   5295 cells ->  2722 chondrocytes   RZ=536  PZ=1091  PreHZ=647  HZ=448
+  donor2 (GSM9328221):  12911 cells ->  2896 chondrocytes   RZ=741  PZ=1002  PreHZ=451  HZ=702
+  donor3 (GSM9328224):   9115 cells ->  8918 chondrocytes   RZ=2461  PZ=1977  PreHZ=2993  HZ=1487
+  donor4 (GSM9328229):    383 cells ->   160 chondrocytes   RZ=40  PZ=46  PreHZ=37  HZ=37
+
+====================================================================================
+TARGET LOCALISATION  -  mean log1p(CP10K) [detection rate %] by zone, per donor
+====================================================================================
+
+PDE4D
+  donor                      RZ                  PZ               PreHZ                  HZ   peak
+  donor1          1.640[77.4]       1.230[55.6]       1.719[84.2]       1.396[69.9]   PreHZ
+  donor2          1.139[63.6]       0.941[45.0]       1.226[68.3]       1.149[60.4]   PreHZ
+  donor3          0.107[11.2]       0.090[13.2]       0.149[27.4]       0.157[25.0]   HZ
+  donor4          0.298[27.5]       0.278[32.6]       0.433[62.2]       0.694[70.3]   HZ
+
+PRKG2
+  donor                      RZ                  PZ               PreHZ                  HZ   peak
+  donor1          0.469[32.5]       0.149[11.2]       0.954[57.2]       0.178[12.1]   PreHZ
+  donor2          0.120[11.7]       0.022[ 1.9]       0.279[21.3]       0.070[ 5.3]   PreHZ
+  donor3          0.226[24.0]       0.309[38.7]       0.619[72.1]       0.521[58.3]   PreHZ
+  donor4          0.025[ 5.0]       0.062[ 6.5]       0.754[70.3]       0.059[ 5.4]   PreHZ
+
+NPR2
+  donor                      RZ                  PZ               PreHZ                  HZ   peak
+  donor1          0.022[ 3.4]       0.024[ 3.0]       0.035[ 6.0]       0.029[ 4.0]   PreHZ
+  donor2          0.056[ 7.0]       0.015[ 1.7]       0.060[ 7.1]       0.045[ 5.0]   PreHZ
+  donor3          0.075[ 7.8]       0.065[10.2]       0.047[ 9.5]       0.040[ 7.2]   RZ
+  donor4          0.219[20.0]       0.030[ 4.3]       0.084[21.6]       0.128[24.3]   RZ
+
+NPR3
+  donor                      RZ                  PZ               PreHZ                  HZ   peak
+  donor1          0.001[ 0.2]       0.005[ 0.5]       0.003[ 0.5]       0.019[ 1.8]   HZ
+  donor2          0.016[ 1.3]       0.005[ 0.5]       0.007[ 0.9]       0.006[ 0.9]   RZ
+  donor3          0.003[ 0.3]       0.003[ 0.5]       0.015[ 2.6]       0.018[ 3.6]   HZ
+  donor4          0.030[ 2.5]       0.119[10.9]       0.033[ 2.7]       0.000[ 0.0]   PZ
+
+NPPC
+  donor                      RZ                  PZ               PreHZ                  HZ   peak
+  donor1          0.000[ 0.0]       0.002[ 0.3]       0.002[ 0.2]       0.001[ 0.2]   PZ
+  donor2          0.001[ 0.1]       0.006[ 0.6]       0.000[ 0.0]       0.000[ 0.0]   PZ
+  donor3          0.001[ 0.1]       0.000[ 0.1]       0.000[ 0.0]       0.000[ 0.0]   RZ
+  donor4          0.000[ 0.0]       0.000[ 0.0]       0.000[ 0.0]       0.000[ 0.0]   RZ
+
+PDE3A
+  donor                      RZ                  PZ               PreHZ                  HZ   peak
+  donor1          0.926[54.1]       0.755[33.4]       1.053[66.6]       0.429[25.9]   PreHZ
+  donor2          0.326[23.1]       0.339[15.1]       0.354[23.9]       0.236[11.5]   PreHZ
+  donor3          0.074[ 8.3]       0.089[13.2]       0.067[13.0]       0.075[11.8]   PZ
+  donor4          0.025[ 2.5]       0.174[19.6]       0.130[35.1]       0.130[ 8.1]   PZ
+
+====================================================================================
+DONOR-LEVEL CONVERGENCE  (donor is the unit of replication, n=4)
+====================================================================================
+  gene    peak zone per donor                         PreHZ peaks  verdict
+  PDE4D   PreHZ, PreHZ, HZ, HZ                        2/4          partial  (p~0.262)
+  PRKG2   PreHZ, PreHZ, PreHZ, PreHZ                  4/4          converges  (p~0.004)
+  NPR2    PreHZ, PreHZ, RZ, RZ                        2/4          partial  (p~0.262)
+  NPR3    HZ, RZ, HZ, PZ                              0/4          does not converge  (p~1.000)
+  NPPC    PZ, PZ, RZ, RZ                              0/4          does not converge  (p~1.000)
+  PDE3A   PreHZ, PreHZ, PZ, PZ                        2/4          partial  (p~0.262)
+
+  p is P(>=k donors peaking in PreHZ) under a uniform 1/4 null; it does not
+  account for the zones being biologically ordered, and n=4 is the ceiling.
