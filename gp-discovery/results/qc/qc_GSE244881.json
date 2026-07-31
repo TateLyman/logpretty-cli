@@ -1,0 +1,43 @@
+{
+ "accession": "GSE244881",
+ "n_samples": 1,
+ "samples": {
+  "GSM7831319": {
+   "n_cells_raw": 6794880,
+   "n_genes_raw": 28006,
+   "mito_cut_pct": 15.0,
+   "min_genes": 500,
+   "min_counts": 1000,
+   "median_genes_pre": 0.0,
+   "median_pct_mt_pre": 0.0,
+   "n_cells_after_qc": 654,
+   "n_genes_after_qc": 16708,
+   "doublet_removal": "failed: ValueError",
+   "n_clusters": 13,
+   "cell_state_counts": {
+    "prehypertrophic": 205,
+    "resting": 164,
+    "hypertrophic": 140,
+    "nonchondrocyte_immune": 84,
+    "nonchondrocyte_erythroid": 37,
+    "nonchondrocyte_osteo_perichondrial": 24
+   }
+  }
+ },
+ "pseudobulk_columns": [
+  "GSM7831319|hypertrophic",
+  "GSM7831319|prehypertrophic",
+  "GSM7831319|resting",
+  "GSM7831319|nonchondrocyte_immune",
+  "GSM7831319|nonchondrocyte_erythroid",
+  "GSM7831319|nonchondrocyte_osteo_perichondrial"
+ ],
+ "pseudobulk_n_cells": {
+  "GSM7831319|hypertrophic": 140,
+  "GSM7831319|prehypertrophic": 205,
+  "GSM7831319|resting": 164,
+  "GSM7831319|nonchondrocyte_immune": 84,
+  "GSM7831319|nonchondrocyte_erythroid": 37,
+  "GSM7831319|nonchondrocyte_osteo_perichondrial": 24
+ }
+}

@@ -1,0 +1,73 @@
+# Growth-plate target discovery
+
+A reproducible, data-driven pipeline that starts from a genome-wide CRISPR screen of
+chondrocyte maturation and ends with a ranked, compound-mapped target list — without
+seeding the search from known height pathways or supplements.
+
+> **Scope of the claim.** This ranks genes by *causal evidence that they shift growth-plate
+> chondrocyte maturation*, plus human conservation, height genetics and druggability.
+> It does **not** demonstrate that any target increases final bone length. Faster maturation
+> is not more growth — accelerating maturation can exhaust the plate and shorten the bone —
+> so that risk is scored as an explicit penalty rather than mentioned as a caveat.
+> No dosing or self-experimentation guidance appears in any output.
+
+## Running it
+
+```bash
+python3 -m venv venv && ./venv/bin/pip install \
+    numpy pandas scipy statsmodels matplotlib seaborn scanpy anndata pydeseq2 \
+    h5py openpyxl requests pyyaml scikit-learn igraph leidenalg networkx
+
+cd pipeline
+python s01_download.py          # fetch + checksum every dataset
+python s02_cd200_axis.py        # define what the screen's readout axis means
+python s03_crispr.py            # CRISPR_CAUSAL
+python s04_fastgrowth.py        # FAST_GROWTH (ageing + skeletal site, mouse & rat)
+python s05_zonal.py             # mouse + human zonal arrays
+python s06_height_gwas.py       # human height genetic support
+python s07_orthologs.py         # Ensembl mouse/rat -> human harmonisation
+python s08_scrna.py             # Scanpy QC, doublets, state annotation, pseudobulk
+python s09_perturbation.py      # mechanistic perturbation datasets
+python s10_integrate.py         # master evidence table (orthogonal columns)
+python s12_score.py prelim      # candidate selection
+python s11_targets_drugs.py  ../results/stage12/candidates.csv
+python s11b_literature.py    ../results/stage12/candidates.csv
+python s11c_cancer.py        ../results/stage12/candidates.csv
+python s12_score.py final       # gene sets + deliverables
+python s13_plots.py
+python s14_report.py
+```
+
+Network calls are cached and checksummed, so re-runs are cheap and the stages are resumable.
+
+## Deliverables (`results/`)
+
+| file | contents |
+|---|---|
+| `top_25_novel_targets.csv` | ranked novel targets with full evidence columns |
+| `all_scored_genes.csv` | all 22,634 genes × 135 evidence/score columns |
+| `compounds_by_target.csv` | 1,035 compound records with direction, directness, potency, phase |
+| `excluded_targets_with_reasons.csv` | every excluded gene and why |
+| `dataset_qc_report.md` | provenance, checksums, per-dataset QC, deviations, limitations |
+| `evidence_report.md` | direction logic, gene sets, per-target evidence and validation experiment |
+| `figures/` | CRISPR-vs-fast-growth, zone heatmap, human/mouse concordance, target–compound network, risk-vs-potential |
+| `gene_sets/` | CRISPR_CAUSAL, FAST_GROWTH, HUMAN_CONSERVED, TRACTABLE, COMPOUND_MAPPED, BLACKLIST |
+| `download_manifest.json` | source URL + sha256 + size + timestamp for every downloaded file |
+| `qc/` | per-stage QC artifacts the reports are generated from |
+
+## Design decisions that matter
+
+- **The readout axis is derived, not assumed.** The screen reports log-fold change between
+  CD200-high and CD200-low cells. Stage 02 shows from GSE225879 that CD200-high cells are the
+  matured, post-mitotic population (prehypertrophic +3.27, hypertrophic +2.37, cell cycle
+  −0.38, p = 0.002), which is what makes any directional claim downstream meaningful.
+- **Markers are never causal.** Only genes with a reproducible knockout effect are eligible
+  for ranking; expression evidence can only modulate a gene that already has one.
+- **Guide multi-mapping is filtered.** 3,792 genes share >50% of their sgRNAs with another
+  gene (pseudogene/paralogue families). Before filtering, 139 of 147 genome-wide-only
+  candidates were such artifacts.
+- **The sort marker is excluded.** `Cd200` scores strongly because knocking it out removes the
+  epitope the screen sorts on — a technical effect, not biology.
+- **Nothing is integrated early.** Every within-dataset effect is computed first; datasets meet
+  only in stage 10, and each line of evidence stays its own column rather than being folded
+  into one embedding.

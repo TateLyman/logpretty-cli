@@ -1,0 +1,26 @@
+{
+ "GSE270640_Dnmt1_cKO_vs_flox": {
+  "status": "ok",
+  "n_genes": 23902,
+  "n_FDR05": 455,
+  "method": "PyDESeq2"
+ },
+ "GSE201603_Idh1_mut_vs_ctrl": {
+  "status": "ok",
+  "n_genes": 28658,
+  "n_FDR05": 187,
+  "method": "PyDESeq2"
+ },
+ "GSE123076_Adamts17_KO_vs_WT": {
+  "status": "ok",
+  "n_genes": 14882,
+  "n_FDR05": 0,
+  "method": "moderated t (limma-style)"
+ },
+ "GSE188353_STAT3_KD_vs_ctrl": {
+  "status": "ok",
+  "n_genes": 27432,
+  "n_FDR05": 15,
+  "method": "moderated t (limma-style)"
+ }
+}

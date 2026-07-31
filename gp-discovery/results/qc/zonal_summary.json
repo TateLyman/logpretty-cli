@@ -1,0 +1,138 @@
+{
+ "GSE87605": {
+  "platform": "GPL1261",
+  "n_genes": 21495,
+  "zones": {
+   "resting": 3,
+   "proliferative": 3,
+   "hypertrophic": 3
+  },
+  "top_specific_per_zone": {
+   "resting": [
+    "Prg4",
+    "Cytl1",
+    "Barx1",
+    "Rasl10a",
+    "Gm17455",
+    "9430076C15Rik",
+    "Gpr64",
+    "Ccdc158",
+    "Smoc1",
+    "Calb2",
+    "Htra4",
+    "Gria1"
+   ],
+   "hypertrophic": [
+    "Col10a1",
+    "Gzmd",
+    "Cdk18",
+    "Cd244",
+    "Cd28",
+    "Ocstamp",
+    "Ffar4",
+    "Mepe",
+    "Lipc",
+    "Ccl3",
+    "2010003O02Rik",
+    "Gzme"
+   ],
+   "proliferative": [
+    "Cylc1",
+    "AW060742",
+    "4930568A13Rik",
+    "Glipr1l1",
+    "Slc22a19",
+    "Scnn1b",
+    "Ncam2",
+    "2610100L16Rik",
+    "1810007D17Rik",
+    "Ubtfl1",
+    "Scg3",
+    "Olfr480"
+   ]
+  }
+ },
+ "GSE9160": {
+  "platform": "GPL570",
+  "n_genes": 22880,
+  "zones": {
+   "hypertrophic": 2,
+   "prehypertrophic": 2,
+   "proliferative": 2,
+   "resting": 2,
+   "perichondrium": 2
+  },
+  "top_specific_per_zone": {
+   "perichondrium": [
+    "HIGD1B",
+    "CNN1",
+    "LMOD1",
+    "MEOX1",
+    "HOXD3",
+    "MFAP4",
+    "ASPN",
+    "RERGL",
+    "PTGER2",
+    "PLN",
+    "ITIH3",
+    "SFRP2"
+   ],
+   "proliferative": [
+    "KCTD4",
+    "LOC101559451",
+    "CHIC2",
+    "PNLIPRP2",
+    "DNALI1",
+    "KIF11",
+    "FAM138A",
+    "NPBWR2",
+    "PRMT7",
+    "ODF3L1",
+    "KCNA4",
+    "KRTDAP"
+   ],
+   "prehypertrophic": [
+    "TNIP3",
+    "SLC16A4",
+    "FLJ31715",
+    "YARS2",
+    "RP3-327A19.5",
+    "BBS5",
+    "PVRL3-AS1",
+    "LOC101926960",
+    "DSC1",
+    "KCTD21",
+    "CEP55",
+    "LOC101928190"
+   ],
+   "hypertrophic": [
+    "LOC100652777",
+    "LOC100506504",
+    "SHPRH",
+    "LOC101930415",
+    "DUOX2",
+    "LINC00261",
+    "LOC149351",
+    "ADM",
+    "SERPINB7",
+    "SGCD",
+    "LOC101929248",
+    "ID2"
+   ],
+   "resting": [
+    "NRTN",
+    "YPEL4",
+    "SFRP5",
+    "CDC42EP2",
+    "LRRC31",
+    "CHIT1",
+    "CCL21",
+    "RP11-171N4.1",
+    "HSFX1",
+    "LOC101927417",
+    "BC052775",
+    "RP4-621B10.8"
+   ]
+  }
+ }
+}

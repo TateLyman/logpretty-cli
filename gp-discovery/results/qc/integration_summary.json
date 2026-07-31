@@ -1,0 +1,17 @@
+{
+ "n_genes": 22634,
+ "n_columns": 68,
+ "n_CRISPR_CAUSAL": 238,
+ "n_FAST_GROWTH": 1009,
+ "n_with_human_ortholog": 16559,
+ "n_with_height_gwas": 13063,
+ "n_human_zonal_detected": 15000,
+ "sc_datasets": [
+  "GSE125464",
+  "GSE201605",
+  "GSE231795",
+  "GSE244881",
+  "GSE271634",
+  "GSE288529"
+ ]
+}

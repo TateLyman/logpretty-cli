@@ -1,0 +1,6 @@
+# Per-stage intermediates are fully reproducible by re-running the pipeline
+# (see README). Only the deliverables, QC artifacts and figures are tracked.
+results/stage*/
+logs/
+__pycache__/
+*.pyc

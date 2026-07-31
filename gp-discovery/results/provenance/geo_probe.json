@@ -1,0 +1,222 @@
+{
+ "GSE225878": {
+  "title": "Genome-wide CRISPR Screening of Chondrocyte Maturation Newly Implicates Multiple Genes in Longitudinal Skeletal Growth and Height-GWAS Associated Loci [GPLC_CRISPR_seq]",
+  "organism": "Mus musculus",
+  "type": "Other",
+  "n_gsm": 10,
+  "platforms": [
+   "GPL17021"
+  ],
+  "suppl_files": [
+   "GSE225878_Prim_D15_Average_LFC_100_21-10-12-16-49.txt.gz",
+   "GSE225878_Prim_D4_Average_LFC_100_21-10-12-16-49.txt.gz",
+   "GSE225878_Sec_D15_Avg_LFC_100_21-11-09-14-59.txt.gz",
+   "GSE225878_Sec_D4_Avg_LFC_100_21-11-09-14-52.txt.gz"
+  ],
+  "summary": "The current study pairs human height GWAS data with CRISPR-based genome-wide knock out (KO) screens using an in vitro assay of chondrocyte proliferation and maturation to identify genes and gene pathways of biological relevance to human growth plate maturation.Our CRISPR screen detects relevant candidates for regulating human growth plate maturation, illustrating the value of functional studies in"
+ },
+ "GSE225879": {
+  "title": "Genome-wide CRISPR Screening of Chondrocyte Maturation Newly Implicates Multiple Genes in Longitudinal Skeletal Growth and Height-GWAS Associated Loci [GPLC_sorted_RNAseq]",
+  "organism": "Mus musculus",
+  "type": "Expression profiling by high throughput sequencing",
+  "n_gsm": 4,
+  "platforms": [
+   "GPL16417"
+  ],
+  "suppl_files": [
+   "GSE225879_cpm_sorted_rnaseq.xlsx"
+  ],
+  "summary": "The current study pairs human height GWAS data with CRISPR-based genome-wide knock out (KO) screens using an in vitro assay of chondrocyte proliferation and maturation to identify genes and gene pathways of biological relevance to human growth plate maturation.Our CRISPR screen detects relevant candidates for regulating human growth plate maturation, illustrating the value of functional studies in"
+ },
+ "GSE114919": {
+  "title": "Differential ageing of growth plate cartilage determines skeletal proportions",
+  "organism": null,
+  "type": "Expression profiling by high throughput sequencing",
+  "n_gsm": 60,
+  "platforms": [
+   "GPL21493",
+   "GPL23945"
+  ],
+  "suppl_files": [
+   "GSE114919_Mouse_RNA-Seq_names.xlsx",
+   "GSE114919_Mouse_normalizedcounts.xlsx",
+   "GSE114919_Rat_RNA-Seq_names.xlsx",
+   "GSE114919_Rat_normalizedcounts.xlsx"
+  ],
+  "summary": "Bones at different anatomical locations vary dramatically in size.  The mechanisms responsible for these size differences are poorly understood.  Bone elongation occurs at the growth plates and advances rapidly in early life but then progressively slows due to a developmental program termed growth plate senescence. This developmental program includes declines in cell proliferation and hypertrophy,"
+ },
+ "GSE87605": {
+  "title": "Expression data from three layers in the growth plate",
+  "organism": "Mus musculus",
+  "type": "Expression profiling by array",
+  "n_gsm": 9,
+  "platforms": [
+   "GPL1261"
+  ],
+  "suppl_files": [],
+  "summary": "The developing vertebrate growth plates in long bones have three morphologically distinct layers of chondrocytes: Round Cell layer, Flat Cell layer, and Hypertrophic Cell layer. Round chondrocytes differentiate into flat chondrocytes, and then flat chondrocytes differentiate into hypertrophic chondrocytes. To investigate the genetic programs underlying the chondrocyte differentiation, we obtained "
+ },
+ "GSE225796": {
+  "title": "Genes with specificity for expression in the round cell layer of the growth plate are enriched in genomewide association study (GWAS) of human height",
+  "organism": "Mus musculus",
+  "type": "Expression profiling by high throughput sequencing",
+  "n_gsm": 4,
+  "platforms": [
+   "GPL16417"
+  ],
+  "suppl_files": [
+   "GSE225796_cpm_timecourse_rnaseq.xlsx"
+  ],
+  "summary": "Human adult height reflects the outcome of childhood skeletal growth. Growth plate (epiphyseal) chondrocytes are key determinants of height. As epiphyseal chondrocytes mature and proliferate, they pass through three developmental stages, which are organized into three distinct layers in the growth plate: (i) resting (round), (ii) proliferative (flat), and (iii) hypertrophic. Recent genomewide asso"
+ },
+ "GSE9160": {
+  "title": "Gene Expression Across the Human Growth Plate",
+  "organism": "Homo sapiens",
+  "type": "Expression profiling by array",
+  "n_gsm": 10,
+  "platforms": [
+   "GPL570"
+  ],
+  "suppl_files": [],
+  "summary": "Chondrocytes advance through the long bone growth plate in synchrony, allowing their segregation into one of four zones each corresponding to a different phase of maturation. Beginning from the epiphysis the recognized zones are: reserve, proliferative, prehypertrophic, and hypertrophic. A fifth zone, the perichondrium is located in apposition to the growth plate at its circumferential surface. Th"
+ },
+ "GSE125464": {
+  "title": "Single cell RNAseq analysis of Col2a1+ growth plate chondrocytes",
+  "organism": "Mus musculus",
+  "type": "Expression profiling by high throughput sequencing",
+  "n_gsm": 1,
+  "platforms": [
+   "GPL21103"
+  ],
+  "suppl_files": [
+   "GSE125464_genes.gtf.gz",
+   "GSE125464_genome.fa.gz"
+  ],
+  "summary": "We set out to reveal single cell transcriptional profiles of neonatal growth plate chondrocytes"
+ },
+ "GSE288529": {
+  "title": "Apolipoprotein E is a marker of all chondrocytes in the growth plate resting zone",
+  "organism": "Mus musculus",
+  "type": "Expression profiling by high throughput sequencing",
+  "n_gsm": 1,
+  "platforms": [
+   "GPL24247"
+  ],
+  "suppl_files": [],
+  "summary": "The resting zone (RZ) in mammalian growth plates is critical for maintaining and regulating chondrocyte turnover during longitudinal bone growth as a control tower and stem cell reservoir. Although recent lineage tracing studies have identified several markers for stem cells in the RZ, these markers only partially label chondrocytes in the RZ, suggesting that the resting chondrocytes (RCs) are a h"
+ },
+ "GSE271634": {
+  "title": "Gene expression profile at single vell level of growth plate chondrocytes [scRNA-seq]",
+  "organism": "Mus musculus",
+  "type": "Expression profiling by high throughput sequencing",
+  "n_gsm": 1,
+  "platforms": [
+   "GPL24247"
+  ],
+  "suppl_files": [],
+  "summary": "Gowth plate chondrocytes include heterogenous cell population and cellular diversity of these chondrocytes remains to be elucidated. We used single cell RNA sequencing to uncover the diverssity of growth plate chondrocytes and identify noel marker genes selectively expressed in pre-hypertrophic chondrocytes."
+ },
+ "GSE76157": {
+  "title": "Systematic reconstruction of molecular cascades regulating growth plate development using single-cell RNA-seq",
+  "organism": "Mus musculus",
+  "type": "Expression profiling by high throughput sequencing",
+  "n_gsm": 217,
+  "platforms": [
+   "GPL13112"
+  ],
+  "suppl_files": [
+   "GSE76157_Expression.txt.gz"
+  ],
+  "summary": "The growth plate, which comprises sequentially differentiated cell layers, is a critical structure for bone elongation and regeneration. Although several key regulators in growth plate development have been identified using primarily genetic perturbation, the systematic understanding is still limited. Here we used single cell RNA-seq to interrogate gene expression profiles of 217 single cells from"
+ },
+ "GSE231795": {
+  "title": "Altered cartilage gene expression in Aga2 OI mouse negatively impacts linear growth through Sox9 and FGF signaling",
+  "organism": "Mus musculus",
+  "type": "Expression profiling by high throughput sequencing",
+  "n_gsm": 10,
+  "platforms": [
+   "GPL24247"
+  ],
+  "suppl_files": [],
+  "summary": "Osteogenesis Imperfecta is characterized by short stature however the cellular mechanisms behind this phenotype are unclear. We isolated tibial and femoral cartilage growth plate chondrocytes from postnatal day 5 wild type and Aga2 (a model of OI) mice and analyzed differential expression patterns using single cell RNA-seq"
+ },
+ "GSE123076": {
+  "title": "mRNA-seq analysis of hypertrophic zone of wild type (WT) and Adamts17-/- growth plates",
+  "organism": "Mus musculus",
+  "type": "Expression profiling by high throughput sequencing",
+  "n_gsm": 6,
+  "platforms": [
+   "GPL13112"
+  ],
+  "suppl_files": [
+   "GSE123076_PR0738_gene_expression_upload_TMM.xlsx"
+  ],
+  "summary": "We compared gene expression profiles of hypertrophic zone of WT and Adamts17-/- growth plates through laser microdissection (LMD) using adhesive tape, linear amplification of mRNA, and mRNA-seq analysis."
+ },
+ "GSE270640": {
+  "title": "Dnmt1 determines bone length by regulating energy metabolism of growth plate chondrocytes [RNA-seq]",
+  "organism": "Mus musculus",
+  "type": "Expression profiling by high throughput sequencing",
+  "n_gsm": 22,
+  "platforms": [
+   "GPL24247"
+  ],
+  "suppl_files": [
+   "GSE270640_Count_data_in_vivo.tsv.gz",
+   "GSE270640_Library-CB.txt.gz",
+   "GSE270640_RawCountData_day0.csv.gz",
+   "GSE270640_RawCountData_day3.csv.gz",
+   "GSE270640_RawCountData_in_vivo.csv.gz"
+  ],
+  "summary": "Chondrocytes differentiated from mesenchymal stem cells play a role in determining skeletal patterns by ossification. However, it is still unclear how the maintenance DNA methylation in chondrocytes regulates differentiation and skeletal formation. In Musculoskeletal Knowledge Portal, Dnmt1 was significantly associated with \u00e2\u0080\u009cHeight\u00e2\u0080\u009d. In fact, long bone of limb specific Dnmt1 deficient mice was"
+ },
+ "GSE201605": {
+  "title": "Col2a1-Cre;Idh1LSL/+ embryonic growth plate chondrocytes - single cell RNA-sequencing",
+  "organism": "Mus musculus",
+  "type": "Expression profiling by high throughput sequencing",
+  "n_gsm": 6,
+  "platforms": [
+   "GPL19057"
+  ],
+  "suppl_files": [
+   "GSE201605_integrated_0.3.rds.gz"
+  ],
+  "summary": "To determine differences between Idh1 mutant and control growth plates, we used scRNA sequencing. Three E18.5 growth plates from our Idh1 mutant mice and three control mice were studied. Differential gene expression analysis revealed genes that were expressed in the distinct clusters."
+ },
+ "GSE201603": {
+  "title": "Col2a1-Cre;Idh1LSL/+ embryonic growth plate  - Bulk RNA-sequencing",
+  "organism": "Mus musculus",
+  "type": "Expression profiling by high throughput sequencing",
+  "n_gsm": 6,
+  "platforms": [
+   "GPL24247"
+  ],
+  "suppl_files": [],
+  "summary": "As another method to determine differences between Idh1 mutant and control growth plates, we used Bulk RNA sequencing.  Three E18.5 growth plates from our Idh1 mutant mice and three control mice were studied.  Differential gene expression analysis revealed genes that were  expressed in the distinct clusters, further supporting our single cell RNA data."
+ },
+ "GSE188353": {
+  "title": "gp130/STAT3 signaling is required for homeostatic proliferation and anabolism in postnatal growth plate and articular chondrocytes [bulkRNA-seq]",
+  "organism": "Homo sapiens",
+  "type": "Expression profiling by high throughput sequencing",
+  "n_gsm": 6,
+  "platforms": [
+   "GPL21290"
+  ],
+  "suppl_files": [],
+  "summary": "Growth of long bones and vertebrae is maintained postnatally by a long-lasting pool of progenitor cells. Little is known about the molecular mechanisms that regulate the output and maintenance of the cells that give rise to mature cartilage. Here we demonstrate that postnatal chondrocyte-specific deletion of a transcription factor Stat3 results in severely reduced proliferation coupled with increa"
+ },
+ "GSE244881": {
+  "title": "Hedgehog activation promotes osteogenic fates of growth plate resting zone chondrocytes through transient clonal competency [NovaA-237]",
+  "organism": "Mus musculus",
+  "type": "Expression profiling by high throughput sequencing",
+  "n_gsm": 1,
+  "platforms": [
+   "GPL24247"
+  ],
+  "suppl_files": [
+   "GSE244881_NovaA-237_mm10_trans_nono_genes.gtf.gz",
+   "GSE244881_NovaA-237_mm10_trans_nono_genome.fa.gz"
+  ],
+  "summary": "A single cell transcriptional profile of growth plate cells of the murine femur at postnatal day 36 (P36), lineage-marked by PTHrP-creER at P6, Control"
+ }
+}

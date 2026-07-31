@@ -1,0 +1,224 @@
+{
+ "screen_contrast": "guide LFC = top10% CD200-high vs bottom10% CD200-low (per GEO data-processing field)",
+ "D4": {
+  "n_tested": 13711,
+  "n_FDR05": 1164,
+  "panels": {
+   "resting": {
+    "n": 8,
+    "mean_log2FC_high_vs_low": 0.5288,
+    "median_log2FC": 0.2789,
+    "p_panel": 0.183223909241669,
+    "genes": {
+     "Cd200": 2.968,
+     "Pthlh": 0.336,
+     "Gdf10": 0.0,
+     "Ucma": 0.345,
+     "Cytl1": 0.221,
+     "Sox9": -0.015,
+     "Fgfr3": 0.546,
+     "Grem1": -0.171
+    }
+   },
+   "proliferative": {
+    "n": 10,
+    "mean_log2FC_high_vs_low": 0.2817,
+    "median_log2FC": -0.0105,
+    "p_panel": 0.18380787985298008,
+    "genes": {
+     "Mki67": -0.188,
+     "Top2a": 0.57,
+     "Ccnb1": -0.027,
+     "Ccnd1": -0.042,
+     "Birc5": -0.234,
+     "Pcna": -0.018,
+     "Mcm2": 0.035,
+     "Aurkb": -0.003,
+     "Col2a1": 1.598,
+     "Acan": 1.126
+    }
+   },
+   "prehypertrophic": {
+    "n": 5,
+    "mean_log2FC_high_vs_low": 0.1609,
+    "median_log2FC": 0.1532,
+    "p_panel": 0.12121847683966169,
+    "genes": {
+     "Ihh": -0.058,
+     "Pth1r": 0.34,
+     "Ptch1": 0.022,
+     "Gli1": 0.153,
+     "Panx3": 0.348
+    }
+   },
+   "hypertrophic": {
+    "n": 10,
+    "mean_log2FC_high_vs_low": 0.3263,
+    "median_log2FC": 0.2504,
+    "p_panel": 0.010661360067449976,
+    "genes": {
+     "Col10a1": 0.274,
+     "Ibsp": 1.109,
+     "Mmp13": 0.238,
+     "Alpl": 0.632,
+     "Spp1": 0.263,
+     "Vegfa": 0.321,
+     "Runx2": 0.168,
+     "Sp7": 0.164,
+     "Mef2c": 0.02,
+     "Bglap": 0.074
+    }
+   },
+   "cell_cycle": {
+    "n": 8,
+    "mean_log2FC_high_vs_low": 0.114,
+    "median_log2FC": 0.0343,
+    "p_panel": 0.2497284093657275,
+    "genes": {
+     "Mki67": -0.188,
+     "Top2a": 0.57,
+     "Ccnb1": -0.027,
+     "Aurkb": -0.003,
+     "Bub1": -0.044,
+     "Plk1": 0.071,
+     "Cdk1": 0.097,
+     "Rrm2": 0.434
+    }
+   },
+   "apoptosis": {
+    "n": 7,
+    "mean_log2FC_high_vs_low": 0.0642,
+    "median_log2FC": 0.0035,
+    "p_panel": 0.5764809571033551,
+    "genes": {
+     "Casp3": -0.132,
+     "Casp9": -0.12,
+     "Bax": -0.061,
+     "Bak1": 0.003,
+     "Cdkn1a": 0.698,
+     "Trp53": 0.012,
+     "Mdm2": 0.048
+    }
+   }
+  }
+ },
+ "D15": {
+  "n_tested": 13711,
+  "n_FDR05": 7563,
+  "panels": {
+   "resting": {
+    "n": 8,
+    "mean_log2FC_high_vs_low": 1.1483,
+    "median_log2FC": 0.093,
+    "p_panel": 0.20673807109602677,
+    "genes": {
+     "Cd200": 5.093,
+     "Pthlh": -0.271,
+     "Gdf10": 3.699,
+     "Ucma": -0.461,
+     "Cytl1": 0.457,
+     "Sox9": -1.264,
+     "Fgfr3": 2.565,
+     "Grem1": -0.632
+    }
+   },
+   "proliferative": {
+    "n": 10,
+    "mean_log2FC_high_vs_low": -0.1865,
+    "median_log2FC": -0.3139,
+    "p_panel": 0.10374461908734979,
+    "genes": {
+     "Mki67": -0.549,
+     "Top2a": -0.292,
+     "Ccnb1": -0.447,
+     "Ccnd1": 0.016,
+     "Birc5": -0.395,
+     "Pcna": -0.077,
+     "Mcm2": -0.336,
+     "Aurkb": -0.461,
+     "Col2a1": 0.357,
+     "Acan": 0.319
+    }
+   },
+   "prehypertrophic": {
+    "n": 5,
+    "mean_log2FC_high_vs_low": 3.2658,
+    "median_log2FC": 2.5526,
+    "p_panel": 0.01982661051275003,
+    "genes": {
+     "Ihh": 2.553,
+     "Pth1r": 5.37,
+     "Ptch1": 1.212,
+     "Gli1": 1.903,
+     "Panx3": 5.291
+    }
+   },
+   "hypertrophic": {
+    "n": 10,
+    "mean_log2FC_high_vs_low": 2.3657,
+    "median_log2FC": 1.7641,
+    "p_panel": 0.024695784032137468,
+    "genes": {
+     "Col10a1": -2.042,
+     "Ibsp": 6.692,
+     "Mmp13": 0.379,
+     "Alpl": 4.056,
+     "Spp1": 0.761,
+     "Vegfa": 0.069,
+     "Runx2": 1.125,
+     "Sp7": 4.871,
+     "Mef2c": 2.403,
+     "Bglap": 5.343
+    }
+   },
+   "cell_cycle": {
+    "n": 8,
+    "mean_log2FC_high_vs_low": -0.3753,
+    "median_log2FC": -0.4542,
+    "p_panel": 0.0023839604462011564,
+    "genes": {
+     "Mki67": -0.549,
+     "Top2a": -0.292,
+     "Ccnb1": -0.447,
+     "Aurkb": -0.461,
+     "Bub1": -0.525,
+     "Plk1": -0.63,
+     "Cdk1": -0.143,
+     "Rrm2": 0.045
+    }
+   },
+   "apoptosis": {
+    "n": 7,
+    "mean_log2FC_high_vs_low": -0.3912,
+    "median_log2FC": -0.6275,
+    "p_panel": 0.1558213857859382,
+    "genes": {
+     "Casp3": -0.628,
+     "Casp9": -0.04,
+     "Bax": -0.887,
+     "Bak1": -0.904,
+     "Cdkn1a": 0.875,
+     "Trp53": -0.376,
+     "Mdm2": -0.778
+    }
+   }
+  }
+ },
+ "timecourse_markers": {
+  "Cd200": 1.303,
+  "Col10a1": -0.865,
+  "Ihh": 0.755,
+  "Mki67": -0.472,
+  "Pthlh": -0.07,
+  "Sox9": -0.453,
+  "Acan": -0.309,
+  "Mmp13": 1.122,
+  "Alpl": 0.58
+ },
+ "resolved": {
+  "resting_panel_D15": 1.1483,
+  "hypertrophic_panel_D15": 2.3657,
+  "CD200_high_state": "mature/hypertrophic-like"
+ },
+ "direction_rule": "positive gene LFC = knockout enriches cells in CD200-high pool; if CD200-high is resting-like, positive LFC = knockout retains the immature/resting pool (maturation brake), negative LFC = knockout accelerates departure from the resting pool."
+}

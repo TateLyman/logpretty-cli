@@ -1,0 +1,162 @@
+{
+ "accession": "GSE201605",
+ "n_samples": 6,
+ "samples": {
+  "GSM6068484": {
+   "n_cells_raw": 3684,
+   "n_genes_raw": 31053,
+   "mito_cut_pct": 15.0,
+   "min_genes": 500,
+   "min_counts": 1000,
+   "median_genes_pre": 3592.5,
+   "median_pct_mt_pre": 3.517277717590332,
+   "n_cells_after_qc": 3145,
+   "n_genes_after_qc": 17046,
+   "doublet_removal": "failed: ValueError",
+   "n_clusters": 17,
+   "cell_state_counts": {
+    "resting": 2717,
+    "proliferative": 227,
+    "prehypertrophic": 188,
+    "nonchondrocyte_immune": 13
+   }
+  },
+  "GSM6068485": {
+   "n_cells_raw": 3433,
+   "n_genes_raw": 31053,
+   "mito_cut_pct": 15.0,
+   "min_genes": 500,
+   "min_counts": 1000,
+   "median_genes_pre": 3600.0,
+   "median_pct_mt_pre": 2.6897144317626953,
+   "n_cells_after_qc": 3106,
+   "n_genes_after_qc": 16836,
+   "doublet_removal": "failed: ValueError",
+   "n_clusters": 15,
+   "cell_state_counts": {
+    "resting": 2651,
+    "proliferative": 344,
+    "prehypertrophic": 111
+   }
+  },
+  "GSM6068486": {
+   "n_cells_raw": 4914,
+   "n_genes_raw": 31053,
+   "mito_cut_pct": 15.0,
+   "min_genes": 500,
+   "min_counts": 1000,
+   "median_genes_pre": 2225.5,
+   "median_pct_mt_pre": 4.863453388214111,
+   "n_cells_after_qc": 4224,
+   "n_genes_after_qc": 16678,
+   "doublet_removal": "failed: ValueError",
+   "n_clusters": 13,
+   "cell_state_counts": {
+    "resting": 3277,
+    "proliferative": 561,
+    "prehypertrophic": 323,
+    "hypertrophic": 63
+   }
+  },
+  "GSM6068487": {
+   "n_cells_raw": 3789,
+   "n_genes_raw": 31053,
+   "mito_cut_pct": 15.0,
+   "min_genes": 500,
+   "min_counts": 1000,
+   "median_genes_pre": 1936.0,
+   "median_pct_mt_pre": 2.686915874481201,
+   "n_cells_after_qc": 2290,
+   "n_genes_after_qc": 16378,
+   "doublet_removal": "failed: ValueError",
+   "n_clusters": 14,
+   "cell_state_counts": {
+    "resting": 672,
+    "prehypertrophic": 557,
+    "proliferative": 523,
+    "nonchondrocyte_osteo_perichondrial": 324,
+    "nonchondrocyte_endothelial": 160,
+    "nonchondrocyte_erythroid": 54
+   }
+  },
+  "GSM6068488": {
+   "n_cells_raw": 3487,
+   "n_genes_raw": 31053,
+   "mito_cut_pct": 15.0,
+   "min_genes": 500,
+   "min_counts": 1000,
+   "median_genes_pre": 3413.0,
+   "median_pct_mt_pre": 3.8480405807495117,
+   "n_cells_after_qc": 2844,
+   "n_genes_after_qc": 16672,
+   "doublet_removal": "failed: ValueError",
+   "n_clusters": 13,
+   "cell_state_counts": {
+    "nonchondrocyte_osteo_perichondrial": 1456,
+    "nonchondrocyte_immune": 559,
+    "hypertrophic": 397,
+    "proliferative": 297,
+    "nonchondrocyte_endothelial": 135
+   }
+  },
+  "GSM6068489": {
+   "n_cells_raw": 4102,
+   "n_genes_raw": 31053,
+   "mito_cut_pct": 15.0,
+   "min_genes": 500,
+   "min_counts": 1000,
+   "median_genes_pre": 18.0,
+   "median_pct_mt_pre": 0.0,
+   "n_cells_after_qc": 11,
+   "n_genes_after_qc": 369,
+   "error": "too few cells after QC"
+  }
+ },
+ "pseudobulk_columns": [
+  "GSM6068484|resting",
+  "GSM6068484|proliferative",
+  "GSM6068484|prehypertrophic",
+  "GSM6068485|proliferative",
+  "GSM6068485|resting",
+  "GSM6068485|prehypertrophic",
+  "GSM6068486|resting",
+  "GSM6068486|prehypertrophic",
+  "GSM6068486|proliferative",
+  "GSM6068486|hypertrophic",
+  "GSM6068487|proliferative",
+  "GSM6068487|resting",
+  "GSM6068487|prehypertrophic",
+  "GSM6068487|nonchondrocyte_osteo_perichondrial",
+  "GSM6068487|nonchondrocyte_endothelial",
+  "GSM6068487|nonchondrocyte_erythroid",
+  "GSM6068488|nonchondrocyte_osteo_perichondrial",
+  "GSM6068488|hypertrophic",
+  "GSM6068488|nonchondrocyte_immune",
+  "GSM6068488|proliferative",
+  "GSM6068488|nonchondrocyte_endothelial"
+ ],
+ "pseudobulk_n_cells": {
+  "GSM6068484|resting": 2717,
+  "GSM6068484|proliferative": 227,
+  "GSM6068484|prehypertrophic": 188,
+  "GSM6068484|nonchondrocyte_immune": 13,
+  "GSM6068485|proliferative": 344,
+  "GSM6068485|resting": 2651,
+  "GSM6068485|prehypertrophic": 111,
+  "GSM6068486|resting": 3277,
+  "GSM6068486|prehypertrophic": 323,
+  "GSM6068486|proliferative": 561,
+  "GSM6068486|hypertrophic": 63,
+  "GSM6068487|proliferative": 523,
+  "GSM6068487|resting": 672,
+  "GSM6068487|prehypertrophic": 557,
+  "GSM6068487|nonchondrocyte_osteo_perichondrial": 324,
+  "GSM6068487|nonchondrocyte_endothelial": 160,
+  "GSM6068487|nonchondrocyte_erythroid": 54,
+  "GSM6068488|nonchondrocyte_osteo_perichondrial": 1456,
+  "GSM6068488|hypertrophic": 397,
+  "GSM6068488|nonchondrocyte_immune": 559,
+  "GSM6068488|proliferative": 297,
+  "GSM6068488|nonchondrocyte_endothelial": 135
+ }
+}

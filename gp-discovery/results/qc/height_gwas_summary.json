@@ -1,0 +1,10 @@
+{
+ "source_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/releases/latest/gwas-catalog-associations_ontology-annotated-full.zip",
+ "n_height_assoc_rows": 45209,
+ "n_genomewide_sig": 42653,
+ "n_genes": 11782,
+ "efo_used": [
+  "EFO_0004339"
+ ],
+ "caveat": "MAPPED_GENE is positional; locus-level evidence only, not causal gene assignment"
+}
