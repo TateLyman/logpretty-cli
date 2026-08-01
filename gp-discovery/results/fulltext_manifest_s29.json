@@ -1,0 +1,18 @@
+{
+ "PMC4590675": {
+  "pmid": "26259639",
+  "pmcid": "PMC4590675",
+  "local_file": "/home/user/gpdata/fulltext/PMC4590675.xml",
+  "bytes": 118953,
+  "sha256": "6843548f1ce0ff65d925d6fc1a1a22b9d16a09d55767429a9e1df94892cba3b8",
+  "evidence_level": "FULL_TEXT_VERIFIED"
+ },
+ "PMC5617676": {
+  "pmid": "28872463",
+  "pmcid": "PMC5617676",
+  "local_file": "/home/user/gpdata/fulltext/PMC5617676.xml",
+  "bytes": 12271,
+  "sha256": "29c504c30095c81372a04205548b249a8957888d32691398d250df2dca9ba2bf",
+  "evidence_level": "ABSTRACT_ONLY (publisher-restricted)"
+ }
+}

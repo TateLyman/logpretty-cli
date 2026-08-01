@@ -1,0 +1,45 @@
+node,pubmed_bone_records,pmids,n_bone_length,n_hypertrophic_size,n_proliferation,n_apoptosis,n_collagen_secretion,n_fusion_senescence,classification,basis
+RHEB,14,41889975; 38253890; 31138988; 27040186; 24269559,0,1,4,1,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+TSC1,20,36627370; 35851298; 35526258; 34576223; 33514081,1,0,4,2,0,0,TRANSIENT_ACCELERATION_WITH_HAZARD,as TSC2
+TSC2,28,37036518; 35851298; 34576223; 33054857; 32781001,0,1,5,2,0,0,TRANSIENT_ACCELERATION_WITH_HAZARD,TSC2 loss gives constitutive MTORC1 activation - the chronic state that stage 29 shows arrests growth
+RPTOR,4,40243924; 36450776; 28069737; 24948603,1,1,1,0,0,0,PLATE_EXHAUSTION,"limb-specific RPTOR ablation reduces limb size and hypertrophic chondrocyte size (cited in PMID 26259639) - MTORC1 is required for normal hypertrophy, so this node cannot simply be pushed"
+MTOR,429,42502695; 42370976; 42214481; 42208840; 42068746,8,10,82,44,0,11,TRANSIENT_ACCELERATION_WITH_HAZARD,rapamycin inhibits bone growth in vitro and in vivo; acute lysosomal activation of MTORC1 lengthens metatarsals over 5 d but with reduced proliferation and raised apoptosis
+RPS6KB1,6,30639019; 29908807; 29164996; 28571990; 25906314,0,0,3,2,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+RPS6,29,42515066; 41631934; 40243924; 39191197; 36201324,1,2,1,1,0,0,CONFLICTING,length records exist but direction not resolvable from counts
+EIF4EBP1,8,40243924; 34090338; 33911160; 30639019; 29908807,1,0,1,1,0,0,CONFLICTING,length records exist but direction not resolvable from counts
+LAMTOR1,1,35836818,0,0,1,0,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+LAMTOR2,0,,0,0,0,0,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+LAMTOR3,0,,0,0,0,0,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+LAMTOR4,0,,0,0,0,0,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+LAMTOR5,0,,0,0,0,0,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+RRAGA,1,40243924,0,0,0,0,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+RRAGB,1,40243924,0,0,0,0,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+RRAGC,1,40243924,0,0,0,0,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+RRAGD,1,40243924,0,0,0,0,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+SLC38A9,0,,0,0,0,0,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+ATP6V0C,0,,0,0,0,0,0,0,TRANSIENT_ACCELERATION_WITH_HAZARD,"V-ATPase inhibition is the index perturbation; acute gain, chronic arrest"
+ATP6V1A,2,38837572; 29668857,0,0,0,0,0,0,TRANSIENT_ACCELERATION_WITH_HAZARD,as ATP6V0C
+ATP6V0A1,0,,0,0,0,0,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+TCIRG1,2,31179768; 28726516,0,0,0,0,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+TFEB,6,35195252; 34174539; 33398033; 32716134; 32116805,0,0,0,1,0,1,MATRIX_SECRETORY_FAILURE,sustained mTORC1 hyperactivation suppresses TFEB-driven autophagy and arrests bone growth in lysosomal storage disorders (PMID 28872463)
+TFE3,4,40909513; 40137502; 32716134; 24339735,0,0,0,0,0,3,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+FLCN,0,,0,0,0,0,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+FNIP1,0,,0,0,0,0,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+FNIP2,0,,0,0,0,0,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+SESN1,1,35947892,0,0,0,0,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+SESN2,4,35947892; 35240522; 30712429; 29895192,0,0,0,0,0,1,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+SESN3,1,35947892,0,0,0,0,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+CASTOR1,0,,0,0,0,0,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+CASTOR2,0,,0,0,0,0,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+SAMTOR,0,,0,0,0,0,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+DEPDC5,1,32781001,0,0,0,0,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+NPRL2,0,,0,0,0,0,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+NPRL3,0,,0,0,0,0,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+MIOS,1,40695123,0,0,0,0,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+WDR24,0,,0,0,0,0,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+WDR59,0,,0,0,0,0,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+PRKAA1,0,,0,0,0,0,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+DDIT4,1,23182879,0,0,0,1,0,0,NO_LENGTH_DATA,no PubMed record links this node to a bone-length measure
+HIF1A,23,41446162; 41342396; 40877576; 39261917; 38919850,2,1,4,0,1,0,CONFLICTING,length and secretory-failure literature both present
+IGF1R,61,42502703; 42260069; 41942823; 41380525; 40245961,12,2,24,3,0,1,PRODUCTIVE_ANABOLISM,IGF1 is the reference productive hypertrophic-anabolism control and grew metatarsals to the same extent as bafilomycin without the proliferation and apoptosis cost
+AKT1,40,42510919; 42364547; 42204123; 41993315; 41861682,3,1,8,5,0,2,PRODUCTIVE_ANABOLISM,upstream of MTORC1 on the physiological growth-factor branch

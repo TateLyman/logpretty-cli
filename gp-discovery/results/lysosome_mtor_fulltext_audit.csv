@@ -1,0 +1,28 @@
+paper_pmid,endpoint,value,evidence_kind,location
+26259639,"bone-length gain, 5 d","Baf 880 +/- 28 um; CQ 710 +/- 18 um; p<0.001; n=7 animals (21 bones) Baf, n=13 animals (39 bones) CQ",SOURCE_FACT,"Results, para 1"
+26259639,bafilomycin concentration/schedule,"8 nM, continuous in organ culture, measured over 5-6 d",SOURCE_FACT,Fig 1 legend / Methods
+26259639,chloroquine concentration/schedule,"30 uM, continuous in organ culture",SOURCE_FACT,Fig 1 legend
+26259639,IGF1 positive control,100 ng/ml; Baf and CQ stimulated growth 'to the same extent as' IGF1,SOURCE_FACT,"Results, para 1 / Fig 1A,B"
+26259639,proliferation,DECREASED chondrocyte proliferation,SOURCE_FACT,Fig 2 title and Fig 2F
+26259639,apoptosis,ELEVATED cell death by TUNEL labelling,SOURCE_FACT,Fig 2 title and Fig 2E
+26259639,terminal hypertrophic-cell size,"increased, p<0.01, n=5, 25 measurements per bone in mid-hypertrophic zone of the distal growth plate",SOURCE_FACT,Fig 1C / Methods
+26259639,hypertrophic zone,increased hypertrophy on histology,SOURCE_FACT,Fig 2A
+26259639,proteoglycan / matrix,Safranin O showed NO change in proteoglycan levels,SOURCE_FACT,Fig 2D
+26259639,p-RPS6,"Baf 10.1 +/- 2.0 fold (n=3, p=0.011); CQ 2.2 +/- 0.16 fold; CQ increase not significant in one analysis (2.0 +/- 0.4 fold, p=0.23, n=2)",SOURCE_FACT,"Results / Fig 1D,E"
+26259639,p-MTOR,"2.0 +/- 1.2 fold, p=0.49 (NOT significant); total MTOR 1.3 +/- 0.3 fold, p=0.49",SOURCE_FACT,Results
+26259639,p-RPS6KB1 (S6K),"in C5.18 chondrocytes: 14 +/- 44% DECREASE, p=0.78 (not significant)",SOURCE_FACT,"Results, C5.18 section"
+26259639,EIF4EBP1,Torin1 dose-dependently decreased RPS6 and EIF4EBP1 phosphorylation in C5.18 chondrocytes,SOURCE_FACT,Fig 4C
+26259639,MTORC2 readouts,"SGK1 phosphorylation unchanged (21+/-35%, p=0.63); p-AKT Ser473 DOWNregulated",SOURCE_FACT,Results / Fig 4D
+26259639,SQSTM1 / LC3,"SQSTM1 accumulation in chondrocytes (IHC and western); ATG5, SQSTM1, MAP1LC3A assessed by western after 2 d",SOURCE_FACT,Fig 2C / Fig 3B
+26259639,Atg5-cKO response,"Baf stimulated growth similarly in ATG5cKO and control metatarsals (n=7 animals/21 bones control, 6 animals/18 bones cKO) -> autophagy-independent",SOURCE_FACT,Fig 3A
+26259639,Torin1 interaction,"Torin1 'attenuated' / 'significantly diminished' the growth-promoting effect of Baf and CQ (n=5-11 animals). ATTENUATION, NOT ABOLITION - necessity was not demonstrated",SOURCE_FACT,"Fig 1F,G"
+26259639,washout / recovery data,NONE. The strings 'washout' and 'recover' do not occur in the full text. No exposure-then-recovery experiment was performed,SOURCE_FACT,absence verified by full-text string search
+26259639,cell-state dependence,Baf DOWN-regulated p-RPS6 in undifferentiated C5.18 cells but UP-regulated it in differentiated chondrocytes,SOURCE_FACT,Fig 4A
+26259639,growth attributed to hypertrophy,'the observed growth stimulation was entirely attributed to the promoted chondrocyte hypertrophy without any contribution from cell proliferation or survival',AUTHOR_INTERP,Results
+26259639,authors' own caveat on MTORC1,'we think that genetic studies are required to confirm this assumption and to extend it into a physiological setting',AUTHOR_INTERP,Discussion
+26259639,authors flag a dose mismatch,"'activation of RPS6 by Baf is 5 times stronger than by CQ whereas the growth-promoting effect is just 24 percent stronger, suggesting that different mechanisms of growth may be involved'",AUTHOR_INTERP,Discussion
+26259639,net phenotype classification,"Length gain arises from larger terminal hypertrophic cells while proliferative output falls and apoptosis rises. Under this project's own rules that is a trade-off, not productive growth",PIPELINE_INFER,stage 29
+26259639,MTORC1 necessity,"Not demonstrated. Torin1 attenuation is consistent with MTORC1 contributing, but Torin1 also inhibits MTORC1 broadly and suppresses growth on its own, so partial attenuation cannot separate necessity from additive suppression",PIPELINE_INFER,stage 29
+26259639,durability,"Unknown. With no washout arm and a 5-6 d culture, nothing in this paper speaks to whether the length gain persists or whether the plate is being spent",PIPELINE_INFER,stage 29
+28872463,full-text availability,PUBLISHER-RESTRICTED: PMC record carries only front matter/abstract (4199 chars). Title: 'mTORC1 hyperactivation arrests bone growth in lysosomal storage disorders by suppressing autophagy' (J Clin Invest 2017). Quantitative extraction NOT possible; used qualitatively only.,SOURCE_FACT,PMC5617676 front matter
+28872463,direction of the claim,Sustained mTORC1 hyperactivation ARRESTS bone growth - the opposite sign to the acute bafilomycin effect. Acute and chronic lysosomal impairment are therefore not interchangeable.,PIPELINE_INFER,title/abstract

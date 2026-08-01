@@ -1,0 +1,14 @@
+compound,target,direction,category,n_offtarget_genes,achievable_ex_vivo
+leucine,SLC38A9 / Rag GTPase input,activator (nutrient),amino-acid sensing / Rag-Ragulator,0,yes - all are used in culture at published concentrations
+L-leucyl-L-leucine methyl ester,lysosomal amino-acid load,activator,amino-acid sensing / Rag-Ragulator,0,yes - all are used in culture at published concentrations
+"3,3'-diindolylmethane",SAMTOR/methionine axis,modulator,amino-acid sensing,10,yes - all are used in culture at published concentrations
+IGF1,IGF1R,agonist,IGF1R-AKT-MTORC1,0,yes - all are used in culture at published concentrations
+insulin,INSR/IGF1R,agonist,IGF1R-AKT-MTORC1,0,yes - all are used in culture at published concentrations
+SC79,AKT1,activator,IGF1R-AKT-MTORC1,5,yes - all are used in culture at published concentrations
+MHY1485,MTOR,activator,MTORC1 negative-regulator inhibition,2,yes - all are used in culture at published concentrations
+compound C (dorsomorphin),PRKAA1/AMPK,inhibitor,AMPK / DDIT4 relief,53,yes - all are used in culture at published concentrations
+4EGI-1,EIF4E-EIF4G,inhibitor,4EBP1 restraint relief,0,yes - all are used in culture at published concentrations
+trehalose,TFEB (indirect),activator,TFEB / lysosomal biogenesis,0,yes - all are used in culture at published concentrations
+L-glutamine,SLC1A5/SLC7A5 input,substrate,hypertrophic nutrient transport,0,yes - all are used in culture at published concentrations
+bafilomycin A1,V-ATPase,inhibitor,HAZARD CONTROL - V-ATPase poison,4,n/a (hazard control)
+Torin1,MTOR,inhibitor,HAZARD CONTROL - MTORC1 inhibitor,26,n/a (hazard control)

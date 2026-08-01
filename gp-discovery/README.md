@@ -59,6 +59,15 @@ python s25_target_deconvolution.py
 python s26_intersections.py     # causal-gene intersection, figure 08
 python s27_analogues.py         # safer/selective analogues
 python s28_final_ranking.py     # ranking, panel, report, figures 09-11
+
+# mechanism audit: is the elongation productive or a trade-off?
+python s29_mechanism_audit.py   # full-text audit, source fact vs author claim vs inference
+python s30_mtor_states.py       # productive vs pathological MTORC1, figure 12
+python s31_pulse_washout.py     # pulse/washout evidence
+python s32_clean_anabolism.py   # non-lysosomal anabolism compounds
+python s33_zone_targets.py      # zone-specific prioritisation, figure 13
+python s34_experiment_matrix.py # pulse/washout plan, figures 14-15
+python s35_revised_ranking.py   # four-axis ranking, figure 16
 ```
 
 Network calls are cached and checksummed, so re-runs are cheap and the stages are resumable.
@@ -119,6 +128,12 @@ Network calls are cached and checksummed, so re-runs are cheap and the stages ar
   concentration. Sotrastaurin is retained as a pathway probe and demoted from the lead position.
 - **No panel PKC inhibitor has any cartilage dataset.** Stage 21 found 0 GEO series for every PKC probe,
   so module transfer is untested rather than supported, and Gate 1 exists to generate that missing data.
+- **The bafilomycin result is a trade-off, not productive growth.** Full-text audit (stage 29) found the
+  paper's own figure title — *"elevates cell death and decreases chondrocyte proliferation"* — and the
+  authors' conclusion that growth came *"entirely from hypertrophy without any contribution from cell
+  proliferation or survival"*. Torin1 only *attenuated* the effect, p-MTOR and p-S6K were not
+  significantly changed, and there is **no washout experiment**. Stage 28 read this too favourably and
+  is superseded by stages 29-35.
 - **Phenotype-first beat connectivity-first.** Starting from compounds with a measured bone-length
   change surfaced the lysosomal **V-ATPase → Ragulator → MTORC1** axis, which the LINCS branch never
   found. Bafilomycin A1 increases longitudinal growth of *normal* mouse metatarsals at 8 nM

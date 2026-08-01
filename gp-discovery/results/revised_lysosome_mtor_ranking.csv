@@ -1,0 +1,16 @@
+entity,kind,classification,existing_evidence,mechanistic_cleanliness,translational_suitability,durable_benefit_probability,rationale,rank_existing_evidence,rank_mechanistic_cleanliness,rank_translational_suitability,rank_durable_benefit_probability,mean_rank
+IGF1R-AKT branch,target class,DURABLE_GROWTH_CANDIDATE,7.0,7.0,3.5,5.5,"the only branch with a demonstrated productive phenotype in this assay; canonical, so novelty is low but the biology is the benchmark",4,2,3,1,2.5
+IGF1,compound,HAZARD_CONTROL,8.5,7.5,2.0,5.0,"the state-A benchmark: same length gain as bafilomycin in the same assay without the cellular cost; canonical branch, excluded from novel ranking but the control every candidate must beat",2,1,9,2,3.5
+leucine / amino-acid input,target class,TARGET_CLASS_CANDIDATE,2.0,6.0,5.0,3.0,physiological Rag-Ragulator input that does not block acidification; weak specificity,10,4,2,5,5.25
+DDIT4/REDD1,genetic node,DURABLE_GROWTH_CANDIDATE,1.0,6.0,3.0,4.0,"MTORC1 NEGATIVE regulator that stage 33 places in the M4 hypertrophic programme and the hypertrophic zone - inhibiting it would de-repress MTORC1 where it is actually expressed, without touching lysosomal acidification; no cartilage length data exist",12,4,4,3,5.75
+SC79,compound,TARGET_CLASS_CANDIDATE,0.5,6.5,3.0,3.0,AKT activation upstream of MTORC1 with no lysosomal action; essentially no cartilage literature,13,3,4,5,6.25
+TFEB/TFE3,genetic node,TARGET_CLASS_CANDIDATE,2.5,5.0,2.5,3.0,lysosomal biogenesis rather than acidification block; opposite lever to bafilomycin,9,8,7,5,7.25
+chloroquine,compound,ORTHOGONAL_PROBE,7.5,2.5,3.0,1.5,"same experiment, unrelated chemotype; heavy polypharmacology at 30 uM; same proliferation/apoptosis caveat applies since it was the same figure",3,13,4,10,7.5
+EIF4EBP1 (4EBP1) restraint,genetic node,TARGET_CLASS_CANDIDATE,1.5,5.5,2.0,3.5,the translational-restraint arm was moved by Torin1 in the source paper but never tested selectively; a genuine unknown,11,7,9,4,7.75
+hydroxychloroquine,compound,TRANSLATIONAL_TEST_COMPOUND,0.5,3.0,6.5,2.0,approved chronic-use drug on the same axis; never tested for bone elongation; inherits the mechanism's proliferation/secretion hazard until shown otherwise,13,11,1,8,8.25
+RPTOR,genetic node,REJECT,5.0,4.0,1.0,1.5,"necessity node: limb RPTOR ablation reduces limb size and hypertrophic cell size, so it cannot be pushed as a target",7,9,11,10,9.25
+bafilomycin A1,compound,INDEX_PROBE,9.0,2.0,0.5,1.5,"measured length gain in normal bone, but via hypertrophy only, with reduced proliferation and raised apoptosis; essential-target poison; no washout data",1,14,13,10,9.5
+Torin1,compound,HAZARD_CONTROL,6.0,6.0,0.5,0.5,MTORC1-dependence control; attenuated but did not abolish the effect,6,4,13,15,9.5
+MHY1485,compound,TARGET_CLASS_CANDIDATE,0.5,3.5,2.5,2.0,reported MTOR activator but also reported to inhibit autophagy - may re-enter the same trap,13,10,7,8,9.5
+TSC1/TSC2,genetic node,REJECT,4.5,3.0,1.0,1.0,loss gives constitutive MTORC1 activation - precisely the chronic state that arrests growth,8,11,11,13,10.75
+lysosomal V-ATPase (ATP6V),target class,REJECT,7.0,1.0,0.5,1.0,essential housekeeping pump; acute gain is inseparable from proliferation loss and apoptosis; chronic inhibition arrests growth (PMID 28872463),4,15,13,13,11.25

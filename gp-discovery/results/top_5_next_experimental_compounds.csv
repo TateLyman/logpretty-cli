@@ -1,0 +1,6 @@
+compound,classification,role,concentration_basis
+bafilomycin A1,INDEX_PROBE,reproduce the published effect and add the missing washout arm,8 nM (PMID 26259639)
+chloroquine,ORTHOGONAL_PROBE,unrelated chemotype on the same axis,30 uM (PMID 26259639)
+IGF1,HAZARD_CONTROL / benchmark,"state-A reference: same length gain, no cellular cost",100 ng/ml (PMID 26259639)
+Torin1,HAZARD_CONTROL,necessity test the source paper did not perform,range-finding required ex vivo
+SC79,TARGET_CLASS_CANDIDATE,cleanest non-lysosomal route to the same anabolic branch,range-finding required - no cartilage data
