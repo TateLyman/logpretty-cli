@@ -1,0 +1,43 @@
+dataset,model,n_cells,r2,adj_r2
+GSE231795,technical+sample,80896.0,0.0269,0.0268
+GSE231795,+stress,80896.0,0.0902,0.0899
+GSE231795,+state (no stress),80896.0,0.0323,0.0322
+GSE231795,+stress+state,80896.0,0.0922,0.0919
+GSE231795,DELTA r2 from stress (over technical),80896.0,0.0633,
+GSE231795,DELTA r2 from state (over technical+stress),80896.0,0.002,
+GSE231795,"corr(ddit4, dissociation)",80896.0,0.2363,
+GSE231795,"corr(ddit4, hypoxia)",80896.0,0.109,
+GSE231795,"corr(ddit4, integrated_stress_response)",80896.0,0.0526,
+GSE231795,"corr(ddit4, unfolded_protein_response)",80896.0,-0.0001,
+GSE231795,"corr(ddit4, glucocorticoid_response)",80896.0,0.0951,
+GSE231795,"corr(ddit4, mtorc1_activity)",80896.0,-0.0011,
+GSE231795,"corr(ddit4, apoptosis)",80896.0,-0.013,
+GSE231795,"corr(ddit4, cell_cycle)",80896.0,0.0225,
+GSE231795,"corr(ddit4, hypertrophic_differentiation)",80896.0,-0.0116,
+GSE231795,"corr(ddit4, state_resting)",80896.0,-0.0341,
+GSE231795,"corr(ddit4, state_proliferative)",80896.0,0.0254,
+GSE231795,"corr(ddit4, state_prehypertrophic)",80896.0,0.0751,
+GSE231795,"corr(ddit4, state_hypertrophic)",80896.0,-0.0181,
+GSE201605,technical+sample,15609.0,0.0298,0.0294
+GSE201605,+stress,15609.0,0.0544,0.0535
+GSE201605,+state (no stress),15609.0,0.0353,0.0347
+GSE201605,+stress+state,15609.0,0.0574,0.0563
+GSE201605,DELTA r2 from stress (over technical),15609.0,0.0246,
+GSE201605,DELTA r2 from state (over technical+stress),15609.0,0.0031,
+GSE201605,"corr(ddit4, dissociation)",15609.0,0.1299,
+GSE201605,"corr(ddit4, hypoxia)",15609.0,0.1017,
+GSE201605,"corr(ddit4, integrated_stress_response)",15609.0,0.0852,
+GSE201605,"corr(ddit4, unfolded_protein_response)",15609.0,0.0089,
+GSE201605,"corr(ddit4, glucocorticoid_response)",15609.0,0.0478,
+GSE201605,"corr(ddit4, mtorc1_activity)",15609.0,-0.0373,
+GSE201605,"corr(ddit4, apoptosis)",15609.0,0.078,
+GSE201605,"corr(ddit4, cell_cycle)",15609.0,0.0193,
+GSE201605,"corr(ddit4, hypertrophic_differentiation)",15609.0,-0.0169,
+GSE201605,"corr(ddit4, state_resting)",15609.0,0.0089,
+GSE201605,"corr(ddit4, state_proliferative)",15609.0,0.0247,
+GSE201605,"corr(ddit4, state_prehypertrophic)",15609.0,-0.0232,
+GSE201605,"corr(ddit4, state_hypertrophic)",15609.0,-0.0377,
+GSE125464,NOT MODELLED - single biological sample,,,
+GSE244881,NOT MODELLED - single biological sample,,,
+GSE271634,NOT MODELLED - single biological sample,,,
+GSE288529,NOT MODELLED - single biological sample,,,

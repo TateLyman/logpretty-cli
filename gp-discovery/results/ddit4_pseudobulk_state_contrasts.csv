@@ -1,0 +1,38 @@
+dataset,state,n_groups,mean_log2cpm,sd,values
+GSE125464,resting,1,5.744,,[5.74]
+GSE125464,prehypertrophic,1,4.981,,[4.98]
+GSE125464,proliferative,1,5.723,,[5.72]
+GSE201605,resting,4,4.756,0.526,"[5.18, 5.13, 4.66, 4.05]"
+GSE201605,proliferative,5,4.833,0.312,"[5.03, 5.16, 4.97, 4.52, 4.48]"
+GSE201605,prehypertrophic,4,4.597,0.332,"[4.81, 4.82, 4.64, 4.12]"
+GSE201605,hypertrophic,2,4.362,0.016,"[4.37, 4.35]"
+GSE201605,nonchondrocyte_osteo_perichondrial,2,4.133,0.02,"[4.12, 4.15]"
+GSE201605,nonchondrocyte_endothelial,2,4.661,0.168,"[4.78, 4.54]"
+GSE201605,nonchondrocyte_erythroid,1,3.593,,[3.59]
+GSE201605,nonchondrocyte_immune,1,4.37,,[4.37]
+GSE231795,resting,10,5.533,0.272,"[5.49, 5.29, 5.2, 5.34, 5.46, 6.0, 5.56, 6.01, 5.53, 5.44]"
+GSE231795,nonchondrocyte_osteo_perichondrial,9,5.425,0.283,"[5.24, 5.26, 5.18, 5.14, 5.18, 5.75, 5.49, 5.75, 5.82]"
+GSE231795,proliferative,10,5.693,0.28,"[5.91, 5.53, 5.64, 5.44, 5.52, 6.36, 5.46, 5.72, 5.56, 5.79]"
+GSE231795,nonchondrocyte_endothelial,4,6.075,0.501,"[5.38, 6.17, 6.57, 6.18]"
+GSE231795,nonchondrocyte_immune,5,3.99,1.418,"[5.11, 3.75, 4.7, 1.62, 4.77]"
+GSE231795,hypertrophic,2,3.724,0.035,"[3.75, 3.7]"
+GSE244881,hypertrophic,1,5.284,,[5.28]
+GSE244881,prehypertrophic,1,4.691,,[4.69]
+GSE244881,resting,1,4.416,,[4.42]
+GSE244881,nonchondrocyte_immune,1,4.956,,[4.96]
+GSE244881,nonchondrocyte_erythroid,1,4.254,,[4.25]
+GSE244881,nonchondrocyte_osteo_perichondrial,1,6.859,,[6.86]
+GSE271634,nonchondrocyte_immune,1,4.268,,[4.27]
+GSE271634,resting,1,5.07,,[5.07]
+GSE271634,proliferative,1,5.493,,[5.49]
+GSE271634,prehypertrophic,1,4.506,,[4.51]
+GSE271634,nonchondrocyte_osteo_perichondrial,1,5.016,,[5.02]
+GSE271634,nonchondrocyte_erythroid,1,2.67,,[2.67]
+GSE271634,nonchondrocyte_endothelial,1,4.406,,[4.41]
+GSE288529,nonchondrocyte_osteo_perichondrial,1,4.113,,[4.11]
+GSE288529,nonchondrocyte_endothelial,1,5.478,,[5.48]
+GSE288529,resting,1,4.084,,[4.08]
+GSE288529,prehypertrophic,1,4.308,,[4.31]
+GSE288529,hypertrophic,1,4.268,,[4.27]
+GSE288529,proliferative,1,4.482,,[4.48]
+GSE288529,nonchondrocyte_erythroid,1,4.235,,[4.23]

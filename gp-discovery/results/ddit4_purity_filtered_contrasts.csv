@@ -1,0 +1,5 @@
+dataset,contrast,n_samples_passing_purity,zones_surviving,n_hyper,n_other,lfc,p,note
+GSE87605,hypertrophic - proliferative,7,hypertrophic; proliferative; resting,3,1,0.938,,"not testable: n_hyper=3, n_proliferative=1"
+GSE87605,hypertrophic - resting,7,hypertrophic; proliferative; resting,3,3,1.608,0.026,
+GSE9160,hypertrophic - proliferative,4,hypertrophic; prehypertrophic; proliferative; resting,1,1,5.122,,"not testable: n_hyper=1, n_proliferative=1"
+GSE9160,hypertrophic - resting,4,hypertrophic; prehypertrophic; proliferative; resting,1,1,1.157,,"not testable: n_hyper=1, n_resting=1"

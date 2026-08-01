@@ -69,6 +69,14 @@ python s33_zone_targets.py      # zone-specific prioritisation, figure 13
 python s34_experiment_matrix.py # pulse/washout plan, figures 14-15
 python s35_revised_ranking.py   # four-axis ranking, figure 16
 python s36_ddit4_validation.py  # DDIT4 genetic validation plan, figure 17
+
+# is DDIT4 a zone regulator, a stress gene, or an artifact?
+python s37_ddit4_localization.py    # per-dataset re-analysis, no consensus label used
+python s37b_localization_report.py  # localization audit, figures 18-19
+python s38_stress_artifact.py       # stress/dissociation models, purity, spatial, figure 20
+python s38b_zone_conflict_report.py # purity metric correction + zone-vs-stress report
+python s39_revised_validation.py    # factorial epistasis + durability design, figure 21
+python s40_go_no_go.py              # Gates 0-4, final dossier, figure 22
 ```
 
 Network calls are cached and checksummed, so re-runs are cheap and the stages are resumable.
@@ -83,7 +91,7 @@ Network calls are cached and checksummed, so re-runs are cheap and the stages ar
 | `excluded_targets_with_reasons.csv` | every excluded gene and why |
 | `dataset_qc_report.md` | provenance, checksums, per-dataset QC, deviations, limitations |
 | `evidence_report.md` | direction logic, gene sets, per-target evidence and validation experiment |
-| `figures/` | CRISPR-vs-fast-growth, zone heatmap, human/mouse concordance, target–compound network, risk-vs-potential |
+| `figures/` | 22 figures: CRISPR-vs-fast-growth, zone heatmap, human/mouse concordance, target–compound network, risk-vs-potential, mechanism decision trees, DDIT4 localization/stress/factorial/go-no-go |
 | `gene_sets/` | CRISPR_CAUSAL, FAST_GROWTH, HUMAN_CONSERVED, TRACTABLE, COMPOUND_MAPPED, BLACKLIST |
 | `top_20_compounds.csv` | perturbational matches with mechanism, direction, exposure, safety |
 | `compound_report.md` | per-compound mechanism/direction/exposure/safety and the validating experiment |
@@ -102,6 +110,10 @@ Network calls are cached and checksummed, so re-runs are cheap and the stages ar
 | `target_class_analogues.csv`, `rejected_phenotype_hits.csv` | safer analogues; nothing silently discarded |
 | `top_15_phenotype_first_candidates.csv`, `top_5_experimental_panel.csv`, `phenotype_first_candidate_report.md` | final ranking and panel |
 | `ddit4_evidence_dossier.csv`, `ddit4_genetic_validation_plan.md`, `ddit4_validation_arms.csv` | the one live hypothesis and the genetic experiment that would settle it |
+| `ddit4_localization_by_dataset.csv`, `ddit4_pseudobulk_state_contrasts.csv`, `ddit4_localization_audit.md` | per-dataset localization re-analysis (~123,000 cells, 6 single-cell + 4 bulk zonal contrasts) |
+| `ddit4_stress_artifact_models.csv`, `ddit4_bulk_purity_audit.csv`, `ddit4_purity_filtered_contrasts.csv`, `ddit4_spatial_evidence.csv`, `ddit4_zone_conflict_report.md` | zone-vs-stress nested models, tissue purity (two metrics), spatial-evidence search |
+| `revised_ddit4_validation_arms.csv`, `revised_ddit4_endpoint_matrix.csv`, `ddit4_factorial_epistasis_plan.md`, `ddit4_durability_validation_plan.md` | 22 arms, 46 endpoints, the 3×4 factorial and the durability design |
+| `ddit4_go_no_go_table.csv`, `ddit4_final_target_dossier.md` | Gates 0-4 with evidence for and against, and the decision |
 | `download_manifest.json` | source URL + sha256 + size + timestamp for every downloaded file |
 | `qc/` | per-stage QC artifacts the reports are generated from |
 
@@ -131,10 +143,33 @@ Network calls are cached and checksummed, so re-runs are cheap and the stages ar
 - **No panel PKC inhibitor has any cartilage dataset.** Stage 21 found 0 GEO series for every PKC probe,
   so module transfer is untested rather than supported, and Gate 1 exists to generate that missing data.
 - **The project has no compound candidate, and says so.** The single live hypothesis is genetic:
-  transiently reduce DDIT4/REDD1 restraint in hypertrophic chondrocytes. DDIT4 is hypertrophic-zone
-  localised and human-concordant with the highest zone specificity of any audited node — but it is
-  **not CRISPR-causal** (FDR 0.28), **not tractable**, and its single-cell state call contradicts the
-  bulk zonal call. Genetic validation (stage 36) comes before any further compound search.
+  transiently reduce the DDIT4/REDD1 restraint on MTORC1. DDIT4 is **not CRISPR-causal** (FDR 0.28)
+  and **not tractable**. Genetic validation comes before any further compound search.
+- **The DDIT4 zone claim was audited and did not survive.** Stages 37–38 re-analysed every dataset
+  independently rather than trusting the consensus label. DDIT4 is detected in 25–47% of *all* cells
+  in six single-cell datasets, its per-cell correlation with a hypertrophic score never exceeds
+  |r| = 0.11 and is negative in five of six, and in the largest replicated dataset (GSE231795,
+  10 samples, 80,896 cells) pseudobulk DDIT4 is **1.97 log2 lower** in hypertrophic cells. The
+  varying per-dataset state labels are argmax over noise — the stage-08 "proliferative" call and the
+  stage-33 "hypertrophic" call were both doing this.
+- **What DDIT4 actually tracks is stress, and partly the dissociation protocol.** In nested models
+  on the same cells, stress scores add ΔR² = 0.063 / 0.025 while cell state adds 0.002 / 0.003 on
+  top of them. The single largest correlate in both datasets is **dissociation** (r = +0.24 / +0.13),
+  ahead of hypoxia and the ISR — a property of how the sample was made, not of the tissue.
+- **One claim got stronger under scrutiny.** Filtering GSE87605 to the samples whose marker profile
+  matches their declared zone gives hypertrophic − resting = **+1.61 log2, p = 0.026**, better than
+  the unfiltered contrast. The mouse tissue gradient is real. The human replicate is not: GSE9160
+  partitions by replicate series (R² = 0.46) more than by zone (R² = 0.28).
+- **The verdict is LOCALIZATION_UNRESOLVED, not "stress marker".** Calling it a stress marker would
+  over-read dissociation-contaminated data — the same error in the opposite direction. Both available
+  modalities are compromised: bulk arrays infer purity from the matrix being tested, single-cell data
+  are dissociated. Intact-tissue RNAscope and validated REDD1 immunostaining is the one cheap
+  experiment that decides it, and **GATE 0 fails until it runs**.
+- **Gates 0–4 do not pass, so there is no compound search.** One gate fails on evidence and four have
+  never been tested. Stage 39 specifies the experiment that would test them — a 3×4 DDIT4 × MTORC1
+  factorial where MTORC1-dependence is the *interaction* term rather than a co-treatment contrast,
+  with MTORC1 lowered partially and titratably (RPTOR is never ablated, because complete loss removes
+  the growth being measured) — and it is gated behind the localisation result.
 - **The bafilomycin result is a trade-off, not productive growth.** Full-text audit (stage 29) found the
   paper's own figure title — *"elevates cell death and decreases chondrocyte proliferation"* — and the
   authors' conclusion that growth came *"entirely from hypertrophy without any contribution from cell
