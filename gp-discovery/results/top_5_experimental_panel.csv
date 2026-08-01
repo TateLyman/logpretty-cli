@@ -1,0 +1,6 @@
+compound,role_in_panel,concentration_basis,final_score,classification,mechanism
+bafilomycin A1,index probe - reproduce the published 8 nM metatarsal result,"8 nM (as published, PMID 26259639)",6.2,MECHANISTIC_PROBE_ONLY,lysosomal V-ATPase -> Ragulator -> MTORC1
+chloroquine,orthogonal chemotype on the same axis - already replicated in the source paper,"30 uM (as published, PMID 26259639)",6.716666666666667,TARGET_CLASS_CANDIDATE,lysosomal alkalinisation -> MTORC1
+hydroxychloroquine,approved analogue with paediatric exposure - the translational arm,match chloroquine molar range; never yet tested in bone organ culture,-1.7000000000000002,TARGET_CLASS_CANDIDATE,lysosomal alkalinisation -> MTORC1 (analogue)
+rapamycin,"NEGATIVE CONTROL / falsification - MTORC1 inhibitor, should block the effect",published MTORC1-inhibitory range for organ culture,,,
+(-)-epicatechin,independent mechanism comparator with a large in vivo effect size,published in vivo range; requires its own ex vivo dose-finding,-0.09166666666666656,TARGET_CLASS_CANDIDATE,ciliogenesis / NOS-cGMP (as claimed)

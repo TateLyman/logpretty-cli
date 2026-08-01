@@ -1,0 +1,9 @@
+compound,axis,n_axis_genes_tested,n_in_CRISPR_CAUSAL,CRISPR_CAUSAL_genes,module_hubs_hit,growth_sustaining_hub,modules_touched,n_blacklisted_axis_genes,target_engagement_shown,cell_phenotype_measured,bone_length_measured,normal_bone,causal_link_present,chain_score
+bafilomycin A1,lysosomal V-ATPase -> Ragulator -> MTORC1,23,1,TSC2,M7,M7,M1; M10; M4; M7,1,True,True,True,True,True,6.0
+chloroquine,"lysosomal alkalinisation -> MTORC1 (same axis, different chemotype)",10,1,TSC2,M7,M7,M4; M7,1,True,False,True,True,True,5.0
+KY19382,CXXC5-DVL disruption -> WNT (indirubin scaffold: GSK3/CDK liability),11,2,APC; GSK3B,,,M4,1,False,True,True,True,True,4.3
+LB-100,PP2A/PPP2 phosphatase inhibition,9,2,GSK3B; PPP2CA,,,M4,1,False,True,True,False,True,3.3
+(-)-epicatechin,ciliogenesis / NOS-cGMP (as claimed in the source paper),7,0,,,,M10; M4; M8,0,False,True,True,False,False,2.5
+4-phenylbutyrate,chemical chaperone / HDAC inhibition / ER stress,8,0,,,,M10,0,False,False,True,False,False,1.5
+meclozine,FGFR3-ERK attenuation (canonical branch),7,0,,,,M10; M4,0,False,False,True,False,False,1.5
+concanamycin A,lysosomal V-ATPase (second macrolide V-ATPase inhibitor),6,0,,M7,M7,M4; M7,0,False,False,False,False,False,0.7

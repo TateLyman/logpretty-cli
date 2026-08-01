@@ -1,0 +1,23 @@
+compound_norm,n_passages,n_papers,n_increase,n_decrease,n_with_stats,canonical,models,species,pmids,best_confidence,net_increase
+alg,1,1,0,0,0,False,in vivo,rat,40078882.0,0.5,0
+asb20123,1,1,1,0,0,True,in vivo,mouse,30794654.0,0.2,1
+asp5878,1,1,1,0,0,False,in vivo,mouse,33262386.0,0.2,1
+bumetanide,3,1,1,3,0,False,metatarsal organ culture,mouse,20200963.0,0.5,-2
+calcium,1,1,1,0,0,True,in vivo,mouse,37808400.0,0.2,1
+camp,1,1,1,0,0,True,in vivo,mouse,35041746.0,0.2,1
+cyclic gmp,2,1,2,1,0,True,in vivo,mouse,29199951.0,0.2,1
+dexamethasone,2,1,0,2,1,False,metatarsal organ culture,mouse,36307458.0,0.6000000000000001,-2
+dmso,1,1,1,0,0,False,metatarsal organ culture,rat,19382193.0,0.2,1
+estradiol,2,1,1,1,0,True,in vivo,mouse,25873947.0,0.2,0
+gags,2,1,0,2,0,False,,mouse,34884458.0,0.2,-2
+indirubin,1,1,1,0,0,False,tibia/femur organ culture,mouse,30971423.0,0.2,1
+kylb,4,1,4,0,0,False,tibia/femur organ culture,mouse,27959934.0,0.2,4
+lde,1,1,1,1,0,False,in vivo,mouse,33724538.0,0.2,0
+lde225,1,1,1,1,0,False,in vivo,mouse,33724538.0,0.2,0
+lh,1,1,1,0,0,True,,human,36589818.0,0.2,1
+palovarotene,2,1,0,2,2,False,in vivo,mouse,26896819.0,0.6000000000000001,-2
+prednisolone,4,1,0,4,0,False,in vivo,mouse,32078184.0,0.2,-4
+rapamycin,2,1,2,0,0,False,metatarsal organ culture,rat,19382193.0,0.2,2
+streptozotocin,1,1,1,1,0,False,in vivo,mouse,38680706.0,0.2,0
+teneligliptin,8,1,8,8,0,False,in vivo,mouse,38680706.0,0.2,0
+vosoritide,2,1,2,0,0,True,,mouse,34070375.0,0.2,2

@@ -1,0 +1,11 @@
+compound,experimental_concentration,experimental_conc_nM,most_potent_target,most_potent_nM,fold_over_primary_potency,flag_gt10x,flag_gt100x,n_targets_engaged_at_conc,targets_engaged,multi_target_at_conc,species_gap_note
+bafilomycin A1,8 nM,8.0,SYK,19.45,0.4,False,False,0.0,,False,
+concanamycin A,not stated in extracted passage,,,,,,,,,,concentration not extractable from the passage; selectivity cannot be assessed
+chloroquine,30 uM,30000.0,,7.9433,3776.8,True,True,25.0,ADRA2A; ADRA2C; APP; BACE1; CHRM1; CHRM2; CHRM3; CXCR4,True,Human; Mouse; Plasmodium falciparum 7G8; Plasmodium falciparum D6
+(-)-epicatechin,"in vivo, dose not in passage",,NOS3,2.0,,,,,,,concentration not extractable from the passage; selectivity cannot be assessed
+LB-100,"ex vivo, dose not in passage",,Epidermal growth factor receptor,0.04,,,,,,,concentration not extractable from the passage; selectivity cannot be assessed
+KY19382,0.1 mg/kg i.p.,,,,,,,,,,concentration not extractable from the passage; selectivity cannot be assessed
+4-phenylbutyrate,0.4 mg/day i.p.,,Histone deacetylase,2800.0,,,,,,,concentration not extractable from the passage; selectivity cannot be assessed
+meclozine,oral / organ culture,,Constitutive androstane receptor,25.1189,,,,,,,concentration not extractable from the passage; selectivity cannot be assessed
+BMN-111,ex vivo,,,,,,,,,,concentration not extractable from the passage; selectivity cannot be assessed
+dexamethasone,organ culture,,Mineralocorticoid receptor,1.0,,,,,,,concentration not extractable from the passage; selectivity cannot be assessed

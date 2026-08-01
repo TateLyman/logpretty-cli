@@ -1,0 +1,82 @@
+human_gene,mouse_gene,in_CRISPR_CAUSAL,module,module_class,is_module_hub,height_gwas,human_zone,sc_state,blacklisted,compound,axis,link_role
+ATP6V0C,Atp6v0c,False,,,,False,prehypertrophic,resting,False,bafilomycin A1,lysosomal V-ATPase -> Ragulator -> MTORC1,direct target
+ATP6V0A1,Atp6v0a1,False,,,,True,perichondrium,resting,False,bafilomycin A1,lysosomal V-ATPase -> Ragulator -> MTORC1,direct target
+ATP6V1A,Atp6v1a,False,M4,HYPERTROPHIC_PROGRAM,,False,prehypertrophic,prehypertrophic,False,bafilomycin A1,lysosomal V-ATPase -> Ragulator -> MTORC1,direct target
+ATP6AP1,Atp6ap1,False,M4,HYPERTROPHIC_PROGRAM,,False,proliferative,prehypertrophic,False,bafilomycin A1,lysosomal V-ATPase -> Ragulator -> MTORC1,direct target
+TCIRG1,Tcirg1,False,M4,HYPERTROPHIC_PROGRAM,,False,resting,proliferative,False,bafilomycin A1,lysosomal V-ATPase -> Ragulator -> MTORC1,direct target
+LAMTOR1,Lamtor1,False,M4,HYPERTROPHIC_PROGRAM,,True,hypertrophic,hypertrophic,False,bafilomycin A1,lysosomal V-ATPase -> Ragulator -> MTORC1,downstream effector
+LAMTOR2,Lamtor2,False,,,,True,proliferative,prehypertrophic,False,bafilomycin A1,lysosomal V-ATPase -> Ragulator -> MTORC1,downstream effector
+LAMTOR3,Lamtor3,False,,,,False,proliferative,resting,False,bafilomycin A1,lysosomal V-ATPase -> Ragulator -> MTORC1,downstream effector
+LAMTOR4,,False,,,,False,,,False,bafilomycin A1,lysosomal V-ATPase -> Ragulator -> MTORC1,downstream effector
+LAMTOR5,Lamtor5,False,,,,False,,,False,bafilomycin A1,lysosomal V-ATPase -> Ragulator -> MTORC1,downstream effector
+RRAGA,Rraga,False,,,,False,proliferative,prehypertrophic,False,bafilomycin A1,lysosomal V-ATPase -> Ragulator -> MTORC1,downstream effector
+RRAGB,Rragb,False,M10,PROLIFERATIVE_PROGRAM,,False,perichondrium,resting,False,bafilomycin A1,lysosomal V-ATPase -> Ragulator -> MTORC1,downstream effector
+RRAGC,Rragc,False,,,,False,hypertrophic,hypertrophic,False,bafilomycin A1,lysosomal V-ATPase -> Ragulator -> MTORC1,downstream effector
+RRAGD,Rragd,False,,,,False,hypertrophic,prehypertrophic,False,bafilomycin A1,lysosomal V-ATPase -> Ragulator -> MTORC1,downstream effector
+MTOR,Mtor,False,,,,True,proliferative,hypertrophic,False,bafilomycin A1,lysosomal V-ATPase -> Ragulator -> MTORC1,downstream effector
+RPTOR,Rptor,False,M7,GROWTH_SUSTAINING,M7,True,resting,hypertrophic,False,bafilomycin A1,lysosomal V-ATPase -> Ragulator -> MTORC1,downstream effector
+RPS6KB1,Rps6kb1,False,,,,True,hypertrophic,hypertrophic,False,bafilomycin A1,lysosomal V-ATPase -> Ragulator -> MTORC1,downstream effector
+RPS6,,False,,,,False,,,False,bafilomycin A1,lysosomal V-ATPase -> Ragulator -> MTORC1,downstream effector
+TSC1,Tsc1,False,,,,True,prehypertrophic,hypertrophic,False,bafilomycin A1,lysosomal V-ATPase -> Ragulator -> MTORC1,downstream effector
+TSC2,Tsc2,True,,,,True,prehypertrophic,proliferative,True,bafilomycin A1,lysosomal V-ATPase -> Ragulator -> MTORC1,downstream effector
+RHEB,Rheb,False,M1,,,True,proliferative,proliferative,False,bafilomycin A1,lysosomal V-ATPase -> Ragulator -> MTORC1,downstream effector
+SLC38A9,Slc38a9,False,,,,True,proliferative,hypertrophic,False,bafilomycin A1,lysosomal V-ATPase -> Ragulator -> MTORC1,downstream effector
+FLCN,Flcn,False,,,,False,hypertrophic,resting,False,bafilomycin A1,lysosomal V-ATPase -> Ragulator -> MTORC1,downstream effector
+ATP6V0C,Atp6v0c,False,,,,False,prehypertrophic,resting,False,chloroquine,"lysosomal alkalinisation -> MTORC1 (same axis, different chemotype)",direct target
+ATP6AP1,Atp6ap1,False,M4,HYPERTROPHIC_PROGRAM,,False,proliferative,prehypertrophic,False,chloroquine,"lysosomal alkalinisation -> MTORC1 (same axis, different chemotype)",direct target
+MTOR,Mtor,False,,,,True,proliferative,hypertrophic,False,chloroquine,"lysosomal alkalinisation -> MTORC1 (same axis, different chemotype)",downstream effector
+RPTOR,Rptor,False,M7,GROWTH_SUSTAINING,M7,True,resting,hypertrophic,False,chloroquine,"lysosomal alkalinisation -> MTORC1 (same axis, different chemotype)",downstream effector
+RPS6,,False,,,,False,,,False,chloroquine,"lysosomal alkalinisation -> MTORC1 (same axis, different chemotype)",downstream effector
+RPS6KB1,Rps6kb1,False,,,,True,hypertrophic,hypertrophic,False,chloroquine,"lysosomal alkalinisation -> MTORC1 (same axis, different chemotype)",downstream effector
+TSC2,Tsc2,True,,,,True,prehypertrophic,proliferative,True,chloroquine,"lysosomal alkalinisation -> MTORC1 (same axis, different chemotype)",downstream effector
+LAMTOR1,Lamtor1,False,M4,HYPERTROPHIC_PROGRAM,,True,hypertrophic,hypertrophic,False,chloroquine,"lysosomal alkalinisation -> MTORC1 (same axis, different chemotype)",downstream effector
+SQSTM1,Sqstm1,False,M4,HYPERTROPHIC_PROGRAM,,False,perichondrium,resting,False,chloroquine,"lysosomal alkalinisation -> MTORC1 (same axis, different chemotype)",downstream effector
+MAP1LC3A,Map1lc3a,False,M4,HYPERTROPHIC_PROGRAM,,True,hypertrophic,resting,False,chloroquine,"lysosomal alkalinisation -> MTORC1 (same axis, different chemotype)",downstream effector
+ATP6V0C,Atp6v0c,False,,,,False,prehypertrophic,resting,False,concanamycin A,lysosomal V-ATPase (second macrolide V-ATPase inhibitor),direct target
+ATP6V1A,Atp6v1a,False,M4,HYPERTROPHIC_PROGRAM,,False,prehypertrophic,prehypertrophic,False,concanamycin A,lysosomal V-ATPase (second macrolide V-ATPase inhibitor),direct target
+ATP6AP1,Atp6ap1,False,M4,HYPERTROPHIC_PROGRAM,,False,proliferative,prehypertrophic,False,concanamycin A,lysosomal V-ATPase (second macrolide V-ATPase inhibitor),direct target
+MTOR,Mtor,False,,,,True,proliferative,hypertrophic,False,concanamycin A,lysosomal V-ATPase (second macrolide V-ATPase inhibitor),downstream effector
+RPTOR,Rptor,False,M7,GROWTH_SUSTAINING,M7,True,resting,hypertrophic,False,concanamycin A,lysosomal V-ATPase (second macrolide V-ATPase inhibitor),downstream effector
+RPS6,,False,,,,False,,,False,concanamycin A,lysosomal V-ATPase (second macrolide V-ATPase inhibitor),downstream effector
+PPP2CA,Ppp2ca,True,,,,True,hypertrophic,proliferative,True,LB-100,PP2A/PPP2 phosphatase inhibition,direct target
+PPP2CB,Ppp2cb,False,M4,HYPERTROPHIC_PROGRAM,,False,hypertrophic,hypertrophic,False,LB-100,PP2A/PPP2 phosphatase inhibition,direct target
+PPP2R1A,,False,,,,False,,,False,LB-100,PP2A/PPP2 phosphatase inhibition,direct target
+PPP5C,Ppp5c,False,,,,True,prehypertrophic,proliferative,False,LB-100,PP2A/PPP2 phosphatase inhibition,direct target
+MAPK1,Mapk1,False,M4,HYPERTROPHIC_PROGRAM,,True,perichondrium,proliferative,False,LB-100,PP2A/PPP2 phosphatase inhibition,downstream effector
+MAPK3,Mapk3,False,M4,HYPERTROPHIC_PROGRAM,,True,perichondrium,proliferative,False,LB-100,PP2A/PPP2 phosphatase inhibition,downstream effector
+AKT1,Akt1,False,,,,True,prehypertrophic,resting,False,LB-100,PP2A/PPP2 phosphatase inhibition,downstream effector
+GSK3B,Gsk3b,True,M4,HYPERTROPHIC_PROGRAM,,False,proliferative,hypertrophic,False,LB-100,PP2A/PPP2 phosphatase inhibition,downstream effector
+RPS6KB1,Rps6kb1,False,,,,True,hypertrophic,hypertrophic,False,LB-100,PP2A/PPP2 phosphatase inhibition,downstream effector
+NOS3,Nos3,False,M4,HYPERTROPHIC_PROGRAM,,True,resting,prehypertrophic,False,(-)-epicatechin,ciliogenesis / NOS-cGMP (as claimed in the source paper),direct target
+NOS2,Nos2,False,M4,HYPERTROPHIC_PROGRAM,,False,prehypertrophic,resting,False,(-)-epicatechin,ciliogenesis / NOS-cGMP (as claimed in the source paper),direct target
+IFT88,Ift88,False,M10,PROLIFERATIVE_PROGRAM,,True,proliferative,proliferative,False,(-)-epicatechin,ciliogenesis / NOS-cGMP (as claimed in the source paper),downstream effector
+IFT80,Ift80,False,M10,PROLIFERATIVE_PROGRAM,,False,prehypertrophic,proliferative,False,(-)-epicatechin,ciliogenesis / NOS-cGMP (as claimed in the source paper),downstream effector
+KIF3A,Kif3a,False,,,,True,perichondrium,hypertrophic,False,(-)-epicatechin,ciliogenesis / NOS-cGMP (as claimed in the source paper),downstream effector
+PRKG1,Prkg1,False,M4,HYPERTROPHIC_PROGRAM,,True,perichondrium,hypertrophic,False,(-)-epicatechin,ciliogenesis / NOS-cGMP (as claimed in the source paper),downstream effector
+PRKG2,Prkg2,False,M8,GROWTH_SUSTAINING,,True,hypertrophic,prehypertrophic,False,(-)-epicatechin,ciliogenesis / NOS-cGMP (as claimed in the source paper),downstream effector
+CXXC5,Cxxc5,False,,,,True,resting,hypertrophic,False,KY19382,CXXC5-DVL disruption -> WNT (indirubin scaffold: GSK3/CDK liability),direct target
+DVL1,Dvl1,False,,,,True,resting,proliferative,False,KY19382,CXXC5-DVL disruption -> WNT (indirubin scaffold: GSK3/CDK liability),direct target
+GSK3B,Gsk3b,True,M4,HYPERTROPHIC_PROGRAM,,False,proliferative,hypertrophic,False,KY19382,CXXC5-DVL disruption -> WNT (indirubin scaffold: GSK3/CDK liability),direct target
+GSK3A,Gsk3a,False,,,,True,resting,proliferative,False,KY19382,CXXC5-DVL disruption -> WNT (indirubin scaffold: GSK3/CDK liability),direct target
+CDK2,Cdk2,False,,,,False,perichondrium,proliferative,False,KY19382,CXXC5-DVL disruption -> WNT (indirubin scaffold: GSK3/CDK liability),direct target
+CDK5,Cdk5,False,,,,False,prehypertrophic,resting,False,KY19382,CXXC5-DVL disruption -> WNT (indirubin scaffold: GSK3/CDK liability),direct target
+CTNNB1,Ctnnb1,False,M4,HYPERTROPHIC_PROGRAM,,True,proliferative,proliferative,False,KY19382,CXXC5-DVL disruption -> WNT (indirubin scaffold: GSK3/CDK liability),downstream effector
+AXIN1,Axin1,False,,,,True,prehypertrophic,proliferative,False,KY19382,CXXC5-DVL disruption -> WNT (indirubin scaffold: GSK3/CDK liability),downstream effector
+APC,Apc,True,,,,True,hypertrophic,hypertrophic,True,KY19382,CXXC5-DVL disruption -> WNT (indirubin scaffold: GSK3/CDK liability),downstream effector
+TCF7L2,Tcf7l2,False,M4,HYPERTROPHIC_PROGRAM,,True,proliferative,hypertrophic,False,KY19382,CXXC5-DVL disruption -> WNT (indirubin scaffold: GSK3/CDK liability),downstream effector
+LEF1,Lef1,False,,,,True,proliferative,proliferative,False,KY19382,CXXC5-DVL disruption -> WNT (indirubin scaffold: GSK3/CDK liability),downstream effector
+HDAC1,Hdac1,False,,,,False,hypertrophic,proliferative,False,4-phenylbutyrate,chemical chaperone / HDAC inhibition / ER stress,direct target
+HDAC2,Hdac2,False,,,,True,prehypertrophic,proliferative,False,4-phenylbutyrate,chemical chaperone / HDAC inhibition / ER stress,direct target
+HDAC3,Hdac3,False,,,,True,proliferative,proliferative,False,4-phenylbutyrate,chemical chaperone / HDAC inhibition / ER stress,direct target
+EIF2AK3,Eif2ak3,False,M10,PROLIFERATIVE_PROGRAM,,True,prehypertrophic,resting,False,4-phenylbutyrate,chemical chaperone / HDAC inhibition / ER stress,downstream effector
+ATF4,Atf4,False,,,,False,hypertrophic,resting,False,4-phenylbutyrate,chemical chaperone / HDAC inhibition / ER stress,downstream effector
+DDIT3,Ddit3,False,,,,False,perichondrium,proliferative,False,4-phenylbutyrate,chemical chaperone / HDAC inhibition / ER stress,downstream effector
+HSPA5,Hspa5,False,M10,PROLIFERATIVE_PROGRAM,,False,proliferative,prehypertrophic,False,4-phenylbutyrate,chemical chaperone / HDAC inhibition / ER stress,downstream effector
+XBP1,Xbp1,False,M10,PROLIFERATIVE_PROGRAM,,False,proliferative,resting,False,4-phenylbutyrate,chemical chaperone / HDAC inhibition / ER stress,downstream effector
+HRH1,Hrh1,False,M4,HYPERTROPHIC_PROGRAM,,False,perichondrium,hypertrophic,False,meclozine,FGFR3-ERK attenuation (canonical branch),direct target
+CHRM1,Chrm1,False,,,,False,resting,resting,False,meclozine,FGFR3-ERK attenuation (canonical branch),direct target
+NR1I3,Nr1i3,False,,,,False,perichondrium,resting,False,meclozine,FGFR3-ERK attenuation (canonical branch),direct target
+MAPK1,Mapk1,False,M4,HYPERTROPHIC_PROGRAM,,True,perichondrium,proliferative,False,meclozine,FGFR3-ERK attenuation (canonical branch),downstream effector
+MAPK3,Mapk3,False,M4,HYPERTROPHIC_PROGRAM,,True,perichondrium,proliferative,False,meclozine,FGFR3-ERK attenuation (canonical branch),downstream effector
+FGFR3,Fgfr3,False,M10,PROLIFERATIVE_PROGRAM,,True,hypertrophic,prehypertrophic,False,meclozine,FGFR3-ERK attenuation (canonical branch),downstream effector
+MAP2K1,Map2k1,False,,,,True,prehypertrophic,proliferative,False,meclozine,FGFR3-ERK attenuation (canonical branch),downstream effector

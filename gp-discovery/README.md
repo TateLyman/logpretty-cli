@@ -51,6 +51,14 @@ python s20b_probe_report.py
 python s21_transfer_evidence.py # does anything transfer to cartilage?
 python s21b_transfer_report.py
 python s22_go_no_go.py          # gated plan, revised ranking, figure 07
+
+# phenotype-first discovery: start from measured bone elongation
+python s23_phenotype_corpus.py  # 4,314-record corpus, 219 full texts, checksummed
+python s24_extraction.py        # experiment-level length extraction
+python s25_target_deconvolution.py
+python s26_intersections.py     # causal-gene intersection, figure 08
+python s27_analogues.py         # safer/selective analogues
+python s28_final_ranking.py     # ranking, panel, report, figures 09-11
 ```
 
 Network calls are cached and checksummed, so re-runs are cheap and the stages are resumable.
@@ -76,6 +84,13 @@ Network calls are cached and checksummed, so re-runs are cheap and the stages ar
 | `chondrocyte_transfer_evidence.csv`, `transfer_evidence_report.md` | GEO + PubMed transfer evidence per compound and target |
 | `go_no_go_experimental_plan.md`, `revised_candidate_ranking.csv` | gated experiment, interpretation rules, re-ranked candidates |
 | `stage22_concentration_ladders.csv` | potency-anchored test windows (no invented concentrations) |
+| `phenotype_first_corpus.csv`, `fulltext_manifest.json` | 4,314 papers; 219 full texts with SHA256 and evidence level |
+| `elongation_experiments.csv` | 559 length passages with verbatim source text |
+| `phenotype_positive_compounds.csv`, `marker_only_compounds.csv` | hard-rule split: measured length vs markers only |
+| `phenotype_compound_target_map.csv`, `polypharmacology_flags.csv` | what each compound engaged at the concentration used |
+| `compound_causal_intersections.csv`, `target_module_evidence_chains.csv` | compound→target→causal gene/module chains |
+| `target_class_analogues.csv`, `rejected_phenotype_hits.csv` | safer analogues; nothing silently discarded |
+| `top_15_phenotype_first_candidates.csv`, `top_5_experimental_panel.csv`, `phenotype_first_candidate_report.md` | final ranking and panel |
 | `download_manifest.json` | source URL + sha256 + size + timestamp for every downloaded file |
 | `qc/` | per-stage QC artifacts the reports are generated from |
 
@@ -104,6 +119,11 @@ Network calls are cached and checksummed, so re-runs are cheap and the stages ar
   concentration. Sotrastaurin is retained as a pathway probe and demoted from the lead position.
 - **No panel PKC inhibitor has any cartilage dataset.** Stage 21 found 0 GEO series for every PKC probe,
   so module transfer is untested rather than supported, and Gate 1 exists to generate that missing data.
+- **Phenotype-first beat connectivity-first.** Starting from compounds with a measured bone-length
+  change surfaced the lysosomal **V-ATPase → Ragulator → MTORC1** axis, which the LINCS branch never
+  found. Bafilomycin A1 increases longitudinal growth of *normal* mouse metatarsals at 8 nM
+  (p<0.001) with larger terminal hypertrophic cells, replicated by chloroquine and shown to be
+  autophagy-independent — and TSC2/RPS6 are CRISPR-causal while RPTOR is an M7 growth-sustaining hub.
 - **Nothing is integrated early.** Every within-dataset effect is computed first; datasets meet
   only in stage 10, and each line of evidence stays its own column rather than being folded
   into one embedding.
