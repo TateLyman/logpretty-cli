@@ -1,0 +1,64 @@
+compound,n_cell_lines_mimic,mechanism_of_action,exclusion_reason
+BI-2536,25,Serine/threonine-protein kinase PLK1 inhibitor,cytotoxic/antimitotic mechanism class
+MG-132,17,,reverses the chondrocyte proliferative program
+bortezomib,17,26S proteasome inhibitor,reverses the chondrocyte proliferative program; cytotoxic/antimitotic mechanism class
+trifluoperazine,12,,reverses the chondrocyte proliferative program
+obatoclax,11,,reverses the chondrocyte proliferative program
+gefitinib,11,Epidermal growth factor receptor erbB1 inhibitor,reverses the chondrocyte proliferative program
+raloxifene,9,Estrogen receptor modulator,reverses the chondrocyte proliferative program
+salmeterol,8,,reverses the chondrocyte proliferative program
+tozasertib,8,Serine/threonine-protein kinase Aurora inhibitor,reverses the chondrocyte proliferative program; cytotoxic/antimitotic mechanism class
+tandutinib,6,Platelet-derived growth factor receptor beta inhibitor; Stem cell growth factor receptor inhibitor; Tyrosine-protein kinase receptor FLT3 inhibitor,reverses the chondrocyte proliferative program
+olaparib,6,"PARP 1, 2 and 3 inhibitor",cytotoxic/antimitotic mechanism class
+lapatinib,6,,reverses the chondrocyte proliferative program
+imatinib,6,,reverses the chondrocyte proliferative program
+MK-2206,5,Serine/threonine-protein kinase AKT inhibitor,reverses the chondrocyte proliferative program
+TW-37,5,,reverses the chondrocyte proliferative program
+crizotinib,5,ALK tyrosine kinase receptor inhibitor; EML4-ALK inhibitor; Hepatocyte growth factor receptor inhibitor,reverses the chondrocyte proliferative program
+rucaparib,5,"PARP 1, 2 and 3 inhibitor",cytotoxic/antimitotic mechanism class
+troglitazone,4,Peroxisome proliferator-activated receptor gamma agonist,withdrawn drug
+MLN-4924,4,NEDD8 activating enzyme inhibitor,reverses the chondrocyte proliferative program
+triacsin-c,4,,reverses the chondrocyte proliferative program
+TG-101348,4,,reverses the chondrocyte proliferative program
+tanespimycin,4,Heat shock protein HSP90 inhibitor,reverses the chondrocyte proliferative program; cytotoxic/antimitotic mechanism class
+atorvastatin,4,,reverses the chondrocyte proliferative program
+trametinib,4,Dual specificity mitogen-activated protein kinase kinase; MEK1/2 inhibitor,reverses the chondrocyte proliferative program
+GDC-0941,4,PI3-kinase class I inhibitor,reverses the chondrocyte proliferative program
+selumetinib,4,,reverses the chondrocyte proliferative program
+floxuridine,3,Thymidylate synthase inhibitor,cytotoxic/antimitotic mechanism class
+calcitriol,3,Vitamin D receptor agonist,reverses the chondrocyte proliferative program
+NVP-TAE684,3,,reverses the chondrocyte proliferative program
+torin-2,3,,reverses the chondrocyte proliferative program
+ARP-101,3,,reverses the chondrocyte proliferative program
+doxepin,3,Histamine H1 receptor antagonist,reverses the chondrocyte proliferative program
+10-DEBC,3,,reverses the chondrocyte proliferative program
+tacrolimus,3,FK506-binding protein 1A inhibitor,reverses the chondrocyte proliferative program
+panobinostat,3,,reverses the chondrocyte proliferative program
+alvespimycin,3,Heat shock protein HSP90 inhibitor; Reactive oxygen species,cytotoxic/antimitotic mechanism class
+XL-888,3,,reverses the chondrocyte proliferative program
+NVP-AUY922,3,Heat shock protein HSP90 inhibitor,reverses the chondrocyte proliferative program; cytotoxic/antimitotic mechanism class
+BRD-K26664453,3,,reverses the chondrocyte proliferative program
+fludarabine,3,,reverses the chondrocyte proliferative program
+EX-527,3,NAD-dependent deacetylase sirtuin 1 inhibitor,reverses the chondrocyte proliferative program
+DC-45-A2,3,,reverses the chondrocyte proliferative program
+PF-562271,3,,reverses the chondrocyte proliferative program
+BRD-K04887706,3,,reverses the chondrocyte proliferative program
+tioconazole,3,Cytochrome P450 51 inhibitor,reverses the chondrocyte proliferative program
+HMN-214,3,Serine/threonine-protein kinase PLK1 inhibitor,reverses the chondrocyte proliferative program; cytotoxic/antimitotic mechanism class
+AZD-5363,3,Serine/threonine-protein kinase AKT inhibitor,reverses the chondrocyte proliferative program
+chlorambucil,3,DNA inhibitor,reverses the chondrocyte proliferative program
+BRD-K54606188,2,,reverses the chondrocyte proliferative program
+urethane,2,Excipient,withdrawn drug
+azacitidine,2,DNA (cytosine-5)-methyltransferase 1 inhibitor; DNA (cytosine-5)-methyltransferase 3A inhibitor; DNA inhibitor,cytotoxic/antimitotic mechanism class
+piperlongumine,2,,reverses the chondrocyte proliferative program
+rosuvastatin,2,,reverses the chondrocyte proliferative program
+berberine,2,,withdrawn drug
+danusertib,2,Serine/threonine-protein kinase Aurora inhibitor,cytotoxic/antimitotic mechanism class
+fluoxetine,2,,reverses the chondrocyte proliferative program
+dolasetron,2,,reverses the chondrocyte proliferative program
+ruxolitinib,2,,reverses the chondrocyte proliferative program
+romidepsin,2,Histone deacetylase inhibitor,cytotoxic/antimitotic mechanism class
+GP-1a,2,,reverses the chondrocyte proliferative program
+tecastemizole,2,,reverses the chondrocyte proliferative program
+benzbromarone,2,Solute carrier family 22 member 12 inhibitor,withdrawn drug
+lasalocid,2,,reverses the chondrocyte proliferative program

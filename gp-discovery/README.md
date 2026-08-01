@@ -36,6 +36,12 @@ python s11c_cancer.py        ../results/stage12/candidates.csv
 python s12_score.py final       # gene sets + deliverables
 python s13_plots.py
 python s14_report.py
+
+# module signatures -> perturbational compound matching
+python s15_modules.py           # co-expression modules + trait/axis annotation
+python s16_connectivity.py      # LINCS L1000 two-sided signature search
+python s17_compounds.py         # ranking, safety and suitability filtering
+python s18_compound_report.py   # compound_report.md + figure 06
 ```
 
 Network calls are cached and checksummed, so re-runs are cheap and the stages are resumable.
@@ -52,6 +58,10 @@ Network calls are cached and checksummed, so re-runs are cheap and the stages ar
 | `evidence_report.md` | direction logic, gene sets, per-target evidence and validation experiment |
 | `figures/` | CRISPR-vs-fast-growth, zone heatmap, human/mouse concordance, target–compound network, risk-vs-potential |
 | `gene_sets/` | CRISPR_CAUSAL, FAST_GROWTH, HUMAN_CONSERVED, TRACTABLE, COMPOUND_MAPPED, BLACKLIST |
+| `top_20_compounds.csv` | perturbational matches with mechanism, direction, exposure, safety |
+| `compound_report.md` | per-compound mechanism/direction/exposure/safety and the validating experiment |
+| `module_traits.csv`, `module_signatures.json`, `gene_modules.csv` | co-expression modules and their signatures |
+| `compounds_excluded_connectivity.csv` | connectivity hits excluded, with reasons |
 | `download_manifest.json` | source URL + sha256 + size + timestamp for every downloaded file |
 | `qc/` | per-stage QC artifacts the reports are generated from |
 
@@ -68,6 +78,12 @@ Network calls are cached and checksummed, so re-runs are cheap and the stages ar
   candidates were such artifacts.
 - **The sort marker is excluded.** `Cd200` scores strongly because knocking it out removes the
   epitope the screen sorts on — a technical effect, not biology.
+- **The connectivity result is cytotoxic-dominated, and that is handled, not hidden.** The raw L1000
+  hits are PLK1/proteasome/Aurora inhibitors. A compound that reverses the chondrocyte proliferative
+  program cannot lengthen a bone, so the proliferative module is used as an explicit safety constraint
+  and 63 of 250 annotated compounds are excluded on biology.
+- **Hypertrophy is not suppressed.** Hypertrophic cell volume is the main contributor to elongation,
+  so the hypertrophic module is a constraint, never a target.
 - **Nothing is integrated early.** Every within-dataset effect is computed first; datasets meet
   only in stage 10, and each line of evidence stays its own column rather than being folded
   into one embedding.

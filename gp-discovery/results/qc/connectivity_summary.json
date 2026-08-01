@@ -1,0 +1,8 @@
+{
+ "n_annotated": 250,
+ "n_excluded": 63,
+ "n_eligible": 187,
+ "n_suppress_proliferation": 51,
+ "n_cytotoxic_class": 13,
+ "n_target_is_crispr_causal": 26
+}
