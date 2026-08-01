@@ -1,0 +1,15 @@
+evidence_item,value,direction,source
+mouse zonal top zone,hypertrophic,FOR,GSE87605 microdissected layers
+mouse zone specificity,1.330,FOR,highest of the 50 audited lysosome-MTOR nodes
+human zonal top zone,hypertrophic,FOR,GSE9160 human zonal array
+human-mouse zone concordance,True,FOR,the only audited node that is both hypertrophic-biased and cross-species concordant
+co-expression module,M4 HYPERTROPHIC_PROGRAM,FOR,stage 15
+young vs old tibia,-1.70 log2,FOR,DDIT4 is LOWER in fast-growing young tibia and rises as growth slows - the profile of a brake that accumulates with age
+CRISPR screen day-15 LFC,+1.61,FOR (weak),large positive effect in the maturation-promoting direction
+CRISPR guide consistency,1.00,FOR (weak),all four guides agree in direction
+CRISPR guide FDR,0.284,AGAINST,"NOT significant - this is why DDIT4 is not in CRISPR_CAUSAL. The signal is sub-threshold, not established"
+single-cell consensus state,proliferative,AGAINST,"the single-cell pseudobulk consensus says PROLIFERATIVE, contradicting the bulk zonal call of hypertrophic in both species. This conflict is unresolved and directly undermines the zone-selectivity argument"
+human height GWAS,no genome-wide association,AGAINST,stage 06
+tractability,not tractable in the stage-12 annotation,AGAINST,no small-molecule pocket or antibody modality recorded
+intervention direction,KO_promotes_maturation,AGAINST,"reducing DDIT4 accelerates maturation, which carries this project's own plate-exhaustion penalty. Durability is therefore the crux, not a detail"
+blacklist / essentiality,not blacklisted; no DepMap essentiality record,NEUTRAL,stage 11/12

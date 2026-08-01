@@ -68,6 +68,7 @@ python s32_clean_anabolism.py   # non-lysosomal anabolism compounds
 python s33_zone_targets.py      # zone-specific prioritisation, figure 13
 python s34_experiment_matrix.py # pulse/washout plan, figures 14-15
 python s35_revised_ranking.py   # four-axis ranking, figure 16
+python s36_ddit4_validation.py  # DDIT4 genetic validation plan, figure 17
 ```
 
 Network calls are cached and checksummed, so re-runs are cheap and the stages are resumable.
@@ -100,6 +101,7 @@ Network calls are cached and checksummed, so re-runs are cheap and the stages ar
 | `compound_causal_intersections.csv`, `target_module_evidence_chains.csv` | compound→target→causal gene/module chains |
 | `target_class_analogues.csv`, `rejected_phenotype_hits.csv` | safer analogues; nothing silently discarded |
 | `top_15_phenotype_first_candidates.csv`, `top_5_experimental_panel.csv`, `phenotype_first_candidate_report.md` | final ranking and panel |
+| `ddit4_evidence_dossier.csv`, `ddit4_genetic_validation_plan.md`, `ddit4_validation_arms.csv` | the one live hypothesis and the genetic experiment that would settle it |
 | `download_manifest.json` | source URL + sha256 + size + timestamp for every downloaded file |
 | `qc/` | per-stage QC artifacts the reports are generated from |
 
@@ -128,6 +130,11 @@ Network calls are cached and checksummed, so re-runs are cheap and the stages ar
   concentration. Sotrastaurin is retained as a pathway probe and demoted from the lead position.
 - **No panel PKC inhibitor has any cartilage dataset.** Stage 21 found 0 GEO series for every PKC probe,
   so module transfer is untested rather than supported, and Gate 1 exists to generate that missing data.
+- **The project has no compound candidate, and says so.** The single live hypothesis is genetic:
+  transiently reduce DDIT4/REDD1 restraint in hypertrophic chondrocytes. DDIT4 is hypertrophic-zone
+  localised and human-concordant with the highest zone specificity of any audited node — but it is
+  **not CRISPR-causal** (FDR 0.28), **not tractable**, and its single-cell state call contradicts the
+  bulk zonal call. Genetic validation (stage 36) comes before any further compound search.
 - **The bafilomycin result is a trade-off, not productive growth.** Full-text audit (stage 29) found the
   paper's own figure title — *"elevates cell death and decreases chondrocyte proliferation"* — and the
   authors' conclusion that growth came *"entirely from hypertrophy without any contribution from cell

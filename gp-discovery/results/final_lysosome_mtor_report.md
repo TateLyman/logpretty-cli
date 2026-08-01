@@ -1,5 +1,9 @@
 # Final lysosome / MTORC1 report
 
+## Status in one line
+
+**There is no compound candidate.** The project's one serious next hypothesis is genetic: transiently reduce DDIT4/REDD1 restraint in hypertrophic chondrocytes and test whether MTORC1-driven cell enlargement rises without the bafilomycin costs. DDIT4 is not yet a validated causal target — it is hypertrophic-zone-localised and human-concordant, but it is not CRISPR-causal and not tractable. Genetic validation comes before any further compound search (stage 36).
+
 ## Headline
 
 **The bafilomycin phenotype is a trade-off, not productive growth.** Stage 29's full-text audit found the paper's own figure title — *"elevates cell death and decreases chondrocyte proliferation"* — and the authors' own conclusion that growth was *"entirely attributed to the promoted chondrocyte hypertrophy without any contribution from cell proliferation or survival."* Stage 28 recorded proliferation as unknown and read this too favourably. That is corrected here.
@@ -11,7 +15,7 @@
 | IGF1R-AKT branch | target class | DURABLE_GROWTH_CANDIDATE | 7.0 | 7.0 | 3.5 | 5.5 | 2.50 |
 | IGF1 | compound | HAZARD_CONTROL | 8.5 | 7.5 | 2.0 | 5.0 | 3.50 |
 | leucine / amino-acid input | target class | TARGET_CLASS_CANDIDATE | 2.0 | 6.0 | 5.0 | 3.0 | 5.25 |
-| DDIT4/REDD1 | genetic node | DURABLE_GROWTH_CANDIDATE | 1.0 | 6.0 | 3.0 | 4.0 | 5.75 |
+| DDIT4/REDD1 | genetic node | TARGET_CLASS_CANDIDATE | 1.0 | 6.0 | 3.0 | 4.0 | 5.75 |
 | SC79 | compound | TARGET_CLASS_CANDIDATE | 0.5 | 6.5 | 3.0 | 3.0 | 6.25 |
 | TFEB/TFE3 | genetic node | TARGET_CLASS_CANDIDATE | 2.5 | 5.0 | 2.5 | 3.0 | 7.25 |
 | chloroquine | compound | ORTHOGONAL_PROBE | 7.5 | 2.5 | 3.0 | 1.5 | 7.50 |
@@ -54,10 +58,20 @@ The axes are **anticorrelated**: everything with measured length data is unusabl
 **SC79** is the cleanest concept (AKT activation upstream of MTORC1, no lysosomal action) but has essentially no cartilage literature. MHY1485 is reported both as an MTOR activator and as an autophagy inhibitor, so it may re-enter the same trap. Honest answer: no compound currently satisfies all the criteria with evidence.
 
 **6. Best new molecular node?**  
-**EIF4EBP1 (the 4EBP1 translational-restraint arm).** It is the one MTORC1 output moved by Torin1 in the source paper that has never been tested selectively, it is downstream of the lysosome so it avoids the acidification block, and unlike RPTOR and TSC1/2 it is not a necessity or constitutive-activation node.
+**DDIT4/REDD1 — as an upstream hypothesis, not as a validated target.** Three roles have to be kept apart, and an earlier draft of this report collapsed them:
+
+| role | node | why |
+|---|---|---|
+| best zone-localised upstream hypothesis | **DDIT4/REDD1** | hypertrophic in mouse *and* human, zone specificity 1.33, human-mouse concordant, M4 hypertrophic programme; an MTORC1 *negative* regulator, so reducing it de-represses MTORC1 where it is expressed rather than forcing it globally |
+| cleaner downstream mechanistic readout / branch | **EIF4EBP1 (4EBP1)** | the translational-restraint arm Torin1 moved in the source paper and nobody has addressed selectively — but its top zone is **proliferative**, it is not human-mouse concordant, and its zone priority score is **0.0**. It is a readout and a mechanistic branch, not the target |
+| compound candidate | **none** | neither node has a selective compound, and DDIT4 is not tractable in the stage-12 annotation |
+
+An earlier version of this report named EIF4EBP1 the best new node. That contradicted this project's own zone table (specificity 0.074 and no concordance, against 1.33 and concordance for DDIT4) and has been corrected.
 
 **7. Is it hypertrophic-zone-selective?**  
-See `zone_specific_mtor_targets.csv`. The V-ATPase subunits and LAMTOR1 are hypertrophic-biased (M4), which is the right zone, but the core MTORC1 nodes are not selectively hypertrophic — RPTOR is an M7 growth-sustaining hub and RPS6 sits in the proliferative programme. **Zone selectivity is currently the weakest part of the whole concept.**
+**DDIT4 is; the core MTORC1 nodes are not.** DDIT4 sits in the **M4 hypertrophic programme** with a hypertrophic top zone in both mouse and human — the only node in the audited set that is both hypertrophic-biased and cross-species concordant. By contrast RPTOR is an M7 growth-sustaining hub whose human top zone is *resting*, RPS6 sits in the proliferative programme, and TSC2 — though hypertrophic-biased and CRISPR-causal — is **blacklisted** and only weakly zone-specific (0.031). 23 of 50 audited nodes are hypertrophic-biased and neither pan-essential nor blacklisted; DDIT4 is the one that is also a negative regulator, which is the direction that matters.
+
+**The honest caveat:** DDIT4 is **not CRISPR_CAUSAL** in this project's screen and **not tractable** in the stage-12 annotation. Its entire case is zonal expression plus pathway position. That is a hypothesis worth testing genetically, not a target worth searching compounds against.
 
 **8. What would immediately kill the hypothesis?**  
 A pulse-and-washout arm in which the length gain disappears once lysosomal function recovers. That would make the effect pure transient acceleration — a bone spent faster, not a longer bone.
