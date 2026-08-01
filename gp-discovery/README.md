@@ -77,6 +77,16 @@ python s38_stress_artifact.py       # stress/dissociation models, purity, spatia
 python s38b_zone_conflict_report.py # purity metric correction + zone-vs-stress report
 python s39_revised_validation.py    # factorial epistasis + durability design, figure 21
 python s40_go_no_go.py              # Gates 0-4, final dossier, figure 22
+
+# spatial-first discovery: start from intact tissue, end at chemistry
+python s41_spatial_corpus.py        # intact-tissue evidence for all 238 causal genes
+python s41b_spatial_report.py       # coverage report, figure 23
+python s42_spatial_classification.py# spatial classes + conflict table, figure 24
+python s43_stress_robustness.py     # dissociation/stress models per gene, figure 25
+python s44_growth_direction.py      # productive-growth direction filter, figure 26
+python s45_human_genetics.py        # gnomAD/ClinVar/Open Targets/MGI, figure 27
+python s46_tractability.py          # gated pharmacology, figure 28
+python s47_final_dossier.py         # Gates A-E, final report, figures 29-30
 ```
 
 Network calls are cached and checksummed, so re-runs are cheap and the stages are resumable.
@@ -114,6 +124,13 @@ Network calls are cached and checksummed, so re-runs are cheap and the stages ar
 | `ddit4_stress_artifact_models.csv`, `ddit4_bulk_purity_audit.csv`, `ddit4_purity_filtered_contrasts.csv`, `ddit4_spatial_evidence.csv`, `ddit4_zone_conflict_report.md` | zone-vs-stress nested models, tissue purity (two metrics), spatial-evidence search |
 | `revised_ddit4_validation_arms.csv`, `revised_ddit4_endpoint_matrix.csv`, `ddit4_factorial_epistasis_plan.md`, `ddit4_durability_validation_plan.md` | 22 arms, 46 endpoints, the 3×4 factorial and the durability design |
 | `ddit4_go_no_go_table.csv`, `ddit4_final_target_dossier.md` | Gates 0-4 with evidence for and against, and the decision |
+| `spatial_evidence_corpus.csv`, `spatial_fulltext_manifest.json`, `spatial_evidence_report.md` | figure-level intact-tissue records for the 238 causal genes; 2,142 checksummed full texts |
+| `spatial_first_target_classification.csv`, `spatial_vs_expression_conflicts.csv`, `spatial_first_atlas_report.md` | spatial class per gene and where the computational calls disagree |
+| `spatial_target_stress_robustness.csv`, `spatial_stress_filter_report.md` | per-gene state-vs-stress variance partition on ~96,000 cells |
+| `spatial_targets_growth_direction.csv`, `productive_growth_direction_report.md` | predicted intervention phenotype against the growth equation, with MGI knockout phenotypes |
+| `spatial_targets_human_genetics.csv`, `human_genetic_triangulation_report.md` | gnomAD constraint, ClinVar, Open Targets, and the genetic-evidence ladder |
+| `spatially_validated_target_compounds.csv`, `spatial_target_tractability_report.md` | the pharmacology gate — empty because no target qualified |
+| `top_20_spatial_first_targets.csv`, `spatial_first_go_no_go.csv`, `final_spatial_first_report.md` | Gates A-E per gene and the ten final answers |
 | `download_manifest.json` | source URL + sha256 + size + timestamp for every downloaded file |
 | `qc/` | per-stage QC artifacts the reports are generated from |
 
@@ -181,6 +198,38 @@ Network calls are cached and checksummed, so re-runs are cheap and the stages ar
   found. Bafilomycin A1 increases longitudinal growth of *normal* mouse metatarsals at 8 nM
   (p<0.001) with larger terminal hypertrophic cells, replicated by chloroquine and shown to be
   autophagy-independent — and TSC2/RPS6 are CRISPR-causal while RPTOR is an M7 growth-sustaining hub.
+- **The search order was reversed, and the reversal is the finding.** Stages 1–40 went CRISPR →
+  expression → compounds and only discovered at stage 37 that the localization underneath the
+  leading candidate was unreliable. Stages 41–47 go localization → causality → direction → human
+  genetics → chemistry. **Of the 238 CRISPR_CAUSAL genes, 13 have any published figure showing
+  where the gene itself sits in intact growth-plate tissue. Three reach LEVEL_A. 225 have none.**
+- **Most figures naming a gene are showing its mutant, not its expression.** 2,142 open-access full
+  texts were mined; **1,825 figures** across 111 genes named a causal gene in the caption and were
+  rejected because the gene appeared as a genotype (`Sufu f/f`, `Itgb1 iΔEC`, `Gnas R201H`) in a
+  phenotype figure, or was measured by immunoblot, qPCR or a heatmap. Every rejection is preserved
+  with its matched cue.
+- **Zero genes are zone-selective.** Seven get a spatial top zone; none survives the three-clause
+  test (LEVEL_A/B support, adjacent zones lower, no vascular/marrow/osteoblast confound). Sox9 and
+  Runx2 — the best-evidenced genes in the corpus — are multizonal across five compartments. **No
+  gene with intact-tissue evidence localizes to the proliferative zone at all**, so the
+  daily-column-output term of the growth equation has no spatially validated target.
+- **Where a comparison was possible, the computational calls lost every time.** All 7 comparable
+  genes were contradicted; in 4 cases *both* the bulk array and the single-cell call were wrong,
+  and zero genes had both agree with intact tissue. The bigger number is that 231 of 238 have no
+  spatial call at all — their zone labels are unchecked rather than confirmed.
+- **Dissociation is measurable per gene, and for some genes it is everything.** `Junb` correlates
+  with dissociation stress at **r = +0.66** — computed after dropping the panel it belongs to.
+  `Ezh2` gets ΔR² = 0.174 from stress and 0.003 from cell state. Six of 13 genes should have their
+  single-cell expression ignored for localization entirely.
+- **The genes with the best human genetics are the ones human genetics forbids.** Five reach the
+  top genetic rank, and every retrieved skeletal association is a dysplasia or structural
+  abnormality — campomelic dysplasia, cleidocranial dysplasia, Axenfeld-Rieger. Strong genetics
+  here says perturbation makes bones malformed, not longer.
+- **No candidate survives, and no compound search was run.** Gate A passes 1 gene, gate C passes 0.
+  `top_10_spatially_validated_compounds.csv` is empty because no target qualified — not because a
+  search returned nothing. Three orderings have now been tried: connectivity-first gave
+  sotrastaurin (dismantled at stage 19), phenotype-first gave bafilomycin A1 (a trade-off, stage
+  29), spatial-first gives nothing and fails earliest of the three.
 - **Nothing is integrated early.** Every within-dataset effect is computed first; datasets meet
   only in stage 10, and each line of evidence stays its own column rather than being folded
   into one embedding.
