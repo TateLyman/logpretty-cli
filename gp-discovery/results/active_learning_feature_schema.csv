@@ -1,0 +1,16 @@
+feature,block,definition,available_before_pilot
+morgan_fp_2048,structure,"RDKit Morgan radius 2, 2048 bits, folded",True
+n_annotated_targets,target,promiscuity; a proxy for polypharmacology risk,True
+mechanism_family_onehot,mechanism,the 15 stage-49 families,True
+primary_target_hashed,target,"hashed target identity, 64 buckets",True
+clinical_phase_ordinal,development,Launched=0 ... Preclinical=4,True
+log_potency_nM,potency,Guide to Pharmacology affinity where retrievable,True
+cartilage_literature_count,prior,"Europe PMC records, gene x cartilage",True
+observed_length_effect_mm,outcome,PILOT only - the label,False
+observed_edu_delta,outcome,PILOT only - the label,False
+observed_tunel_delta,outcome,PILOT only - the label,False
+observed_terminal_cell_volume_delta,outcome,PILOT only - the label,False
+observed_matrix_delta,outcome,PILOT only - the label,False
+observed_washout_plateau_delta,outcome,PILOT only - the label,False
+observed_toxicity_flag,outcome,PILOT only - the label,False
+assay_confidence,quality,mean stage-51 measurement confidence for that compound,True

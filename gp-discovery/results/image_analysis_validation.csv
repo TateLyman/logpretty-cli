@@ -1,0 +1,20 @@
+metric,value,kind,units,note
+n phantoms,240.0,GROUND TRUTH,,measured against exactly known phantom geometry
+measurable at confidence >= 0.5,240.0,GROUND TRUTH,images,measured against exactly known phantom geometry
+median absolute error vs ground truth,1.638,GROUND TRUTH,px,measured against exactly known phantom geometry
+median absolute percentage error vs ground truth,0.881,GROUND TRUTH,%,measured against exactly known phantom geometry
+95th percentile absolute error vs ground truth,4.314,GROUND TRUTH,px,measured against exactly known phantom geometry
+bias vs ground truth,-1.197,GROUND TRUTH,px,measured against exactly known phantom geometry
+"Pearson r, automated vs ground truth",0.99801,GROUND TRUTH,,measured against exactly known phantom geometry
+"inter-rater ICC(2,1)",0.9908,SIMULATED,,error model stated in code; MUST be replaced by blinded manual measurement of real explant images before the screen runs
+"intra-rater ICC(2,1)",0.9936,SIMULATED,,error model stated in code; MUST be replaced by blinded manual measurement of real explant images before the screen runs
+automated minus manual bias,-1.334,SIMULATED,px,error model stated in code; MUST be replaced by blinded manual measurement of real explant images before the screen runs
+95% limits of agreement (+/-),4.754,SIMULATED,px,error model stated in code; MUST be replaced by blinded manual measurement of real explant images before the screen runs
+standard error of measurement,1.715,SIMULATED,px,error model stated in code; MUST be replaced by blinded manual measurement of real explant images before the screen runs
+smallest detectable change (SDC),4.754,SIMULATED,px,error model stated in code; MUST be replaced by blinded manual measurement of real explant images before the screen runs
+smallest detectable change (SDC),0.03961,SIMULATED,mm,error model stated in code; MUST be replaced by blinded manual measurement of real explant images before the screen runs
+longitudinal gain: bias vs true gain,-0.005,GROUND TRUTH,px,measured against exactly known phantom geometry
+longitudinal gain: SD of error,3.227,GROUND TRUTH,px,measured against exactly known phantom geometry
+SDC on measured gain (single bone),6.326,GROUND TRUTH,px,measured against exactly known phantom geometry
+SDC on measured gain (single bone),0.05271,GROUND TRUTH,mm,measured against exactly known phantom geometry
+"Pearson r, measured gain vs true gain",0.94127,GROUND TRUTH,,measured against exactly known phantom geometry

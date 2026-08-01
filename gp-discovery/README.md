@@ -87,6 +87,20 @@ python s44_growth_direction.py      # productive-growth direction filter, figure
 python s45_human_genetics.py        # gnomAD/ClinVar/Open Targets/MGI, figure 27
 python s46_tractability.py          # gated pharmacology, figure 28
 python s47_final_dossier.py         # Gates A-E, final report, figures 29-30
+
+# direct phenotypic discovery: stop predicting, start measuring
+python s48_fetch_figures.py         # retrieve the actual figure images
+python s48b_manual_audit.py         # manual image audit, figure 31
+python s49_library.py               # screening library from the Repurposing Hub
+python s49b_library_report.py       # library design report, figure 32
+python s50_screen_design.py         # plate map, protocol, statistics, figure 33
+python s51_length_analysis.py       # image pipeline + phantom validation
+python s51b_image_qc_report.py      # QC report, figure 34
+python s52_hit_calling.py           # tiered gates, validated on planted phenotypes, figure 35
+python s53_secondary_panel.py       # secondary endpoint matrix, figure 36
+python s54_active_learning.py       # expansion selection, figure 37
+python s55_deconvolution.py         # post-hit framework, figure 38
+python s56_readiness.py             # readiness dossier, order sheet, figure 39
 ```
 
 Network calls are cached and checksummed, so re-runs are cheap and the stages are resumable.
@@ -101,7 +115,7 @@ Network calls are cached and checksummed, so re-runs are cheap and the stages ar
 | `excluded_targets_with_reasons.csv` | every excluded gene and why |
 | `dataset_qc_report.md` | provenance, checksums, per-dataset QC, deviations, limitations |
 | `evidence_report.md` | direction logic, gene sets, per-target evidence and validation experiment |
-| `figures/` | 22 figures: CRISPR-vs-fast-growth, zone heatmap, human/mouse concordance, target–compound network, risk-vs-potential, mechanism decision trees, DDIT4 localization/stress/factorial/go-no-go |
+| `figures/` | 39 figures: CRISPR-vs-fast-growth, zone heatmap, human/mouse concordance, target–compound network, risk-vs-potential, mechanism decision trees, DDIT4 localization/stress/factorial/go-no-go, spatial-first funnel, manual image reclassification, screen design/validation/gates/readiness |
 | `gene_sets/` | CRISPR_CAUSAL, FAST_GROWTH, HUMAN_CONSERVED, TRACTABLE, COMPOUND_MAPPED, BLACKLIST |
 | `top_20_compounds.csv` | perturbational matches with mechanism, direction, exposure, safety |
 | `compound_report.md` | per-compound mechanism/direction/exposure/safety and the validating experiment |
@@ -131,6 +145,15 @@ Network calls are cached and checksummed, so re-runs are cheap and the stages ar
 | `spatial_targets_human_genetics.csv`, `human_genetic_triangulation_report.md` | gnomAD constraint, ClinVar, Open Targets, and the genetic-evidence ladder |
 | `spatially_validated_target_compounds.csv`, `spatial_target_tractability_report.md` | the pharmacology gate — empty because no target qualified |
 | `top_20_spatial_first_targets.csv`, `spatial_first_go_no_go.csv`, `final_spatial_first_report.md` | Gates A-E per gene and the ten final answers |
+| `manual_spatial_image_audit.csv`, `paywalled_spatial_priority_list.csv`, `manual_spatial_audit_report.md` | what the figures actually show, panel by panel, and the 429 closed-access records to get next |
+| `pilot_96_compound_library.csv`, `expansion_384_compound_library.csv`, `full_screen_compound_catalog.csv`, `excluded_screen_compounds.csv`, `library_design_report.md` | 1,134-compound orderable library over 15 mechanism families, with every exclusion and its reason |
+| `primary_screen_plate_map.csv`, `compound_range_finding_plan.csv`, `primary_screen_protocol.md`, `primary_screen_statistical_plan.md` | randomised plate map, sourced concentration bases, protocol and mixed model |
+| `image_analysis_validation.csv`, `image_analysis_qc_report.md` | phantom-validated measurement error and the smallest detectable change |
+| `primary_hit_gate_definitions.csv`, `hit_calling_algorithm.md` | six tiers, implemented and validated on planted phenotypes |
+| `secondary_hit_endpoint_matrix.csv`, `secondary_validation_protocol.md`, `secondary_analysis_plan.md` | 35 endpoints across 6 families for Tier-1 hits |
+| `active_learning_feature_schema.csv`, `expansion_selection_plan.md` | multi-objective acquisition for the 384 expansion |
+| `post_hit_target_deconvolution_template.csv`, `post_hit_mechanism_framework.md` | the nine-step evidence chain, empty until a hit exists |
+| `screen_readiness_go_no_go.csv`, `final_phenotypic_screen_plan.md`, `pilot_96_order_sheet.csv`, `pilot_96_control_layout.csv` | nine readiness gates, the twelve answers, and a real order sheet |
 | `download_manifest.json` | source URL + sha256 + size + timestamp for every downloaded file |
 | `qc/` | per-stage QC artifacts the reports are generated from |
 
@@ -230,6 +253,30 @@ Network calls are cached and checksummed, so re-runs are cheap and the stages ar
   search returned nothing. Three orderings have now been tried: connectivity-first gave
   sotrastaurin (dismantled at stage 19), phenotype-first gave bafilomycin A1 (a trade-off, stage
   29), spatial-first gives nothing and fails earliest of the three.
+- **Looking at the pictures killed the last surviving gene.** Stage 41 read captions and said so;
+  stage 48 retrieved the figure images through Europe PMC's `supplementaryFiles` endpoint and
+  inspected all 13 genes panel by panel. **8 of 13 zone calls did not survive**, including Ptch1 —
+  the only gene that had passed the localization gate. Its LEVEL_A record turns out to be eight
+  panels of mutant morphology plus one cropped RNAscope panel with no other zone in frame. Junb's
+  figure puts every positive cell *below* the labelled growth-plate boundary, in metaphyseal
+  marrow. After manual inspection, **zero of 238 causal genes have intact-tissue localization that
+  holds up**.
+- **So the strategy changed from predicting to measuring.** Stages 49–56 design a target-agnostic
+  phenotypic screen in normal postnatal metatarsal organ culture: a 1,134-compound orderable
+  library over 15 mechanism families with 93 distinct targets in the 96-well pilot, a randomised
+  plate map over 112 animals, and six tiered hit gates in which **length alone never makes a hit**.
+- **The gates were built and tested before any data exist.** On a simulated screen with planted
+  phenotypes, the bafilomycin-like trade-off (+0.30 mm, reduced EdU, raised TUNEL) stops at the
+  cellular-cost gate and the accelerate-then-collapse phenotype stops at the washout gate — while
+  a productive phenotype with a length effect within 0.02 mm of the trade-off passes all six.
+- **The image pipeline is real code with a real error number.** Validated against synthetic
+  phantoms with exactly known geometry: median absolute error 1.64 px (0.88%), and a smallest
+  detectable change on 8-day gain of **6.33 px = 0.053 mm**. A first implementation using
+  percentile endpoints looked robust and carried a *length-proportional* bias that would have
+  silently compressed every compound's measured growth; that finding is recorded in the QC report.
+- **Screen readiness: READY_AFTER_ASSAY_VALIDATION, not ready for pilot.** Four of nine gates fail,
+  all for the same reason — every precision number comes from phantoms and no biological variance
+  has ever been measured. One range-finding plate on real explants resolves all four.
 - **Nothing is integrated early.** Every within-dataset effect is computed first; datasets meet
   only in stage 10, and each line of evidence stays its own column rather than being folded
   into one embedding.
