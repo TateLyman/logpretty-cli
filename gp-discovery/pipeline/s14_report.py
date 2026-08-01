@@ -174,9 +174,12 @@ def qc_report() -> str:
           "Only GSE231795 (10 samples) and GSE201605 (6 samples) carry true biological replication.", ""]
 
     L += ["## Limitations", "",
-          "- **GSE76157** deposited a single plate-based expression matrix with no per-sample supplementary",
-          "  files; it was downloaded but is not part of the pseudobulk consensus, which requires",
-          "  sample-level 10x matrices.",
+          "- **GSE76157** deposits one series-level matrix (217 cells) in which every cell carries",
+          "  identical metadata (C57/BL, wild type, P7 tibia), so no animal or replicate identifier",
+          "  exists. It contributes one pooled cell-state profile to the cross-dataset state consensus,",
+          "  but cannot contribute biological replicates and its cells were not promoted to replicates",
+          "  to manufacture them. Scrublet was skipped there because the deposited matrix is already",
+          "  normalised rather than raw counts.",
           "- Affymetrix series were not re-normalised from CEL (no R in this environment).",
           "- `Adamts17` knockout was not confirmed at the transcript level in GSE123076, so that",
           "  perturbation contributes little evidence.",

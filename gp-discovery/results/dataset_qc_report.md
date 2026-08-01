@@ -147,6 +147,7 @@ biological replicates.
 | GSE244881 | 1 | 6,794,880 → 654 | 0 | hypertrophic, prehypertrophic, resting |
 | GSE271634 | 1 | 7,262 → 6,731 | 0 | prehypertrophic, proliferative, resting |
 | GSE288529 | 1 | 12,636 → 10,910 | 0 | hypertrophic, prehypertrophic, proliferative, resting |
+| GSE76157 | 1 | 217 → 217 | 0 | hypertrophic, prehypertrophic, proliferative |
 
 Note that several of these series are single-sample (n = 1 mouse), so they contribute
 state-specific expression profiles but cannot support within-dataset replicate statistics.
@@ -154,9 +155,12 @@ Only GSE231795 (10 samples) and GSE201605 (6 samples) carry true biological repl
 
 ## Limitations
 
-- **GSE76157** deposited a single plate-based expression matrix with no per-sample supplementary
-  files; it was downloaded but is not part of the pseudobulk consensus, which requires
-  sample-level 10x matrices.
+- **GSE76157** deposits one series-level matrix (217 cells) in which every cell carries
+  identical metadata (C57/BL, wild type, P7 tibia), so no animal or replicate identifier
+  exists. It contributes one pooled cell-state profile to the cross-dataset state consensus,
+  but cannot contribute biological replicates and its cells were not promoted to replicates
+  to manufacture them. Scrublet was skipped there because the deposited matrix is already
+  normalised rather than raw counts.
 - Affymetrix series were not re-normalised from CEL (no R in this environment).
 - `Adamts17` knockout was not confirmed at the transcript level in GSE123076, so that
   perturbation contributes little evidence.

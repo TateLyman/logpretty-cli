@@ -36,7 +36,7 @@ hypertrophic +2.37, cell-cycle −0.38 (p = 0.002) — so:
 | HUMAN_CONSERVED | 1228 | same top zone in human and mouse *and* genome-wide height association |
 | TRACTABLE | 152 | actionable protein class or a tractable modality bucket |
 | COMPOUND_MAPPED | 75 | at least one curated ChEMBL/DGIdb interaction |
-| BLACKLIST | 122 | essential, oncogenic, pleiotropic, plate-disorganising, or unsuitable chronic pharmacology |
+| BLACKLIST | 120 | essential, oncogenic, pleiotropic, plate-disorganising, or unsuitable chronic pharmacology |
 
 ## Top novel targets
 
@@ -46,7 +46,7 @@ hypertrophic +2.37, cell-cycle −0.38 (p = 0.002) — so:
 - **Screen evidence** day-15 LFC -0.397, guide consistency 0.75, day-4 concordant: True, cross-library agreement: True
 - **Screen effect** gene_drives_maturation
 - **Fast growth** young-tibia log2FC -0.07, tibia vs phalanx +0.24, rat-concordant: True, zone bias: shared
-- **Zonal** mouse top zone `proliferative`, human top zone `proliferative`, concordant: True; single-cell consensus state `prehypertrophic` (3.0 of 6.0 datasets)
+- **Zonal** mouse top zone `proliferative`, human top zone `proliferative`, concordant: True; single-cell consensus state `prehypertrophic` (3.0 of 7.0 datasets)
 - **Human height genetics** 6 independent loci, best p = 1e-159
 - **Literature** 0 growth-plate papers of 106 total
 - **Desired intervention direction** inhibit (delay hypertrophic transition, prolong growth window)
@@ -62,7 +62,7 @@ hypertrophic +2.37, cell-cycle −0.38 (p = 0.002) — so:
 - **Screen evidence** day-15 LFC -0.195, guide consistency 1.0, day-4 concordant: False, cross-library agreement: False
 - **Screen effect** gene_drives_maturation
 - **Fast growth** young-tibia log2FC -0.42, tibia vs phalanx +0.52, rat-concordant: False, zone bias: hypertrophic
-- **Zonal** mouse top zone `proliferative`, human top zone `proliferative`, concordant: True; single-cell consensus state `hypertrophic` (4.0 of 6.0 datasets)
+- **Zonal** mouse top zone `proliferative`, human top zone `proliferative`, concordant: True; single-cell consensus state `hypertrophic` (4.0 of 7.0 datasets)
 - **Human height genetics** no genome-wide-significant association
 - **Literature** 11 growth-plate papers of 1044 total
 - **Desired intervention direction** inhibit (delay hypertrophic transition, prolong growth window)
@@ -74,11 +74,11 @@ hypertrophic +2.37, cell-cycle −0.38 (p = 0.002) — so:
 
 ### 3. Nedd4 (NEDD4)
 
-- **Score** 4.38 (potential 4.38, risk 0.00); CRISPR tier `A_secondary_validated`
+- **Score** 4.45 (potential 4.45, risk 0.00); CRISPR tier `A_secondary_validated`
 - **Screen evidence** day-15 LFC -0.026, guide consistency 0.75, day-4 concordant: False, cross-library agreement: False
 - **Screen effect** gene_drives_maturation
 - **Fast growth** young-tibia log2FC -0.40, tibia vs phalanx +0.22, rat-concordant: True, zone bias: proliferative
-- **Zonal** mouse top zone `proliferative`, human top zone `proliferative`, concordant: True; single-cell consensus state `prehypertrophic` (4.0 of 6.0 datasets)
+- **Zonal** mouse top zone `proliferative`, human top zone `proliferative`, concordant: True; single-cell consensus state `prehypertrophic` (5.0 of 7.0 datasets)
 - **Human height genetics** 8 independent loci, best p = 1e-54
 - **Literature** 10 growth-plate papers of 1710 total
 - **Desired intervention direction** inhibit (delay hypertrophic transition, prolong growth window)
@@ -90,11 +90,11 @@ hypertrophic +2.37, cell-cycle −0.38 (p = 0.002) — so:
 
 ### 4. Bmpr2 (BMPR2)
 
-- **Score** 4.31 (potential 5.11, risk 0.80); CRISPR tier `A_secondary_validated`
+- **Score** 4.37 (potential 5.17, risk 0.80); CRISPR tier `A_secondary_validated`
 - **Screen evidence** day-15 LFC +0.328, guide consistency 0.75, day-4 concordant: True, cross-library agreement: True
 - **Screen effect** gene_restrains_maturation
 - **Fast growth** young-tibia log2FC -0.24, tibia vs phalanx -0.11, rat-concordant: True, zone bias: hypertrophic
-- **Zonal** mouse top zone `hypertrophic`, human top zone `proliferative`, concordant: False; single-cell consensus state `hypertrophic` (3.0 of 6.0 datasets)
+- **Zonal** mouse top zone `hypertrophic`, human top zone `proliferative`, concordant: False; single-cell consensus state `hypertrophic` (4.0 of 7.0 datasets)
 - **Human height genetics** 5 independent loci, best p = 1e-118
 - **Literature** 11 growth-plate papers of 1291 total
 - **Desired intervention direction** activate/agonise (preserve resting pool; inhibition risks plate exhaustion)
@@ -110,7 +110,7 @@ hypertrophic +2.37, cell-cycle −0.38 (p = 0.002) — so:
 - **Screen evidence** day-15 LFC -1.176, guide consistency 0.75, day-4 concordant: True, cross-library agreement: True
 - **Screen effect** gene_drives_maturation
 - **Fast growth** young-tibia log2FC -0.34, tibia vs phalanx -0.02, rat-concordant: False, zone bias: shared
-- **Zonal** mouse top zone `resting`, human top zone `proliferative`, concordant: False; single-cell consensus state `resting` (4.0 of 6.0 datasets)
+- **Zonal** mouse top zone `resting`, human top zone `proliferative`, concordant: False; single-cell consensus state `resting` (4.0 of 7.0 datasets)
 - **Human height genetics** 1 independent loci, best p = 1e-12
 - **Literature** 0 growth-plate papers of 424 total
 - **Desired intervention direction** inhibit (delay hypertrophic transition, prolong growth window)
@@ -126,7 +126,7 @@ hypertrophic +2.37, cell-cycle −0.38 (p = 0.002) — so:
 - **Screen evidence** day-15 LFC -1.344, guide consistency 1.0, day-4 concordant: True, cross-library agreement: True
 - **Screen effect** gene_drives_maturation
 - **Fast growth** young-tibia log2FC -0.72, tibia vs phalanx +0.37, rat-concordant: True, zone bias: shared
-- **Zonal** mouse top zone `hypertrophic`, human top zone `prehypertrophic`, concordant: False; single-cell consensus state `hypertrophic` (4.0 of 6.0 datasets)
+- **Zonal** mouse top zone `hypertrophic`, human top zone `prehypertrophic`, concordant: False; single-cell consensus state `hypertrophic` (4.0 of 7.0 datasets)
 - **Human height genetics** no genome-wide-significant association
 - **Literature** 0 growth-plate papers of 311 total
 - **Desired intervention direction** inhibit (delay hypertrophic transition, prolong growth window)
@@ -142,7 +142,7 @@ hypertrophic +2.37, cell-cycle −0.38 (p = 0.002) — so:
 - **Screen evidence** day-15 LFC -0.261, guide consistency 0.75, day-4 concordant: False, cross-library agreement: False
 - **Screen effect** gene_drives_maturation
 - **Fast growth** young-tibia log2FC -0.01, tibia vs phalanx -0.14, rat-concordant: True, zone bias: shared
-- **Zonal** mouse top zone `hypertrophic`, human top zone `prehypertrophic`, concordant: False; single-cell consensus state `resting` (4.0 of 6.0 datasets)
+- **Zonal** mouse top zone `hypertrophic`, human top zone `prehypertrophic`, concordant: False; single-cell consensus state `resting` (4.0 of 7.0 datasets)
 - **Human height genetics** 1 independent loci, best p = 1e-13
 - **Literature** 0 growth-plate papers of 43 total
 - **Desired intervention direction** inhibit (delay hypertrophic transition, prolong growth window)
@@ -152,7 +152,23 @@ hypertrophic +2.37, cell-cycle −0.38 (p = 0.002) — so:
 - **Weakest link** The day-4 timepoint does not independently support the day-15 effect.
 - **Single validating experiment** Chondrocyte-specific conditional knockout of Mast3 in mouse (e.g. Col2a1-CreERT2), induced postnatally, with **tibial and femoral length measured by radiograph or µCT at 4 and 12 weeks** as the primary endpoint, plus growth-plate height and zone-specific BrdU/EdU labelling to show whether any length change comes from preserved proliferative output rather than accelerated maturation. Length — not a maturation marker — is the readout that decides this hypothesis.
 
-### 8. Alad (ALAD)
+### 8. Lgr4 (LGR4)
+
+- **Score** 3.88 (potential 4.68, risk 0.80); CRISPR tier `A_secondary_validated`
+- **Screen evidence** day-15 LFC +0.155, guide consistency 1.0, day-4 concordant: True, cross-library agreement: True
+- **Screen effect** gene_restrains_maturation
+- **Fast growth** young-tibia log2FC +0.40, tibia vs phalanx -0.51, rat-concordant: True, zone bias: proliferative
+- **Zonal** mouse top zone `hypertrophic`, human top zone `proliferative`, concordant: False; single-cell consensus state `prehypertrophic` (3.0 of 7.0 datasets)
+- **Human height genetics** 1 independent loci, best p = 1e-14
+- **Literature** 4 growth-plate papers of 412 total
+- **Desired intervention direction** activate/agonise (preserve resting pool; inhibition risks plate exhaustion)
+- **Strongest current compound** R-SPONDIN-2 (DGIdb; direction `activator`, max phase nan)
+- **Directly hits the target?** not recorded; DGIdb curation does not assert directness
+- **Direction matches the desired direction?** True
+- **Weakest link** The human zonal pattern does not place it in the same zone as the mouse data.
+- **Single validating experiment** Chondrocyte-specific conditional gain-of-function of Lgr4 in mouse (e.g. Col2a1-CreERT2), induced postnatally, with **tibial and femoral length measured by radiograph or µCT at 4 and 12 weeks** as the primary endpoint, plus growth-plate height and zone-specific BrdU/EdU labelling to show whether any length change comes from preserved proliferative output rather than accelerated maturation. Length — not a maturation marker — is the readout that decides this hypothesis.
+
+### 9. Alad (ALAD)
 
 - **Score** 3.88 (potential 3.88, risk 0.00); CRISPR tier `A_secondary_validated`
 - **Screen evidence** day-15 LFC -0.094, guide consistency 0.5, day-4 concordant: False, cross-library agreement: False
@@ -168,29 +184,13 @@ hypertrophic +2.37, cell-cycle −0.38 (p = 0.002) — so:
 - **Weakest link** The day-4 timepoint does not independently support the day-15 effect.
 - **Single validating experiment** Chondrocyte-specific conditional knockout of Alad in mouse (e.g. Col2a1-CreERT2), induced postnatally, with **tibial and femoral length measured by radiograph or µCT at 4 and 12 weeks** as the primary endpoint, plus growth-plate height and zone-specific BrdU/EdU labelling to show whether any length change comes from preserved proliferative output rather than accelerated maturation. Length — not a maturation marker — is the readout that decides this hypothesis.
 
-### 9. Lgr4 (LGR4)
-
-- **Score** 3.81 (potential 4.61, risk 0.80); CRISPR tier `A_secondary_validated`
-- **Screen evidence** day-15 LFC +0.155, guide consistency 1.0, day-4 concordant: True, cross-library agreement: True
-- **Screen effect** gene_restrains_maturation
-- **Fast growth** young-tibia log2FC +0.40, tibia vs phalanx -0.51, rat-concordant: True, zone bias: proliferative
-- **Zonal** mouse top zone `hypertrophic`, human top zone `proliferative`, concordant: False; single-cell consensus state `prehypertrophic` (2.0 of 6.0 datasets)
-- **Human height genetics** 1 independent loci, best p = 1e-14
-- **Literature** 4 growth-plate papers of 412 total
-- **Desired intervention direction** activate/agonise (preserve resting pool; inhibition risks plate exhaustion)
-- **Strongest current compound** R-SPONDIN-2 (DGIdb; direction `activator`, max phase nan)
-- **Directly hits the target?** not recorded; DGIdb curation does not assert directness
-- **Direction matches the desired direction?** True
-- **Weakest link** The human zonal pattern does not place it in the same zone as the mouse data.
-- **Single validating experiment** Chondrocyte-specific conditional gain-of-function of Lgr4 in mouse (e.g. Col2a1-CreERT2), induced postnatally, with **tibial and femoral length measured by radiograph or µCT at 4 and 12 weeks** as the primary endpoint, plus growth-plate height and zone-specific BrdU/EdU labelling to show whether any length change comes from preserved proliferative output rather than accelerated maturation. Length — not a maturation marker — is the readout that decides this hypothesis.
-
 ### 10. Smurf2 (SMURF2)
 
 - **Score** 3.60 (potential 4.40, risk 0.80); CRISPR tier `A_secondary_validated`
 - **Screen evidence** day-15 LFC +0.457, guide consistency 1.0, day-4 concordant: True, cross-library agreement: True
 - **Screen effect** gene_restrains_maturation
 - **Fast growth** young-tibia log2FC -0.35, tibia vs phalanx -0.07, rat-concordant: True, zone bias: shared
-- **Zonal** mouse top zone `hypertrophic`, human top zone `perichondrium`, concordant: False; single-cell consensus state `prehypertrophic` (3.0 of 6.0 datasets)
+- **Zonal** mouse top zone `hypertrophic`, human top zone `perichondrium`, concordant: False; single-cell consensus state `prehypertrophic` (3.0 of 7.0 datasets)
 - **Human height genetics** 6 independent loci, best p = 1e-121
 - **Literature** 16 growth-plate papers of 474 total
 - **Desired intervention direction** activate/agonise (preserve resting pool; inhibition risks plate exhaustion)
@@ -206,7 +206,7 @@ hypertrophic +2.37, cell-cycle −0.38 (p = 0.002) — so:
 - **Screen evidence** day-15 LFC +0.367, guide consistency 0.75, day-4 concordant: True, cross-library agreement: True
 - **Screen effect** gene_restrains_maturation
 - **Fast growth** young-tibia log2FC -0.16, tibia vs phalanx +0.20, rat-concordant: True, zone bias: proliferative
-- **Zonal** mouse top zone `hypertrophic`, human top zone `proliferative`, concordant: False; single-cell consensus state `proliferative` (5.0 of 6.0 datasets)
+- **Zonal** mouse top zone `hypertrophic`, human top zone `proliferative`, concordant: False; single-cell consensus state `proliferative` (5.0 of 7.0 datasets)
 - **Human height genetics** 3 independent loci, best p = 1e-110
 - **Literature** 0 growth-plate papers of 329 total
 - **Desired intervention direction** activate/agonise (preserve resting pool; inhibition risks plate exhaustion)
@@ -232,7 +232,39 @@ hypertrophic +2.37, cell-cycle −0.38 (p = 0.002) — so:
 - **Weakest link** No genome-wide-significant human height association at this locus.
 - **Single validating experiment** Chondrocyte-specific conditional gain-of-function of Ctbp1 in mouse (e.g. Col2a1-CreERT2), induced postnatally, with **tibial and femoral length measured by radiograph or µCT at 4 and 12 weeks** as the primary endpoint, plus growth-plate height and zone-specific BrdU/EdU labelling to show whether any length change comes from preserved proliferative output rather than accelerated maturation. Length — not a maturation marker — is the readout that decides this hypothesis.
 
-### 13. Rbpj (RBPJ)
+### 13. Unc5b (UNC5B)
+
+- **Score** 3.46 (potential 4.26, risk 0.80); CRISPR tier `A_secondary_validated`
+- **Screen evidence** day-15 LFC +0.239, guide consistency 0.75, day-4 concordant: True, cross-library agreement: True
+- **Screen effect** gene_restrains_maturation
+- **Fast growth** young-tibia log2FC -0.45, tibia vs phalanx +0.65, rat-concordant: False, zone bias: hypertrophic
+- **Zonal** mouse top zone `hypertrophic`, human top zone `hypertrophic`, concordant: True; single-cell consensus state `hypertrophic` (5.0 of 7.0 datasets)
+- **Human height genetics** 2 independent loci, best p = 1e-16
+- **Literature** 2 growth-plate papers of 296 total
+- **Desired intervention direction** activate/agonise (preserve resting pool; inhibition risks plate exhaustion)
+- **Strongest current compound** none in ChEMBL or DGIdb — this is a tool-compound gap, not a validated undruggable call.
+- **Directly hits the target?** n/a
+- **Direction matches?** n/a
+- **Weakest link** The tractable pharmacological direction (inhibition) would accelerate maturation, which risks exhausting the plate rather than lengthening it.
+- **Single validating experiment** Chondrocyte-specific conditional gain-of-function of Unc5b in mouse (e.g. Col2a1-CreERT2), induced postnatally, with **tibial and femoral length measured by radiograph or µCT at 4 and 12 weeks** as the primary endpoint, plus growth-plate height and zone-specific BrdU/EdU labelling to show whether any length change comes from preserved proliferative output rather than accelerated maturation. Length — not a maturation marker — is the readout that decides this hypothesis.
+
+### 14. Kdelr2 (KDELR2)
+
+- **Score** 3.45 (potential 3.45, risk 0.00); CRISPR tier `A_secondary_validated`
+- **Screen evidence** day-15 LFC -0.183, guide consistency 1.0, day-4 concordant: False, cross-library agreement: False
+- **Screen effect** gene_drives_maturation
+- **Fast growth** young-tibia log2FC -0.29, tibia vs phalanx +0.00, rat-concordant: True, zone bias: proliferative
+- **Zonal** mouse top zone `hypertrophic`, human top zone `proliferative`, concordant: False; single-cell consensus state `prehypertrophic` (5.0 of 7.0 datasets)
+- **Human height genetics** 4 independent loci, best p = 1e-33
+- **Literature** 1 growth-plate papers of 43 total
+- **Desired intervention direction** inhibit (delay hypertrophic transition, prolong growth window)
+- **Strongest current compound** none in ChEMBL or DGIdb — this is a tool-compound gap, not a validated undruggable call.
+- **Directly hits the target?** n/a
+- **Direction matches?** n/a
+- **Weakest link** The day-4 timepoint does not independently support the day-15 effect.
+- **Single validating experiment** Chondrocyte-specific conditional knockout of Kdelr2 in mouse (e.g. Col2a1-CreERT2), induced postnatally, with **tibial and femoral length measured by radiograph or µCT at 4 and 12 weeks** as the primary endpoint, plus growth-plate height and zone-specific BrdU/EdU labelling to show whether any length change comes from preserved proliferative output rather than accelerated maturation. Length — not a maturation marker — is the readout that decides this hypothesis.
+
+### 15. Rbpj (RBPJ)
 
 - **Score** 3.43 (potential 4.23, risk 0.80); CRISPR tier `A_secondary_validated`
 - **Screen evidence** day-15 LFC +1.554, guide consistency 1.0, day-4 concordant: True, cross-library agreement: True
@@ -248,39 +280,55 @@ hypertrophic +2.37, cell-cycle −0.38 (p = 0.002) — so:
 - **Weakest link** No genome-wide-significant human height association at this locus.
 - **Single validating experiment** Chondrocyte-specific conditional gain-of-function of Rbpj in mouse (e.g. Col2a1-CreERT2), induced postnatally, with **tibial and femoral length measured by radiograph or µCT at 4 and 12 weeks** as the primary endpoint, plus growth-plate height and zone-specific BrdU/EdU labelling to show whether any length change comes from preserved proliferative output rather than accelerated maturation. Length — not a maturation marker — is the readout that decides this hypothesis.
 
-### 14. Unc5b (UNC5B)
+### 16. Bambi (BAMBI)
 
-- **Score** 3.40 (potential 4.20, risk 0.80); CRISPR tier `A_secondary_validated`
-- **Screen evidence** day-15 LFC +0.239, guide consistency 0.75, day-4 concordant: True, cross-library agreement: True
+- **Score** 3.37 (potential 4.17, risk 0.80); CRISPR tier `A_secondary_validated`
+- **Screen evidence** day-15 LFC +0.509, guide consistency 1.0, day-4 concordant: True, cross-library agreement: True
 - **Screen effect** gene_restrains_maturation
-- **Fast growth** young-tibia log2FC -0.45, tibia vs phalanx +0.65, rat-concordant: False, zone bias: hypertrophic
-- **Zonal** mouse top zone `hypertrophic`, human top zone `hypertrophic`, concordant: True; single-cell consensus state `hypertrophic` (4.0 of 6.0 datasets)
-- **Human height genetics** 2 independent loci, best p = 1e-16
-- **Literature** 2 growth-plate papers of 296 total
+- **Fast growth** young-tibia log2FC -0.66, tibia vs phalanx +0.11, rat-concordant: False, zone bias: hypertrophic
+- **Zonal** mouse top zone `hypertrophic`, human top zone `hypertrophic`, concordant: True; single-cell consensus state `hypertrophic` (3.0 of 7.0 datasets)
+- **Human height genetics** 2 independent loci, best p = 1e-15
+- **Literature** 1 growth-plate papers of 395 total
 - **Desired intervention direction** activate/agonise (preserve resting pool; inhibition risks plate exhaustion)
 - **Strongest current compound** none in ChEMBL or DGIdb — this is a tool-compound gap, not a validated undruggable call.
 - **Directly hits the target?** n/a
 - **Direction matches?** n/a
-- **Weakest link** The tractable pharmacological direction (inhibition) would accelerate maturation, which risks exhausting the plate rather than lengthening it.
-- **Single validating experiment** Chondrocyte-specific conditional gain-of-function of Unc5b in mouse (e.g. Col2a1-CreERT2), induced postnatally, with **tibial and femoral length measured by radiograph or µCT at 4 and 12 weeks** as the primary endpoint, plus growth-plate height and zone-specific BrdU/EdU labelling to show whether any length change comes from preserved proliferative output rather than accelerated maturation. Length — not a maturation marker — is the readout that decides this hypothesis.
+- **Weakest link** It is not enriched in the rapidly-growing tibia contrast.
+- **Single validating experiment** Chondrocyte-specific conditional gain-of-function of Bambi in mouse (e.g. Col2a1-CreERT2), induced postnatally, with **tibial and femoral length measured by radiograph or µCT at 4 and 12 weeks** as the primary endpoint, plus growth-plate height and zone-specific BrdU/EdU labelling to show whether any length change comes from preserved proliferative output rather than accelerated maturation. Length — not a maturation marker — is the readout that decides this hypothesis.
 
-### 15. Kdelr2 (KDELR2)
+### 17. Vti1a (VTI1A)
 
-- **Score** 3.38 (potential 3.38, risk 0.00); CRISPR tier `A_secondary_validated`
-- **Screen evidence** day-15 LFC -0.183, guide consistency 1.0, day-4 concordant: False, cross-library agreement: False
+- **Score** 3.32 (potential 3.32, risk 0.00); CRISPR tier `A_secondary_validated`
+- **Screen evidence** day-15 LFC -0.047, guide consistency 0.5, day-4 concordant: False, cross-library agreement: False
 - **Screen effect** gene_drives_maturation
-- **Fast growth** young-tibia log2FC -0.29, tibia vs phalanx +0.00, rat-concordant: True, zone bias: proliferative
-- **Zonal** mouse top zone `hypertrophic`, human top zone `proliferative`, concordant: False; single-cell consensus state `prehypertrophic` (4.0 of 6.0 datasets)
-- **Human height genetics** 4 independent loci, best p = 1e-33
-- **Literature** 1 growth-plate papers of 43 total
+- **Fast growth** young-tibia log2FC +0.15, tibia vs phalanx -0.02, rat-concordant: True, zone bias: hypertrophic
+- **Zonal** mouse top zone `hypertrophic`, human top zone `resting`, concordant: False; single-cell consensus state `hypertrophic` (4.0 of 7.0 datasets)
+- **Human height genetics** 5 independent loci, best p = 1e-49
+- **Literature** 0 growth-plate papers of 92 total
+- **Desired intervention direction** inhibit (delay hypertrophic transition, prolong growth window)
+- **Strongest current compound** VINCRISTINE (DGIdb; direction `other/unknown`, max phase approved)
+- **Directly hits the target?** not recorded; DGIdb curation does not assert directness
+- **Direction matches the desired direction?** False
+- **Weakest link** The day-4 timepoint does not independently support the day-15 effect.
+- **Single validating experiment** Chondrocyte-specific conditional knockout of Vti1a in mouse (e.g. Col2a1-CreERT2), induced postnatally, with **tibial and femoral length measured by radiograph or µCT at 4 and 12 weeks** as the primary endpoint, plus growth-plate height and zone-specific BrdU/EdU labelling to show whether any length change comes from preserved proliferative output rather than accelerated maturation. Length — not a maturation marker — is the readout that decides this hypothesis.
+
+### 18. Mtmr3 (MTMR3)
+
+- **Score** 3.30 (potential 3.30, risk 0.00); CRISPR tier `A_secondary_validated`
+- **Screen evidence** day-15 LFC -0.278, guide consistency 0.75, day-4 concordant: False, cross-library agreement: False
+- **Screen effect** gene_drives_maturation
+- **Fast growth** young-tibia log2FC +0.42, tibia vs phalanx +0.58, rat-concordant: True, zone bias: shared
+- **Zonal** mouse top zone `resting`, human top zone `prehypertrophic`, concordant: False; single-cell consensus state `hypertrophic` (5.0 of 7.0 datasets)
+- **Human height genetics** 4 independent loci, best p = 1e-98
+- **Literature** 0 growth-plate papers of 65 total
 - **Desired intervention direction** inhibit (delay hypertrophic transition, prolong growth window)
 - **Strongest current compound** none in ChEMBL or DGIdb — this is a tool-compound gap, not a validated undruggable call.
 - **Directly hits the target?** n/a
 - **Direction matches?** n/a
 - **Weakest link** The day-4 timepoint does not independently support the day-15 effect.
-- **Single validating experiment** Chondrocyte-specific conditional knockout of Kdelr2 in mouse (e.g. Col2a1-CreERT2), induced postnatally, with **tibial and femoral length measured by radiograph or µCT at 4 and 12 weeks** as the primary endpoint, plus growth-plate height and zone-specific BrdU/EdU labelling to show whether any length change comes from preserved proliferative output rather than accelerated maturation. Length — not a maturation marker — is the readout that decides this hypothesis.
+- **Single validating experiment** Chondrocyte-specific conditional knockout of Mtmr3 in mouse (e.g. Col2a1-CreERT2), induced postnatally, with **tibial and femoral length measured by radiograph or µCT at 4 and 12 weeks** as the primary endpoint, plus growth-plate height and zone-specific BrdU/EdU labelling to show whether any length change comes from preserved proliferative output rather than accelerated maturation. Length — not a maturation marker — is the readout that decides this hypothesis.
 
-### 16. Wbp1l (WBP1L)
+### 19. Wbp1l (WBP1L)
 
 - **Score** 3.28 (potential 3.28, risk 0.00); CRISPR tier `A_secondary_validated`
 - **Screen evidence** day-15 LFC -0.221, guide consistency 0.75, day-4 concordant: False, cross-library agreement: False
@@ -296,13 +344,13 @@ hypertrophic +2.37, cell-cycle −0.38 (p = 0.002) — so:
 - **Weakest link** The day-4 timepoint does not independently support the day-15 effect.
 - **Single validating experiment** Chondrocyte-specific conditional knockout of Wbp1l in mouse (e.g. Col2a1-CreERT2), induced postnatally, with **tibial and femoral length measured by radiograph or µCT at 4 and 12 weeks** as the primary endpoint, plus growth-plate height and zone-specific BrdU/EdU labelling to show whether any length change comes from preserved proliferative output rather than accelerated maturation. Length — not a maturation marker — is the readout that decides this hypothesis.
 
-### 17. Gramd1a (GRAMD1A)
+### 20. Gramd1a (GRAMD1A)
 
 - **Score** 3.28 (potential 3.28, risk 0.00); CRISPR tier `A_secondary_validated`
 - **Screen evidence** day-15 LFC -0.165, guide consistency 1.0, day-4 concordant: False, cross-library agreement: False
 - **Screen effect** gene_drives_maturation
 - **Fast growth** young-tibia log2FC +0.78, tibia vs phalanx +0.06, rat-concordant: True, zone bias: shared
-- **Zonal** mouse top zone `resting`, human top zone `proliferative`, concordant: False; single-cell consensus state `proliferative` (4.0 of 6.0 datasets)
+- **Zonal** mouse top zone `resting`, human top zone `proliferative`, concordant: False; single-cell consensus state `proliferative` (4.0 of 7.0 datasets)
 - **Human height genetics** 1 independent loci, best p = 1e-16
 - **Literature** 0 growth-plate papers of 26 total
 - **Desired intervention direction** inhibit (delay hypertrophic transition, prolong growth window)
@@ -312,23 +360,7 @@ hypertrophic +2.37, cell-cycle −0.38 (p = 0.002) — so:
 - **Weakest link** The day-4 timepoint does not independently support the day-15 effect.
 - **Single validating experiment** Chondrocyte-specific conditional knockout of Gramd1a in mouse (e.g. Col2a1-CreERT2), induced postnatally, with **tibial and femoral length measured by radiograph or µCT at 4 and 12 weeks** as the primary endpoint, plus growth-plate height and zone-specific BrdU/EdU labelling to show whether any length change comes from preserved proliferative output rather than accelerated maturation. Length — not a maturation marker — is the readout that decides this hypothesis.
 
-### 18. Vti1a (VTI1A)
-
-- **Score** 3.26 (potential 3.26, risk 0.00); CRISPR tier `A_secondary_validated`
-- **Screen evidence** day-15 LFC -0.047, guide consistency 0.5, day-4 concordant: False, cross-library agreement: False
-- **Screen effect** gene_drives_maturation
-- **Fast growth** young-tibia log2FC +0.15, tibia vs phalanx -0.02, rat-concordant: True, zone bias: hypertrophic
-- **Zonal** mouse top zone `hypertrophic`, human top zone `resting`, concordant: False; single-cell consensus state `hypertrophic` (3.0 of 6.0 datasets)
-- **Human height genetics** 5 independent loci, best p = 1e-49
-- **Literature** 0 growth-plate papers of 92 total
-- **Desired intervention direction** inhibit (delay hypertrophic transition, prolong growth window)
-- **Strongest current compound** VINCRISTINE (DGIdb; direction `other/unknown`, max phase approved)
-- **Directly hits the target?** not recorded; DGIdb curation does not assert directness
-- **Direction matches the desired direction?** False
-- **Weakest link** The day-4 timepoint does not independently support the day-15 effect.
-- **Single validating experiment** Chondrocyte-specific conditional knockout of Vti1a in mouse (e.g. Col2a1-CreERT2), induced postnatally, with **tibial and femoral length measured by radiograph or µCT at 4 and 12 weeks** as the primary endpoint, plus growth-plate height and zone-specific BrdU/EdU labelling to show whether any length change comes from preserved proliferative output rather than accelerated maturation. Length — not a maturation marker — is the readout that decides this hypothesis.
-
-### 19. Afdn (AFDN)
+### 21. Afdn (AFDN)
 
 - **Score** 3.25 (potential 4.05, risk 0.80); CRISPR tier `A_secondary_validated`
 - **Screen evidence** day-15 LFC +0.189, guide consistency 1.0, day-4 concordant: True, cross-library agreement: True
@@ -344,29 +376,13 @@ hypertrophic +2.37, cell-cycle −0.38 (p = 0.002) — so:
 - **Weakest link** The human zonal pattern does not place it in the same zone as the mouse data.
 - **Single validating experiment** Chondrocyte-specific conditional gain-of-function of Afdn in mouse (e.g. Col2a1-CreERT2), induced postnatally, with **tibial and femoral length measured by radiograph or µCT at 4 and 12 weeks** as the primary endpoint, plus growth-plate height and zone-specific BrdU/EdU labelling to show whether any length change comes from preserved proliferative output rather than accelerated maturation. Length — not a maturation marker — is the readout that decides this hypothesis.
 
-### 20. Mtmr3 (MTMR3)
-
-- **Score** 3.24 (potential 3.24, risk 0.00); CRISPR tier `A_secondary_validated`
-- **Screen evidence** day-15 LFC -0.278, guide consistency 0.75, day-4 concordant: False, cross-library agreement: False
-- **Screen effect** gene_drives_maturation
-- **Fast growth** young-tibia log2FC +0.42, tibia vs phalanx +0.58, rat-concordant: True, zone bias: shared
-- **Zonal** mouse top zone `resting`, human top zone `prehypertrophic`, concordant: False; single-cell consensus state `hypertrophic` (4.0 of 6.0 datasets)
-- **Human height genetics** 4 independent loci, best p = 1e-98
-- **Literature** 0 growth-plate papers of 65 total
-- **Desired intervention direction** inhibit (delay hypertrophic transition, prolong growth window)
-- **Strongest current compound** none in ChEMBL or DGIdb — this is a tool-compound gap, not a validated undruggable call.
-- **Directly hits the target?** n/a
-- **Direction matches?** n/a
-- **Weakest link** The day-4 timepoint does not independently support the day-15 effect.
-- **Single validating experiment** Chondrocyte-specific conditional knockout of Mtmr3 in mouse (e.g. Col2a1-CreERT2), induced postnatally, with **tibial and femoral length measured by radiograph or µCT at 4 and 12 weeks** as the primary endpoint, plus growth-plate height and zone-specific BrdU/EdU labelling to show whether any length change comes from preserved proliferative output rather than accelerated maturation. Length — not a maturation marker — is the readout that decides this hypothesis.
-
-### 21. Vps37c (VPS37C)
+### 22. Vps37c (VPS37C)
 
 - **Score** 3.10 (potential 3.10, risk 0.00); CRISPR tier `A_secondary_validated`
 - **Screen evidence** day-15 LFC -0.217, guide consistency 0.75, day-4 concordant: False, cross-library agreement: False
 - **Screen effect** gene_drives_maturation
 - **Fast growth** young-tibia log2FC +0.40, tibia vs phalanx +0.12, rat-concordant: True, zone bias: shared
-- **Zonal** mouse top zone `resting`, human top zone `perichondrium`, concordant: False; single-cell consensus state `resting` (3.0 of 6.0 datasets)
+- **Zonal** mouse top zone `resting`, human top zone `perichondrium`, concordant: False; single-cell consensus state `resting` (3.0 of 7.0 datasets)
 - **Human height genetics** 2 independent loci, best p = 1e-24
 - **Literature** 0 growth-plate papers of 21 total
 - **Desired intervention direction** inhibit (delay hypertrophic transition, prolong growth window)
@@ -376,13 +392,13 @@ hypertrophic +2.37, cell-cycle −0.38 (p = 0.002) — so:
 - **Weakest link** The day-4 timepoint does not independently support the day-15 effect.
 - **Single validating experiment** Chondrocyte-specific conditional knockout of Vps37c in mouse (e.g. Col2a1-CreERT2), induced postnatally, with **tibial and femoral length measured by radiograph or µCT at 4 and 12 weeks** as the primary endpoint, plus growth-plate height and zone-specific BrdU/EdU labelling to show whether any length change comes from preserved proliferative output rather than accelerated maturation. Length — not a maturation marker — is the readout that decides this hypothesis.
 
-### 22. Wdpcp (WDPCP)
+### 23. Wdpcp (WDPCP)
 
 - **Score** 3.06 (potential 3.86, risk 0.80); CRISPR tier `A_secondary_validated`
 - **Screen evidence** day-15 LFC +0.534, guide consistency 1.0, day-4 concordant: True, cross-library agreement: True
 - **Screen effect** gene_restrains_maturation
 - **Fast growth** young-tibia log2FC -0.26, tibia vs phalanx -0.38, rat-concordant: False, zone bias: shared
-- **Zonal** mouse top zone `resting`, human top zone `perichondrium`, concordant: False; single-cell consensus state `proliferative` (5.0 of 6.0 datasets)
+- **Zonal** mouse top zone `resting`, human top zone `perichondrium`, concordant: False; single-cell consensus state `proliferative` (5.0 of 7.0 datasets)
 - **Human height genetics** 1 independent loci, best p = 1e-13
 - **Literature** 1 growth-plate papers of 38 total
 - **Desired intervention direction** activate/agonise (preserve resting pool; inhibition risks plate exhaustion)
@@ -392,7 +408,7 @@ hypertrophic +2.37, cell-cycle −0.38 (p = 0.002) — so:
 - **Weakest link** The human zonal pattern does not place it in the same zone as the mouse data.
 - **Single validating experiment** Chondrocyte-specific conditional gain-of-function of Wdpcp in mouse (e.g. Col2a1-CreERT2), induced postnatally, with **tibial and femoral length measured by radiograph or µCT at 4 and 12 weeks** as the primary endpoint, plus growth-plate height and zone-specific BrdU/EdU labelling to show whether any length change comes from preserved proliferative output rather than accelerated maturation. Length — not a maturation marker — is the readout that decides this hypothesis.
 
-### 23. Tjap1 (TJAP1)
+### 24. Tjap1 (TJAP1)
 
 - **Score** 3.03 (potential 3.03, risk 0.00); CRISPR tier `A_secondary_validated`
 - **Screen evidence** day-15 LFC -0.058, guide consistency 0.75, day-4 concordant: False, cross-library agreement: False
@@ -408,13 +424,13 @@ hypertrophic +2.37, cell-cycle −0.38 (p = 0.002) — so:
 - **Weakest link** The day-4 timepoint does not independently support the day-15 effect.
 - **Single validating experiment** Chondrocyte-specific conditional knockout of Tjap1 in mouse (e.g. Col2a1-CreERT2), induced postnatally, with **tibial and femoral length measured by radiograph or µCT at 4 and 12 weeks** as the primary endpoint, plus growth-plate height and zone-specific BrdU/EdU labelling to show whether any length change comes from preserved proliferative output rather than accelerated maturation. Length — not a maturation marker — is the readout that decides this hypothesis.
 
-### 24. Atp2b1 (ATP2B1)
+### 25. Atp2b1 (ATP2B1)
 
 - **Score** 2.98 (potential 2.98, risk 0.00); CRISPR tier `A_secondary_validated`
 - **Screen evidence** day-15 LFC -0.355, guide consistency 0.75, day-4 concordant: False, cross-library agreement: False
 - **Screen effect** gene_drives_maturation
 - **Fast growth** young-tibia log2FC -0.07, tibia vs phalanx +0.31, rat-concordant: True, zone bias: shared
-- **Zonal** mouse top zone `resting`, human top zone `prehypertrophic`, concordant: False; single-cell consensus state `proliferative` (3.0 of 6.0 datasets)
+- **Zonal** mouse top zone `resting`, human top zone `prehypertrophic`, concordant: False; single-cell consensus state `proliferative` (3.0 of 7.0 datasets)
 - **Human height genetics** 1 independent loci, best p = 1e-8
 - **Literature** 0 growth-plate papers of 197 total
 - **Desired intervention direction** inhibit (delay hypertrophic transition, prolong growth window)
@@ -423,22 +439,6 @@ hypertrophic +2.37, cell-cycle −0.38 (p = 0.002) — so:
 - **Direction matches the desired direction?** False
 - **Weakest link** The day-4 timepoint does not independently support the day-15 effect.
 - **Single validating experiment** Chondrocyte-specific conditional knockout of Atp2b1 in mouse (e.g. Col2a1-CreERT2), induced postnatally, with **tibial and femoral length measured by radiograph or µCT at 4 and 12 weeks** as the primary endpoint, plus growth-plate height and zone-specific BrdU/EdU labelling to show whether any length change comes from preserved proliferative output rather than accelerated maturation. Length — not a maturation marker — is the readout that decides this hypothesis.
-
-### 25. Kif3b (KIF3B)
-
-- **Score** 2.97 (potential 3.77, risk 0.80); CRISPR tier `A_secondary_validated`
-- **Screen evidence** day-15 LFC +0.519, guide consistency 1.0, day-4 concordant: True, cross-library agreement: True
-- **Screen effect** gene_restrains_maturation
-- **Fast growth** young-tibia log2FC +0.37, tibia vs phalanx +0.18, rat-concordant: False, zone bias: shared
-- **Zonal** mouse top zone `hypertrophic`, human top zone `proliferative`, concordant: False; single-cell consensus state `hypertrophic` (3.0 of 6.0 datasets)
-- **Human height genetics** no genome-wide-significant association
-- **Literature** 0 growth-plate papers of 128 total
-- **Desired intervention direction** activate/agonise (preserve resting pool; inhibition risks plate exhaustion)
-- **Strongest current compound** none in ChEMBL or DGIdb — this is a tool-compound gap, not a validated undruggable call.
-- **Directly hits the target?** n/a
-- **Direction matches?** n/a
-- **Weakest link** The human zonal pattern does not place it in the same zone as the mouse data.
-- **Single validating experiment** Chondrocyte-specific conditional gain-of-function of Kif3b in mouse (e.g. Col2a1-CreERT2), induced postnatally, with **tibial and femoral length measured by radiograph or µCT at 4 and 12 weeks** as the primary endpoint, plus growth-plate height and zone-specific BrdU/EdU labelling to show whether any length change comes from preserved proliferative output rather than accelerated maturation. Length — not a maturation marker — is the readout that decides this hypothesis.
 
 ## Method summary
 

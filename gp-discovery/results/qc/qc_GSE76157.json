@@ -1,0 +1,31 @@
+{
+ "accession": "GSE76157",
+ "n_samples": 1,
+ "samples": {
+  "GSE76157_P7pool": {
+   "accession": "GSE76157",
+   "n_genes_raw": 9740,
+   "n_cells_raw": 217,
+   "note": "single biological condition (P7 WT tibia); no replicate identifier available",
+   "median_genes_detected": 3684.0,
+   "n_cells_after_qc": 217,
+   "n_genes_after_qc": 9739,
+   "doublet_removal": "skipped (plate-based, pre-normalised matrix; Scrublet needs raw counts)",
+   "n_clusters": 7,
+   "cell_state_counts": {
+    "nonchondrocyte_immune": 75,
+    "prehypertrophic": 70,
+    "hypertrophic": 32,
+    "proliferative": 28,
+    "nonchondrocyte_osteo_perichondrial": 12
+   },
+   "pseudobulk_columns": [
+    "GSE76157_P7pool|nonchondrocyte_immune",
+    "GSE76157_P7pool|prehypertrophic",
+    "GSE76157_P7pool|proliferative",
+    "GSE76157_P7pool|hypertrophic",
+    "GSE76157_P7pool|nonchondrocyte_osteo_perichondrial"
+   ]
+  }
+ }
+}

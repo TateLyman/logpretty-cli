@@ -1,9 +1,9 @@
 mouse_gene,human_target,source,compound,compound_id,direction,directionality,mechanism_of_action,direct_interaction,max_phase,approved,interaction_score,evidence_source,first_approval,molecule_type,black_box_warning,withdrawn,oral,parenteral,pchembl_best,potency_assay_type,potency_standard_type,compound_direction_class,desired_direction_for_target,direction_matches_desired,human_target_score
 Eif4e2,EIF4E2,DGIdb,PACLITAXEL PROTEIN-BOUND,rxcui:486610,,,,,approved,True,0.4524101666092541,DGIdb: PharmGKB,,,,,,,,,,other/unknown,inhibitor,False,4.8152959775570245
 Eif4e2,EIF4E2,DGIdb,CARBOPLATIN,rxcui:40048,,,,,approved,True,0.6014998806054855,DGIdb: PharmGKB,,,,,,,,,,other/unknown,inhibitor,False,4.8152959775570245
-Cd200,CD200,ChEMBL,SAMALIZUMAB,CHEMBL1743067,INHIBITOR,,OX-2 membrane glycoprotein inhibitor,1.0,2.0,,,ChEMBL mechanism (CHEMBL3712870),,Antibody,0.0,False,False,False,,,,inhibitor,inhibitor,True,4.663003650223871
-Cd200,CD200,DGIdb,SAMALIZUMAB,ncit:C77891,,,,,,False,52.93198949328273,DGIdb: TTD,,,,,,,,,,other/unknown,inhibitor,False,4.663003650223871
-Cd200,CD200,DGIdb,SAMALIZUMAB,chembl:CHEMBL1743067,inhibitor,INHIBITORY,,,,False,26.46599474664136,DGIdb: ChEMBL,,,,,,,,,,inhibitor,inhibitor,True,4.663003650223871
+Cd200,CD200,ChEMBL,SAMALIZUMAB,CHEMBL1743067,INHIBITOR,,OX-2 membrane glycoprotein inhibitor,1.0,2.0,,,ChEMBL mechanism (CHEMBL3712870),,Antibody,0.0,False,False,False,,,,inhibitor,inhibitor,True,4.729670316890539
+Cd200,CD200,DGIdb,SAMALIZUMAB,ncit:C77891,,,,,,False,52.93198949328273,DGIdb: TTD,,,,,,,,,,other/unknown,inhibitor,False,4.729670316890539
+Cd200,CD200,DGIdb,SAMALIZUMAB,chembl:CHEMBL1743067,inhibitor,INHIBITORY,,,,False,26.46599474664136,DGIdb: ChEMBL,,,,,,,,,,inhibitor,inhibitor,True,4.729670316890539
 Gsk3b,GSK3B,ChEMBL,LY-2090314,CHEMBL362558,INHIBITOR,,Glycogen synthase kinase-3 beta inhibitor,1.0,2.0,,,ChEMBL mechanism (CHEMBL262),,Small molecule,0.0,False,False,False,,,,inhibitor,inhibitor,True,4.488949249416775
 Gsk3b,GSK3B,ChEMBL,TIDEGLUSIB,CHEMBL3545157,INHIBITOR,,Glycogen synthase kinase-3 beta inhibitor,1.0,2.0,,,ChEMBL mechanism (CHEMBL262),,Small molecule,0.0,False,False,False,,,,inhibitor,inhibitor,True,4.488949249416775
 Gsk3b,GSK3B,ChEMBL,ELRAGLUSIB,CHEMBL483465,INHIBITOR,,Glycogen synthase kinase-3 beta inhibitor,1.0,2.0,,,ChEMBL mechanism (CHEMBL262),,Small molecule,0.0,False,False,False,,,,inhibitor,inhibitor,True,4.488949249416775
@@ -84,37 +84,38 @@ Gsk3b,GSK3B,DGIdb,CDK/CRK INHIBITOR,iuphar.ligand:5943,inhibitor,INHIBITORY,,,,F
 Gsk3b,GSK3B,DGIdb,1-AZAKENPAULLONE,iuphar.ligand:8018,inhibitor,INHIBITORY,,,,False,0.1145714058296163,DGIdb: DTC; GuideToPharmacology,,,,,,,,,,inhibitor,inhibitor,True,4.488949249416775
 Gsk3b,GSK3B,DGIdb,COMPOUND 2 [PMID: 22560567],iuphar.ligand:8115,inhibitor,INHIBITORY,,,,False,0.1718571087444244,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,inhibitor,True,4.488949249416775
 Gsk3b,GSK3B,DGIdb,N-(5-METHYL-1H-PYRAZOL-3-YL)-2-PHENYLQUINAZOLIN-4-AMINE,drugbank:DB08454,inhibitor,INHIBITORY,,,,False,0.2291428116592326,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,inhibitor,True,4.488949249416775
-Nedd4,NEDD4,DGIdb,WARFARIN,rxcui:11289,,,,,approved,True,3.207999363229256,DGIdb: PharmGKB,,,,,,,,,,other/unknown,inhibitor,False,4.38457837704955
-Bmpr2,BMPR2,ChEMBL,DIBOTERMIN ALFA,CHEMBL2109171,AGONIST,,Bone morphogenetic protein receptor type-2 agonist,1.0,4.0,,,ChEMBL mechanism (CHEMBL5467),2002.0,Protein,0.0,False,False,False,,,,activator,activator,True,4.305591948358864
-Bmpr2,BMPR2,ChEMBL,EPTOTERMIN ALFA,CHEMBL2108594,AGONIST,,Bone morphogenetic protein receptor type-2 agonist,1.0,4.0,,,ChEMBL mechanism (CHEMBL5467),2001.0,Protein,0.0,False,False,False,,,,activator,activator,True,4.305591948358864
-Bmpr2,BMPR2,DGIdb,EPTOTERMIN ALFA,chembl:CHEMBL2108594,agonist,ACTIVATING,,,approved,True,3.30824934333017,DGIdb: ChEMBL,,,,,,,,,,activator,activator,True,4.305591948358864
-Bmpr2,BMPR2,DGIdb,COMPOUND 13A [PMID: 23639540],iuphar.ligand:8155,inhibitor,INHIBITORY,,,,False,1.890428196188668,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,4.305591948358864
-Bmpr2,BMPR2,DGIdb,DIBOTERMIN ALFA,chembl:CHEMBL2109171,agonist,ACTIVATING,,,approved,True,2.205499562220113,DGIdb: ChEMBL,,,,,,,,,,activator,activator,True,4.305591948358864
-Bmpr2,BMPR2,DGIdb,DEUCRAVACITINIB,rxcui:2612087,inhibitor,INHIBITORY,,,approved,True,4.410999124440227,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,4.305591948358864
+Nedd4,NEDD4,DGIdb,WARFARIN,rxcui:11289,,,,,approved,True,3.207999363229256,DGIdb: PharmGKB,,,,,,,,,,other/unknown,inhibitor,False,4.4512450437162165
+Bmpr2,BMPR2,ChEMBL,DIBOTERMIN ALFA,CHEMBL2109171,AGONIST,,Bone morphogenetic protein receptor type-2 agonist,1.0,4.0,,,ChEMBL mechanism (CHEMBL5467),2002.0,Protein,0.0,False,False,False,,,,activator,activator,True,4.3722586150255305
+Bmpr2,BMPR2,ChEMBL,EPTOTERMIN ALFA,CHEMBL2108594,AGONIST,,Bone morphogenetic protein receptor type-2 agonist,1.0,4.0,,,ChEMBL mechanism (CHEMBL5467),2001.0,Protein,0.0,False,False,False,,,,activator,activator,True,4.3722586150255305
+Bmpr2,BMPR2,DGIdb,EPTOTERMIN ALFA,chembl:CHEMBL2108594,agonist,ACTIVATING,,,approved,True,3.30824934333017,DGIdb: ChEMBL,,,,,,,,,,activator,activator,True,4.3722586150255305
+Bmpr2,BMPR2,DGIdb,COMPOUND 13A [PMID: 23639540],iuphar.ligand:8155,inhibitor,INHIBITORY,,,,False,1.890428196188668,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,4.3722586150255305
+Bmpr2,BMPR2,DGIdb,DIBOTERMIN ALFA,chembl:CHEMBL2109171,agonist,ACTIVATING,,,approved,True,2.205499562220113,DGIdb: ChEMBL,,,,,,,,,,activator,activator,True,4.3722586150255305
+Bmpr2,BMPR2,DGIdb,DEUCRAVACITINIB,rxcui:2612087,inhibitor,INHIBITORY,,,approved,True,4.410999124440227,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,4.3722586150255305
+Ezh2,EZH2,ChEMBL,GSK2816126,CHEMBL3287735,INHIBITOR,,Histone-lysine N-methyltransferase EZH2 inhibitor,1.0,1.0,,,ChEMBL mechanism (CHEMBL2189110),,Small molecule,0.0,False,False,False,9.3,B,Ki,inhibitor,activator,False,4.312916609743537
+Ezh2,EZH2,ChEMBL,TAZEMETOSTAT HYDROBROMIDE,CHEMBL4594260,INHIBITOR,,Histone-lysine N-methyltransferase EZH2 inhibitor,1.0,4.0,,,ChEMBL mechanism (CHEMBL2189110),2020.0,Small molecule,0.0,False,True,False,,,,inhibitor,activator,False,4.312916609743537
+Ezh2,EZH2,DGIdb,GSK126,iuphar.ligand:7012,inhibitor; inhibitor,INHIBITORY; INHIBITORY,,,,False,4.410999124440227,DGIdb: CIViC; ChEMBL; GuideToPharmacology; TTD,,,,,,,,,,inhibitor,activator,False,4.312916609743537
+Ezh2,EZH2,DGIdb,EPZ011989,iuphar.ligand:9273,inhibitor,INHIBITORY,,,,False,8.821998248880455,DGIdb: CIViC; GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,4.312916609743537
+Ezh2,EZH2,DGIdb,EI1,iuphar.ligand:7013,inhibitor,INHIBITORY,,,,False,2.940666082960151,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,4.312916609743537
+Ezh2,EZH2,DGIdb,TAZEMETOSTAT HYDROBROMIDE,chembl:CHEMBL4594260,inhibitor,INHIBITORY,,,approved,True,2.940666082960151,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,4.312916609743537
+Ezh2,EZH2,DGIdb,UNC1999,iuphar.ligand:8237,inhibitor,INHIBITORY,,,,False,2.940666082960151,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,4.312916609743537
+Ezh2,EZH2,DGIdb,TAZEMETOSTAT,rxcui:2274378,inhibitor,INHIBITORY,,,approved,True,4.410999124440227,DGIdb: CGI; CIViC; GuideToPharmacology; OncoKB; TTD,,,,,,,,,,inhibitor,activator,False,4.312916609743537
+Ezh2,EZH2,DGIdb,EBI-2511,iuphar.ligand:9881,inhibitor,INHIBITORY,,,,False,2.940666082960151,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,4.312916609743537
+Ezh2,EZH2,DGIdb,VALEMETOSTAT,ncit:C127114,inhibitor,INHIBITORY,,,,False,2.940666082960151,DGIdb: GuideToPharmacology; TTD,,,,,,,,,,inhibitor,activator,False,4.312916609743537
+Ezh2,EZH2,DGIdb,COMPOUND 15A [PMID: 36642961],iuphar.ligand:12352,inhibitor,INHIBITORY,,,,False,0.9802220276533838,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,4.312916609743537
+Ezh2,EZH2,DGIdb,EPZ005687,iuphar.ligand:8387,inhibitor,INHIBITORY,,,,False,11.7626643318406,DGIdb: CGI; GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,4.312916609743537
+Ezh2,EZH2,DGIdb,MEVROMETOSTAT,iuphar.ligand:10516,inhibitor,INHIBITORY,,,,False,2.940666082960151,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,4.312916609743537
+Ezh2,EZH2,DGIdb,JQEZ5,iuphar.ligand:9332,inhibitor,INHIBITORY,,,,False,4.410999124440227,DGIdb: CIViC; GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,4.312916609743537
+Ezh2,EZH2,DGIdb,ZEPRUMETOSTAT,iuphar.ligand:13512,inhibitor,INHIBITORY,,,,False,1.470333041480075,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,4.312916609743537
+Ezh2,EZH2,DGIdb,SKLB-03220,iuphar.ligand:12353,inhibitor,INHIBITORY,,,,False,2.940666082960151,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,4.312916609743537
+Ezh2,EZH2,DGIdb,CPI-1205,iuphar.ligand:9115,inhibitor,INHIBITORY,,,,False,5.881332165920303,DGIdb: GuideToPharmacology; TTD,,,,,,,,,,inhibitor,activator,False,4.312916609743537
+Ezh2,EZH2,DGIdb,GSK343,iuphar.ligand:8240,inhibitor,INHIBITORY,,,,False,1.470333041480075,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,4.312916609743537
+Ezh2,EZH2,DGIdb,CHEMBL:CHEMBL4545488,chembl:CHEMBL4545488,,,,,,False,2.940666082960151,DGIdb: TTD,,,,,,,,,,other/unknown,activator,False,4.312916609743537
+Ezh2,EZH2,DGIdb,TULMIMETOSTAT,ncit:C167347,inhibitor,INHIBITORY,,,,False,1.470333041480075,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,4.312916609743537
 Ptch1,PTCH1,DGIdb,TRETINOIN,rxcui:10753,,,,,approved,True,0.3042068361682915,DGIdb: NCI,,,,,,,,,,other/unknown,activator,False,4.284587055631974
 Ptch1,PTCH1,DGIdb,VISMODEGIB,rxcui:1242987,other/unknown,,,,approved,True,30.87699387108159,DGIdb: CGI; CIViC; MyCancerGenome; OncoKB,,,,,,,,,,other/unknown,activator,False,4.284587055631974
 Ptch1,PTCH1,DGIdb,FORETINIB,ncit:C80058,,,,,,False,0.8821998248880455,DGIdb: CGI,,,,,,,,,,other/unknown,activator,False,4.284587055631974
 Ptch1,PTCH1,DGIdb,SONIDEGIB,rxcui:1659191,,,,,approved,True,10.58639789865654,DGIdb: CIViC; OncoKB,,,,,,,,,,other/unknown,activator,False,4.284587055631974
-Ezh2,EZH2,ChEMBL,GSK2816126,CHEMBL3287735,INHIBITOR,,Histone-lysine N-methyltransferase EZH2 inhibitor,1.0,1.0,,,ChEMBL mechanism (CHEMBL2189110),,Small molecule,0.0,False,False,False,9.3,B,Ki,inhibitor,activator,False,4.2462499430768705
-Ezh2,EZH2,ChEMBL,TAZEMETOSTAT HYDROBROMIDE,CHEMBL4594260,INHIBITOR,,Histone-lysine N-methyltransferase EZH2 inhibitor,1.0,4.0,,,ChEMBL mechanism (CHEMBL2189110),2020.0,Small molecule,0.0,False,True,False,,,,inhibitor,activator,False,4.2462499430768705
-Ezh2,EZH2,DGIdb,GSK126,iuphar.ligand:7012,inhibitor; inhibitor,INHIBITORY; INHIBITORY,,,,False,4.410999124440227,DGIdb: CIViC; ChEMBL; GuideToPharmacology; TTD,,,,,,,,,,inhibitor,activator,False,4.2462499430768705
-Ezh2,EZH2,DGIdb,EPZ011989,iuphar.ligand:9273,inhibitor,INHIBITORY,,,,False,8.821998248880455,DGIdb: CIViC; GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,4.2462499430768705
-Ezh2,EZH2,DGIdb,EI1,iuphar.ligand:7013,inhibitor,INHIBITORY,,,,False,2.940666082960151,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,4.2462499430768705
-Ezh2,EZH2,DGIdb,TAZEMETOSTAT HYDROBROMIDE,chembl:CHEMBL4594260,inhibitor,INHIBITORY,,,approved,True,2.940666082960151,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,4.2462499430768705
-Ezh2,EZH2,DGIdb,UNC1999,iuphar.ligand:8237,inhibitor,INHIBITORY,,,,False,2.940666082960151,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,4.2462499430768705
-Ezh2,EZH2,DGIdb,TAZEMETOSTAT,rxcui:2274378,inhibitor,INHIBITORY,,,approved,True,4.410999124440227,DGIdb: CGI; CIViC; GuideToPharmacology; OncoKB; TTD,,,,,,,,,,inhibitor,activator,False,4.2462499430768705
-Ezh2,EZH2,DGIdb,EBI-2511,iuphar.ligand:9881,inhibitor,INHIBITORY,,,,False,2.940666082960151,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,4.2462499430768705
-Ezh2,EZH2,DGIdb,VALEMETOSTAT,ncit:C127114,inhibitor,INHIBITORY,,,,False,2.940666082960151,DGIdb: GuideToPharmacology; TTD,,,,,,,,,,inhibitor,activator,False,4.2462499430768705
-Ezh2,EZH2,DGIdb,COMPOUND 15A [PMID: 36642961],iuphar.ligand:12352,inhibitor,INHIBITORY,,,,False,0.9802220276533838,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,4.2462499430768705
-Ezh2,EZH2,DGIdb,EPZ005687,iuphar.ligand:8387,inhibitor,INHIBITORY,,,,False,11.7626643318406,DGIdb: CGI; GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,4.2462499430768705
-Ezh2,EZH2,DGIdb,MEVROMETOSTAT,iuphar.ligand:10516,inhibitor,INHIBITORY,,,,False,2.940666082960151,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,4.2462499430768705
-Ezh2,EZH2,DGIdb,JQEZ5,iuphar.ligand:9332,inhibitor,INHIBITORY,,,,False,4.410999124440227,DGIdb: CIViC; GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,4.2462499430768705
-Ezh2,EZH2,DGIdb,ZEPRUMETOSTAT,iuphar.ligand:13512,inhibitor,INHIBITORY,,,,False,1.470333041480075,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,4.2462499430768705
-Ezh2,EZH2,DGIdb,SKLB-03220,iuphar.ligand:12353,inhibitor,INHIBITORY,,,,False,2.940666082960151,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,4.2462499430768705
-Ezh2,EZH2,DGIdb,CPI-1205,iuphar.ligand:9115,inhibitor,INHIBITORY,,,,False,5.881332165920303,DGIdb: GuideToPharmacology; TTD,,,,,,,,,,inhibitor,activator,False,4.2462499430768705
-Ezh2,EZH2,DGIdb,GSK343,iuphar.ligand:8240,inhibitor,INHIBITORY,,,,False,1.470333041480075,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,4.2462499430768705
-Ezh2,EZH2,DGIdb,CHEMBL:CHEMBL4545488,chembl:CHEMBL4545488,,,,,,False,2.940666082960151,DGIdb: TTD,,,,,,,,,,other/unknown,activator,False,4.2462499430768705
-Ezh2,EZH2,DGIdb,TULMIMETOSTAT,ncit:C167347,inhibitor,INHIBITORY,,,,False,1.470333041480075,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,4.2462499430768705
+Runx2,RUNX2,DGIdb,ANTISENSE OLIGONUCLEOTIDES,ncit:C1291,,,,,,False,3.207999363229256,DGIdb: NCI,,,,,,,,,,other/unknown,inhibitor,False,4.270464630665689
 Epha2,EPHA2,ChEMBL,DASATINIB ANHYDROUS,CHEMBL1421,INHIBITOR,,Ephrin type-A receptor 2 inhibitor,1.0,4.0,,,ChEMBL mechanism (CHEMBL2068),2006.0,Small molecule,0.0,False,True,False,,,,inhibitor,inhibitor,True,4.215132612035411
 Epha2,EPHA2,ChEMBL,REGORAFENIB,CHEMBL1946170,INHIBITOR,,Ephrin type-A receptor 2 inhibitor,1.0,4.0,,,ChEMBL mechanism (CHEMBL2068),2012.0,Small molecule,1.0,False,True,False,,,,inhibitor,inhibitor,True,4.215132612035411
 Epha2,EPHA2,DGIdb,ALISERTIB,ncit:C71717,,,,,,False,0.0450485016964108,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,4.215132612035411
@@ -142,7 +143,6 @@ Epha2,EPHA2,DGIdb,MLN-8054,iuphar.ligand:5696,,,,,,False,0.0784177622122707,DGId
 Epha2,EPHA2,DGIdb,LITHOGLYCOCHOLATE,chembl:CHEMBL258818,,,,,,False,4.234559159462618,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,4.215132612035411
 Epha2,EPHA2,DGIdb,SORAFENIB,rxcui:495881,,,,,approved,True,0.021172795797313,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,4.215132612035411
 Epha2,EPHA2,DGIdb,CILOFEXOR,ncit:C169848,inhibitor,INHIBITORY,,,,False,1.058639789865654,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,inhibitor,True,4.215132612035411
-Runx2,RUNX2,DGIdb,ANTISENSE OLIGONUCLEOTIDES,ncit:C1291,,,,,,False,3.207999363229256,DGIdb: NCI,,,,,,,,,,other/unknown,inhibitor,False,4.203797963999023
 Apc,APC,DGIdb,SIROLIMUS,rxcui:35302,,,,,approved,True,0.0960653166847236,DGIdb: CKB-CORE,,,,,,,,,,other/unknown,inhibitor,False,4.1268507038139
 Apc,APC,DGIdb,SULINDAC,rxcui:10237,,,,,approved,True,0.2028045574455277,DGIdb: CKB-CORE,,,,,,,,,,other/unknown,inhibitor,False,4.1268507038139
 Apc,APC,DGIdb,EFLORNITHINE,rxcui:569,,,,,approved,True,0.2433654689346332,DGIdb: NCI,,,,,,,,,,other/unknown,inhibitor,False,4.1268507038139
@@ -234,17 +234,17 @@ Brd2,BRD2,DGIdb,ME BROMODOMAIN INHIBITOR,iuphar.ligand:7807,inhibitor,INHIBITORY
 Brd2,BRD2,DGIdb,TETRADECANOYLPHORBOL ACETATE,ncit:C866,,,,,,False,0.0590758811308959,DGIdb: NCI,,,,,,,,,,other/unknown,inhibitor,False,3.940057465404877
 Brd2,BRD2,DGIdb,WNY0824,iuphar.ligand:12143,inhibitor,INHIBITORY,,,,False,0.3780856392377337,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,inhibitor,True,3.940057465404877
 Mast3,MAST3,DGIdb,COMPOUND 35 [PMID: 23916259],iuphar.ligand:8842,inhibitor,INHIBITORY,,,,False,26.46599474664136,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,inhibitor,True,3.9017618715729427
+Lgr4,LGR4,DGIdb,R-SPONDIN-2,iuphar.ligand:3698,agonist,ACTIVATING,,,,False,3.528799299552182,DGIdb: GuideToPharmacology,,,,,,,,,,activator,activator,True,3.880531539802335
+Lgr4,LGR4,DGIdb,R-SPONDIN-1,iuphar.ligand:3697,agonist,ACTIVATING,,,,False,3.528799299552182,DGIdb: GuideToPharmacology,,,,,,,,,,activator,activator,True,3.880531539802335
+Lgr4,LGR4,DGIdb,R-SPONDIN-3,iuphar.ligand:3699,agonist,ACTIVATING,,,,False,3.528799299552182,DGIdb: GuideToPharmacology,,,,,,,,,,activator,activator,True,3.880531539802335
+Lgr4,LGR4,DGIdb,R-SPONDIN-4,iuphar.ligand:3700,agonist,ACTIVATING,,,,False,3.528799299552182,DGIdb: GuideToPharmacology,,,,,,,,,,activator,activator,True,3.880531539802335
+Lgr4,LGR4,DGIdb,ROSMANTUZUMAB,chembl:CHEMBL3990031,inhibitor,INHIBITORY,,,,False,5.293198949328273,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,3.880531539802335
 Alad,ALAD,DGIdb,PORPHOBILINOGEN,drugbank:DB02272,,,,,,False,52.93198949328273,DGIdb: TTD,,,,,,,,,,other/unknown,inhibitor,False,3.8776340899941864
-Lgr4,LGR4,DGIdb,R-SPONDIN-2,iuphar.ligand:3698,agonist,ACTIVATING,,,,False,3.528799299552182,DGIdb: GuideToPharmacology,,,,,,,,,,activator,activator,True,3.8138648731356684
-Lgr4,LGR4,DGIdb,R-SPONDIN-1,iuphar.ligand:3697,agonist,ACTIVATING,,,,False,3.528799299552182,DGIdb: GuideToPharmacology,,,,,,,,,,activator,activator,True,3.8138648731356684
-Lgr4,LGR4,DGIdb,R-SPONDIN-3,iuphar.ligand:3699,agonist,ACTIVATING,,,,False,3.528799299552182,DGIdb: GuideToPharmacology,,,,,,,,,,activator,activator,True,3.8138648731356684
-Lgr4,LGR4,DGIdb,R-SPONDIN-4,iuphar.ligand:3700,agonist,ACTIVATING,,,,False,3.528799299552182,DGIdb: GuideToPharmacology,,,,,,,,,,activator,activator,True,3.8138648731356684
-Lgr4,LGR4,DGIdb,ROSMANTUZUMAB,chembl:CHEMBL3990031,inhibitor,INHIBITORY,,,,False,5.293198949328273,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,3.8138648731356684
 Emsy,EMSY,DGIdb,BEVACIZUMAB,rxcui:253337,,,,,approved,True,0.5881332165920303,DGIdb: CIViC,,,,,,,,,,other/unknown,inhibitor,False,3.42758422788185
 Emsy,EMSY,DGIdb,CARBOPLATIN,rxcui:40048,,,,,approved,True,0.3007499403027427,DGIdb: CIViC,,,,,,,,,,other/unknown,inhibitor,False,3.42758422788185
 Emsy,EMSY,DGIdb,ADALIMUMAB,rxcui:327361,,,,,approved,True,0.7561712784754676,DGIdb: PharmGKB,,,,,,,,,,other/unknown,inhibitor,False,3.42758422788185
 Emsy,EMSY,DGIdb,PACLITAXEL PROTEIN-BOUND,rxcui:486610,,,,,approved,True,0.226205083304627,DGIdb: CIViC,,,,,,,,,,other/unknown,inhibitor,False,3.42758422788185
-Vti1a,VTI1A,DGIdb,VINCRISTINE,rxcui:11202,,,,,approved,True,1.048158207787776,DGIdb: PharmGKB,,,,,,,,,,other/unknown,inhibitor,False,3.2566610216293936
+Vti1a,VTI1A,DGIdb,VINCRISTINE,rxcui:11202,,,,,approved,True,1.048158207787776,DGIdb: PharmGKB,,,,,,,,,,other/unknown,inhibitor,False,3.3233276882960605
 Acvr1,ACVR1,ChEMBL,EPTOTERMIN ALFA,CHEMBL2108594,AGONIST,,Activin receptor type-1 agonist,1.0,4.0,,,ChEMBL mechanism (CHEMBL5903),2001.0,Protein,0.0,False,False,False,,,,activator,activator,True,3.2468583377574873
 Acvr1,ACVR1,ChEMBL,DIBOTERMIN ALFA,CHEMBL2109171,AGONIST,,Activin receptor type-1 agonist,1.0,4.0,,,ChEMBL mechanism (CHEMBL5903),2002.0,Protein,0.0,False,False,False,,,,activator,activator,True,3.2468583377574873
 Acvr1,ACVR1,ChEMBL,MOMELOTINIB DIHYDROCHLORIDE MONOHYDRATE,CHEMBL6068336,INHIBITOR,,Activin receptor type-1 inhibitor,1.0,4.0,,,ChEMBL mechanism (CHEMBL5903),2024.0,Small molecule,0.0,False,False,False,,,,inhibitor,activator,False,3.2468583377574873
@@ -297,41 +297,41 @@ Cop1,COP1,DGIdb,PROPAFENONE,rxcui:8754,,,,,approved,True,1.17626643318406,DGIdb:
 Cop1,COP1,DGIdb,PROCAINAMIDE,rxcui:8700,,,,,approved,True,1.764399649776091,DGIdb: TTD,,,,,,,,,,other/unknown,inhibitor,False,2.935538240533192
 Cop1,COP1,DGIdb,QUININE,rxcui:9071,,,,,approved,True,1.17626643318406,DGIdb: TTD,,,,,,,,,,other/unknown,inhibitor,False,2.935538240533192
 Cop1,COP1,DGIdb,FLECAINIDE ACETATE,rxcui:42686,,,,,approved,True,1.058639789865654,DGIdb: TTD,,,,,,,,,,other/unknown,inhibitor,False,2.935538240533192
-Cbfb,CBFB,DGIdb,HOMIDIUM BROMIDE,chembl:CHEMBL284328,,,,,,False,0.0570387817815546,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,DAUNORUBICIN LIPOSOMAL,rxcui:214468,,,,,approved,True,0.0187968712689214,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,APOMORPHINE HYDROCHLORIDE,chembl:CHEMBL3187985,,,,,approved,True,0.0787678415078612,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,L-NOREPINEPHRINE,chembl:CHEMBL18824,,,,,,False,0.2067655839581356,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,CHEMBL:CHEMBL313737,chembl:CHEMBL313737,,,,,,False,0.1654124671665085,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,CHEMBL:CHEMBL1601846,chembl:CHEMBL1601846,,,,,,False,0.0719184639854384,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,O-PHENANTHROLINE,rxcui:1872047,,,,,approved,True,0.0787678415078612,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,JUGLONE,iuphar.ligand:13647,,,,,,False,0.0787678415078612,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,SHIKONIN,chembl:CHEMBL9470,,,,,,False,0.1654124671665085,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,IRIGENOL,iuphar.ligand:11564,,,,,,False,0.1181517622617918,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,PYROGALLOL,iuphar.ligand:13596,,,,,,False,0.1033827919790678,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,AURINTRICARBOXYLIC ACID,chembl:CHEMBL275938,,,,,,False,0.053358860376293,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,&ALPHA;-ERGOCRYPTINE,iuphar.ligand:271,,,,,,False,0.1654124671665085,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,DEPHOSTATIN,chembl:CHEMBL269733,,,,,,False,0.0661649868666034,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,PURPUROGALLIN,chembl:CHEMBL66953,,,,,,False,0.0459479075462523,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,FUMARPROTOCETRARIC ACID,chembl:CHEMBL366861,,,,,,False,0.1378437226387571,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,DISULFIRAM,rxcui:3554,,,,,approved,True,0.0403445041869533,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,CYTARABINE HYDROCHLORIDE,chembl:CHEMBL1256472,,,,,,False,0.5513748905550284,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,WEDELOLACTONE,iuphar.ligand:5551,,,,,,False,0.1503749701513713,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,DIPYRIDYL,chembl:CHEMBL39879,,,,,,False,0.4135311679162713,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,QUINOLINIC ACID,chembl:CHEMBL286204,,,,,,False,0.2756874452775142,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,FUSARIC ACID,chembl:CHEMBL24510,,,,,,False,0.2363035245235836,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,IRIGINOL HEXAACEATATE,chembl:CHEMBL1440119,,,,,,False,0.1503749701513713,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,TAMOXIFEN CITRATE,chembl:CHEMBL786,,,,,approved,True,0.0870591932455308,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,ERGOCORNINE,chembl:CHEMBL1385840,,,,,,False,0.2756874452775142,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,CETIRIZINE HYDROCHLORIDE,chembl:CHEMBL1607273,,,,,approved,True,0.5513748905550284,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,ELLAGIC ACID,iuphar.ligand:13035,,,,,,False,0.0590758811308959,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,TOLONIUM CHLORIDE,chembl:CHEMBL1790006,,,,,,False,0.0918958150925047,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,CHEMBL:CHEMBL260311,chembl:CHEMBL260311,,,,,,False,0.1503749701513713,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,CHEMBL:CHEMBL211670,chembl:CHEMBL211670,,,,,,False,0.1272403593588527,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,CHEMBL:CHEMBL533226,chembl:CHEMBL533226,,,,,,False,0.1272403593588527,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Cbfb,CBFB,DGIdb,CHEMBL:CHEMBL1341830,chembl:CHEMBL1341830,,,,,,False,0.1654124671665085,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.8389140980054766
-Suv39h1,SUV39H1,DGIdb,CHAETOCIN,iuphar.ligand:8388,inhibitor,INHIBITORY,,,,False,52.93198949328273,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,2.808046903573633
-Kdm2a,KDM2A,DGIdb,IOX2,iuphar.ligand:8229,inhibitor,INHIBITORY,,,,False,8.821998248880455,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,inhibitor,True,2.7510962343523353
-Kdm2a,KDM2A,DGIdb,DAMINOZIDE,iuphar.ligand:7025,inhibitor,INHIBITORY,,,,False,8.821998248880455,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,inhibitor,True,2.7510962343523353
+Cbfb,CBFB,DGIdb,HOMIDIUM BROMIDE,chembl:CHEMBL284328,,,,,,False,0.0570387817815546,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,DAUNORUBICIN LIPOSOMAL,rxcui:214468,,,,,approved,True,0.0187968712689214,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,APOMORPHINE HYDROCHLORIDE,chembl:CHEMBL3187985,,,,,approved,True,0.0787678415078612,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,L-NOREPINEPHRINE,chembl:CHEMBL18824,,,,,,False,0.2067655839581356,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,CHEMBL:CHEMBL313737,chembl:CHEMBL313737,,,,,,False,0.1654124671665085,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,CHEMBL:CHEMBL1601846,chembl:CHEMBL1601846,,,,,,False,0.0719184639854384,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,O-PHENANTHROLINE,rxcui:1872047,,,,,approved,True,0.0787678415078612,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,JUGLONE,iuphar.ligand:13647,,,,,,False,0.0787678415078612,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,SHIKONIN,chembl:CHEMBL9470,,,,,,False,0.1654124671665085,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,IRIGENOL,iuphar.ligand:11564,,,,,,False,0.1181517622617918,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,PYROGALLOL,iuphar.ligand:13596,,,,,,False,0.1033827919790678,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,AURINTRICARBOXYLIC ACID,chembl:CHEMBL275938,,,,,,False,0.053358860376293,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,&ALPHA;-ERGOCRYPTINE,iuphar.ligand:271,,,,,,False,0.1654124671665085,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,DEPHOSTATIN,chembl:CHEMBL269733,,,,,,False,0.0661649868666034,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,PURPUROGALLIN,chembl:CHEMBL66953,,,,,,False,0.0459479075462523,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,FUMARPROTOCETRARIC ACID,chembl:CHEMBL366861,,,,,,False,0.1378437226387571,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,DISULFIRAM,rxcui:3554,,,,,approved,True,0.0403445041869533,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,CYTARABINE HYDROCHLORIDE,chembl:CHEMBL1256472,,,,,,False,0.5513748905550284,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,WEDELOLACTONE,iuphar.ligand:5551,,,,,,False,0.1503749701513713,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,DIPYRIDYL,chembl:CHEMBL39879,,,,,,False,0.4135311679162713,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,QUINOLINIC ACID,chembl:CHEMBL286204,,,,,,False,0.2756874452775142,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,FUSARIC ACID,chembl:CHEMBL24510,,,,,,False,0.2363035245235836,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,IRIGINOL HEXAACEATATE,chembl:CHEMBL1440119,,,,,,False,0.1503749701513713,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,TAMOXIFEN CITRATE,chembl:CHEMBL786,,,,,approved,True,0.0870591932455308,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,ERGOCORNINE,chembl:CHEMBL1385840,,,,,,False,0.2756874452775142,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,CETIRIZINE HYDROCHLORIDE,chembl:CHEMBL1607273,,,,,approved,True,0.5513748905550284,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,ELLAGIC ACID,iuphar.ligand:13035,,,,,,False,0.0590758811308959,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,TOLONIUM CHLORIDE,chembl:CHEMBL1790006,,,,,,False,0.0918958150925047,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,CHEMBL:CHEMBL260311,chembl:CHEMBL260311,,,,,,False,0.1503749701513713,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,CHEMBL:CHEMBL211670,chembl:CHEMBL211670,,,,,,False,0.1272403593588527,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,CHEMBL:CHEMBL533226,chembl:CHEMBL533226,,,,,,False,0.1272403593588527,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Cbfb,CBFB,DGIdb,CHEMBL:CHEMBL1341830,chembl:CHEMBL1341830,,,,,,False,0.1654124671665085,DGIdb: DTC,,,,,,,,,,other/unknown,inhibitor,False,2.905580764672143
+Suv39h1,SUV39H1,DGIdb,CHAETOCIN,iuphar.ligand:8388,inhibitor,INHIBITORY,,,,False,52.93198949328273,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,2.8747135702402993
+Kdm2a,KDM2A,DGIdb,IOX2,iuphar.ligand:8229,inhibitor,INHIBITORY,,,,False,8.821998248880455,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,inhibitor,True,2.8177629010190026
+Kdm2a,KDM2A,DGIdb,DAMINOZIDE,iuphar.ligand:7025,inhibitor,INHIBITORY,,,,False,8.821998248880455,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,inhibitor,True,2.8177629010190026
 Hdac5,HDAC5,DGIdb,PANOBINOSTAT,rxcui:1603350,inhibitor,INHIBITORY,,,approved,True,0.0984781199875027,DGIdb: TALC; TdgClinicalTrial,,,,,,,,,,inhibitor,activator,False,2.7089851780862784
 Hdac5,HDAC5,DGIdb,MOCETINOSTAT,ncit:C62521,,,,,,False,0.3787619999519336,DGIdb: DTC; TdgClinicalTrial,,,,,,,,,,other/unknown,activator,False,2.7089851780862784
 Hdac5,HDAC5,DGIdb,DACINOSTAT,ncit:C81158,inhibitor; inhibitor,INHIBITORY; INHIBITORY,,,,False,0.2238139090625062,DGIdb: GuideToPharmacology; TALC,,,,,,,,,,inhibitor,activator,False,2.7089851780862784
@@ -375,33 +375,33 @@ Hdac5,HDAC5,DGIdb,TACEDINALINE,ncit:C2202,inhibitor,INHIBITORY,,,,False,0.335720
 Hdac5,HDAC5,DGIdb,GIVINOSTAT HYDROCHLORIDE,chembl:CHEMBL6068400,inhibitor,INHIBITORY,,,approved,True,0.1119069545312531,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,2.7089851780862784
 Hdac5,HDAC5,DGIdb,SN-38,iuphar.ligand:6925,,,,,,False,0.205162749973964,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.7089851780862784
 Hdac5,HDAC5,DGIdb,BELINOSTAT,rxcui:1543543,inhibitor; inhibitor,INHIBITORY; INHIBITORY,,,approved,True,0.5275613570759076,DGIdb: ChEMBL; DTC; GuideToPharmacology; TALC; TdgClinicalTrial,,,,,,,,,,inhibitor,activator,False,2.7089851780862784
-Bptf,BPTF,DGIdb,MS363,iuphar.ligand:8876,inhibitor,INHIBITORY,,,,False,26.46599474664136,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,inhibitor,True,2.616540253875126
+Bptf,BPTF,DGIdb,MS363,iuphar.ligand:8876,inhibitor,INHIBITORY,,,,False,26.46599474664136,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,inhibitor,True,2.683206920541793
 Arrb2,ARRB2,DGIdb,TRAMADOL,rxcui:10689,,,,,approved,True,1.470333041480076,DGIdb: PharmGKB,,,,,,,,,,other/unknown,activator,False,2.4881655855014104
 Arrb2,ARRB2,DGIdb,FENTANYL CITRATE,rxcui:142436,,,,,approved,True,0.8821998248880455,DGIdb: PharmGKB,,,,,,,,,,other/unknown,activator,False,2.4881655855014104
 Arrb2,ARRB2,DGIdb,METHAMPHETAMINE,rxcui:6816,,,,,approved,True,1.017922874870821,DGIdb: PharmGKB,,,,,,,,,,other/unknown,activator,False,2.4881655855014104
 Arrb2,ARRB2,DGIdb,BUPRENORPHINE,rxcui:1819,,,,,approved,True,2.940666082960152,DGIdb: PharmGKB,,,,,,,,,,other/unknown,activator,False,2.4881655855014104
-Fkbp1a,FKBP1A,ChEMBL,SIROLIMUS,CHEMBL413,INHIBITOR,,FK506-binding protein 1A inhibitor,1.0,4.0,,,ChEMBL mechanism (CHEMBL1902),1999.0,Small molecule,1.0,False,True,True,9.7,B,Ki,inhibitor,activator,False,2.4180845417276933
-Fkbp1a,FKBP1A,ChEMBL,TEMSIROLIMUS,CHEMBL1201182,INHIBITOR,,FK506-binding protein 1A inhibitor,1.0,4.0,,,ChEMBL mechanism (CHEMBL1902),2007.0,Small molecule,0.0,False,False,True,,,,inhibitor,activator,False,2.4180845417276933
-Fkbp1a,FKBP1A,ChEMBL,EVEROLIMUS,CHEMBL1908360,INHIBITOR,,FK506-binding protein 1A inhibitor,1.0,4.0,,,ChEMBL mechanism (CHEMBL1902),2009.0,Small molecule,1.0,False,True,False,,,,inhibitor,activator,False,2.4180845417276933
-Fkbp1a,FKBP1A,ChEMBL,PIMECROLIMUS,CHEMBL1200686,INHIBITOR,,FK506-binding protein 1A inhibitor,1.0,4.0,,,ChEMBL mechanism (CHEMBL1902),2001.0,Small molecule,1.0,False,False,False,,,,inhibitor,activator,False,2.4180845417276933
-Fkbp1a,FKBP1A,ChEMBL,TACROLIMUS,CHEMBL3989887,INHIBITOR,,FK506-binding protein 1A inhibitor,1.0,4.0,,,ChEMBL mechanism (CHEMBL1902),1994.0,Small molecule,1.0,False,True,True,,,,inhibitor,activator,False,2.4180845417276933
-Fkbp1a,FKBP1A,ChEMBL,OLOCROLIMUS,CHEMBL3545142,INHIBITOR,,FK506-binding protein 1A inhibitor,1.0,1.0,,,ChEMBL mechanism (CHEMBL1902),,Unknown,0.0,False,False,False,,,,inhibitor,activator,False,2.4180845417276933
-Fkbp1a,FKBP1A,ChEMBL,ZOTAROLIMUS,CHEMBL219410,INHIBITOR,,FK506-binding protein 1A inhibitor,1.0,3.0,,,ChEMBL mechanism (CHEMBL1902),,Small molecule,0.0,False,False,False,,,,inhibitor,activator,False,2.4180845417276933
-Fkbp1a,FKBP1A,DGIdb,ZOTAROLIMUS,ncit:C82294,inhibitor; inhibitor,INHIBITORY; INHIBITORY,,,,False,3.528799299552181,DGIdb: ChEMBL; GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,2.4180845417276933
-Fkbp1a,FKBP1A,DGIdb,SLF,iuphar.ligand:11480,inhibitor,INHIBITORY,,,,False,1.17626643318406,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,2.4180845417276933
-Fkbp1a,FKBP1A,DGIdb,SIROLIMUS,rxcui:35302,inhibitor; inhibitor,INHIBITORY; INHIBITORY,,,approved,True,0.4952700771301307,DGIdb: ChEMBL; DTC; GuideToPharmacology; TEND; TTD; TdgClinicalTrial,,,,,,,,,,inhibitor,activator,False,2.4180845417276933
-Fkbp1a,FKBP1A,DGIdb,ANHYDROUS TACROLIMUS,rxcui:235991,inhibitor,INHIBITORY,,,approved,True,0.3414967064082756,DGIdb: GuideToPharmacology; TEND; TdgClinicalTrial,,,,,,,,,,inhibitor,activator,False,2.4180845417276933
-Fkbp1a,FKBP1A,DGIdb,CYCLOHEXIMIDE,ncit:C171712,inhibitor,INHIBITORY,,,,False,0.0371452557847598,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,2.4180845417276933
-Fkbp1a,FKBP1A,DGIdb,GPI-1485,drugbank:DB05814,,,,,,False,7.057598599104363,DGIdb: TTD; TdgClinicalTrial,,,,,,,,,,other/unknown,activator,False,2.4180845417276933
-Fkbp1a,FKBP1A,DGIdb,OLOCROLIMUS,chembl:CHEMBL3545142,inhibitor,INHIBITORY,,,,False,3.528799299552181,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,2.4180845417276933
-Fkbp1a,FKBP1A,DGIdb,PIMECROLIMUS,rxcui:321952,inhibitor,INHIBITORY,,,approved,True,2.352532866368121,DGIdb: ChEMBL; TEND,,,,,,,,,,inhibitor,activator,False,2.4180845417276933
-Fkbp1a,FKBP1A,DGIdb,TEMSIROLIMUS,rxcui:657797,inhibitor,INHIBITORY,,,approved,True,0.2520570928251558,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,2.4180845417276933
-Fkbp1a,FKBP1A,DGIdb,TACROLIMUS,chembl:CHEMBL3989887,inhibitor,INHIBITORY,,,approved,True,3.528799299552181,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,2.4180845417276933
-Fkbp1a,FKBP1A,DGIdb,PHENETHYLISOTHIOCYANATE,chembl:CHEMBL151649,,,,,,False,0.8821998248880454,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.4180845417276933
-Fkbp1a,FKBP1A,DGIdb,METFORMIN,rxcui:6809,,,,,approved,True,0.0653481351768922,DGIdb: PharmGKB,,,,,,,,,,other/unknown,activator,False,2.4180845417276933
-Fkbp1a,FKBP1A,DGIdb,EVEROLIMUS,rxcui:141704,inhibitor,INHIBITORY,,,approved,True,0.4032913485202493,DGIdb: ChEMBL; ClearityFoundationClinicalTrial; DTC,,,,,,,,,,inhibitor,activator,False,2.4180845417276933
-Fkbp1a,FKBP1A,DGIdb,AZD8055,iuphar.ligand:7714,,,,,,False,0.5881332165920303,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.4180845417276933
-Fkbp1a,FKBP1A,DGIdb,RIMIDUCID,ncit:C82412,,,,,,False,3.528799299552181,DGIdb: TTD,,,,,,,,,,other/unknown,activator,False,2.4180845417276933
+Fkbp1a,FKBP1A,ChEMBL,SIROLIMUS,CHEMBL413,INHIBITOR,,FK506-binding protein 1A inhibitor,1.0,4.0,,,ChEMBL mechanism (CHEMBL1902),1999.0,Small molecule,1.0,False,True,True,9.7,B,Ki,inhibitor,activator,False,2.4847512083943597
+Fkbp1a,FKBP1A,ChEMBL,TEMSIROLIMUS,CHEMBL1201182,INHIBITOR,,FK506-binding protein 1A inhibitor,1.0,4.0,,,ChEMBL mechanism (CHEMBL1902),2007.0,Small molecule,0.0,False,False,True,,,,inhibitor,activator,False,2.4847512083943597
+Fkbp1a,FKBP1A,ChEMBL,EVEROLIMUS,CHEMBL1908360,INHIBITOR,,FK506-binding protein 1A inhibitor,1.0,4.0,,,ChEMBL mechanism (CHEMBL1902),2009.0,Small molecule,1.0,False,True,False,,,,inhibitor,activator,False,2.4847512083943597
+Fkbp1a,FKBP1A,ChEMBL,PIMECROLIMUS,CHEMBL1200686,INHIBITOR,,FK506-binding protein 1A inhibitor,1.0,4.0,,,ChEMBL mechanism (CHEMBL1902),2001.0,Small molecule,1.0,False,False,False,,,,inhibitor,activator,False,2.4847512083943597
+Fkbp1a,FKBP1A,ChEMBL,TACROLIMUS,CHEMBL3989887,INHIBITOR,,FK506-binding protein 1A inhibitor,1.0,4.0,,,ChEMBL mechanism (CHEMBL1902),1994.0,Small molecule,1.0,False,True,True,,,,inhibitor,activator,False,2.4847512083943597
+Fkbp1a,FKBP1A,ChEMBL,OLOCROLIMUS,CHEMBL3545142,INHIBITOR,,FK506-binding protein 1A inhibitor,1.0,1.0,,,ChEMBL mechanism (CHEMBL1902),,Unknown,0.0,False,False,False,,,,inhibitor,activator,False,2.4847512083943597
+Fkbp1a,FKBP1A,ChEMBL,ZOTAROLIMUS,CHEMBL219410,INHIBITOR,,FK506-binding protein 1A inhibitor,1.0,3.0,,,ChEMBL mechanism (CHEMBL1902),,Small molecule,0.0,False,False,False,,,,inhibitor,activator,False,2.4847512083943597
+Fkbp1a,FKBP1A,DGIdb,ZOTAROLIMUS,ncit:C82294,inhibitor; inhibitor,INHIBITORY; INHIBITORY,,,,False,3.528799299552181,DGIdb: ChEMBL; GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,2.4847512083943597
+Fkbp1a,FKBP1A,DGIdb,SLF,iuphar.ligand:11480,inhibitor,INHIBITORY,,,,False,1.17626643318406,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,2.4847512083943597
+Fkbp1a,FKBP1A,DGIdb,SIROLIMUS,rxcui:35302,inhibitor; inhibitor,INHIBITORY; INHIBITORY,,,approved,True,0.4952700771301307,DGIdb: ChEMBL; DTC; GuideToPharmacology; TEND; TTD; TdgClinicalTrial,,,,,,,,,,inhibitor,activator,False,2.4847512083943597
+Fkbp1a,FKBP1A,DGIdb,ANHYDROUS TACROLIMUS,rxcui:235991,inhibitor,INHIBITORY,,,approved,True,0.3414967064082756,DGIdb: GuideToPharmacology; TEND; TdgClinicalTrial,,,,,,,,,,inhibitor,activator,False,2.4847512083943597
+Fkbp1a,FKBP1A,DGIdb,CYCLOHEXIMIDE,ncit:C171712,inhibitor,INHIBITORY,,,,False,0.0371452557847598,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,2.4847512083943597
+Fkbp1a,FKBP1A,DGIdb,GPI-1485,drugbank:DB05814,,,,,,False,7.057598599104363,DGIdb: TTD; TdgClinicalTrial,,,,,,,,,,other/unknown,activator,False,2.4847512083943597
+Fkbp1a,FKBP1A,DGIdb,OLOCROLIMUS,chembl:CHEMBL3545142,inhibitor,INHIBITORY,,,,False,3.528799299552181,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,2.4847512083943597
+Fkbp1a,FKBP1A,DGIdb,PIMECROLIMUS,rxcui:321952,inhibitor,INHIBITORY,,,approved,True,2.352532866368121,DGIdb: ChEMBL; TEND,,,,,,,,,,inhibitor,activator,False,2.4847512083943597
+Fkbp1a,FKBP1A,DGIdb,TEMSIROLIMUS,rxcui:657797,inhibitor,INHIBITORY,,,approved,True,0.2520570928251558,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,2.4847512083943597
+Fkbp1a,FKBP1A,DGIdb,TACROLIMUS,chembl:CHEMBL3989887,inhibitor,INHIBITORY,,,approved,True,3.528799299552181,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,2.4847512083943597
+Fkbp1a,FKBP1A,DGIdb,PHENETHYLISOTHIOCYANATE,chembl:CHEMBL151649,,,,,,False,0.8821998248880454,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.4847512083943597
+Fkbp1a,FKBP1A,DGIdb,METFORMIN,rxcui:6809,,,,,approved,True,0.0653481351768922,DGIdb: PharmGKB,,,,,,,,,,other/unknown,activator,False,2.4847512083943597
+Fkbp1a,FKBP1A,DGIdb,EVEROLIMUS,rxcui:141704,inhibitor,INHIBITORY,,,approved,True,0.4032913485202493,DGIdb: ChEMBL; ClearityFoundationClinicalTrial; DTC,,,,,,,,,,inhibitor,activator,False,2.4847512083943597
+Fkbp1a,FKBP1A,DGIdb,AZD8055,iuphar.ligand:7714,,,,,,False,0.5881332165920303,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.4847512083943597
+Fkbp1a,FKBP1A,DGIdb,RIMIDUCID,ncit:C82412,,,,,,False,3.528799299552181,DGIdb: TTD,,,,,,,,,,other/unknown,activator,False,2.4847512083943597
 Rxfp2,RXFP2,ChEMBL,SERELAXIN,CHEMBL2108358,ACTIVATOR,,Relaxin receptor 2 activator,1.0,3.0,,,ChEMBL mechanism (CHEMBL1628482),,Unknown,0.0,False,False,False,,,,activator,activator,True,2.381999268888605
 Rxfp2,RXFP2,DGIdb,(DES 1-8) A-CHAIN INSL3 ANALOGUE,iuphar.ligand:3754,inhibitor,INHIBITORY,,,,False,1.825241017009749,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,2.381999268888605
 Rxfp2,RXFP2,DGIdb,[33P]RELAXIN (HUMAN),iuphar.ligand:1991,agonist,ACTIVATING,,,,False,0.9126205085048744,DGIdb: GuideToPharmacology,,,,,,,,,,activator,activator,True,2.381999268888605
@@ -432,6 +432,41 @@ Rxfp2,RXFP2,DGIdb,A(4-24)(B7-24)H2,iuphar.ligand:8346,inhibitor,INHIBITORY,,,,Fa
 Rxfp2,RXFP2,DGIdb,INSL3 B-CHAIN ANALOGUE,iuphar.ligand:3885,inhibitor,INHIBITORY,,,,False,1.825241017009749,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,2.381999268888605
 Rxfp2,RXFP2,DGIdb,[125I]INSL3 (HUMAN),iuphar.ligand:1996,agonist,ACTIVATING,,,,False,1.825241017009749,DGIdb: GuideToPharmacology,,,,,,,,,,activator,activator,True,2.381999268888605
 Rxfp2,RXFP2,DGIdb,RELAXIN-1,iuphar.ligand:1988,agonist,ACTIVATING,,,,False,0.9126205085048744,DGIdb: GuideToPharmacology,,,,,,,,,,activator,activator,True,2.381999268888605
+Gnas,GNAS,DGIdb,MIFEPRISTONE,rxcui:6964,,,,,approved,True,0.0630142732062889,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,CHEMBL:CHEMBL581574,chembl:CHEMBL581574,,,,,,False,0.2160489367072764,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,CHEMBL:CHEMBL581044,chembl:CHEMBL581044,,,,,,False,0.1680380618834372,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,JNJ1661010,iuphar.ligand:5206,,,,,,False,0.2520570928251558,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,TETRAETHYLAMMONIUM CHLORIDE,chembl:CHEMBL434435,,,,,,False,1.512342556950935,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,CHEMBL:CHEMBL515505,chembl:CHEMBL515505,,,,,,False,0.065754024215258,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,CHEMBL:CHEMBL505670,chembl:CHEMBL505670,,,,,,False,0.0432097873414552,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,CHEMBL:CHEMBL587994,chembl:CHEMBL587994,,,,,,False,0.302468511390187,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,CHEMBL:CHEMBL1456848,chembl:CHEMBL1456848,,,,,,False,0.3780856392377338,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,CHEMBL:CHEMBL1500913,chembl:CHEMBL1500913,,,,,,False,1.512342556950935,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,CHEMBL:CHEMBL1417470,chembl:CHEMBL1417470,,,,,,False,1.512342556950935,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,CHEMBL:CHEMBL529918,chembl:CHEMBL529918,,,,,,False,0.5041141856503117,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,GARCINONE E,chembl:CHEMBL454580,,,,,,False,0.1512342556950935,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,CHEMBL:CHEMBL530291,chembl:CHEMBL530291,,,,,,False,0.2160489367072764,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,NICLOSAMIDE,rxcui:7402,,,,,approved,True,0.056012687294479,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,TRIACETIN,chembl:CHEMBL1489254,,,,,,False,1.512342556950935,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,CHEMBL:CHEMBL527586,chembl:CHEMBL527586,,,,,,False,0.3780856392377338,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,CHEMBL:CHEMBL429095,chembl:CHEMBL429095,,,,,,False,0.0302468511390187,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,CHEMBL:CHEMBL585408,chembl:CHEMBL585408,,,,,,False,0.7561712784754676,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,AMITRIPTYLINE HYDROCHLORIDE,chembl:CHEMBL1200964,,,,,approved,True,0.302468511390187,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,ACID BLUE 129,chembl:CHEMBL133576,,,,,,False,0.0795969766816281,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,CHEMBL:CHEMBL252417,chembl:CHEMBL252417,,,,,,False,0.3780856392377338,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,CHEMBL:CHEMBL578878,chembl:CHEMBL578878,,,,,,False,0.5041141856503117,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,CHEMBL:CHEMBL2002487,chembl:CHEMBL2002487,,,,,,False,0.1374856869955395,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,"(3Z)-N,N-DIMETHYL-2-OXO-3-(4,5,6,7-TETRAHYDRO-1H-INDOL-2-YLMETHYLIDENE)-2,3-DIHYDRO-1H-INDOLE-5-SULFONAMIDE",drugbank:DB08039,,,,,,False,0.065754024215258,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,FLUOROURACIL,rxcui:4492,,,,,approved,True,0.0238164182196997,DGIdb: CIViC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,CHEMBL:CHEMBL1506226,chembl:CHEMBL1506226,,,,,,False,1.512342556950935,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,"9,10-PHENANTHRENEQUINONE",chembl:CHEMBL51931,,,,,,False,0.0581670214211898,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,CLIOXANIDE,chembl:CHEMBL236150,,,,,,False,0.2160489367072764,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,CHEMBL:CHEMBL1561747,chembl:CHEMBL1561747,,,,,,False,1.512342556950935,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,CHEMBL:CHEMBL1392244,chembl:CHEMBL1392244,,,,,,False,0.5041141856503117,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,ETOCARLIDE,chembl:CHEMBL1354007,,,,,,False,1.512342556950935,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,CHEMBL:CHEMBL560296,chembl:CHEMBL560296,,,,,,False,0.5041141856503117,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,"WIN 62,577",iuphar.ligand:340,,,,,,False,0.1890428196188669,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
+Gnas,GNAS,DGIdb,CISPLATIN,rxcui:2555,,,,,approved,True,0.018111886909592,DGIdb: CIViC,,,,,,,,,,other/unknown,activator,False,2.371499723933016
 Gpr12,GPR12,DGIdb,SPHINGOSINE 1-PHOSPHATE,iuphar.ligand:911,agonist,ACTIVATING,,,,False,0.980222027653384,DGIdb: GuideToPharmacology,,,,,,,,,,activator,activator,True,2.3703250348732583
 Gpr12,GPR12,DGIdb,CYCLOCITRINOL,chembl:CHEMBL523073,,,,,,False,17.64399649776091,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3703250348732583
 Gpr12,GPR12,DGIdb,NEOCYCLOCITRINOL B,chembl:CHEMBL497296,,,,,,False,17.64399649776091,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3703250348732583
@@ -488,41 +523,6 @@ Gcgr,GCGR,DGIdb,LGD-6972,drugbank:DB14779,,,,,,False,3.02468511390187,DGIdb: TTD
 Gcgr,GCGR,DGIdb,ADOMEGLIVANT,iuphar.ligand:9479,inhibitor,INHIBITORY,,,,False,3.02468511390187,DGIdb: GuideToPharmacology; TTD,,,,,,,,,,inhibitor,activator,False,2.325541699045721
 Gcgr,GCGR,DGIdb,SAR425899,chembl:CHEMBL3545269,agonist,ACTIVATING,,,,False,1.008228371300623,DGIdb: ChEMBL; TTD,,,,,,,,,,activator,activator,True,2.325541699045721
 Gcgr,GCGR,DGIdb,MK-3577,chembl:CHEMBL1933350,inhibitor,INHIBITORY,,,,False,1.512342556950935,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,2.325541699045721
-Gnas,GNAS,DGIdb,MIFEPRISTONE,rxcui:6964,,,,,approved,True,0.0630142732062889,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,CHEMBL:CHEMBL581574,chembl:CHEMBL581574,,,,,,False,0.2160489367072764,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,CHEMBL:CHEMBL581044,chembl:CHEMBL581044,,,,,,False,0.1680380618834372,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,JNJ1661010,iuphar.ligand:5206,,,,,,False,0.2520570928251558,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,TETRAETHYLAMMONIUM CHLORIDE,chembl:CHEMBL434435,,,,,,False,1.512342556950935,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,CHEMBL:CHEMBL515505,chembl:CHEMBL515505,,,,,,False,0.065754024215258,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,CHEMBL:CHEMBL505670,chembl:CHEMBL505670,,,,,,False,0.0432097873414552,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,CHEMBL:CHEMBL587994,chembl:CHEMBL587994,,,,,,False,0.302468511390187,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,CHEMBL:CHEMBL1456848,chembl:CHEMBL1456848,,,,,,False,0.3780856392377338,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,CHEMBL:CHEMBL1500913,chembl:CHEMBL1500913,,,,,,False,1.512342556950935,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,CHEMBL:CHEMBL1417470,chembl:CHEMBL1417470,,,,,,False,1.512342556950935,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,CHEMBL:CHEMBL529918,chembl:CHEMBL529918,,,,,,False,0.5041141856503117,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,GARCINONE E,chembl:CHEMBL454580,,,,,,False,0.1512342556950935,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,CHEMBL:CHEMBL530291,chembl:CHEMBL530291,,,,,,False,0.2160489367072764,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,NICLOSAMIDE,rxcui:7402,,,,,approved,True,0.056012687294479,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,TRIACETIN,chembl:CHEMBL1489254,,,,,,False,1.512342556950935,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,CHEMBL:CHEMBL527586,chembl:CHEMBL527586,,,,,,False,0.3780856392377338,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,CHEMBL:CHEMBL429095,chembl:CHEMBL429095,,,,,,False,0.0302468511390187,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,CHEMBL:CHEMBL585408,chembl:CHEMBL585408,,,,,,False,0.7561712784754676,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,AMITRIPTYLINE HYDROCHLORIDE,chembl:CHEMBL1200964,,,,,approved,True,0.302468511390187,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,ACID BLUE 129,chembl:CHEMBL133576,,,,,,False,0.0795969766816281,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,CHEMBL:CHEMBL252417,chembl:CHEMBL252417,,,,,,False,0.3780856392377338,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,CHEMBL:CHEMBL578878,chembl:CHEMBL578878,,,,,,False,0.5041141856503117,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,CHEMBL:CHEMBL2002487,chembl:CHEMBL2002487,,,,,,False,0.1374856869955395,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,"(3Z)-N,N-DIMETHYL-2-OXO-3-(4,5,6,7-TETRAHYDRO-1H-INDOL-2-YLMETHYLIDENE)-2,3-DIHYDRO-1H-INDOLE-5-SULFONAMIDE",drugbank:DB08039,,,,,,False,0.065754024215258,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,FLUOROURACIL,rxcui:4492,,,,,approved,True,0.0238164182196997,DGIdb: CIViC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,CHEMBL:CHEMBL1506226,chembl:CHEMBL1506226,,,,,,False,1.512342556950935,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,"9,10-PHENANTHRENEQUINONE",chembl:CHEMBL51931,,,,,,False,0.0581670214211898,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,CLIOXANIDE,chembl:CHEMBL236150,,,,,,False,0.2160489367072764,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,CHEMBL:CHEMBL1561747,chembl:CHEMBL1561747,,,,,,False,1.512342556950935,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,CHEMBL:CHEMBL1392244,chembl:CHEMBL1392244,,,,,,False,0.5041141856503117,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,ETOCARLIDE,chembl:CHEMBL1354007,,,,,,False,1.512342556950935,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,CHEMBL:CHEMBL560296,chembl:CHEMBL560296,,,,,,False,0.5041141856503117,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,"WIN 62,577",iuphar.ligand:340,,,,,,False,0.1890428196188669,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
-Gnas,GNAS,DGIdb,CISPLATIN,rxcui:2555,,,,,approved,True,0.018111886909592,DGIdb: CIViC,,,,,,,,,,other/unknown,activator,False,2.3048330572663493
 Ppp2r5d,PPP2R5D,DGIdb,CYCLOPHOSPHAMIDE ANHYDROUS,rxcui:1545988,,,,,approved,True,0.4151528587708449,DGIdb: PharmGKB,,,,,,,,,,other/unknown,activator,False,2.2643345352893354
 Ppp2r5d,PPP2R5D,DGIdb,FLUOROURACIL,rxcui:4492,,,,,approved,True,0.2778582125631639,DGIdb: PharmGKB,,,,,,,,,,other/unknown,activator,False,2.2643345352893354
 Ppp2r5d,PPP2R5D,DGIdb,EPIRUBICIN,rxcui:3995,,,,,approved,True,1.037882146927112,DGIdb: PharmGKB,,,,,,,,,,other/unknown,activator,False,2.2643345352893354
@@ -583,19 +583,19 @@ Ptges,PTGES,DGIdb,MF63,iuphar.ligand:14084,inhibitor,INHIBITORY,,,,False,2.64659
 Ptges,PTGES,DGIdb,RECOMBINANT VASCULAR ENDOTHELIAL GROWTH FACTOR,ncit:C1272,,,,,,False,0.3780856392377337,DGIdb: NCI,,,,,,,,,,other/unknown,activator,False,2.051495598286759
 Ptges,PTGES,DGIdb,ZALOGLANSTAT,ncit:C179135,inhibitor,INHIBITORY,,,,False,2.646599474664136,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,2.051495598286759
 Ptges,PTGES,DGIdb,VIPOGLANSTAT,iuphar.ligand:12209,inhibitor,INHIBITORY,,,,False,2.646599474664136,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,2.051495598286759
-P4hb,P4HB,DGIdb,MITRATAPIDE,chembl:CHEMBL2104975,inhibitor,INHIBITORY,,,,False,2.035845749741643,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,1.9705938145789401
-P4hb,P4HB,DGIdb,LOMITAPIDE MESYLATE,chembl:CHEMBL2105662,inhibitor,INHIBITORY,,,approved,True,2.035845749741643,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,1.9705938145789401
-P4hb,P4HB,DGIdb,DIRLOTAPIDE,chembl:CHEMBL410414,inhibitor,INHIBITORY,,,,False,1.357230499827762,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,1.9705938145789401
-P4hb,P4HB,DGIdb,RALOXIFENE HYDROCHLORIDE,chembl:CHEMBL1116,,,,,approved,True,0.1850768863401494,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,1.9705938145789401
-P4hb,P4HB,DGIdb,ASTRAGALIN,chembl:CHEMBL233930,,,,,,False,4.071691499483287,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,1.9705938145789401
-P4hb,P4HB,DGIdb,SLX-4090,chembl:CHEMBL4297326,inhibitor,INHIBITORY,,,,False,2.035845749741643,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,1.9705938145789401
-P4hb,P4HB,DGIdb,CHEMBL:CHEMBL522983,chembl:CHEMBL522983,,,,,,False,0.3701537726802988,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,1.9705938145789401
-P4hb,P4HB,DGIdb,QUERCITRIN,chembl:CHEMBL82242,,,,,,False,1.357230499827762,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,1.9705938145789401
-P4hb,P4HB,DGIdb,IMPLITAPIDE,chembl:CHEMBL2105804,inhibitor,INHIBITORY,,,,False,2.035845749741643,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,1.9705938145789401
-P4hb,P4HB,DGIdb,CHEMBL:CHEMBL579956,chembl:CHEMBL579956,,,,,,False,2.035845749741643,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,1.9705938145789401
-P4hb,P4HB,DGIdb,SYROSINGOPINE,chembl:CHEMBL1399124,,,,,,False,1.017922874870821,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,1.9705938145789401
-P4hb,P4HB,DGIdb,LIQUIRITIN,chembl:CHEMBL511995,,,,,,False,4.071691499483287,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,1.9705938145789401
-P4hb,P4HB,DGIdb,DIHYDRODAPHNODORIN B,chembl:CHEMBL1532097,,,,,,False,1.017922874870821,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,1.9705938145789401
+P4hb,P4HB,DGIdb,MITRATAPIDE,chembl:CHEMBL2104975,inhibitor,INHIBITORY,,,,False,2.035845749741643,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,2.0372604812456068
+P4hb,P4HB,DGIdb,LOMITAPIDE MESYLATE,chembl:CHEMBL2105662,inhibitor,INHIBITORY,,,approved,True,2.035845749741643,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,2.0372604812456068
+P4hb,P4HB,DGIdb,DIRLOTAPIDE,chembl:CHEMBL410414,inhibitor,INHIBITORY,,,,False,1.357230499827762,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,2.0372604812456068
+P4hb,P4HB,DGIdb,RALOXIFENE HYDROCHLORIDE,chembl:CHEMBL1116,,,,,approved,True,0.1850768863401494,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.0372604812456068
+P4hb,P4HB,DGIdb,ASTRAGALIN,chembl:CHEMBL233930,,,,,,False,4.071691499483287,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.0372604812456068
+P4hb,P4HB,DGIdb,SLX-4090,chembl:CHEMBL4297326,inhibitor,INHIBITORY,,,,False,2.035845749741643,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,2.0372604812456068
+P4hb,P4HB,DGIdb,CHEMBL:CHEMBL522983,chembl:CHEMBL522983,,,,,,False,0.3701537726802988,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.0372604812456068
+P4hb,P4HB,DGIdb,QUERCITRIN,chembl:CHEMBL82242,,,,,,False,1.357230499827762,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.0372604812456068
+P4hb,P4HB,DGIdb,IMPLITAPIDE,chembl:CHEMBL2105804,inhibitor,INHIBITORY,,,,False,2.035845749741643,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,2.0372604812456068
+P4hb,P4HB,DGIdb,CHEMBL:CHEMBL579956,chembl:CHEMBL579956,,,,,,False,2.035845749741643,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.0372604812456068
+P4hb,P4HB,DGIdb,SYROSINGOPINE,chembl:CHEMBL1399124,,,,,,False,1.017922874870821,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.0372604812456068
+P4hb,P4HB,DGIdb,LIQUIRITIN,chembl:CHEMBL511995,,,,,,False,4.071691499483287,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.0372604812456068
+P4hb,P4HB,DGIdb,DIHYDRODAPHNODORIN B,chembl:CHEMBL1532097,,,,,,False,1.017922874870821,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,2.0372604812456068
 Itgb1,ITGB1,DGIdb,ETARACIZUMAB,ncit:C1800,antibody,INHIBITORY,,,,False,1.556823220390668,DGIdb: TALC,,,,,,,,,,other/unknown,activator,False,1.9592480567773711
 Itgb1,ITGB1,DGIdb,RG-7594,chembl:CHEMBL2109649,binder,,,,,False,1.556823220390668,DGIdb: ChEMBL,,,,,,,,,,other/unknown,activator,False,1.9592480567773711
 Itgb1,ITGB1,DGIdb,JSM 6427,drugbank:DB06139,,,,,,False,3.113646440781337,DGIdb: TTD; TdgClinicalTrial,,,,,,,,,,other/unknown,activator,False,1.9592480567773711
@@ -666,20 +666,20 @@ Hdac7,HDAC7,DGIdb,VORINOSTAT,rxcui:194337,inhibitor,INHIBITORY,,,approved,True,0
 Hdac7,HDAC7,DGIdb,TACEDINALINE,ncit:C2202,inhibitor,INHIBITORY,,,,False,0.3520974910861378,DGIdb: ChEMBL; DTC,,,,,,,,,,inhibitor,activator,False,1.5995021474675888
 Hdac7,HDAC7,DGIdb,CHEMBL:CHEMBL324053,chembl:CHEMBL324053,,,,,,False,0.2347316607240919,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,1.5995021474675888
 Hdac7,HDAC7,DGIdb,BELINOSTAT,rxcui:1543543,inhibitor; inhibitor,INHIBITORY; INHIBITORY,,,approved,True,0.5532960574210738,DGIdb: ChEMBL; DTC; GuideToPharmacology; TALC; TdgClinicalTrial,,,,,,,,,,inhibitor,activator,False,1.5995021474675888
+Rpl29,RPL29,DGIdb,DORLIMOMAB ARITOX,chembl:CHEMBL2109124,inhibitor,INHIBITORY,,,,False,0.0735166520740037,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,1.5968880857714713
+Rpl29,RPL29,DGIdb,ATALUREN,ncit:C169791,modulator,,,,approved,True,0.071723562999028,DGIdb: ChEMBL,,,,,,,,,,other/unknown,activator,False,1.5968880857714713
+Rpl29,RPL29,DGIdb,TAPLITUMOMAB PAPTOX,chembl:CHEMBL2107890,inhibitor,INHIBITORY,,,,False,0.0726090390854358,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,1.5968880857714713
+Rpl29,RPL29,DGIdb,TELIMOMAB ARITOX,chembl:CHEMBL2108790,inhibitor,INHIBITORY,,,,False,0.0726090390854358,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,1.5968880857714713
+Rpl29,RPL29,DGIdb,ELX-02,chembl:CHEMBL4297744,modulator,,,,,False,0.0735166520740037,DGIdb: ChEMBL,,,,,,,,,,other/unknown,activator,False,1.5968880857714713
+Rpl29,RPL29,DGIdb,CYCLOHEXIMIDE,ncit:C171712,inhibitor,INHIBITORY,,,,False,0.0619087596412663,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,1.5968880857714713
+Rpl29,RPL29,DGIdb,CITATUZUMAB BOGATOX,chembl:CHEMBL1743000,inhibitor,INHIBITORY,,,,False,0.0726090390854358,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,1.5968880857714713
+Rpl29,RPL29,DGIdb,MT-3724,chembl:CHEMBL4297789,inhibitor,INHIBITORY,,,,False,0.0726090390854358,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,1.5968880857714713
+Rpl29,RPL29,DGIdb,ZOLIMOMAB ARITOX,chembl:CHEMBL2108785,inhibitor,INHIBITORY,,,,False,0.0726090390854358,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,1.5968880857714713
+Lamc1,LAMC1,DGIdb,OCRIPLASMIN,rxcui:29998,cleavage,INHIBITORY,,,approved,True,1.392947091928492,DGIdb: ChEMBL,,,,,,,,,,other/unknown,activator,False,1.5860214111391324
 Msh2,MSH2,DGIdb,DURVALUMAB,rxcui:1919503,,,,,approved,True,1.654124671665085,DGIdb: CIViC,,,,,,,,,,other/unknown,activator,False,1.5750599227118325
 Msh2,MSH2,DGIdb,DOXORUBICIN HYDROCHLORIDE,rxcui:142433,,,,,approved,True,0.1594337032930202,DGIdb: PharmGKB,,,,,,,,,,other/unknown,activator,False,1.5750599227118325
 Msh2,MSH2,DGIdb,CISPLATIN,rxcui:2555,,,,,approved,True,0.1584790104589303,DGIdb: PharmGKB,,,,,,,,,,other/unknown,activator,False,1.5750599227118325
 Msh2,MSH2,DGIdb,ANTI-PD-1 MONOCLONAL ANTIBODY MEDI0680,ncit:C113332,,,,,,False,13.23299737332068,DGIdb: CIViC,,,,,,,,,,other/unknown,activator,False,1.5750599227118325
-Rpl29,RPL29,DGIdb,DORLIMOMAB ARITOX,chembl:CHEMBL2109124,inhibitor,INHIBITORY,,,,False,0.0735166520740037,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,1.5302214191048045
-Rpl29,RPL29,DGIdb,ATALUREN,ncit:C169791,modulator,,,,approved,True,0.071723562999028,DGIdb: ChEMBL,,,,,,,,,,other/unknown,activator,False,1.5302214191048045
-Rpl29,RPL29,DGIdb,TAPLITUMOMAB PAPTOX,chembl:CHEMBL2107890,inhibitor,INHIBITORY,,,,False,0.0726090390854358,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,1.5302214191048045
-Rpl29,RPL29,DGIdb,TELIMOMAB ARITOX,chembl:CHEMBL2108790,inhibitor,INHIBITORY,,,,False,0.0726090390854358,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,1.5302214191048045
-Rpl29,RPL29,DGIdb,ELX-02,chembl:CHEMBL4297744,modulator,,,,,False,0.0735166520740037,DGIdb: ChEMBL,,,,,,,,,,other/unknown,activator,False,1.5302214191048045
-Rpl29,RPL29,DGIdb,CYCLOHEXIMIDE,ncit:C171712,inhibitor,INHIBITORY,,,,False,0.0619087596412663,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,1.5302214191048045
-Rpl29,RPL29,DGIdb,CITATUZUMAB BOGATOX,chembl:CHEMBL1743000,inhibitor,INHIBITORY,,,,False,0.0726090390854358,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,1.5302214191048045
-Rpl29,RPL29,DGIdb,MT-3724,chembl:CHEMBL4297789,inhibitor,INHIBITORY,,,,False,0.0726090390854358,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,1.5302214191048045
-Rpl29,RPL29,DGIdb,ZOLIMOMAB ARITOX,chembl:CHEMBL2108785,inhibitor,INHIBITORY,,,,False,0.0726090390854358,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,1.5302214191048045
-Lamc1,LAMC1,DGIdb,OCRIPLASMIN,rxcui:29998,cleavage,INHIBITORY,,,approved,True,1.392947091928492,DGIdb: ChEMBL,,,,,,,,,,other/unknown,activator,False,1.5193547444724655
 Stat3,STAT3,DGIdb,SD-36,iuphar.ligand:12915,inhibitor,INHIBITORY,,,,False,1.230976499843784,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,1.4692393044799985
 Stat3,STAT3,DGIdb,ACT001,iuphar.ligand:13291,inhibitor,INHIBITORY,,,,False,1.230976499843784,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,1.4692393044799985
 Stat3,STAT3,DGIdb,COMPOUND 16 [PMID: 38526960],iuphar.ligand:13292,inhibitor,INHIBITORY,,,,False,1.230976499843784,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,1.4692393044799985
@@ -725,8 +725,14 @@ Stat3,STAT3,DGIdb,PYRIMETHAMINE,rxcui:9010,,,,,approved,True,0.2461952999687568,
 Stat3,STAT3,DGIdb,SD-91,iuphar.ligand:11599,inhibitor,INHIBITORY,,,,False,1.230976499843784,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,1.4692393044799985
 Eef2k,EEF2K,DGIdb,COMPOUND 34 [PMID: 20189382],iuphar.ligand:8743,inhibitor,INHIBITORY,,,,False,26.46599474664136,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,1.4629795254737312
 Eef2k,EEF2K,DGIdb,LAPATINIB,rxcui:480167,,,,,approved,True,0.9126205085048746,DGIdb: TTD,,,,,,,,,,other/unknown,activator,False,1.4629795254737312
+Emp2,EMP2,DGIdb,THERAPEUTIC HORMONE,ncit:C548,,,,,,False,2.405999522421942,DGIdb: NCI,,,,,,,,,,other/unknown,activator,False,1.4252215877997998
 Tmeff2,TMEFF2,DGIdb,RISPERIDONE,rxcui:35636,,,,,approved,True,1.603999681614628,DGIdb: PharmGKB,,,,,,,,,,other/unknown,activator,False,1.3626616017099977
-Emp2,EMP2,DGIdb,THERAPEUTIC HORMONE,ncit:C548,,,,,,False,2.405999522421942,DGIdb: NCI,,,,,,,,,,other/unknown,activator,False,1.358554921133133
+Ptbp1,PTBP1,DGIdb,CHEMBL:CHEMBL592124,chembl:CHEMBL592124,,,,,,False,0.284580588673563,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,1.2578042076655933
+Ptbp1,PTBP1,DGIdb,CHEMBL:CHEMBL586031,chembl:CHEMBL586031,,,,,,False,0.6786152499138812,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,1.2578042076655933
+Ptbp1,PTBP1,DGIdb,CHEMBL:CHEMBL604321,chembl:CHEMBL604321,,,,,,False,0.980222027653384,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,1.2578042076655933
+Ptbp1,PTBP1,DGIdb,CHEMBL:CHEMBL2095095,chembl:CHEMBL2095095,,,,,,False,0.490111013826692,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,1.2578042076655933
+Ptbp1,PTBP1,DGIdb,ELLIPTECINE,chembl:CHEMBL123,,,,,,False,0.2756874452775142,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,1.2578042076655933
+Ptbp1,PTBP1,DGIdb,CHEMBL:CHEMBL578502,chembl:CHEMBL578502,,,,,,False,0.980222027653384,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,1.2578042076655933
 Mitf,MITF,DGIdb,CHEMBL:CHEMBL609606,chembl:CHEMBL609606,,,,,,False,0.0998716782892127,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,1.249889884213011
 Mitf,MITF,DGIdb,CHEMBL:CHEMBL95704,chembl:CHEMBL95704,,,,,,False,0.1997433565784254,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,1.249889884213011
 Mitf,MITF,DGIdb,CHEMBL:CHEMBL597649,chembl:CHEMBL597649,,,,,,False,0.9987167828921272,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,1.249889884213011
@@ -782,17 +788,18 @@ Mitf,MITF,DGIdb,CHEMBL:CHEMBL482050,chembl:CHEMBL482050,,,,,,False,0.08322639857
 Mitf,MITF,DGIdb,CHEMBL:CHEMBL588965,chembl:CHEMBL588965,,,,,,False,0.9987167828921272,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,1.249889884213011
 Gp1ba,GP1BA,ChEMBL,ANFIBATIDE,CHEMBL4297694,ANTAGONIST,,Platelet glycoprotein Ib alpha chain antagonist,1.0,2.0,,,ChEMBL mechanism (CHEMBL4630891),,Protein,0.0,False,False,False,,,,inhibitor,activator,False,1.2130220280055648
 Gp1ba,GP1BA,DGIdb,ANFIBATIDE,chembl:CHEMBL4297694,inhibitor,INHIBITORY,,,,False,52.93198949328273,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,1.2130220280055648
-Ptbp1,PTBP1,DGIdb,CHEMBL:CHEMBL592124,chembl:CHEMBL592124,,,,,,False,0.284580588673563,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,1.1911375409989269
-Ptbp1,PTBP1,DGIdb,CHEMBL:CHEMBL586031,chembl:CHEMBL586031,,,,,,False,0.6786152499138812,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,1.1911375409989269
-Ptbp1,PTBP1,DGIdb,CHEMBL:CHEMBL604321,chembl:CHEMBL604321,,,,,,False,0.980222027653384,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,1.1911375409989269
-Ptbp1,PTBP1,DGIdb,CHEMBL:CHEMBL2095095,chembl:CHEMBL2095095,,,,,,False,0.490111013826692,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,1.1911375409989269
-Ptbp1,PTBP1,DGIdb,ELLIPTECINE,chembl:CHEMBL123,,,,,,False,0.2756874452775142,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,1.1911375409989269
-Ptbp1,PTBP1,DGIdb,CHEMBL:CHEMBL578502,chembl:CHEMBL578502,,,,,,False,0.980222027653384,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,1.1911375409989269
 Padi3,PADI3,DGIdb,CL-AMIDINE,iuphar.ligand:8685,inhibitor,INHIBITORY,,,,False,6.616498686660341,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,1.1740824498197744
 Padi3,PADI3,DGIdb,CHEMBL:CHEMBL1910970,chembl:CHEMBL1910970,,,,,,False,6.616498686660341,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,1.1740824498197744
 Padi3,PADI3,DGIdb,CHEMBL:CHEMBL1910971,chembl:CHEMBL1910971,,,,,,False,6.616498686660341,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,1.1740824498197744
 Padi3,PADI3,DGIdb,COMPOUND 14B [PMID: 25742366],iuphar.ligand:8684,inhibitor,INHIBITORY,,,,False,6.616498686660341,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,1.1740824498197744
 Senp2,SENP2,DGIdb,N-ETHYLMALEIMIDE,iuphar.ligand:5335,,,,,,False,21.17279579731309,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,1.1724987911930402
+Rab40b,RAB40B,DGIdb,VITAMIN A,rxcui:11246,,,,,approved,True,0.7561712784754675,DGIdb: TTD,,,,,,,,,,other/unknown,activator,False,1.1443608627492445
+Rab40b,RAB40B,DGIdb,PERETINOIN,ncit:C87202,,,,,,False,7.561712784754675,DGIdb: TTD,,,,,,,,,,other/unknown,activator,False,1.1443608627492445
+Rab40b,RAB40B,DGIdb,FENRETINIDE,ncit:C1098,,,,,approved,True,0.2800634364723954,DGIdb: TTD,,,,,,,,,,other/unknown,activator,False,1.1443608627492445
+Rab40b,RAB40B,DGIdb,TRETINOIN,rxcui:10753,,,,,approved,True,0.0869162389052261,DGIdb: TTD,,,,,,,,,,other/unknown,activator,False,1.1443608627492445
+Rab40b,RAB40B,DGIdb,ISOTRETINOIN,rxcui:6064,,,,,approved,True,0.5041141856503117,DGIdb: TTD,,,,,,,,,,other/unknown,activator,False,1.1443608627492445
+Rab40b,RAB40B,DGIdb,AMSILAROTENE,ncit:C38684,,,,,,False,7.561712784754675,DGIdb: TTD,,,,,,,,,,other/unknown,activator,False,1.1443608627492445
+Rab40b,RAB40B,DGIdb,ADAPALENE,rxcui:60223,,,,,approved,True,0.8401903094171862,DGIdb: TTD,,,,,,,,,,other/unknown,activator,False,1.1443608627492445
 Map2k4,MAP2K4,DGIdb,TRAMETINIB DIMETHYL SULFOXIDE,rxcui:1425098,inhibitor,INHIBITORY,,,approved,True,0.0821925302690725,DGIdb: MyCancerGenomeClinicalTrial,,,,,,,,,,inhibitor,activator,False,1.1210856710708463
 Map2k4,MAP2K4,DGIdb,STAUROSPORINE,drugbank:DB02010,inhibitor,INHIBITORY,,,,False,0.180040780589397,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,1.1210856710708463
 Map2k4,MAP2K4,DGIdb,DEHYDRATED ALCOHOL,rxcui:1310469,,,,,approved,True,0.096945035701983,DGIdb: PharmGKB,,,,,,,,,,other/unknown,activator,False,1.1210856710708463
@@ -807,13 +814,6 @@ Map2k4,MAP2K4,DGIdb,MEK INHIBITOR I,iuphar.ligand:6006,inhibitor,INHIBITORY,,,,F
 Map2k4,MAP2K4,DGIdb,SELUMETINIB,rxcui:2289380,inhibitor,INHIBITORY,,,approved,True,0.1145714058296163,DGIdb: MyCancerGenomeClinicalTrial,,,,,,,,,,inhibitor,activator,False,1.1210856710708463
 Map2k4,MAP2K4,DGIdb,WX-554,drugbank:DB21749,,,,,,False,0.5401223417681911,DGIdb: TdgClinicalTrial,,,,,,,,,,other/unknown,activator,False,1.1210856710708463
 Map2k4,MAP2K4,DGIdb,BINIMETINIB,rxcui:2049122,inhibitor,INHIBITORY,,,approved,True,0.1989924417040704,DGIdb: MyCancerGenomeClinicalTrial,,,,,,,,,,inhibitor,activator,False,1.1210856710708463
-Rab40b,RAB40B,DGIdb,VITAMIN A,rxcui:11246,,,,,approved,True,0.7561712784754675,DGIdb: TTD,,,,,,,,,,other/unknown,activator,False,1.077694196082578
-Rab40b,RAB40B,DGIdb,PERETINOIN,ncit:C87202,,,,,,False,7.561712784754675,DGIdb: TTD,,,,,,,,,,other/unknown,activator,False,1.077694196082578
-Rab40b,RAB40B,DGIdb,FENRETINIDE,ncit:C1098,,,,,approved,True,0.2800634364723954,DGIdb: TTD,,,,,,,,,,other/unknown,activator,False,1.077694196082578
-Rab40b,RAB40B,DGIdb,TRETINOIN,rxcui:10753,,,,,approved,True,0.0869162389052261,DGIdb: TTD,,,,,,,,,,other/unknown,activator,False,1.077694196082578
-Rab40b,RAB40B,DGIdb,ISOTRETINOIN,rxcui:6064,,,,,approved,True,0.5041141856503117,DGIdb: TTD,,,,,,,,,,other/unknown,activator,False,1.077694196082578
-Rab40b,RAB40B,DGIdb,AMSILAROTENE,ncit:C38684,,,,,,False,7.561712784754675,DGIdb: TTD,,,,,,,,,,other/unknown,activator,False,1.077694196082578
-Rab40b,RAB40B,DGIdb,ADAPALENE,rxcui:60223,,,,,approved,True,0.8401903094171862,DGIdb: TTD,,,,,,,,,,other/unknown,activator,False,1.077694196082578
 Junb,JUNB,DGIdb,DEXAMETHASONE,rxcui:3264,,,,,approved,True,0.4251565421147207,DGIdb: NCI,,,,,,,,,,other/unknown,activator,False,1.053230125757777
 Junb,JUNB,DGIdb,"INSULIN, REGULAR, HUMAN",rxcui:253182,,,,,approved,True,0.6786152499138812,DGIdb: NCI,,,,,,,,,,other/unknown,activator,False,1.053230125757777
 Junb,JUNB,DGIdb,THERAPEUTIC CYTOKINE,ncit:C1283,,,,,,False,1.357230499827762,DGIdb: NCI,,,,,,,,,,other/unknown,activator,False,1.053230125757777
@@ -842,7 +842,7 @@ Stat5a,STAT5A,DGIdb,COMPOUND (&PLUSMN;)-2 [PMID: 41108282],iuphar.ligand:14270,i
 Stat5a,STAT5A,DGIdb,TOFACITINIB,rxcui:1357536,,,,,approved,True,3.608999283632913,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,0.8904110766429816
 Stat5a,STAT5A,DGIdb,AK-2292,iuphar.ligand:12409,,,,,,False,6.616498686660341,DGIdb: GuideToPharmacology,,,,,,,,,,other/unknown,activator,False,0.8904110766429816
 Stat5a,STAT5A,DGIdb,AZD1480,iuphar.ligand:5933,,,,,,False,3.30824934333017,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,0.8904110766429816
-Crot,CROT,DGIdb,LEVOCARNITINE PROPIONATE,drugbank:DB15980,,,,,,False,6.616498686660341,DGIdb: TdgClinicalTrial,,,,,,,,,,other/unknown,activator,False,0.5867824431581001
+Crot,CROT,DGIdb,LEVOCARNITINE PROPIONATE,drugbank:DB15980,,,,,,False,6.616498686660341,DGIdb: TdgClinicalTrial,,,,,,,,,,other/unknown,activator,False,0.6534491098247668
 Zfp697,ZNF697,DGIdb,INTERFERON BETA-1B,rxcui:72257,,,,,approved,True,5.293198949328272,DGIdb: PharmGKB,,,,,,,,,,other/unknown,activator,False,0.29795610052838484
 Zfp697,ZNF697,DGIdb,INTERFERON BETA-1A,rxcui:75917,,,,,approved,True,3.528799299552182,DGIdb: PharmGKB,,,,,,,,,,other/unknown,activator,False,0.29795610052838484
 Ppp2ca,PPP2CA,ChEMBL,LB-100,CHEMBL4297300,INHIBITOR,,"Serine/threonine protein phosphatase 2A, catalytic subunit, alpha isoform inhibitor",1.0,2.0,,,ChEMBL mechanism (CHEMBL4703),,Small molecule,0.0,False,False,False,,,,inhibitor,activator,False,0.25840423792870615
@@ -852,12 +852,14 @@ Ppp2ca,PPP2CA,DGIdb,CANTHARIDIN,rxcui:1984,inhibitor,INHIBITORY,,,approved,True,
 Ppp2ca,PPP2CA,DGIdb,MICROCYSTIN-LR,iuphar.ligand:4735,inhibitor,INHIBITORY,,,,False,4.410999124440227,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,0.25840423792870615
 Ppp2ca,PPP2CA,DGIdb,LB-100,iuphar.ligand:11105,inhibitor,INHIBITORY,,,,False,2.940666082960152,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,0.25840423792870615
 Ppp2ca,PPP2CA,DGIdb,LB-100,drugbank:DB15412,,,,,,False,2.940666082960152,DGIdb: TTD,,,,,,,,,,other/unknown,activator,False,0.25840423792870615
+Strap,STRAP,DGIdb,ADJUVANT,ncit:C2140,,,,,,False,7.057598599104364,DGIdb: NCI,,,,,,,,,,other/unknown,activator,False,0.25194948239251236
 Pi4kb,PI4KB,DGIdb,COMPOUND 22 [WO2019141694A1],iuphar.ligand:12181,inhibitor,INHIBITORY,,,,False,13.23299737332068,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,0.20446367153687284
 Pi4kb,PI4KB,DGIdb,"N-(5-{4-CHLORO-3-[(2-HYDROXYETHYL)SULFAMOYL]PHENYL}-4-METHYL-1,3-THIAZOL-2-YL)ACETAMIDE",drugbank:DB06836,inhibitor,INHIBITORY,,,,False,13.23299737332068,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,0.20446367153687284
 Pi4kb,PI4KB,DGIdb,TORIN 2,iuphar.ligand:8839,inhibitor,INHIBITORY,,,,False,1.890428196188668,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,0.20446367153687284
 Pi4kb,PI4KB,DGIdb,WORTMANNIN,drugbank:DB08059,inhibitor,INHIBITORY,,,,False,0.735166520740038,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,0.20446367153687284
-Strap,STRAP,DGIdb,ADJUVANT,ncit:C2140,,,,,,False,7.057598599104364,DGIdb: NCI,,,,,,,,,,other/unknown,activator,False,0.18528281572584593
 Nae1,NAE1,DGIdb,PEVONEDISTAT,ncit:C77906,inhibitor,INHIBITORY,,,,False,10.58639789865654,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,-0.2442154426712344
+Ppa1,PPA1,DGIdb,GUANIDINIUM CATION,ncit:C1375,,,,,,False,52.93198949328273,DGIdb: NCI,,,,,,,,,,other/unknown,activator,False,-0.2633337505037012
+Ppa1,PPA1,DGIdb,DEHYDRATED ALCOHOL,rxcui:1310469,,,,,approved,True,0.6786152499138811,DGIdb: NCI,,,,,,,,,,other/unknown,activator,False,-0.2633337505037012
 Psmd2,PSMD2,DGIdb,CARFILZOMIB,rxcui:1302966,other/unknown; inhibitor,INHIBITORY,,,approved,True,0.4410999124440227,DGIdb: ChEMBL; DTC; MyCancerGenome,,,,,,,,,,inhibitor,activator,False,-0.3107093163123005
 Psmd2,PSMD2,DGIdb,BORTEZOMIB,rxcui:358258,other/unknown; inhibitor,INHIBITORY,,,approved,True,0.4616161874414191,DGIdb: ChEMBL; DTC; MyCancerGenome; TEND; TdgClinicalTrial,,,,,,,,,,inhibitor,activator,False,-0.3107093163123005
 Psmd2,PSMD2,DGIdb,OPROZOMIB,ncit:C91388,,,,,,False,1.102749781110056,DGIdb: TdgClinicalTrial,,,,,,,,,,other/unknown,activator,False,-0.3107093163123005
@@ -866,16 +868,14 @@ Psmd2,PSMD2,DGIdb,IXAZOMIB CITRATE,chembl:CHEMBL3545432,inhibitor,INHIBITORY,,,a
 Psmd2,PSMD2,DGIdb,IXAZOMIB CITRATE,rxcui:1723734,,,,,approved,True,0.9452140980943344,DGIdb: TdgClinicalTrial,,,,,,,,,,other/unknown,activator,False,-0.3107093163123005
 Psmd2,PSMD2,DGIdb,IXAZOMIB,rxcui:1723735,inhibitor,INHIBITORY,,,approved,True,0.1613780167478132,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,-0.3107093163123005
 Psmd2,PSMD2,DGIdb,BORTEZOMIB D-MANNITOL,chembl:CHEMBL5315122,inhibitor,INHIBITORY,,,approved,True,0.1741183864910616,DGIdb: ChEMBL,,,,,,,,,,inhibitor,activator,False,-0.3107093163123005
-Ppa1,PPA1,DGIdb,GUANIDINIUM CATION,ncit:C1375,,,,,,False,52.93198949328273,DGIdb: NCI,,,,,,,,,,other/unknown,activator,False,-0.3300004171703681
-Ppa1,PPA1,DGIdb,DEHYDRATED ALCOHOL,rxcui:1310469,,,,,approved,True,0.6786152499138811,DGIdb: NCI,,,,,,,,,,other/unknown,activator,False,-0.3300004171703681
-Eif3g,EIF3G,DGIdb,APREMILAST,rxcui:1492727,,,,,approved,True,5.881332165920304,DGIdb: PharmGKB,,,,,,,,,,other/unknown,activator,False,-0.5722170911018716
+Eif3g,EIF3G,DGIdb,APREMILAST,rxcui:1492727,,,,,approved,True,5.881332165920304,DGIdb: PharmGKB,,,,,,,,,,other/unknown,activator,False,-0.5055504244352043
+Mat2a,MAT2A,DGIdb,SCR‐7952,iuphar.ligand:14388,modulator,,,,,False,10.58639789865654,DGIdb: GuideToPharmacology,,,,,,,,,,other/unknown,activator,False,-0.8208933503325189
+Mat2a,MAT2A,DGIdb,AG-270,iuphar.ligand:14386,modulator,,,,,False,21.17279579731309,DGIdb: GuideToPharmacology; TTD,,,,,,,,,,other/unknown,activator,False,-0.8208933503325189
+Mat2a,MAT2A,DGIdb,IDE397,iuphar.ligand:14409,inhibitor,INHIBITORY,,,,False,10.58639789865654,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,-0.8208933503325189
+Mat2a,MAT2A,DGIdb,COMPOUND 28 [PMID: 33900758],iuphar.ligand:14387,modulator,,,,,False,10.58639789865654,DGIdb: GuideToPharmacology,,,,,,,,,,other/unknown,activator,False,-0.8208933503325189
+Mat2a,MAT2A,DGIdb,ZS34,iuphar.ligand:14385,inhibitor,INHIBITORY,,,,False,10.58639789865654,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,-0.8208933503325189
 Kat8,KAT8,DGIdb,PF-9363,iuphar.ligand:12938,inhibitor,INHIBITORY,,,,False,5.293198949328272,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,-0.8572458618500409
 Kat8,KAT8,DGIdb,MG149,iuphar.ligand:7488,inhibitor,INHIBITORY,,,,False,13.23299737332068,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,-0.8572458618500409
-Mat2a,MAT2A,DGIdb,SCR‐7952,iuphar.ligand:14388,modulator,,,,,False,10.58639789865654,DGIdb: GuideToPharmacology,,,,,,,,,,other/unknown,activator,False,-0.8875600169991857
-Mat2a,MAT2A,DGIdb,AG-270,iuphar.ligand:14386,modulator,,,,,False,21.17279579731309,DGIdb: GuideToPharmacology; TTD,,,,,,,,,,other/unknown,activator,False,-0.8875600169991857
-Mat2a,MAT2A,DGIdb,IDE397,iuphar.ligand:14409,inhibitor,INHIBITORY,,,,False,10.58639789865654,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,-0.8875600169991857
-Mat2a,MAT2A,DGIdb,COMPOUND 28 [PMID: 33900758],iuphar.ligand:14387,modulator,,,,,False,10.58639789865654,DGIdb: GuideToPharmacology,,,,,,,,,,other/unknown,activator,False,-0.8875600169991857
-Mat2a,MAT2A,DGIdb,ZS34,iuphar.ligand:14385,inhibitor,INHIBITORY,,,,False,10.58639789865654,DGIdb: GuideToPharmacology,,,,,,,,,,inhibitor,activator,False,-0.8875600169991857
 Top1,TOP1,ChEMBL,EDOTECARIN,CHEMBL435191,INHIBITOR,,DNA topoisomerase I inhibitor,1.0,3.0,,,ChEMBL mechanism (CHEMBL1781),,Small molecule,0.0,False,False,False,7.29,F,EC50,inhibitor,activator,False,-0.9404880209350912
 Top1,TOP1,ChEMBL,7-ETHYL-10-HYDROXYCAMPTOTHECIN,CHEMBL837,INHIBITOR,,DNA topoisomerase I inhibitor,1.0,2.0,,,ChEMBL mechanism (CHEMBL1781),,Small molecule,0.0,False,False,False,7.16,B,EC50,inhibitor,activator,False,-0.9404880209350912
 Top1,TOP1,ChEMBL,9-AMINOCAMPTOTHECIN,CHEMBL274070,INHIBITOR,,DNA topoisomerase I inhibitor,1.0,2.0,,,ChEMBL mechanism (CHEMBL1781),,Small molecule,0.0,False,False,False,6.96,B,IC50,inhibitor,activator,False,-0.9404880209350912
@@ -1031,6 +1031,6 @@ Top1,TOP1,DGIdb,O-METHYLCALOTHRIXIN A,chembl:CHEMBL549880,,,,,,False,0.808121976
 Top1,TOP1,DGIdb,PEGAMOTECAN,chembl:CHEMBL3989476,,,,,,False,0.4040609884983414,DGIdb: TdgClinicalTrial,,,,,,,,,,other/unknown,activator,False,-0.9404880209350912
 Top1,TOP1,DGIdb,CHEMBL:CHEMBL455004,chembl:CHEMBL455004,,,,,,False,0.8081219769966829,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,-0.9404880209350912
 Top1,TOP1,DGIdb,CISPLATIN,rxcui:2555,,,,,approved,True,0.0048390537544711,DGIdb: NCI,,,,,,,,,,other/unknown,activator,False,-0.9404880209350912
-Polrmt,POLRMT,DGIdb,GEMCITABINE TRIPHOSPHATE,chembl:CHEMBL1201383,,,,,,False,52.93198949328273,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,-1.0493918514761624
+Polrmt,POLRMT,DGIdb,GEMCITABINE TRIPHOSPHATE,chembl:CHEMBL1201383,,,,,,False,52.93198949328273,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,-0.982725184809496
 Uba1,UBA1,DGIdb,HIMEIC ACID A,chembl:CHEMBL2046773,,,,,,False,52.93198949328273,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,-1.429276619924377
 Uba1,UBA1,DGIdb,HYRTIOERECTINE B,chembl:CHEMBL526126,,,,,,False,52.93198949328273,DGIdb: DTC,,,,,,,,,,other/unknown,activator,False,-1.429276619924377

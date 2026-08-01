@@ -1,10 +1,10 @@
 mouse_gene,human_gene,crispr_tier,total_score,exclusion_reason
-Cd200,CD200,A_secondary_validated,4.663003650223871,"CD200 is the screen's FACS sort marker - knockout removes the epitope, so the apparent effect is technical, not biological"
+Cd200,CD200,A_secondary_validated,4.729670316890539,"CD200 is the screen's FACS sort marker - knockout removes the epitope, so the apparent effect is technical, not biological"
 Prkar1a,PRKAR1A,A_secondary_validated,4.33395972561814,annotated proto-oncogene - oncogenic liability; multiple curated cancer hallmark roles
+Ezh2,EZH2,A_secondary_validated,4.312916609743537,chromatin/epigenetic machinery - broad transcriptional liability; annotated tumour suppressor - unsuitable for chronic paediatric exposure; annotated proto-oncogene - oncogenic liability; multiple curated cancer hallmark roles; intervention direction risks premature maturation and plate exhaustion
 Ptch1,PTCH1,A_secondary_validated,4.284587055631974,on the brief's excluded list of established height/growth-plate genes
-Ezh2,EZH2,A_secondary_validated,4.2462499430768705,chromatin/epigenetic machinery - broad transcriptional liability; annotated tumour suppressor - unsuitable for chronic paediatric exposure; annotated proto-oncogene - oncogenic liability; multiple curated cancer hallmark roles; intervention direction risks premature maturation and plate exhaustion
+Runx2,RUNX2,A_secondary_validated,4.270464630665689,on the brief's excluded list of established height/growth-plate genes
 Epha2,EPHA2,A_secondary_validated,4.215132612035411,available compounds carry black-box warnings
-Runx2,RUNX2,A_secondary_validated,4.203797963999023,on the brief's excluded list of established height/growth-plate genes
 Apc,APC,A_secondary_validated,4.1268507038139,essential in a substantial minority of DepMap screens; multiple curated cancer hallmark roles
 Tsc2,TSC2,A_secondary_validated,4.050398145374468,multiple curated cancer hallmark roles
 Kdm1a,KDM1A,A_secondary_validated,4.038201260374418,chromatin/epigenetic machinery - broad transcriptional liability
@@ -13,28 +13,27 @@ Pibf1,PIBF1,A_secondary_validated,3.2947718696873025,intervention direction risk
 Acvr1,ACVR1,A_secondary_validated,3.2468583377574873,mouse phenotype includes growth-plate disorganisation/fusion/dwarfism; annotated proto-oncogene - oncogenic liability; multiple curated cancer hallmark roles; intervention direction risks premature maturation and plate exhaustion
 Sufu,SUFU,A_secondary_validated,3.2283980759524233,multiple curated cancer hallmark roles; intervention direction risks premature maturation and plate exhaustion
 Cdyl,CDYL,A_secondary_validated,3.1766480662413628,chromatin/epigenetic machinery - broad transcriptional liability
-Sox9,SOX9,A_secondary_validated,3.1010695754343294,on the brief's excluded list of established height/growth-plate genes
-Pitrm1,PITRM1,A_secondary_validated,3.085478462139971,essential in a substantial minority of DepMap screens
+Sox9,SOX9,A_secondary_validated,3.1677362421009962,on the brief's excluded list of established height/growth-plate genes
+Pitrm1,PITRM1,A_secondary_validated,3.1521451288066373,essential in a substantial minority of DepMap screens
 Chd8,CHD8,A_secondary_validated,3.0515316444190956,essential in a substantial minority of DepMap screens
 Arnt,ARNT,A_secondary_validated,3.001587757330234,multiple curated cancer hallmark roles; intervention direction risks premature maturation and plate exhaustion
-Bambi,BAMBI,A_secondary_validated,2.9701534498180377,intervention direction risks premature maturation and plate exhaustion
 Cop1,COP1,A_secondary_validated,2.935538240533192,essential in a substantial minority of DepMap screens
 Lrp6,LRP6,A_secondary_validated,2.9119293924990357,intervention direction risks premature maturation and plate exhaustion
-Cbfb,CBFB,A_secondary_validated,2.8389140980054766,essential in a substantial minority of DepMap screens
-Suv39h1,SUV39H1,A_secondary_validated,2.808046903573633,chromatin/epigenetic machinery - broad transcriptional liability; intervention direction risks premature maturation and plate exhaustion
-Kdm2a,KDM2A,A_secondary_validated,2.7510962343523353,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets; chromatin/epigenetic machinery - broad transcriptional liability
+Cbfb,CBFB,A_secondary_validated,2.905580764672143,essential in a substantial minority of DepMap screens
+Suv39h1,SUV39H1,A_secondary_validated,2.8747135702402993,chromatin/epigenetic machinery - broad transcriptional liability; intervention direction risks premature maturation and plate exhaustion
+Kdm2a,KDM2A,A_secondary_validated,2.8177629010190026,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets; chromatin/epigenetic machinery - broad transcriptional liability
+Foxc1,FOXC1,A_secondary_validated,2.7723317071803057,pleiotropic developmental gene (>150 mouse phenotype terms)
 Hdac5,HDAC5,A_secondary_validated,2.7089851780862784,chromatin/epigenetic machinery - broad transcriptional liability; intervention direction risks premature maturation and plate exhaustion
-Foxc1,FOXC1,A_secondary_validated,2.705665040513639,pleiotropic developmental gene (>150 mouse phenotype terms)
+Bptf,BPTF,A_secondary_validated,2.683206920541793,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets; chromatin/epigenetic machinery - broad transcriptional liability
 Suz12,SUZ12,A_secondary_validated,2.6703887907040262,essential in a substantial minority of DepMap screens; annotated proto-oncogene - oncogenic liability; multiple curated cancer hallmark roles
-Bptf,BPTF,A_secondary_validated,2.616540253875126,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets; chromatin/epigenetic machinery - broad transcriptional liability
 Fuz,FUZ,A_secondary_validated,2.601292043226973,intervention direction risks premature maturation and plate exhaustion
 Vps29,VPS29,A_secondary_validated,2.541568057215457,essential in a substantial minority of DepMap screens
 Arrb2,ARRB2,A_secondary_validated,2.4881655855014104,intervention direction risks premature maturation and plate exhaustion
+Fkbp1a,FKBP1A,A_secondary_validated,2.4847512083943597,essential in a substantial minority of DepMap screens; available compounds carry black-box warnings; intervention direction risks premature maturation and plate exhaustion
 Mettl14,METTL14,A_secondary_validated,2.4214873057822635,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
-Fkbp1a,FKBP1A,A_secondary_validated,2.4180845417276933,essential in a substantial minority of DepMap screens; available compounds carry black-box warnings; intervention direction risks premature maturation and plate exhaustion
 Mib1,MIB1,A_secondary_validated,2.4139376034786664,intervention direction risks premature maturation and plate exhaustion
+Gnas,GNAS,A_secondary_validated,2.371499723933016,annotated proto-oncogene - oncogenic liability; multiple curated cancer hallmark roles; intervention direction risks premature maturation and plate exhaustion
 Gcgr,GCGR,B_primary_reproducible,2.325541699045721,intervention direction risks premature maturation and plate exhaustion
-Gnas,GNAS,A_secondary_validated,2.3048330572663493,annotated proto-oncogene - oncogenic liability; multiple curated cancer hallmark roles; intervention direction risks premature maturation and plate exhaustion
 Ppp2r5d,PPP2R5D,A_secondary_validated,2.2643345352893354,intervention direction risks premature maturation and plate exhaustion
 Med26,MED26,A_secondary_validated,2.2333947261409746,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
 Pax9,PAX9,A_secondary_validated,2.2291677260106164,intervention direction risks premature maturation and plate exhaustion
@@ -42,83 +41,82 @@ Aldh2,ALDH2,A_secondary_validated,2.1901578628266267,available compounds carry b
 Slco2b1,SLCO2B1,B_primary_reproducible,2.1276689682037357,intervention direction risks premature maturation and plate exhaustion
 Eif3h,EIF3H,A_secondary_validated,2.1197495637792274,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
 Ptges,PTGES,B_primary_reproducible,2.051495598286759,intervention direction risks premature maturation and plate exhaustion
+P4hb,P4HB,B_primary_reproducible,2.0372604812456068,intervention direction risks premature maturation and plate exhaustion
 Sox6,SOX6,A_secondary_validated,2.016286197591686,intervention direction risks premature maturation and plate exhaustion
 Csde1,CSDE1,A_secondary_validated,2.0069202742356738,essential in a substantial minority of DepMap screens
+Phf12,PHF12,A_secondary_validated,1.978202192320171,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
 Ankrd11,ANKRD11,A_secondary_validated,1.9781098447379473,essential in a substantial minority of DepMap screens
-P4hb,P4HB,B_primary_reproducible,1.9705938145789401,intervention direction risks premature maturation and plate exhaustion
 Itgb1,ITGB1,B_primary_reproducible,1.9592480567773711,intervention direction risks premature maturation and plate exhaustion
 Hoxa11,HOXA11,A_secondary_validated,1.9401650523878406,annotated proto-oncogene - oncogenic liability; multiple curated cancer hallmark roles; intervention direction risks premature maturation and plate exhaustion
-Phf12,PHF12,A_secondary_validated,1.9115355256535045,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
 Akap13,AKAP13,B_primary_reproducible,1.8676508019916833,intervention direction risks premature maturation and plate exhaustion
 Brinp1,BRINP1,B_primary_reproducible,1.774779254565825,intervention direction risks premature maturation and plate exhaustion
 Tfap4,TFAP4,A_secondary_validated,1.7610718902262283,essential in a substantial minority of DepMap screens
 Kcns1,KCNS1,B_primary_reproducible,1.7314918039355744,intervention direction risks premature maturation and plate exhaustion
 Eed,EED,A_secondary_validated,1.6361440942431429,essential in a substantial minority of DepMap screens; mouse phenotype includes growth-plate disorganisation/fusion/dwarfism; intervention direction risks premature maturation and plate exhaustion
+Myh9,MYH9,A_secondary_validated,1.6270015012524004,pan-essential in DepMap (>50% of screens gene effect < -0.5)
 Hdac7,HDAC7,B_primary_reproducible,1.5995021474675888,chromatin/epigenetic machinery - broad transcriptional liability; intervention direction risks premature maturation and plate exhaustion
+Rpl29,RPL29,B_primary_reproducible,1.5968880857714713,intervention direction risks premature maturation and plate exhaustion
+Lamc1,LAMC1,B_primary_reproducible,1.5860214111391324,intervention direction risks premature maturation and plate exhaustion
 Msh2,MSH2,B_primary_reproducible,1.5750599227118325,multiple curated cancer hallmark roles; intervention direction risks premature maturation and plate exhaustion
-Myh9,MYH9,A_secondary_validated,1.5603348345857335,pan-essential in DepMap (>50% of screens gene effect < -0.5)
-Rpl29,RPL29,B_primary_reproducible,1.5302214191048045,intervention direction risks premature maturation and plate exhaustion
-Lamc1,LAMC1,B_primary_reproducible,1.5193547444724655,intervention direction risks premature maturation and plate exhaustion
 Stat3,STAT3,B_primary_reproducible,1.4692393044799985,annotated proto-oncogene - oncogenic liability; multiple curated cancer hallmark roles; intervention direction risks premature maturation and plate exhaustion
 Eef2k,EEF2K,B_primary_reproducible,1.4629795254737312,intervention direction risks premature maturation and plate exhaustion
 Klhl6,KLHL6,B_primary_reproducible,1.4399839380634596,intervention direction risks premature maturation and plate exhaustion
+Emp2,EMP2,B_primary_reproducible,1.4252215877997998,intervention direction risks premature maturation and plate exhaustion
+Edc4,EDC4,A_secondary_validated,1.3833443758050321,essential in a substantial minority of DepMap screens; flagged essential by Open Targets
 Tmeff2,TMEFF2,B_primary_reproducible,1.3626616017099977,intervention direction risks premature maturation and plate exhaustion
-Emp2,EMP2,B_primary_reproducible,1.358554921133133,intervention direction risks premature maturation and plate exhaustion
 Gpr162,GPR162,B_primary_reproducible,1.3492870551085425,intervention direction risks premature maturation and plate exhaustion
-Edc4,EDC4,A_secondary_validated,1.3166777091383657,essential in a substantial minority of DepMap screens; flagged essential by Open Targets
 Ogn,OGN,B_primary_reproducible,1.3033787819046263,intervention direction risks premature maturation and plate exhaustion
 Stac2,STAC2,B_primary_reproducible,1.297943525071537,intervention direction risks premature maturation and plate exhaustion
+Ptbp1,PTBP1,A_secondary_validated,1.2578042076655933,pan-essential in DepMap (>50% of screens gene effect < -0.5); intervention direction risks premature maturation and plate exhaustion
 Mitf,MITF,B_primary_reproducible,1.249889884213011,intervention direction risks premature maturation and plate exhaustion
 Gp1ba,GP1BA,B_primary_reproducible,1.2130220280055648,intervention direction risks premature maturation and plate exhaustion
 Atp23,ATP23,B_primary_reproducible,1.2047407717387697,flagged essential by Open Targets
-Ptbp1,PTBP1,A_secondary_validated,1.1911375409989269,pan-essential in DepMap (>50% of screens gene effect < -0.5); intervention direction risks premature maturation and plate exhaustion
+Pou2af1,POU2AF1,B_primary_reproducible,1.1894054943414034,annotated proto-oncogene - oncogenic liability
 Padi3,PADI3,B_primary_reproducible,1.1740824498197744,intervention direction risks premature maturation and plate exhaustion
 Senp2,SENP2,B_primary_reproducible,1.1724987911930402,intervention direction risks premature maturation and plate exhaustion
-Pou2af1,POU2AF1,B_primary_reproducible,1.1227388276747365,annotated proto-oncogene - oncogenic liability
+Rab40b,RAB40B,B_primary_reproducible,1.1443608627492445,intervention direction risks premature maturation and plate exhaustion
 Map2k4,MAP2K4,B_primary_reproducible,1.1210856710708463,annotated proto-oncogene - oncogenic liability; multiple curated cancer hallmark roles; intervention direction risks premature maturation and plate exhaustion
-Rab40b,RAB40B,B_primary_reproducible,1.077694196082578,intervention direction risks premature maturation and plate exhaustion
+Urod,UROD,A_secondary_validated,1.1088304120605121,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
 Junb,JUNB,B_primary_reproducible,1.053230125757777,intervention direction risks premature maturation and plate exhaustion
-Urod,UROD,A_secondary_validated,1.0421637453938457,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
 Slc2a1,SLC2A1,B_primary_reproducible,0.9480576905421136,essential in a substantial minority of DepMap screens; intervention direction risks premature maturation and plate exhaustion
 Stat5a,STAT5A,B_primary_reproducible,0.8904110766429816,intervention direction risks premature maturation and plate exhaustion
-Ube2g2,UBE2G2,B_primary_reproducible,0.8053444771810643,intervention direction risks premature maturation and plate exhaustion
 Mbd5,MBD5,B_primary_reproducible,0.685957750290654,intervention direction risks premature maturation and plate exhaustion
+Crot,CROT,B_primary_reproducible,0.6534491098247668,intervention direction risks premature maturation and plate exhaustion
+Btf3l4,BTF3L4,A_secondary_validated,0.6428656241687412,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
 Bex1,BEX2,B_primary_reproducible,0.6048657342562813,intervention direction risks premature maturation and plate exhaustion
-Crot,CROT,B_primary_reproducible,0.5867824431581001,intervention direction risks premature maturation and plate exhaustion
-Btf3l4,BTF3L4,A_secondary_validated,0.5761989575020743,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
-4930453N24Rik,C3orf38,B_primary_reproducible,0.4987394012053348,essential in a substantial minority of DepMap screens
+4930453N24Rik,C3orf38,B_primary_reproducible,0.5654060678720012,essential in a substantial minority of DepMap screens
 Emc3,EMC3,B_primary_reproducible,0.4759529883240532,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
 Gcn1,GCN1,A_secondary_validated,0.3772159141805247,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
 Zfp697,ZNF697,B_primary_reproducible,0.29795610052838484,intervention direction risks premature maturation and plate exhaustion
 Ppp2ca,PPP2CA,B_primary_reproducible,0.25840423792870615,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets; intervention direction risks premature maturation and plate exhaustion
+Strap,STRAP,A_secondary_validated,0.25194948239251236,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets; intervention direction risks premature maturation and plate exhaustion
 Zfp981,ZNF34,B_primary_reproducible,0.24956688250223458,intervention direction risks premature maturation and plate exhaustion
 Nop58,NOP58,B_primary_reproducible,0.21929244363391476,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
 Tubgcp5,TUBGCP5,B_primary_reproducible,0.20552291118659927,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
 Pi4kb,PI4KB,B_primary_reproducible,0.20446367153687284,essential in a substantial minority of DepMap screens; intervention direction risks premature maturation and plate exhaustion
-Strap,STRAP,A_secondary_validated,0.18528281572584593,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets; intervention direction risks premature maturation and plate exhaustion
-Cope,COPE,B_primary_reproducible,-0.10035237444237666,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
+Cope,COPE,B_primary_reproducible,-0.03368570777570978,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
+Mcm10,MCM10,B_primary_reproducible,-0.1020905020123346,essential in a substantial minority of DepMap screens; flagged essential by Open Targets
 Ykt6,YKT6,B_primary_reproducible,-0.11958985571923675,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
+Copb2,COPB2,B_primary_reproducible,-0.13218366622966382,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
 Tomm20,TOMM20,B_primary_reproducible,-0.14490589963941325,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
-Mcm10,MCM10,B_primary_reproducible,-0.16875716867900126,essential in a substantial minority of DepMap screens; flagged essential by Open Targets
-Copb2,COPB2,B_primary_reproducible,-0.19885033289633025,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
 Nae1,NAE1,B_primary_reproducible,-0.2442154426712344,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets; intervention direction risks premature maturation and plate exhaustion
+Tcp1,TCP1,B_primary_reproducible,-0.2509241376959137,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
+Ppa1,PPA1,B_primary_reproducible,-0.2633337505037012,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets; intervention direction risks premature maturation and plate exhaustion
+Hypk,HYPK,B_primary_reproducible,-0.2840742010720563,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
 H2bc21,H2BC11,B_primary_reproducible,-0.2920989013695747,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
+Prelid1,PRELID1,B_primary_reproducible,-0.29228376749413254,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
 Lrr1,LRR1,B_primary_reproducible,-0.29587449869481963,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
 Psmd2,PSMD2,B_primary_reproducible,-0.3107093163123005,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets; intervention direction risks premature maturation and plate exhaustion
-Tcp1,TCP1,B_primary_reproducible,-0.31759080436258014,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
-Ppa1,PPA1,B_primary_reproducible,-0.3300004171703681,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets; intervention direction risks premature maturation and plate exhaustion
-Hypk,HYPK,B_primary_reproducible,-0.3507408677387227,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
-Prelid1,PRELID1,B_primary_reproducible,-0.35895043416079897,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
 Preb,PREB,B_primary_reproducible,-0.38658604752169357,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
-Eif3g,EIF3G,B_primary_reproducible,-0.5722170911018716,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets; intervention direction risks premature maturation and plate exhaustion
+Eif3g,EIF3G,B_primary_reproducible,-0.5055504244352043,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets; intervention direction risks premature maturation and plate exhaustion
 Yju2,YJU2,B_primary_reproducible,-0.5730791802891599,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
 Gosr2,GOSR2,B_primary_reproducible,-0.6730044657002687,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
 Uxt,UXT,B_primary_reproducible,-0.7027743054574245,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
+Mat2a,MAT2A,B_primary_reproducible,-0.8208933503325189,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets; intervention direction risks premature maturation and plate exhaustion
 Kat8,KAT8,B_primary_reproducible,-0.8572458618500409,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets; chromatin/epigenetic machinery - broad transcriptional liability; intervention direction risks premature maturation and plate exhaustion
-Mat2a,MAT2A,B_primary_reproducible,-0.8875600169991857,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets; intervention direction risks premature maturation and plate exhaustion
 Top1,TOP1,B_primary_reproducible,-0.9404880209350912,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets; available compounds carry black-box warnings; annotated proto-oncogene - oncogenic liability; multiple curated cancer hallmark roles; intervention direction risks premature maturation and plate exhaustion
-Polrmt,POLRMT,B_primary_reproducible,-1.0493918514761624,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets; intervention direction risks premature maturation and plate exhaustion
-Ttc27,TTC27,B_primary_reproducible,-1.1667287473656471,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
+Polrmt,POLRMT,B_primary_reproducible,-0.982725184809496,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets; intervention direction risks premature maturation and plate exhaustion
+Ttc27,TTC27,B_primary_reproducible,-1.1000620806989805,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
 Ss18l2,SS18L2,B_primary_reproducible,-1.3322271510442099,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets
 Uba1,UBA1,B_primary_reproducible,-1.429276619924377,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets; intervention direction risks premature maturation and plate exhaustion
 Tbcc,TBCC,B_primary_reproducible,-1.4348551752158758,pan-essential in DepMap (>50% of screens gene effect < -0.5); flagged essential by Open Targets; intervention direction risks premature maturation and plate exhaustion
