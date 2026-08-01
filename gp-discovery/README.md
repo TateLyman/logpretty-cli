@@ -42,6 +42,15 @@ python s15_modules.py           # co-expression modules + trait/axis annotation
 python s16_connectivity.py      # LINCS L1000 two-sided signature search
 python s17_compounds.py         # ranking, safety and suitability filtering
 python s18_compound_report.py   # compound_report.md + figure 06
+
+# lead triage: is the top connectivity hit real?
+python s19_sotrastaurin.py      # target deconvolution across 5 primary resources
+python s19b_mechanism_report.py
+python s20_probe_panel.py       # orthogonal probe selection
+python s20b_probe_report.py
+python s21_transfer_evidence.py # does anything transfer to cartilage?
+python s21b_transfer_report.py
+python s22_go_no_go.py          # gated plan, revised ranking, figure 07
 ```
 
 Network calls are cached and checksummed, so re-runs are cheap and the stages are resumable.
@@ -62,6 +71,11 @@ Network calls are cached and checksummed, so re-runs are cheap and the stages ar
 | `compound_report.md` | per-compound mechanism/direction/exposure/safety and the validating experiment |
 | `module_traits.csv`, `module_signatures.json`, `gene_modules.csv` | co-expression modules and their signatures |
 | `compounds_excluded_connectivity.csv` | connectivity hits excluded, with reasons |
+| `sotrastaurin_target_profile.csv`, `sotrastaurin_mechanism_report.md` | 85-row target profile from GtoPdb, BindingDB, PubChem BioAssay, DGIdb; PKC isoform ranking and the GSK3B test |
+| `orthogonal_probe_panel.csv`, `probe_selection_report.md` | 10-probe falsification panel with roles and rankings |
+| `chondrocyte_transfer_evidence.csv`, `transfer_evidence_report.md` | GEO + PubMed transfer evidence per compound and target |
+| `go_no_go_experimental_plan.md`, `revised_candidate_ranking.csv` | gated experiment, interpretation rules, re-ranked candidates |
+| `stage22_concentration_ladders.csv` | potency-anchored test windows (no invented concentrations) |
 | `download_manifest.json` | source URL + sha256 + size + timestamp for every downloaded file |
 | `qc/` | per-stage QC artifacts the reports are generated from |
 
@@ -84,6 +98,12 @@ Network calls are cached and checksummed, so re-runs are cheap and the stages ar
   and 63 of 250 annotated compounds are excluded on biology.
 - **Hypertrophy is not suppressed.** Hypertrophic cell volume is the main contributor to elongation,
   so the hypertrophic module is a constraint, never a target.
+- **The top connectivity hit was triaged, not trusted.** Stage 17 attached GSK3B to sotrastaurin via a
+  database association. Stage 19 tested it against primary affinity data: sotrastaurin inhibits PKCθ at
+  0.22 nM and GSK3B at 870 nM — ~4,000× weaker — so GSK3B is not a mechanism at any PKC-selective
+  concentration. Sotrastaurin is retained as a pathway probe and demoted from the lead position.
+- **No panel PKC inhibitor has any cartilage dataset.** Stage 21 found 0 GEO series for every PKC probe,
+  so module transfer is untested rather than supported, and Gate 1 exists to generate that missing data.
 - **Nothing is integrated early.** Every within-dataset effect is computed first; datasets meet
   only in stage 10, and each line of evidence stays its own column rather than being folded
   into one embedding.

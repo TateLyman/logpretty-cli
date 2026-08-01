@@ -1,0 +1,9 @@
+compound,potency_anchor,selective_window_nM,upper_interpretability_bound_nM,explicitly_out_of_range_nM,source
+sotrastaurin,PKCtheta IC50 1 nM (GtoPdb pIC50 9.0); BindingDB IC50 0.22 nM,approximately 0.3-20 nM,"50 (PIM1 IC50, BindingDB)","870 (GSK3B IC50, PubChem AID 445171) - GSK3B cannot be tested with this compound",GtoPdb + BindingDB + PubChem BioAssay (stage 19)
+GF109203X,PKCbeta 15.849 nM (GtoPdb),approximately 4.75-475,set by the nearest reported off-target for this compound,,Guide to Pharmacology (stage 20)
+Go 6976,"most potent GtoPdb target is FLT3, not PKC 0.794 nM (GtoPdb)",approximately 0.238-23.8,set by the nearest reported off-target for this compound,,Guide to Pharmacology (stage 20)
+enzastaurin,PKCbeta 31.623 nM (GtoPdb),approximately 9.49-949,set by the nearest reported off-target for this compound,,Guide to Pharmacology (stage 20)
+laduviglusib (CHIR-99021),GSK3beta 6.31 nM (GtoPdb),approximately 1.89-189,set by the nearest reported off-target for this compound,,Guide to Pharmacology (stage 20)
+tideglusib,GSK3beta 50.119 nM (GtoPdb),approximately 15-1.5e+03,set by the nearest reported off-target for this compound,,Guide to Pharmacology (stage 20)
+calphostin C,"no numeric affinity in GtoPdb; C1/DAG-domain inhibitor, light-activated",must be established in-house by concentration-response; requires matched light-exposure controls,not determinable from retrieved data,,Guide to Pharmacology (no affinity record)
+bisindolylmaleimide V,"inactive analogue; no recorded affinity, 0 active PubChem assay targets",match the molar concentrations used for GF109203X,n/a,,PubChem (stage 20)

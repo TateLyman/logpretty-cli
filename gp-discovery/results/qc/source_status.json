@@ -1,0 +1,9 @@
+{
+ "gtopdb": "ok (6 interactions)",
+ "bindingdb": "ok (8 affinities)",
+ "pubchem_bioassay": "ok (893 records)",
+ "dgidb": "ok (8 claims naming sotrastaurin)",
+ "chembl": "unavailable (RuntimeError: service returned errors during this run)",
+ "smiles": "CN1CCN(CC1)C2=NC3=CC=CC=C3C(=N2)C4=C(C(=O)NC4=O)C5=CNC6=CC=CC=C65",
+ "inchikey": "OAVGBZOFDPFGPJ-UHFFFAOYSA-N"
+}

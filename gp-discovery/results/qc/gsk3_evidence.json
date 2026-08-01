@@ -1,0 +1,24 @@
+{
+ "GSK3A": {
+  "pubchem_assay_records": 1,
+  "pubchem_active_records": 1,
+  "pubchem_outcomes": {
+   "Active": 1
+  },
+  "pubchem_median_uM": null,
+  "in_gtopdb_profile": false,
+  "in_bindingdb_profile": false,
+  "dgidb_claim_present": true
+ },
+ "GSK3B": {
+  "pubchem_assay_records": 2,
+  "pubchem_active_records": 2,
+  "pubchem_outcomes": {
+   "Active": 2
+  },
+  "pubchem_median_uM": 0.87,
+  "in_gtopdb_profile": false,
+  "in_bindingdb_profile": false,
+  "dgidb_claim_present": true
+ }
+}
