@@ -123,6 +123,17 @@ python s74_washout_durability.py        # four schedules, followed to plateau
 python s75_mechanistic_replication.py   # orthogonal chemotype + rescue per node
 python s76_independent_replication.py   # replication conditions and acceptance rules
 python s77_final_evidence_ladder.py     # the ladder, scorecard, figures 53-54
+
+# human-signal-first compound discovery (stages 78-86)
+python s78_growth_signal_ontology.py    # MedDRA terms discovered from FAERS usage
+python s79_fda_growth_signals.py        # paediatric disproportionality, figure 55
+python s80_international_replication.py # Canada Vigilance replication, figure 56
+python s81_auxology_mining.py           # serial height / velocity mining, figure 57
+python s82_case_natural_experiments.py  # dechallenge/rechallenge scoring, figure 58
+python s83_mendelian_triangulation.py   # proportionate tall-stature genetics, figure 59
+python s84_causal_triangulation.py      # 10 streams, 17 penalties, figure 60
+python s85_human_signal_panel.py        # human-signal-led ex vivo panel, figure 61
+python s86_final_human_dossier.py       # the twelve answers, figures 62-63
 ```
 
 Network calls are cached and checksummed, so re-runs are cheap and the stages are resumable.
@@ -137,7 +148,7 @@ Network calls are cached and checksummed, so re-runs are cheap and the stages ar
 | `excluded_targets_with_reasons.csv` | every excluded gene and why |
 | `dataset_qc_report.md` | provenance, checksums, per-dataset QC, deviations, limitations |
 | `evidence_report.md` | direction logic, gene sets, per-target evidence and validation experiment |
-| `figures/` | 54 figures: CRISPR-vs-fast-growth, zone heatmap, human/mouse concordance, target–compound network, risk-vs-potential, mechanism decision trees, DDIT4 localization/stress/factorial/go-no-go, spatial-first funnel, manual image reclassification, screen design/validation/gates/readiness, geometry evidence map, axial-shape pathway map, geometry candidate matrix, panel coverage, 3D geometry schema, gate funnel, mechanism decision tree, terminal-zone penetration design, five-lead verification funnel, five-lead final matrix |
+| `figures/` | 63 figures: CRISPR-vs-fast-growth, zone heatmap, human/mouse concordance, target–compound network, risk-vs-potential, mechanism decision trees, DDIT4 localization/stress/factorial/go-no-go, spatial-first funnel, manual image reclassification, screen design/validation/gates/readiness, geometry evidence map, axial-shape pathway map, geometry candidate matrix, panel coverage, 3D geometry schema, gate funnel, mechanism decision tree, terminal-zone penetration design, five-lead verification funnel, five-lead final matrix, FAERS growth-signal volcano, cross-database replication, auxology coverage, case timelines, genetic triangulation, human evidence matrix, human-signal panel, human funnel, evidence-vs-safety |
 | `gene_sets/` | CRISPR_CAUSAL, FAST_GROWTH, HUMAN_CONSERVED, TRACTABLE, COMPOUND_MAPPED, BLACKLIST |
 | `top_20_compounds.csv` | perturbational matches with mechanism, direction, exposure, safety |
 | `compound_report.md` | per-compound mechanism/direction/exposure/safety and the validating experiment |
@@ -193,6 +204,15 @@ Network calls are cached and checksummed, so re-runs are cheap and the stages ar
 | `geometry_mechanistic_replication_plan.md`, `geometry_rescue_matrix.csv`, `geometry_replication_requirements.csv`, `geometry_target_assignment_go_no_go.csv` | five replication requirements per node, and which compounds can satisfy them at all |
 | `geometry_independent_replication_plan.md`, `geometry_replication_acceptance_rules.csv` | new cohort, fresh compound, unchanged endpoints, effect-size bands rather than p-values |
 | `five_lead_verification_scorecard.csv`, `five_lead_final_decision_rules.md`, `five_lead_experimental_sequence.md`, `five_lead_final_report.md` | one row per index compound, the nine-rung ladder, and the thirteen answers |
+| `pediatric_growth_signal_ontology.csv`, `growth_signal_term_mapping.json`, `growth_signal_ontology_report.md` | MedDRA preferred terms discovered from FAERS usage across four classes: positive growth, mechanistic, alternative explanations, negative controls |
+| `fda_pediatric_growth_signals.csv`, `fda_case_deduplication_qc.csv`, `fda_indication_adjusted_signals.csv`, `fda_growth_signal_report.md` | paediatric disproportionality over 2.15M deduplicated FAERS cases with ROR, PRR, shrunk IC₀₂₅, roles, dechallenge/rechallenge and co-medication |
+| `international_growth_signal_replication.csv`, `international_source_accessibility.csv`, `international_signal_report.md` | replication against the full Canada Vigilance extract, and the specific reason each other regulator is inaccessible |
+| `serial_auxology_extraction.csv`, `clinical_trial_growth_findings.csv`, `regulatory_growth_findings.csv`, `auxology_verification_report.md` | the serial-height evidence that would settle the question, and how little of it exists |
+| `human_growth_case_timelines.csv`, `human_natural_experiment_scores.csv`, `human_case_report.md` | case reports scored as natural experiments, capped without a dechallenge |
+| `human_tall_stature_target_map.csv`, `drug_mendelian_direction_match.csv`, `mendelian_growth_report.md` | the reverse genetic search: which genes make a human proportionately taller without a cost |
+| `human_signal_causal_score.csv`, `human_growth_confounder_matrix.csv`, `human_signal_triage_report.md` | ten evidence streams and seventeen penalties, scored apart |
+| `human_signal_ex_vivo_panel.csv`, `human_signal_panel_order_sheet.csv`, `human_signal_validation_sequence.md` | the panel a human signal would justify, and the order it would run in |
+| `top_20_human_growth_signal_compounds.csv`, `top_10_human_signal_ex_vivo_candidates.csv`, `top_5_human_natural_experiment_leads.csv`, `final_human_signal_report.md` | five rankings, eight classes, and the twelve answers |
 | `download_manifest.json` | source URL + sha256 + size + timestamp for every downloaded file |
 | `qc/` | per-stage QC artifacts the reports are generated from |
 
@@ -395,3 +415,46 @@ Network calls are cached and checksummed, so re-runs are cheap and the stages ar
   and the geometry-first hypothesis gains its first structural support. If IGF1 moves the ratio too,
   the ratio is a correlate rather than a mechanism and the framing loses most of its force. Either
   result outranks all five compounds, and it is one arm on a plate being run anyway.
+- **Then the search turned to children who had already been exposed.** Stages 78-86 stop
+  predicting and look for drugs that have already produced unexpected positive growth signals in
+  exposed children — signal generation, never treatment recommendation.
+- **The openFDA API failed and the failure improved the design.** An early version of stage 78
+  exhausted openFDA's anonymous quota of 1000 requests/day. The analysis moved to the **FAERS
+  quarterly ASCII extracts**, which the brief named first: no rate limit, and three fields the API
+  does not expose usefully — `CASEID`/`CASEVERSION` for exact deduplication, `ROLE_COD` for
+  suspect versus concomitant, `PROD_AI` for the active ingredient. **2,425,386 report versions →
+  2,154,103 distinct cases → 99,298 paediatric.**
+- **185 paediatric cases in the whole database carry a positive growth term.** 67 active
+  ingredients reach three cases; **8 reach IC₀₂₅ > 0**. Read the indication column, not the ROR
+  column: immunoglobulin replacement in antibody deficiency, teduglutide in short-bowel syndrome,
+  idursulfase in mucopolysaccharidosis II, icatibant and lanadelumab in hereditary angioedema.
+  Every one is a chronic paediatric disease in which growth failure is part of the illness.
+- **The positive controls are not detected**, and that is the most important number in stage 79.
+  One canonical growth agent reaches the minimum case count and none reaches IC₀₂₅ > 0, so the
+  method has no demonstrated sensitivity and every signal is hypothesis-generating at best.
+- **A real independent replication was run and it came back empty.** Health Canada publishes the
+  entire Canada Vigilance database; it was downloaded (1.25M reports, 46,867 paediatric) and
+  **holds 24 paediatric growth-term reports in total**. Zero FAERS signals replicate. EudraVigilance
+  publishes dashboards not data, WHO VigiBase is licensed, PMDA sits behind a per-file agreement,
+  the TGA runs a web app — each classified `NOT_ACCESSIBLE` with its specific reason, and no portal
+  was scraped against its terms.
+- **Human genetics says the same thing from the other end.** Of 38 genes with reported stature
+  phenotypes, **0 reach `PROPORTIONATE_TALL_STATURE`** after the brief's exclusions. NSD1, EZH2 and
+  CHD8 come with intellectual disability; PIK3CA and AKT1 with segmental deformity; FBN1 and CBS
+  with aortic and thrombotic disease. Even the CNP axis arrives as *tall stature – scoliosis –
+  macrodactyly* (NPR2) and *camptodactyly – tall stature – scoliosis – hearing loss* (FGFR3). **And
+  none of the five geometry probes' targets has a tall-stature phenotype at all** — a check stages
+  61-77 never ran.
+- **Zero compounds qualify as `HUMAN_NATURAL_EXPERIMENT_LEAD`, and zero as ex vivo candidates.**
+  12 are `CATCH_UP_GROWTH_SIGNAL`, 9 `PATHOLOGICAL_OVERGROWTH_SIGNAL` — human immunoglobulin
+  carries 47 growth-*failure* term cases against 60 growth-acceleration ones. An earlier version of
+  the classifier promoted six cystic-fibrosis and short-bowel drugs to "ex vivo candidate"; an
+  indication-based catch-up penalty removed all six, which is what the brief's own hard rule
+  requires.
+- **Evidence stream 10 — the effect seen in normally growing bone — is false for every compound,
+  and not by accident.** Children who receive drugs are ill. Almost every paediatric growth
+  observation in the human literature is made in a child whose growth was already abnormal, so
+  separating "this drug makes bone grow" from "this drug made this child less ill" cannot be done
+  from human data of this kind at all. **The human-signal-first strategy converges on the same
+  place the geometry-first strategy did — an experiment in normally growing tissue — with a better
+  justification and no new compound.**

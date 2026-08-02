@@ -1,0 +1,68 @@
+active_ingredient,causal_class,p_catch_up_growth,p_puberty_suppression,p_delayed_puberty,p_aromatase_inhibition,p_growth_hormone_cotreatment,p_nutritional_recovery,p_weight_gain,p_disease_remission,p_glucocorticoid_withdrawal,p_thyroid_correction,p_oedema,p_measurement_artifact,p_oncology_survival_bias,p_reporting_publicity,p_duplicate_reports,p_pathological_growth,p_chronic_disease_growth_failure_indication,p_no_final_height,penalty_score
+ESOMEPRAZOLE,CATCH_UP_GROWTH_ONLY,False,False,False,False,False,False,False,False,False,False,False,True,False,True,False,False,True,True,9.0
+AMINO ACIDS,CATCH_UP_GROWTH_ONLY,False,False,False,False,False,False,True,False,True,False,False,False,False,True,False,False,True,False,9.0
+COLISTIMETHATE,CATCH_UP_GROWTH_ONLY,False,False,False,False,False,False,False,False,False,False,False,True,False,True,False,False,True,True,9.0
+IDURSULFASE,CATCH_UP_GROWTH_ONLY,False,False,False,False,False,False,True,False,True,False,False,True,False,False,False,False,True,False,9.5
+HUMAN IMMUNOGLOBULIN G,CATCH_UP_GROWTH_ONLY,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,True,True,7.5
+LANADELUMAB-FLYO,CATCH_UP_GROWTH_ONLY,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,True,True,7.5
+MONTELUKAST,PATHOLOGICAL_OVERGROWTH,False,False,False,False,False,False,False,False,False,False,False,True,False,True,False,True,True,False,11.0
+BECLOMETHASONE DIPROPIONATE,CATCH_UP_GROWTH_ONLY,False,False,False,False,False,False,True,False,False,False,False,True,False,False,False,False,True,False,7.0
+CETIRIZINE,PATHOLOGICAL_OVERGROWTH,False,False,False,False,False,False,False,False,False,False,False,True,False,True,False,True,True,True,13.0
+SEMAGLUTIDE,REJECT,False,False,False,False,False,False,False,False,False,False,False,True,False,True,False,False,False,True,5.5
+RAMIPRIL,REJECT,False,False,False,False,False,False,False,False,False,False,False,True,False,True,False,False,False,True,5.5
+EBASTINE,REJECT,False,False,False,False,False,False,False,False,False,False,False,True,False,True,False,False,False,True,5.5
+METRONIDAZOLE,CATCH_UP_GROWTH_ONLY,False,False,False,False,False,False,False,False,True,False,False,True,False,True,False,False,True,True,11.5
+ICATIBANT,PATHOLOGICAL_OVERGROWTH,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,True,True,True,11.5
+ENOXAPARIN,CATCH_UP_GROWTH_ONLY,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,True,8.0
+TEDUGLUTIDE,CATCH_UP_GROWTH_ONLY,False,False,False,False,False,True,True,False,True,False,False,True,False,False,False,False,True,True,14.5
+LOPERAMIDE,CATCH_UP_GROWTH_ONLY,False,True,False,False,False,False,False,False,True,True,False,True,False,False,False,False,True,True,14.5
+ALBUTEROL,PATHOLOGICAL_OVERGROWTH,False,False,False,False,False,False,True,False,False,False,False,True,False,True,False,True,True,False,12.5
+CHOLESTYRAMINE,REJECT,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,True,True,7.5
+PANCRELIPASE AMYLASE,REJECT,False,False,False,False,False,False,False,False,False,False,False,True,False,True,False,False,True,True,9.0
+TIOTROPIUM BROMIDE,REJECT,False,False,False,False,False,False,False,False,False,False,False,True,False,True,False,False,True,True,9.0
+PANCRELIPASE,REJECT,False,False,False,False,False,False,False,False,False,False,False,True,False,True,False,False,True,True,9.0
+FENOTEROL HYDROBROMIDE,REJECT,False,False,False,False,False,False,False,False,False,False,False,True,False,True,False,False,True,True,9.0
+AMPHOTERICIN B,REJECT,False,False,False,False,False,False,False,True,True,False,False,True,False,True,False,False,False,False,9.0
+CIPROFLOXACIN,REJECT,False,False,False,False,False,False,False,False,False,False,False,True,False,True,False,False,True,True,9.0
+METFORMIN,REJECT,False,False,False,False,False,False,False,False,False,False,False,True,False,True,False,True,False,True,9.5
+DORNASE ALFA,CATCH_UP_GROWTH_ONLY,False,False,False,False,False,True,True,False,False,False,False,True,False,True,False,False,True,True,13.5
+FLUCONAZOLE,REJECT,False,False,False,False,False,False,False,True,True,False,False,True,False,True,False,False,False,True,11.0
+CERTOLIZUMAB PEGOL,REJECT,False,False,False,False,False,False,False,True,True,True,False,True,False,False,False,False,False,True,11.5
+BUDESONIDE,PATHOLOGICAL_OVERGROWTH,False,False,False,False,False,False,False,False,True,False,False,True,False,True,False,True,True,True,15.5
+SOMATROPIN,PATHOLOGICAL_OVERGROWTH,False,False,False,False,False,False,False,True,True,True,False,True,False,False,False,True,False,True,15.5
+DUPILUMAB,REJECT,False,False,False,False,False,False,False,False,True,False,False,True,False,True,False,True,False,True,12.0
+RISPERIDONE,REJECT,False,False,False,False,False,False,False,False,False,False,False,True,False,True,False,True,True,True,13.0
+URSODIOL,REJECT,False,False,False,False,False,False,False,False,False,False,False,True,False,True,False,True,True,True,13.0
+CHLORIDE,REJECT,False,False,False,False,False,False,False,False,False,False,False,True,False,True,False,True,True,True,13.0
+CHOLECALCIFEROL,REJECT,False,False,False,False,False,False,False,False,False,False,False,True,False,True,False,True,True,True,13.0
+IVACAFTOR,REJECT,False,False,False,False,False,True,True,False,False,False,False,True,False,True,False,False,True,True,13.5
+ELEXACAFTOR,REJECT,False,False,False,False,False,True,True,False,False,False,False,True,False,True,False,False,True,True,13.5
+VITAMINS,REJECT,False,False,False,False,False,False,False,True,True,False,False,True,False,False,False,True,False,True,13.5
+OMEPRAZOLE,REJECT,False,False,False,False,False,False,False,False,True,False,False,True,False,False,False,True,True,True,14.0
+PREDNISOLONE,PATHOLOGICAL_OVERGROWTH,True,False,False,False,True,True,True,True,True,True,False,False,False,False,False,True,False,False,22.5
+ESTROGENS,REJECT,False,False,False,False,True,False,False,True,True,True,False,True,False,False,False,False,False,True,15.0
+PREDNISONE,REJECT,False,False,False,False,False,False,False,False,False,False,False,True,True,True,False,True,True,True,15.0
+POSACONAZOLE,REJECT,False,False,False,False,False,False,False,True,True,False,False,True,True,True,False,False,True,True,16.5
+DESMOPRESSIN,REJECT,False,False,False,False,True,False,False,True,True,True,False,True,False,True,False,False,False,True,16.5
+CASPOFUNGIN,REJECT,False,False,False,False,False,False,False,True,True,False,False,True,True,True,False,False,True,True,16.5
+LEUCOVORIN,REJECT,False,False,False,False,False,False,False,True,True,False,False,True,True,True,False,False,True,True,16.5
+AMIKACIN,REJECT,False,False,False,False,False,False,False,True,True,False,False,True,True,True,False,False,True,True,16.5
+RIBAVIRIN,REJECT,False,False,False,False,False,False,False,True,True,False,False,True,True,True,False,False,True,True,16.5
+PEGASPARGASE,REJECT,False,False,False,False,False,False,False,True,True,False,False,True,True,True,False,False,True,True,16.5
+DAUNORUBICIN,REJECT,False,False,False,False,False,False,False,True,True,False,False,True,True,True,False,False,True,True,16.5
+PIPERACILLIN,REJECT,False,False,False,False,False,False,False,True,True,False,False,True,True,True,False,False,True,True,16.5
+MEROPENEM,REJECT,False,False,False,False,False,False,False,True,True,False,False,True,True,True,False,False,True,True,16.5
+MERCAPTOPURINE,REJECT,False,False,False,False,False,False,False,True,True,False,False,True,True,True,False,False,True,True,16.5
+VANCOMYCIN,REJECT,False,False,False,False,False,False,False,True,True,False,False,True,True,True,False,False,True,True,16.5
+VINCRISTINE,REJECT,False,False,False,False,False,False,False,True,True,False,False,True,True,True,False,False,True,True,16.5
+CYTARABINE,REJECT,False,False,False,False,False,False,False,True,True,False,False,True,True,True,False,False,True,True,16.5
+METHOTREXATE,PATHOLOGICAL_OVERGROWTH,False,False,False,False,False,False,False,True,True,False,False,True,True,True,False,True,True,True,20.5
+LORATADINE,REJECT,False,False,False,False,False,False,False,True,True,False,False,True,False,False,False,True,True,True,17.0
+HYDROCORTISONE,PATHOLOGICAL_OVERGROWTH,False,True,False,False,False,False,False,True,True,True,False,True,False,False,False,True,True,True,21.5
+ASCORBIC ACID,REJECT,False,False,False,False,False,False,False,True,True,False,False,True,False,True,False,True,True,True,18.5
+ESTRADIOL,REJECT,False,False,False,False,True,False,False,True,True,True,False,True,False,True,False,True,False,True,20.5
+CYCLOPHOSPHAMIDE,REJECT,False,False,False,False,False,False,False,True,True,False,False,True,True,True,False,True,True,True,20.5
+ONDANSETRON,REJECT,False,True,False,False,False,False,False,True,True,True,False,True,False,False,False,True,True,True,21.5
+VITAMIN D NOS,REJECT,False,True,False,False,False,False,False,True,True,True,False,True,False,False,False,True,True,True,21.5
+LEVOTHYROXINE,PATHOLOGICAL_OVERGROWTH,True,True,True,False,True,True,True,True,True,False,False,False,False,True,False,True,True,False,30.0
+ACETAMINOPHEN,REJECT,False,True,False,False,False,False,False,True,True,True,False,True,False,True,False,True,True,True,23.0

@@ -1,0 +1,10 @@
+metric,value,note
+report versions read,2425386,every row of DEMO across the downloaded quarters
+distinct CASEIDs,2154103,highest CASEVERSION kept per CASEID
+superseded versions dropped,271283,11.2% of rows
+paediatric cases (age < 18 y),99298,AGE converted with AGE_COD; reports with an unusable unit excluded
+paediatric cases with a positive growth term,185,any term from the stage-78 POSITIVE class
+paediatric cases with a negative-control term,929,"growth retardation, premature fusion, dysplasia, SCFE etc."
+paediatric cases with an alternative-explanation term,9868,"catch-up, oedema, weight gain, endocrine correction etc."
+distinct active ingredients,5884,PROD_AI normalised; salts and formulations collapsed
+drugs reaching the minimum case count,67,>= 3 paediatric growth-term cases
