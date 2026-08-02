@@ -14,74 +14,74 @@ vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTRO
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,1,B,1,B01,,,,,True
 escitalopram,compound,continuous,transporter,discovery compound,4,1,B,2,B02,L14A7,L14,L14A7-MT4-L,MT4-L,False
 SP-141,compound,continuous,ubiquitin system,discovery compound,5,1,B,3,B03,L9A2,L9,L9A2-MT2-R,MT2-R,False
-chlorproguanil,compound,continuous,metabolic,discovery compound,3,1,B,4,B04,L7A7,L7,L7A7-MT3-L,MT3-L,False
+cilastatin,compound,continuous,protease,discovery compound,3,1,B,4,B04,L7A7,L7,L7A7-MT3-L,MT3-L,False
 phenylbutyrate,compound,continuous,epigenetic (selective probe),discovery compound,1,1,B,5,B05,L6A7,L6,L6A7-MT4-R,MT4-R,False
 T-0901317,compound,continuous,nuclear receptor,discovery compound,4,1,B,6,B06,L5A2,L5,L5A2-MT2-L,MT2-L,False
-diacerein,compound,continuous,growth factor / cytokine,discovery compound,1,1,B,7,B07,L12A7,L12,L12A7-MT2-R,MT2-R,False
-camostat-mesilate,compound,continuous,protease,discovery compound,6,1,B,8,B08,L12A8,L12,L12A8-MT2-L,MT2-L,False
-omecamtiv-mecarbil,compound,continuous,mechanotransduction,discovery compound,3,1,B,9,B09,L12A1,L12,L12A1-MT3-R,MT3-R,False
+dilazep,compound,continuous,transporter,discovery compound,1,1,B,7,B07,L12A7,L12,L12A7-MT2-R,MT2-R,False
+carglumic-acid,compound,continuous,metabolic,discovery compound,6,1,B,8,B08,L12A8,L12,L12A8-MT2-L,MT2-L,False
+cilengitide,compound,continuous,mechanotransduction,discovery compound,3,1,B,9,B09,L12A1,L12,L12A1-MT3-R,MT3-R,False
 bafilomycin A1,TRADE-OFF BENCHMARK,continuous,control,TRADE-OFF BENCHMARK,2,1,B,10,B10,L7A2,L7,L7A2-MT4-R,MT4-R,False
 ertugliflozin,compound,continuous,transporter,discovery compound,5,1,B,11,B11,L14A3,L14,L14A3-MT4-R,MT4-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,1,B,12,B12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,1,C,1,C01,,,,,True
-adrenalone,compound,continuous,GPCR,discovery compound,6,1,C,2,C02,L12A7,L12,L12A7-MT4-L,MT4-L,False
-alexidine,compound,continuous,phosphatase,discovery compound,4,1,C,3,C03,L7A2,L7,L7A2-MT2-L,MT2-L,False
-acipimox,compound,continuous,metabolic,discovery compound,6,1,C,4,C04,L5A3,L5,L5A3-MT3-L,MT3-L,False
-cyclovalone,compound,continuous,transporter,discovery compound,3,1,C,5,C05,L4A1,L4,L4A1-MT2-R,MT2-R,False
-doxycycline,compound,continuous,protease,discovery compound,1,1,C,6,C06,L14A5,L14,L14A5-MT3-L,MT3-L,False
-cyclovalone,compound,continuous,transporter,discovery compound,6,1,C,7,C07,L11A6,L11,L11A6-MT2-R,MT2-R,False
+allopurinol,compound,continuous,metabolic,discovery compound,6,1,C,2,C02,L12A7,L12,L12A7-MT4-L,MT4-L,False
+AS-1949490,compound,continuous,phosphatase,discovery compound,4,1,C,3,C03,L7A2,L7,L7A2-MT2-L,MT2-L,False
+acrivastine,compound,continuous,GPCR,discovery compound,6,1,C,4,C04,L5A3,L5,L5A3-MT3-L,MT3-L,False
+diacerein,compound,continuous,growth factor / cytokine,discovery compound,3,1,C,5,C05,L4A1,L4,L4A1-MT2-R,MT2-R,False
+efinaconazole,compound,continuous,epigenetic (selective probe),discovery compound,1,1,C,6,C06,L14A5,L14,L14A5-MT3-L,MT3-L,False
+diacerein,compound,continuous,growth factor / cytokine,discovery compound,6,1,C,7,C07,L11A6,L11,L11A6-MT2-R,MT2-R,False
 fostamatinib,compound,continuous,kinase,discovery compound,5,1,C,8,C08,L5A7,L5,L5A7-MT3-R,MT3-R,False
-tazemetostat,compound,continuous,epigenetic (selective probe),discovery compound,4,1,C,9,C09,L6A8,L6,L6A8-MT2-L,MT2-L,False
-bepridil,compound,continuous,ion channel,discovery compound,2,1,C,10,C10,L11A4,L11,L11A4-MT4-L,MT4-L,False
-azelnidipine,compound,continuous,ion channel,discovery compound,5,1,C,11,C11,L2A1,L2,L2A1-MT4-L,MT4-L,False
+trapidil,compound,continuous,kinase,discovery compound,4,1,C,9,C09,L6A8,L6,L6A8-MT2-L,MT2-L,False
+beta-hydroxy-beta-methylbutyrate,compound,continuous,kinase,discovery compound,2,1,C,10,C10,L11A4,L11,L11A4-MT4-L,MT4-L,False
+bempedoic-acid,compound,continuous,metabolic,discovery compound,5,1,C,11,C11,L2A1,L2,L2A1-MT4-L,MT4-L,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,1,C,12,C12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,1,D,1,D01,,,,,True
-sodium-stibogluconate,compound,continuous,phosphatase,discovery compound,4,1,D,2,D02,L11A4,L11,L11A4-MT3-L,MT3-L,False
+tacrolimus,compound,continuous,phosphatase,discovery compound,4,1,D,2,D02,L11A4,L11,L11A4-MT3-L,MT3-L,False
 SMER-28,compound,continuous,lysosomal / autophagy,discovery compound,6,1,D,3,D03,L13A5,L13,L13A5-MT2-L,MT2-L,False
-allopurinol,compound,continuous,metabolic,discovery compound,6,1,D,4,D04,L3A8,L3,L3A8-MT4-L,MT4-L,False
-adrenalone,compound,continuous,GPCR,discovery compound,2,1,D,5,D05,L6A4,L6,L6A4-MT3-R,MT3-R,False
+ambroxol,compound,continuous,ion channel,discovery compound,6,1,D,4,D04,L3A8,L3,L3A8-MT4-L,MT4-L,False
+allopurinol,compound,continuous,metabolic,discovery compound,2,1,D,5,D05,L6A4,L6,L6A4-MT3-R,MT3-R,False
 GS-143,compound,continuous,ubiquitin system,discovery compound,2,1,D,6,D06,L3A2,L3,L3A2-MT2-L,MT2-L,False
-DG-172,compound,continuous,nuclear receptor,discovery compound,2,1,D,7,D07,L14A8,L14,L14A8-MT4-R,MT4-R,False
-benserazide,compound,continuous,metabolic,discovery compound,5,1,D,8,D08,L12A5,L12,L12A5-MT2-L,MT2-L,False
+FGIN-1-27,compound,continuous,phosphatase,discovery compound,2,1,D,7,D07,L14A8,L14,L14A8-MT4-R,MT4-R,False
+benzbromarone,compound,continuous,ion channel,discovery compound,5,1,D,8,D08,L12A5,L12,L12A5-MT2-L,MT2-L,False
 acalabrutinib,compound,continuous,kinase,discovery compound,1,1,D,9,D09,L6A2,L6,L6A2-MT4-L,MT4-L,False
-cilastatin,compound,continuous,protease,discovery compound,5,1,D,10,D10,L3A6,L3,L3A6-MT3-R,MT3-R,False
+cilnidipine,compound,continuous,ion channel,discovery compound,5,1,D,10,D10,L3A6,L3,L3A6-MT3-R,MT3-R,False
 FK-409,compound,continuous,other / unclassified,ASSAY CONTROL ONLY - canonical pathway,5,1,D,11,D11,L8A3,L8,L8A3-MT2-L,MT2-L,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,1,D,12,D12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,1,E,1,E01,,,,,True
-ambroxol,compound,continuous,ion channel,discovery compound,6,1,E,2,E02,L13A3,L13,L13A3-MT4-R,MT4-R,False
-albuterol,compound,continuous,GPCR,discovery compound,2,1,E,3,E03,L13A2,L13,L13A2-MT4-L,MT4-L,False
-bepridil,compound,continuous,ion channel,discovery compound,3,1,E,4,E04,L1A4,L1,L1A4-MT2-R,MT2-R,False
-sodium-stibogluconate,compound,continuous,phosphatase,discovery compound,6,1,E,5,E05,L14A4,L14,L14A4-MT4-L,MT4-L,False
-dilazep,compound,continuous,transporter,discovery compound,5,1,E,6,E06,L10A3,L10,L10A3-MT2-R,MT2-R,False
-EW-7197,compound,continuous,growth factor / cytokine,discovery compound,5,1,E,7,E07,L1A4,L1,L1A4-MT2-L,MT2-L,False
-aloxistatin,compound,continuous,protease,discovery compound,6,1,E,8,E08,L5A7,L5,L5A7-MT2-R,MT2-R,False
-itacitinib,compound,continuous,kinase,discovery compound,6,1,E,9,E09,L3A1,L3,L3A1-MT2-L,MT2-L,False
+amisulpride,compound,continuous,GPCR,discovery compound,6,1,E,2,E02,L13A3,L13,L13A3-MT4-R,MT4-R,False
+alogliptin,compound,continuous,protease,discovery compound,2,1,E,3,E03,L13A2,L13,L13A2-MT4-L,MT4-L,False
+beta-hydroxy-beta-methylbutyrate,compound,continuous,kinase,discovery compound,3,1,E,4,E04,L1A4,L1,L1A4-MT2-R,MT2-R,False
+tacrolimus,compound,continuous,phosphatase,discovery compound,6,1,E,5,E05,L14A4,L14,L14A4-MT4-L,MT4-L,False
+doxycycline,compound,continuous,protease,discovery compound,5,1,E,6,E06,L10A3,L10,L10A3-MT2-R,MT2-R,False
+ATN-161,compound,continuous,mechanotransduction,discovery compound,5,1,E,7,E07,L1A4,L1,L1A4-MT2-L,MT2-L,False
+itacitinib,compound,continuous,kinase,discovery compound,6,1,E,8,E08,L5A7,L5,L5A7-MT2-R,MT2-R,False
+odanacatib,compound,continuous,protease,discovery compound,6,1,E,9,E09,L3A1,L3,L3A1-MT2-L,MT2-L,False
 isoconazole,compound,continuous,epigenetic (selective probe),discovery compound,6,1,E,10,E10,L13A6,L13,L13A6-MT3-R,MT3-R,False
-abametapir,compound,continuous,protease,discovery compound,5,1,E,11,E11,L6A1,L6,L6A1-MT3-L,MT3-L,False
+aloxistatin,compound,continuous,protease,discovery compound,5,1,E,11,E11,L6A1,L6,L6A1-MT3-L,MT3-L,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,1,E,12,E12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,1,F,1,F01,,,,,True
 GS-143,compound,continuous,ubiquitin system,discovery compound,6,1,F,2,F02,L4A6,L4,L4A6-MT4-R,MT4-R,False
 CNP / FGFR3-pathway stimulus,ASSAY-SENSITIVITY CONTROL,continuous,control,ASSAY-SENSITIVITY CONTROL,3,1,F,3,F03,L11A1,L11,L11A1-MT4-L,MT4-L,False
-cerulenin,compound,continuous,metabolic,discovery compound,2,1,F,4,F04,L6A8,L6,L6A8-MT3-L,MT3-L,False
-latrunculin-B,compound,continuous,mechanotransduction,discovery compound,1,1,F,5,F05,L12A5,L12,L12A5-MT3-R,MT3-R,False
-azelnidipine,compound,continuous,ion channel,discovery compound,6,1,F,6,F06,L12A7,L12,L12A7-MT3-R,MT3-R,False
+chlorogenic-acid,compound,continuous,transporter,discovery compound,2,1,F,4,F04,L6A8,L6,L6A8-MT3-L,MT3-L,False
+alexidine,compound,continuous,phosphatase,discovery compound,1,1,F,5,F05,L12A5,L12,L12A5-MT3-R,MT3-R,False
+bempedoic-acid,compound,continuous,metabolic,discovery compound,6,1,F,6,F06,L12A7,L12,L12A7-MT3-R,MT3-R,False
 maprotiline,compound,continuous,transporter,discovery compound,2,1,F,7,F07,L6A6,L6,L6A6-MT2-L,MT2-L,False
 IGF1,PRODUCTIVE BENCHMARK,continuous,control,PRODUCTIVE BENCHMARK,5,1,F,8,F08,L7A1,L7,L7A1-MT2-L,MT2-L,False
-adiphenine,compound,continuous,GPCR,discovery compound,5,1,F,9,F09,L1A7,L1,L1A7-MT3-R,MT3-R,False
+albuterol,compound,continuous,GPCR,discovery compound,5,1,F,9,F09,L1A7,L1,L1A7-MT3-R,MT3-R,False
 fumagillin,compound,continuous,protease,discovery compound,4,1,F,10,F10,L7A5,L7,L7A5-MT2-L,MT2-L,False
 isoconazole,compound,continuous,epigenetic (selective probe),discovery compound,1,1,F,11,F11,L4A2,L4,L4A2-MT3-L,MT3-L,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,1,F,12,F12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,1,G,1,G01,,,,,True
-allopurinol,compound,continuous,metabolic,discovery compound,2,1,G,2,G02,L3A2,L3,L3A2-MT4-R,MT4-R,False
-retinol,compound,continuous,mechanotransduction,discovery compound,2,1,G,3,G03,L8A4,L8,L8A4-MT2-R,MT2-R,False
-pirfenidone,compound,continuous,growth factor / cytokine,discovery compound,1,1,G,4,G04,L11A5,L11,L11A5-MT2-R,MT2-R,False
-adiphenine,compound,continuous,GPCR,discovery compound,4,1,G,5,G05,L10A6,L10,L10A6-MT2-R,MT2-R,False
-DG-172,compound,continuous,nuclear receptor,discovery compound,3,1,G,6,G06,L14A3,L14,L14A3-MT4-L,MT4-L,False
+ambroxol,compound,continuous,ion channel,discovery compound,2,1,G,2,G02,L3A2,L3,L3A2-MT4-R,MT4-R,False
+futibatinib,compound,continuous,growth factor / cytokine,ASSAY CONTROL ONLY - canonical pathway,2,1,G,3,G03,L8A4,L8,L8A4-MT2-R,MT2-R,False
+menadione,compound,continuous,phosphatase,discovery compound,1,1,G,4,G04,L11A5,L11,L11A5-MT2-R,MT2-R,False
+albuterol,compound,continuous,GPCR,discovery compound,4,1,G,5,G05,L10A6,L10,L10A6-MT2-R,MT2-R,False
+FGIN-1-27,compound,continuous,phosphatase,discovery compound,3,1,G,6,G06,L14A3,L14,L14A3-MT4-L,MT4-L,False
 aceclofenac,compound,continuous,GPCR,discovery compound,3,1,G,7,G07,L5A5,L5,L5A5-MT4-R,MT4-R,False
 acetyl-farnesyl-cysteine,compound,continuous,epigenetic (selective probe),discovery compound,6,1,G,8,G08,L7A2,L7,L7A2-MT3-R,MT3-R,False
-pirfenidone,compound,continuous,growth factor / cytokine,discovery compound,4,1,G,9,G09,L8A3,L8,L8A3-MT4-R,MT4-R,False
-chlorogenic-acid,compound,continuous,transporter,discovery compound,2,1,G,10,G10,L9A2,L9,L9A2-MT2-L,MT2-L,False
-tazemetostat,compound,continuous,epigenetic (selective probe),discovery compound,2,1,G,11,G11,L1A5,L1,L1A5-MT3-L,MT3-L,False
+menadione,compound,continuous,phosphatase,discovery compound,4,1,G,9,G09,L8A3,L8,L8A3-MT4-R,MT4-R,False
+chlorproguanil,compound,continuous,metabolic,discovery compound,2,1,G,10,G10,L9A2,L9,L9A2-MT2-L,MT2-L,False
+trapidil,compound,continuous,kinase,discovery compound,2,1,G,11,G11,L1A5,L1,L1A5-MT3-L,MT3-L,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,1,G,12,G12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,1,H,1,H01,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,1,H,2,H02,,,,,True
@@ -110,74 +110,74 @@ vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTRO
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,2,B,1,B01,,,,,True
 FK-409,compound,continuous,other / unclassified,ASSAY CONTROL ONLY - canonical pathway,2,2,B,2,B02,L5A6,L5,L5A6-MT4-R,MT4-R,False
 DY131,compound,continuous,GPCR,ASSAY CONTROL ONLY - canonical pathway,6,2,B,3,B03,L4A6,L4,L4A6-MT2-L,MT2-L,False
-aminopentamide,compound,continuous,GPCR,discovery compound,4,2,B,4,B04,L9A4,L9,L9A4-MT2-R,MT2-R,False
+azelnidipine,compound,continuous,ion channel,discovery compound,4,2,B,4,B04,L9A4,L9,L9A4-MT2-R,MT2-R,False
 ertugliflozin,compound,continuous,transporter,discovery compound,6,2,B,5,B05,L8A8,L8,L8A8-MT4-L,MT4-L,False
 aceclofenac,compound,continuous,GPCR,discovery compound,1,2,B,6,B06,L11A6,L11,L11A6-MT3-R,MT3-R,False
-camostat-mesilate,compound,continuous,protease,discovery compound,4,2,B,7,B07,L2A7,L2,L2A7-MT3-L,MT3-L,False
+carglumic-acid,compound,continuous,metabolic,discovery compound,4,2,B,7,B07,L2A7,L2,L2A7-MT3-L,MT3-L,False
 IGF1,PRODUCTIVE BENCHMARK,continuous,control,PRODUCTIVE BENCHMARK,1,2,B,8,B08,L14A2,L14,L14A2-MT3-L,MT3-L,False
 ertugliflozin,compound,continuous,transporter,discovery compound,1,2,B,9,B09,L3A4,L3,L3A4-MT3-R,MT3-R,False
-dilazep,compound,continuous,transporter,discovery compound,2,2,B,10,B10,L13A8,L13,L13A8-MT2-L,MT2-L,False
-carglumic-acid,compound,continuous,metabolic,discovery compound,6,2,B,11,B11,L10A7,L10,L10A7-MT3-L,MT3-L,False
+doxycycline,compound,continuous,protease,discovery compound,2,2,B,10,B10,L13A8,L13,L13A8-MT2-L,MT2-L,False
+cerulenin,compound,continuous,metabolic,discovery compound,6,2,B,11,B11,L10A7,L10,L10A7-MT3-L,MT3-L,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,2,B,12,B12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,2,C,1,C01,,,,,True
 maprotiline,compound,continuous,transporter,discovery compound,5,2,C,2,C02,L1A4,L1,L1A4-MT3-L,MT3-L,False
-pirfenidone,compound,continuous,growth factor / cytokine,discovery compound,3,2,C,3,C03,L3A3,L3,L3A3-MT4-R,MT4-R,False
-halofuginone,compound,continuous,matrix remodeling,discovery compound,3,2,C,4,C04,L1A4,L1,L1A4-MT3-R,MT3-R,False
-mycophenolate-mofetil,compound,continuous,phosphatase,discovery compound,3,2,C,5,C05,L6A7,L6,L6A7-MT3-L,MT3-L,False
-AS-1949490,compound,continuous,phosphatase,discovery compound,2,2,C,6,C06,L13A4,L13,L13A4-MT4-R,MT4-R,False
-bepridil,compound,continuous,ion channel,discovery compound,6,2,C,7,C07,L4A2,L4,L4A2-MT2-R,MT2-R,False
-allopurinol,compound,continuous,metabolic,discovery compound,5,2,C,8,C08,L13A3,L13,L13A3-MT3-R,MT3-R,False
-camostat-mesilate,compound,continuous,protease,discovery compound,5,2,C,9,C09,L13A8,L13,L13A8-MT2-R,MT2-R,False
+menadione,compound,continuous,phosphatase,discovery compound,3,2,C,3,C03,L3A3,L3,L3A3-MT4-R,MT4-R,False
+mycophenolate-mofetil,compound,continuous,phosphatase,discovery compound,3,2,C,4,C04,L1A4,L1,L1A4-MT3-R,MT3-R,False
+pirfenidone,compound,continuous,growth factor / cytokine,discovery compound,3,2,C,5,C05,L6A7,L6,L6A7-MT3-L,MT3-L,False
+DG-172,compound,continuous,nuclear receptor,discovery compound,2,2,C,6,C06,L13A4,L13,L13A4-MT4-R,MT4-R,False
+beta-hydroxy-beta-methylbutyrate,compound,continuous,kinase,discovery compound,6,2,C,7,C07,L4A2,L4,L4A2-MT2-R,MT2-R,False
+ambroxol,compound,continuous,ion channel,discovery compound,5,2,C,8,C08,L13A3,L13,L13A3-MT3-R,MT3-R,False
+carglumic-acid,compound,continuous,metabolic,discovery compound,5,2,C,9,C09,L13A8,L13,L13A8-MT2-R,MT2-R,False
 maprotiline,compound,continuous,transporter,discovery compound,3,2,C,10,C10,L7A4,L7,L7A4-MT3-L,MT3-L,False
 SMER-28,compound,continuous,lysosomal / autophagy,discovery compound,3,2,C,11,C11,L14A1,L14,L14A1-MT3-R,MT3-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,2,C,12,C12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,2,D,1,D01,,,,,True
 lenalidomide,compound,continuous,growth factor / cytokine,discovery compound,1,2,D,2,D02,L7A1,L7,L7A1-MT4-R,MT4-R,False
-cobimetinib,compound,continuous,kinase,discovery compound,5,2,D,3,D03,L1A7,L1,L1A7-MT3-L,MT3-L,False
+cyclovalone,compound,continuous,transporter,discovery compound,5,2,D,3,D03,L1A7,L1,L1A7-MT3-L,MT3-L,False
 bafilomycin A1,TRADE-OFF BENCHMARK,continuous,control,TRADE-OFF BENCHMARK,3,2,D,4,D04,L7A4,L7,L7A4-MT2-L,MT2-L,False
-CPI-0610,compound,continuous,epigenetic (selective probe),discovery compound,5,2,D,5,D05,L9A5,L9,L9A5-MT4-L,MT4-L,False
-bempedoic-acid,compound,continuous,metabolic,discovery compound,1,2,D,6,D06,L3A5,L3,L3A5-MT4-L,MT4-L,False
-adiphenine,compound,continuous,GPCR,discovery compound,6,2,D,7,D07,L12A3,L12,L12A3-MT2-L,MT2-L,False
+firategrast,compound,continuous,mechanotransduction,discovery compound,5,2,D,5,D05,L9A5,L9,L9A5-MT4-L,MT4-L,False
+benserazide,compound,continuous,metabolic,discovery compound,1,2,D,6,D06,L3A5,L3,L3A5-MT4-L,MT4-L,False
+albuterol,compound,continuous,GPCR,discovery compound,6,2,D,7,D07,L12A3,L12,L12A3-MT2-L,MT2-L,False
 phenylbutyrate,compound,continuous,epigenetic (selective probe),discovery compound,3,2,D,8,D08,L11A8,L11,L11A8-MT4-R,MT4-R,False
 acalabrutinib,compound,continuous,kinase,discovery compound,2,2,D,9,D09,L13A4,L13,L13A4-MT2-R,MT2-R,False
 ketoconazole,compound,continuous,epigenetic (selective probe),discovery compound,3,2,D,10,D10,L9A5,L9,L9A5-MT2-R,MT2-R,False
 lenalidomide,compound,continuous,growth factor / cytokine,discovery compound,5,2,D,11,D11,L12A2,L12,L12A2-MT2-L,MT2-L,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,2,D,12,D12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,2,E,1,E01,,,,,True
-abametapir,compound,continuous,protease,discovery compound,6,2,E,2,E02,L4A5,L4,L4A5-MT2-L,MT2-L,False
+aloxistatin,compound,continuous,protease,discovery compound,6,2,E,2,E02,L4A5,L4,L4A5-MT2-L,MT2-L,False
 maprotiline,compound,continuous,transporter,discovery compound,1,2,E,3,E03,L9A1,L9,L9A1-MT3-L,MT3-L,False
 entacapone,compound,continuous,epigenetic (selective probe),discovery compound,3,2,E,4,E04,L3A7,L3,L3A7-MT4-R,MT4-R,False
-benzbromarone,compound,continuous,ion channel,discovery compound,4,2,E,5,E05,L4A1,L4,L4A1-MT4-L,MT4-L,False
+benzethonium,compound,continuous,ion channel,discovery compound,4,2,E,5,E05,L4A1,L4,L4A1-MT4-L,MT4-L,False
 lorlatinib,compound,continuous,kinase,discovery compound,4,2,E,6,E06,L12A8,L12,L12A8-MT4-L,MT4-L,False
 IU1,compound,continuous,ubiquitin system,discovery compound,4,2,E,7,E07,L12A3,L12,L12A3-MT4-L,MT4-L,False
-F351,compound,continuous,growth factor / cytokine,discovery compound,5,2,E,8,E08,L4A7,L4,L4A7-MT4-L,MT4-L,False
-aloxistatin,compound,continuous,protease,discovery compound,1,2,E,9,E09,L5A8,L5,L5A8-MT2-L,MT2-L,False
-pevonedistat,compound,continuous,ubiquitin system,discovery compound,4,2,E,10,E10,L11A8,L11,L11A8-MT2-R,MT2-R,False
-DG-172,compound,continuous,nuclear receptor,discovery compound,1,2,E,11,E11,L2A6,L2,L2A6-MT4-R,MT4-R,False
+STA-5326,compound,continuous,growth factor / cytokine,discovery compound,5,2,E,8,E08,L4A7,L4,L4A7-MT4-L,MT4-L,False
+itacitinib,compound,continuous,kinase,discovery compound,1,2,E,9,E09,L5A8,L5,L5A8-MT2-L,MT2-L,False
+bis(maltolato)oxovanadium(IV),compound,continuous,phosphatase,discovery compound,4,2,E,10,E10,L11A8,L11,L11A8-MT2-R,MT2-R,False
+FGIN-1-27,compound,continuous,phosphatase,discovery compound,1,2,E,11,E11,L2A6,L2,L2A6-MT4-R,MT4-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,2,E,12,E12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,2,F,1,F01,,,,,True
-EW-7197,compound,continuous,growth factor / cytokine,discovery compound,4,2,F,2,F02,L3A8,L3,L3A8-MT3-R,MT3-R,False
-itacitinib,compound,continuous,kinase,discovery compound,4,2,F,3,F03,L13A5,L13,L13A5-MT2-R,MT2-R,False
+ATN-161,compound,continuous,mechanotransduction,discovery compound,4,2,F,2,F02,L3A8,L3,L3A8-MT3-R,MT3-R,False
+odanacatib,compound,continuous,protease,discovery compound,4,2,F,3,F03,L13A5,L13,L13A5-MT2-R,MT2-R,False
 metolazone,compound,continuous,transporter,discovery compound,5,2,F,4,F04,L1A4,L1,L1A4-MT4-R,MT4-R,False
-trapidil,compound,continuous,kinase,discovery compound,1,2,F,5,F05,L5A8,L5,L5A8-MT4-R,MT4-R,False
-omecamtiv-mecarbil,compound,continuous,mechanotransduction,discovery compound,5,2,F,6,F06,L6A1,L6,L6A1-MT4-L,MT4-L,False
-abametapir,compound,continuous,protease,discovery compound,3,2,F,7,F07,L6A5,L6,L6A5-MT4-R,MT4-R,False
+halofuginone,compound,continuous,matrix remodeling,discovery compound,1,2,F,5,F05,L5A8,L5,L5A8-MT4-R,MT4-R,False
+cilengitide,compound,continuous,mechanotransduction,discovery compound,5,2,F,6,F06,L6A1,L6,L6A1-MT4-L,MT4-L,False
+aloxistatin,compound,continuous,protease,discovery compound,3,2,F,7,F07,L6A5,L6,L6A5-MT4-R,MT4-R,False
 pralmorelin,compound,continuous,other / unclassified,ASSAY CONTROL ONLY - canonical pathway,3,2,F,8,F08,L8A6,L8,L8A6-MT4-L,MT4-L,False
-aminopentamide,compound,continuous,GPCR,discovery compound,1,2,F,9,F09,L9A2,L9,L9A2-MT4-L,MT4-L,False
+azelnidipine,compound,continuous,ion channel,discovery compound,1,2,F,9,F09,L9A2,L9,L9A2-MT4-L,MT4-L,False
 lenalidomide,compound,continuous,growth factor / cytokine,discovery compound,2,2,F,10,F10,L5A6,L5,L5A6-MT4-L,MT4-L,False
-bis(maltolato)oxovanadium(IV),compound,continuous,phosphatase,discovery compound,2,2,F,11,F11,L4A8,L4,L4A8-MT3-L,MT3-L,False
+CPI-0610,compound,continuous,epigenetic (selective probe),discovery compound,2,2,F,11,F11,L4A8,L4,L4A8-MT3-L,MT3-L,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,2,F,12,F12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,2,G,1,G01,,,,,True
 neuropathiazol,compound,continuous,other / unclassified,ASSAY CONTROL ONLY - canonical pathway,4,2,G,2,G02,L8A2,L8,L8A2-MT4-L,MT4-L,False
 IGF1,PRODUCTIVE BENCHMARK,continuous,control,PRODUCTIVE BENCHMARK,2,2,G,3,G03,L7A3,L7,L7A3-MT3-L,MT3-L,False
-ATN-161,compound,continuous,mechanotransduction,discovery compound,6,2,G,4,G04,L2A2,L2,L2A2-MT2-L,MT2-L,False
-tacrolimus,compound,continuous,phosphatase,discovery compound,3,2,G,5,G05,L2A2,L2,L2A2-MT2-R,MT2-R,False
-abametapir,compound,continuous,protease,discovery compound,1,2,G,6,G06,L14A5,L14,L14A5-MT2-L,MT2-L,False
-pirfenidone,compound,continuous,growth factor / cytokine,discovery compound,2,2,G,7,G07,L5A3,L5,L5A3-MT4-R,MT4-R,False
+VLX600,compound,continuous,ubiquitin system,discovery compound,6,2,G,4,G04,L2A2,L2,L2A2-MT2-L,MT2-L,False
+tazemetostat,compound,continuous,epigenetic (selective probe),discovery compound,3,2,G,5,G05,L2A2,L2,L2A2-MT2-R,MT2-R,False
+aloxistatin,compound,continuous,protease,discovery compound,1,2,G,6,G06,L14A5,L14,L14A5-MT2-L,MT2-L,False
+menadione,compound,continuous,phosphatase,discovery compound,2,2,G,7,G07,L5A3,L5,L5A3-MT4-R,MT4-R,False
 encorafenib,compound,continuous,kinase,discovery compound,6,2,G,8,G08,L1A5,L1,L1A5-MT4-R,MT4-R,False
 acalabrutinib,compound,continuous,kinase,discovery compound,4,2,G,9,G09,L14A1,L14,L14A1-MT3-L,MT3-L,False
-alogliptin,compound,continuous,protease,discovery compound,3,2,G,10,G10,L12A8,L12,L12A8-MT4-R,MT4-R,False
-hypoestoxide,compound,continuous,growth factor / cytokine,discovery compound,6,2,G,11,G11,L7A6,L7,L7A6-MT4-R,MT4-R,False
+aminopentamide,compound,continuous,GPCR,discovery compound,3,2,G,10,G10,L12A8,L12,L12A8-MT4-R,MT4-R,False
+latrunculin-B,compound,continuous,mechanotransduction,discovery compound,6,2,G,11,G11,L7A6,L7,L7A6-MT4-R,MT4-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,2,G,12,G12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,2,H,1,H01,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,2,H,2,H02,,,,,True
@@ -204,75 +204,75 @@ vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTRO
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,3,A,11,A11,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,3,A,12,A12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,3,B,1,B01,,,,,True
-odanacatib,compound,continuous,protease,discovery compound,5,3,B,2,B02,L8A1,L8,L8A1-MT2-L,MT2-L,False
-beta-hydroxy-beta-methylbutyrate,compound,continuous,kinase,discovery compound,6,3,B,3,B03,L11A5,L11,L11A5-MT3-R,MT3-R,False
-futibatinib,compound,continuous,growth factor / cytokine,ASSAY CONTROL ONLY - canonical pathway,2,3,B,4,B04,L10A7,L10,L10A7-MT2-L,MT2-L,False
-cobimetinib,compound,continuous,kinase,discovery compound,4,3,B,5,B05,L11A1,L11,L11A1-MT3-R,MT3-R,False
+omecamtiv-mecarbil,compound,continuous,mechanotransduction,discovery compound,5,3,B,2,B02,L8A1,L8,L8A1-MT2-L,MT2-L,False
+butenafine,compound,continuous,metabolic,discovery compound,6,3,B,3,B03,L11A5,L11,L11A5-MT3-R,MT3-R,False
+abametapir,compound,continuous,protease,discovery compound,2,3,B,4,B04,L10A7,L10,L10A7-MT2-L,MT2-L,False
+cyclovalone,compound,continuous,transporter,discovery compound,4,3,B,5,B05,L11A1,L11,L11A1-MT3-R,MT3-R,False
 washout-only,WASHOUT CONTROL,washout + recovery,control,WASHOUT CONTROL,2,3,B,6,B06,L7A2,L7,L7A2-MT4-L,MT4-L,False
 acefylline,compound,continuous,GPCR,discovery compound,3,3,B,7,B07,L4A7,L4,L4A7-MT2-R,MT2-R,False
-BMS-587101,compound,continuous,mechanotransduction,discovery compound,1,3,B,8,B08,L7A7,L7,L7A7-MT3-R,MT3-R,False
-tazemetostat,compound,continuous,epigenetic (selective probe),discovery compound,3,3,B,9,B09,L6A6,L6,L6A6-MT3-L,MT3-L,False
-pevonedistat,compound,continuous,ubiquitin system,discovery compound,5,3,B,10,B10,L12A4,L12,L12A4-MT4-L,MT4-L,False
+EW-7197,compound,continuous,growth factor / cytokine,discovery compound,1,3,B,8,B08,L7A7,L7,L7A7-MT3-R,MT3-R,False
+trapidil,compound,continuous,kinase,discovery compound,3,3,B,9,B09,L6A6,L6,L6A6-MT3-L,MT3-L,False
+bis(maltolato)oxovanadium(IV),compound,continuous,phosphatase,discovery compound,5,3,B,10,B10,L12A4,L12,L12A4-MT4-L,MT4-L,False
 FK-409,compound,continuous,other / unclassified,ASSAY CONTROL ONLY - canonical pathway,6,3,B,11,B11,L6A5,L6,L6A5-MT3-L,MT3-L,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,3,B,12,B12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,3,C,1,C01,,,,,True
 GS-143,compound,continuous,ubiquitin system,discovery compound,3,3,C,2,C02,L2A3,L2,L2A3-MT4-R,MT4-R,False
 spautin-1,compound,continuous,ubiquitin system,discovery compound,6,3,C,3,C03,L7A6,L7,L7A6-MT2-R,MT2-R,False
-cilnidipine,compound,continuous,ion channel,discovery compound,1,3,C,4,C04,L14A3,L14,L14A3-MT3-L,MT3-L,False
+cinacalcet,compound,continuous,ion channel,discovery compound,1,3,C,4,C04,L14A3,L14,L14A3-MT3-L,MT3-L,False
 FK-409,compound,continuous,other / unclassified,ASSAY CONTROL ONLY - canonical pathway,4,3,C,5,C05,L11A3,L11,L11A3-MT2-L,MT2-L,False
 metolazone,compound,continuous,transporter,discovery compound,6,3,C,6,C06,L3A2,L3,L3A2-MT3-L,MT3-L,False
-adrenalone,compound,continuous,GPCR,discovery compound,4,3,C,7,C07,L6A3,L6,L6A3-MT4-R,MT4-R,False
-cilengitide,compound,continuous,mechanotransduction,discovery compound,1,3,C,8,C08,L12A2,L12,L12A2-MT4-R,MT4-R,False
-chlorproguanil,compound,continuous,metabolic,discovery compound,4,3,C,9,C09,L10A8,L10,L10A8-MT4-R,MT4-R,False
-cinacalcet,compound,continuous,ion channel,discovery compound,1,3,C,10,C10,L11A3,L11,L11A3-MT3-R,MT3-R,False
-CPI-0610,compound,continuous,epigenetic (selective probe),discovery compound,6,3,C,11,C11,L8A6,L8,L8A6-MT3-R,MT3-R,False
+allopurinol,compound,continuous,metabolic,discovery compound,4,3,C,7,C07,L6A3,L6,L6A3-MT4-R,MT4-R,False
+pevonedistat,compound,continuous,ubiquitin system,discovery compound,1,3,C,8,C08,L12A2,L12,L12A2-MT4-R,MT4-R,False
+cilastatin,compound,continuous,protease,discovery compound,4,3,C,9,C09,L10A8,L10,L10A8-MT4-R,MT4-R,False
+cobimetinib,compound,continuous,kinase,discovery compound,1,3,C,10,C10,L11A3,L11,L11A3-MT3-R,MT3-R,False
+firategrast,compound,continuous,mechanotransduction,discovery compound,6,3,C,11,C11,L8A6,L8,L8A6-MT3-R,MT3-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,3,C,12,C12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,3,D,1,D01,,,,,True
 acetyl-farnesyl-cysteine,compound,continuous,epigenetic (selective probe),discovery compound,3,3,D,2,D02,L8A6,L8,L8A6-MT3-L,MT3-L,False
-DG-172,compound,continuous,nuclear receptor,discovery compound,5,3,D,3,D03,L10A1,L10,L10A1-MT4-R,MT4-R,False
+FGIN-1-27,compound,continuous,phosphatase,discovery compound,5,3,D,3,D03,L10A1,L10,L10A1-MT4-R,MT4-R,False
 spautin-1,compound,continuous,ubiquitin system,discovery compound,2,3,D,4,D04,L12A1,L12,L12A1-MT2-R,MT2-R,False
-STA-5326,compound,continuous,growth factor / cytokine,discovery compound,5,3,D,5,D05,L12A3,L12,L12A3-MT2-R,MT2-R,False
-cinacalcet,compound,continuous,ion channel,discovery compound,6,3,D,6,D06,L7A5,L7,L7A5-MT4-R,MT4-R,False
-cobimetinib,compound,continuous,kinase,discovery compound,3,3,D,7,D07,L5A1,L5,L5A1-MT4-R,MT4-R,False
-alexidine,compound,continuous,phosphatase,discovery compound,5,3,D,8,D08,L5A3,L5,L5A3-MT2-R,MT2-R,False
+BMS-587101,compound,continuous,mechanotransduction,discovery compound,5,3,D,5,D05,L12A3,L12,L12A3-MT2-R,MT2-R,False
+cobimetinib,compound,continuous,kinase,discovery compound,6,3,D,6,D06,L7A5,L7,L7A5-MT4-R,MT4-R,False
+cyclovalone,compound,continuous,transporter,discovery compound,3,3,D,7,D07,L5A1,L5,L5A1-MT4-R,MT4-R,False
+AS-1949490,compound,continuous,phosphatase,discovery compound,5,3,D,8,D08,L5A3,L5,L5A3-MT2-R,MT2-R,False
 washout-only,WASHOUT CONTROL,washout + recovery,control,WASHOUT CONTROL,3,3,D,9,D09,L4A8,L4,L4A8-MT2-R,MT2-R,False
 isoconazole,compound,continuous,epigenetic (selective probe),discovery compound,3,3,D,10,D10,L9A8,L9,L9A8-MT4-L,MT4-L,False
-CPI-0610,compound,continuous,epigenetic (selective probe),discovery compound,4,3,D,11,D11,L8A4,L8,L8A4-MT2-L,MT2-L,False
+firategrast,compound,continuous,mechanotransduction,discovery compound,4,3,D,11,D11,L8A4,L8,L8A4-MT2-L,MT2-L,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,3,D,12,D12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,3,E,1,E01,,,,,True
 antiproliferative control,CYTOTOXIC CONTROL,continuous,control,CYTOTOXIC CONTROL,2,3,E,2,E02,L4A1,L4,L4A1-MT3-L,MT3-L,False
-ATN-161,compound,continuous,mechanotransduction,discovery compound,3,3,E,3,E03,L1A6,L1,L1A6-MT2-L,MT2-L,False
-adrenalone,compound,continuous,GPCR,discovery compound,1,3,E,4,E04,L5A4,L5,L5A4-MT4-L,MT4-L,False
+VLX600,compound,continuous,ubiquitin system,discovery compound,3,3,E,3,E03,L1A6,L1,L1A6-MT2-L,MT2-L,False
+allopurinol,compound,continuous,metabolic,discovery compound,1,3,E,4,E04,L5A4,L5,L5A4-MT4-L,MT4-L,False
 GS-143,compound,continuous,ubiquitin system,discovery compound,5,3,E,5,E05,L4A3,L4,L4A3-MT3-L,MT3-L,False
 acetyl-farnesyl-cysteine,compound,continuous,epigenetic (selective probe),discovery compound,5,3,E,6,E06,L3A5,L3,L3A5-MT2-L,MT2-L,False
 aceclofenac,compound,continuous,GPCR,discovery compound,6,3,E,7,E07,L14A8,L14,L14A8-MT3-R,MT3-R,False
 glasdegib,compound,continuous,other / unclassified,ASSAY CONTROL ONLY - canonical pathway,3,3,E,8,E08,L14A3,L14,L14A3-MT2-L,MT2-L,False
-DG-172,compound,continuous,nuclear receptor,discovery compound,6,3,E,9,E09,L5A2,L5,L5A2-MT3-R,MT3-R,False
-mycophenolate-mofetil,compound,continuous,phosphatase,discovery compound,5,3,E,10,E10,L13A7,L13,L13A7-MT3-R,MT3-R,False
-cilnidipine,compound,continuous,ion channel,discovery compound,5,3,E,11,E11,L4A2,L4,L4A2-MT2-L,MT2-L,False
+FGIN-1-27,compound,continuous,phosphatase,discovery compound,6,3,E,9,E09,L5A2,L5,L5A2-MT3-R,MT3-R,False
+pirfenidone,compound,continuous,growth factor / cytokine,discovery compound,5,3,E,10,E10,L13A7,L13,L13A7-MT3-R,MT3-R,False
+cinacalcet,compound,continuous,ion channel,discovery compound,5,3,E,11,E11,L4A2,L4,L4A2-MT2-L,MT2-L,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,3,E,12,E12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,3,F,1,F01,,,,,True
 GW-3965,compound,continuous,nuclear receptor,discovery compound,6,3,F,2,F02,L13A4,L13,L13A4-MT4-L,MT4-L,False
-mycophenolate-mofetil,compound,continuous,phosphatase,discovery compound,4,3,F,3,F03,L12A6,L12,L12A6-MT4-R,MT4-R,False
-aloxistatin,compound,continuous,protease,discovery compound,5,3,F,4,F04,L11A2,L11,L11A2-MT4-L,MT4-L,False
-hypoestoxide,compound,continuous,growth factor / cytokine,discovery compound,3,3,F,5,F05,L8A8,L8,L8A8-MT3-L,MT3-L,False
+pirfenidone,compound,continuous,growth factor / cytokine,discovery compound,4,3,F,3,F03,L12A6,L12,L12A6-MT4-R,MT4-R,False
+itacitinib,compound,continuous,kinase,discovery compound,5,3,F,4,F04,L11A2,L11,L11A2-MT4-L,MT4-L,False
+latrunculin-B,compound,continuous,mechanotransduction,discovery compound,3,3,F,5,F05,L8A8,L8,L8A8-MT3-L,MT3-L,False
 SP-141,compound,continuous,ubiquitin system,discovery compound,2,3,F,6,F06,L2A5,L2,L2A5-MT4-L,MT4-L,False
-F351,compound,continuous,growth factor / cytokine,discovery compound,6,3,F,7,F07,L3A4,L3,L3A4-MT2-R,MT2-R,False
-cobimetinib,compound,continuous,kinase,discovery compound,1,3,F,8,F08,L10A5,L10,L10A5-MT2-L,MT2-L,False
-odanacatib,compound,continuous,protease,discovery compound,6,3,F,9,F09,L3A7,L3,L3A7-MT2-R,MT2-R,False
-efinaconazole,compound,continuous,epigenetic (selective probe),discovery compound,4,3,F,10,F10,L12A4,L12,L12A4-MT2-L,MT2-L,False
-STA-5326,compound,continuous,growth factor / cytokine,discovery compound,6,3,F,11,F11,L6A7,L6,L6A7-MT3-R,MT3-R,False
+STA-5326,compound,continuous,growth factor / cytokine,discovery compound,6,3,F,7,F07,L3A4,L3,L3A4-MT2-R,MT2-R,False
+cyclovalone,compound,continuous,transporter,discovery compound,1,3,F,8,F08,L10A5,L10,L10A5-MT2-L,MT2-L,False
+omecamtiv-mecarbil,compound,continuous,mechanotransduction,discovery compound,6,3,F,9,F09,L3A7,L3,L3A7-MT2-R,MT2-R,False
+enasidenib,compound,continuous,metabolic,discovery compound,4,3,F,10,F10,L12A4,L12,L12A4-MT2-L,MT2-L,False
+BMS-587101,compound,continuous,mechanotransduction,discovery compound,6,3,F,11,F11,L6A7,L6,L6A7-MT3-R,MT3-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,3,F,12,F12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,3,G,1,G01,,,,,True
-beta-hydroxy-beta-methylbutyrate,compound,continuous,kinase,discovery compound,1,3,G,2,G02,L2A1,L2,L2A1-MT3-L,MT3-L,False
-acrivastine,compound,continuous,GPCR,discovery compound,5,3,G,3,G03,L6A5,L6,L6A5-MT2-L,MT2-L,False
-BMS-587101,compound,continuous,mechanotransduction,discovery compound,5,3,G,4,G04,L8A7,L8,L8A7-MT4-L,MT4-L,False
-VLX600,compound,continuous,ubiquitin system,discovery compound,4,3,G,5,G05,L13A7,L13,L13A7-MT3-L,MT3-L,False
+butenafine,compound,continuous,metabolic,discovery compound,1,3,G,2,G02,L2A1,L2,L2A1-MT3-L,MT3-L,False
+adiphenine,compound,continuous,GPCR,discovery compound,5,3,G,3,G03,L6A5,L6,L6A5-MT2-L,MT2-L,False
+EW-7197,compound,continuous,growth factor / cytokine,discovery compound,5,3,G,4,G04,L8A7,L8,L8A7-MT4-L,MT4-L,False
+hypoestoxide,compound,continuous,growth factor / cytokine,discovery compound,4,3,G,5,G05,L13A7,L13,L13A7-MT3-L,MT3-L,False
 isoconazole,compound,continuous,epigenetic (selective probe),discovery compound,4,3,G,6,G06,L14A8,L14,L14A8-MT2-R,MT2-R,False
 antiproliferative control,CYTOTOXIC CONTROL,continuous,control,CYTOTOXIC CONTROL,4,3,G,7,G07,L4A3,L4,L4A3-MT2-R,MT2-R,False
-itacitinib,compound,continuous,kinase,discovery compound,2,3,G,8,G08,L10A5,L10,L10A5-MT4-R,MT4-R,False
-alogliptin,compound,continuous,protease,discovery compound,6,3,G,9,G09,L7A8,L7,L7A8-MT3-R,MT3-R,False
-carglumic-acid,compound,continuous,metabolic,discovery compound,1,3,G,10,G10,L2A5,L2,L2A5-MT3-R,MT3-R,False
+odanacatib,compound,continuous,protease,discovery compound,2,3,G,8,G08,L10A5,L10,L10A5-MT4-R,MT4-R,False
+aminopentamide,compound,continuous,GPCR,discovery compound,6,3,G,9,G09,L7A8,L7,L7A8-MT3-R,MT3-R,False
+cerulenin,compound,continuous,metabolic,discovery compound,1,3,G,10,G10,L2A5,L2,L2A5-MT3-R,MT3-R,False
 metolazone,compound,continuous,transporter,discovery compound,4,3,G,11,G11,L8A5,L8,L8A5-MT3-R,MT3-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,3,G,12,G12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,3,H,1,H01,,,,,True
@@ -300,76 +300,76 @@ vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTRO
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,4,A,11,A11,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,4,A,12,A12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,4,B,1,B01,,,,,True
-alexidine,compound,continuous,phosphatase,discovery compound,2,4,B,2,B02,L14A6,L14,L14A6-MT3-L,MT3-L,False
-latrunculin-B,compound,continuous,mechanotransduction,discovery compound,4,4,B,3,B03,L13A6,L13,L13A6-MT4-L,MT4-L,False
-BMS-587101,compound,continuous,mechanotransduction,discovery compound,2,4,B,4,B04,L11A3,L11,L11A3-MT4-L,MT4-L,False
-halofuginone,compound,continuous,matrix remodeling,discovery compound,6,4,B,5,B05,L8A1,L8,L8A1-MT2-R,MT2-R,False
-carglumic-acid,compound,continuous,metabolic,discovery compound,3,4,B,6,B06,L6A1,L6,L6A1-MT4-R,MT4-R,False
-AS-1949490,compound,continuous,phosphatase,discovery compound,3,4,B,7,B07,L13A2,L13,L13A2-MT3-R,MT3-R,False
+AS-1949490,compound,continuous,phosphatase,discovery compound,2,4,B,2,B02,L14A6,L14,L14A6-MT3-L,MT3-L,False
+alexidine,compound,continuous,phosphatase,discovery compound,4,4,B,3,B03,L13A6,L13,L13A6-MT4-L,MT4-L,False
+EW-7197,compound,continuous,growth factor / cytokine,discovery compound,2,4,B,4,B04,L11A3,L11,L11A3-MT4-L,MT4-L,False
+mycophenolate-mofetil,compound,continuous,phosphatase,discovery compound,6,4,B,5,B05,L8A1,L8,L8A1-MT2-R,MT2-R,False
+cerulenin,compound,continuous,metabolic,discovery compound,3,4,B,6,B06,L6A1,L6,L6A1-MT4-R,MT4-R,False
+DG-172,compound,continuous,nuclear receptor,discovery compound,3,4,B,7,B07,L13A2,L13,L13A2-MT3-R,MT3-R,False
 escitalopram,compound,continuous,transporter,discovery compound,6,4,B,8,B08,L5A1,L5,L5A1-MT2-L,MT2-L,False
-itacitinib,compound,continuous,kinase,discovery compound,1,4,B,9,B09,L9A2,L9,L9A2-MT4-R,MT4-R,False
-trofinetide,compound,continuous,growth factor / cytokine,discovery compound,2,4,B,10,B10,L8A3,L8,L8A3-MT2-R,MT2-R,False
-chlorproguanil,compound,continuous,metabolic,discovery compound,6,4,B,11,B11,L7A1,L7,L7A1-MT4-L,MT4-L,False
+odanacatib,compound,continuous,protease,discovery compound,1,4,B,9,B09,L9A2,L9,L9A2-MT4-R,MT4-R,False
+JTE-607,compound,continuous,growth factor / cytokine,discovery compound,2,4,B,10,B10,L8A3,L8,L8A3-MT2-R,MT2-R,False
+cilastatin,compound,continuous,protease,discovery compound,6,4,B,11,B11,L7A1,L7,L7A1-MT4-L,MT4-L,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,4,B,12,B12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,4,C,1,C01,,,,,True
 escitalopram,compound,continuous,transporter,discovery compound,3,4,C,2,C02,L9A7,L9,L9A7-MT4-L,MT4-L,False
-benzbromarone,compound,continuous,ion channel,discovery compound,6,4,C,3,C03,L13A6,L13,L13A6-MT4-R,MT4-R,False
-benzethonium,compound,continuous,ion channel,discovery compound,3,4,C,4,C04,L12A4,L12,L12A4-MT4-R,MT4-R,False
-doxycycline,compound,continuous,protease,discovery compound,4,4,C,5,C05,L11A6,L11,L11A6-MT3-L,MT3-L,False
-tacrolimus,compound,continuous,phosphatase,discovery compound,5,4,C,6,C06,L9A3,L9,L9A3-MT2-L,MT2-L,False
-camostat-mesilate,compound,continuous,protease,discovery compound,3,4,C,7,C07,L5A8,L5,L5A8-MT4-L,MT4-L,False
-ambroxol,compound,continuous,ion channel,discovery compound,4,4,C,8,C08,L3A3,L3,L3A3-MT2-R,MT2-R,False
-alexidine,compound,continuous,phosphatase,discovery compound,6,4,C,9,C09,L4A1,L4,L4A1-MT2-L,MT2-L,False
-aminopentamide,compound,continuous,GPCR,discovery compound,5,4,C,10,C10,L14A2,L14,L14A2-MT3-R,MT3-R,False
-tacrolimus,compound,continuous,phosphatase,discovery compound,1,4,C,11,C11,L6A8,L6,L6A8-MT2-R,MT2-R,False
+benzethonium,compound,continuous,ion channel,discovery compound,6,4,C,3,C03,L13A6,L13,L13A6-MT4-R,MT4-R,False
+bepridil,compound,continuous,ion channel,discovery compound,3,4,C,4,C04,L12A4,L12,L12A4-MT4-R,MT4-R,False
+efinaconazole,compound,continuous,epigenetic (selective probe),discovery compound,4,4,C,5,C05,L11A6,L11,L11A6-MT3-L,MT3-L,False
+tazemetostat,compound,continuous,epigenetic (selective probe),discovery compound,5,4,C,6,C06,L9A3,L9,L9A3-MT2-L,MT2-L,False
+carglumic-acid,compound,continuous,metabolic,discovery compound,3,4,C,7,C07,L5A8,L5,L5A8-MT4-L,MT4-L,False
+amisulpride,compound,continuous,GPCR,discovery compound,4,4,C,8,C08,L3A3,L3,L3A3-MT2-R,MT2-R,False
+AS-1949490,compound,continuous,phosphatase,discovery compound,6,4,C,9,C09,L4A1,L4,L4A1-MT2-L,MT2-L,False
+azelnidipine,compound,continuous,ion channel,discovery compound,5,4,C,10,C10,L14A2,L14,L14A2-MT3-R,MT3-R,False
+tazemetostat,compound,continuous,epigenetic (selective probe),discovery compound,1,4,C,11,C11,L6A8,L6,L6A8-MT2-R,MT2-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,4,C,12,C12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,4,D,1,D01,,,,,True
 GS-143,compound,continuous,ubiquitin system,discovery compound,4,4,D,2,D02,L11A4,L11,L11A4-MT2-L,MT2-L,False
-EW-7197,compound,continuous,growth factor / cytokine,discovery compound,1,4,D,3,D03,L4A3,L4,L4A3-MT4-L,MT4-L,False
-firategrast,compound,continuous,mechanotransduction,discovery compound,6,4,D,4,D04,L11A5,L11,L11A5-MT3-L,MT3-L,False
+ATN-161,compound,continuous,mechanotransduction,discovery compound,1,4,D,3,D03,L4A3,L4,L4A3-MT4-L,MT4-L,False
+F351,compound,continuous,growth factor / cytokine,discovery compound,6,4,D,4,D04,L11A5,L11,L11A5-MT3-L,MT3-L,False
 vehicle,VEHICLE,continuous,control,VEHICLE,1,4,D,5,D05,L6A6,L6,L6A6-MT4-L,MT4-L,False
-pirfenidone,compound,continuous,growth factor / cytokine,discovery compound,5,4,D,6,D06,L12A2,L12,L12A2-MT2-R,MT2-R,False
+menadione,compound,continuous,phosphatase,discovery compound,5,4,D,6,D06,L12A2,L12,L12A2-MT2-R,MT2-R,False
 lenalidomide,compound,continuous,growth factor / cytokine,discovery compound,3,4,D,7,D07,L3A3,L3,L3A3-MT4-L,MT4-L,False
-cyclovalone,compound,continuous,transporter,discovery compound,2,4,D,8,D08,L4A8,L4,L4A8-MT4-L,MT4-L,False
+diacerein,compound,continuous,growth factor / cytokine,discovery compound,2,4,D,8,D08,L4A8,L4,L4A8-MT4-L,MT4-L,False
 GW-3965,compound,continuous,nuclear receptor,discovery compound,5,4,D,9,D09,L13A7,L13,L13A7-MT4-L,MT4-L,False
-benserazide,compound,continuous,metabolic,discovery compound,4,4,D,10,D10,L13A7,L13,L13A7-MT4-R,MT4-R,False
-cilastatin,compound,continuous,protease,discovery compound,3,4,D,11,D11,L14A4,L14,L14A4-MT2-L,MT2-L,False
+benzbromarone,compound,continuous,ion channel,discovery compound,4,4,D,10,D10,L13A7,L13,L13A7-MT4-R,MT4-R,False
+cilnidipine,compound,continuous,ion channel,discovery compound,3,4,D,11,D11,L14A4,L14,L14A4-MT2-L,MT2-L,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,4,D,12,D12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,4,E,1,E01,,,,,True
-cilengitide,compound,continuous,mechanotransduction,discovery compound,5,4,E,2,E02,L2A4,L2,L2A4-MT2-R,MT2-R,False
-cilnidipine,compound,continuous,ion channel,discovery compound,6,4,E,3,E03,L1A7,L1,L1A7-MT2-R,MT2-R,False
-VLX600,compound,continuous,ubiquitin system,discovery compound,3,4,E,4,E04,L14A1,L14,L14A1-MT2-L,MT2-L,False
-hypoestoxide,compound,continuous,growth factor / cytokine,discovery compound,2,4,E,5,E05,L1A1,L1,L1A1-MT3-R,MT3-R,False
-azelnidipine,compound,continuous,ion channel,discovery compound,1,4,E,6,E06,L14A2,L14,L14A2-MT4-L,MT4-L,False
-chlorogenic-acid,compound,continuous,transporter,discovery compound,1,4,E,7,E07,L4A4,L4,L4A4-MT4-L,MT4-L,False
-tacrolimus,compound,continuous,phosphatase,discovery compound,6,4,E,8,E08,L3A1,L3,L3A1-MT2-R,MT2-R,False
-alogliptin,compound,continuous,protease,discovery compound,5,4,E,9,E09,L1A2,L1,L1A2-MT4-L,MT4-L,False
+pevonedistat,compound,continuous,ubiquitin system,discovery compound,5,4,E,2,E02,L2A4,L2,L2A4-MT2-R,MT2-R,False
+cinacalcet,compound,continuous,ion channel,discovery compound,6,4,E,3,E03,L1A7,L1,L1A7-MT2-R,MT2-R,False
+hypoestoxide,compound,continuous,growth factor / cytokine,discovery compound,3,4,E,4,E04,L14A1,L14,L14A1-MT2-L,MT2-L,False
+latrunculin-B,compound,continuous,mechanotransduction,discovery compound,2,4,E,5,E05,L1A1,L1,L1A1-MT3-R,MT3-R,False
+bempedoic-acid,compound,continuous,metabolic,discovery compound,1,4,E,6,E06,L14A2,L14,L14A2-MT4-L,MT4-L,False
+chlorproguanil,compound,continuous,metabolic,discovery compound,1,4,E,7,E07,L4A4,L4,L4A4-MT4-L,MT4-L,False
+tazemetostat,compound,continuous,epigenetic (selective probe),discovery compound,6,4,E,8,E08,L3A1,L3,L3A1-MT2-R,MT2-R,False
+aminopentamide,compound,continuous,GPCR,discovery compound,5,4,E,9,E09,L1A2,L1,L1A2-MT4-L,MT4-L,False
 NAB-2,compound,continuous,ubiquitin system,discovery compound,6,4,E,10,E10,L13A6,L13,L13A6-MT2-R,MT2-R,False
-acipimox,compound,continuous,metabolic,discovery compound,5,4,E,11,E11,L8A5,L8,L8A5-MT3-L,MT3-L,False
+acrivastine,compound,continuous,GPCR,discovery compound,5,4,E,11,E11,L8A5,L8,L8A5-MT3-L,MT3-L,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,4,E,12,E12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,4,F,1,F01,,,,,True
 escitalopram,compound,continuous,transporter,discovery compound,2,4,F,2,F02,L8A3,L8,L8A3-MT3-L,MT3-L,False
-cyclovalone,compound,continuous,transporter,discovery compound,4,4,F,3,F03,L13A6,L13,L13A6-MT3-L,MT3-L,False
+diacerein,compound,continuous,growth factor / cytokine,discovery compound,4,4,F,3,F03,L13A6,L13,L13A6-MT3-L,MT3-L,False
 NAB-2,compound,continuous,ubiquitin system,discovery compound,1,4,F,4,F04,L13A6,L13,L13A6-MT2-L,MT2-L,False
-efinaconazole,compound,continuous,epigenetic (selective probe),discovery compound,1,4,F,5,F05,L4A5,L4,L4A5-MT3-R,MT3-R,False
+enasidenib,compound,continuous,metabolic,discovery compound,1,4,F,5,F05,L4A5,L4,L4A5-MT3-R,MT3-R,False
 SMER-28,compound,continuous,lysosomal / autophagy,discovery compound,4,4,F,6,F06,L3A3,L3,L3A3-MT3-L,MT3-L,False
-CPI-0610,compound,continuous,epigenetic (selective probe),discovery compound,1,4,F,7,F07,L4A1,L4,L4A1-MT4-R,MT4-R,False
-adiphenine,compound,continuous,GPCR,discovery compound,1,4,F,8,F08,L8A4,L8,L8A4-MT4-L,MT4-L,False
+firategrast,compound,continuous,mechanotransduction,discovery compound,1,4,F,7,F07,L4A1,L4,L4A1-MT4-R,MT4-R,False
+albuterol,compound,continuous,GPCR,discovery compound,1,4,F,8,F08,L8A4,L8,L8A4-MT4-L,MT4-L,False
 spautin-1,compound,continuous,ubiquitin system,discovery compound,1,4,F,9,F09,L11A1,L11,L11A1-MT3-L,MT3-L,False
-benzethonium,compound,continuous,ion channel,discovery compound,2,4,F,10,F10,L2A8,L2,L2A8-MT3-L,MT3-L,False
-camostat-mesilate,compound,continuous,protease,discovery compound,1,4,F,11,F11,L8A5,L8,L8A5-MT2-L,MT2-L,False
+bepridil,compound,continuous,ion channel,discovery compound,2,4,F,10,F10,L2A8,L2,L2A8-MT3-L,MT3-L,False
+carglumic-acid,compound,continuous,metabolic,discovery compound,1,4,F,11,F11,L8A5,L8,L8A5-MT2-L,MT2-L,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,4,F,12,F12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,4,G,1,G01,,,,,True
 fumagillin,compound,continuous,protease,discovery compound,6,4,G,2,G02,L10A6,L10,L10A6-MT3-R,MT3-R,False
 pralmorelin,compound,continuous,other / unclassified,ASSAY CONTROL ONLY - canonical pathway,6,4,G,3,G03,L13A1,L13,L13A1-MT4-R,MT4-R,False
-adiphenine,compound,continuous,GPCR,discovery compound,2,4,G,4,G04,L7A7,L7,L7A7-MT2-R,MT2-R,False
+albuterol,compound,continuous,GPCR,discovery compound,2,4,G,4,G04,L7A7,L7,L7A7-MT2-R,MT2-R,False
 CNP / FGFR3-pathway stimulus,ASSAY-SENSITIVITY CONTROL,continuous,control,ASSAY-SENSITIVITY CONTROL,1,4,G,5,G05,L11A6,L11,L11A6-MT2-L,MT2-L,False
 vehicle,VEHICLE,continuous,control,VEHICLE,2,4,G,6,G06,L12A7,L12,L12A7-MT4-R,MT4-R,False
-efinaconazole,compound,continuous,epigenetic (selective probe),discovery compound,2,4,G,7,G07,L10A6,L10,L10A6-MT4-L,MT4-L,False
-DG-172,compound,continuous,nuclear receptor,discovery compound,4,4,G,8,G08,L1A1,L1,L1A1-MT4-R,MT4-R,False
-alogliptin,compound,continuous,protease,discovery compound,1,4,G,9,G09,L2A8,L2,L2A8-MT2-R,MT2-R,False
-benserazide,compound,continuous,metabolic,discovery compound,3,4,G,10,G10,L2A2,L2,L2A2-MT4-L,MT4-L,False
-aloxistatin,compound,continuous,protease,discovery compound,4,4,G,11,G11,L6A2,L6,L6A2-MT3-L,MT3-L,False
+enasidenib,compound,continuous,metabolic,discovery compound,2,4,G,7,G07,L10A6,L10,L10A6-MT4-L,MT4-L,False
+FGIN-1-27,compound,continuous,phosphatase,discovery compound,4,4,G,8,G08,L1A1,L1,L1A1-MT4-R,MT4-R,False
+aminopentamide,compound,continuous,GPCR,discovery compound,1,4,G,9,G09,L2A8,L2,L2A8-MT2-R,MT2-R,False
+benzbromarone,compound,continuous,ion channel,discovery compound,3,4,G,10,G10,L2A2,L2,L2A2-MT4-L,MT4-L,False
+itacitinib,compound,continuous,kinase,discovery compound,4,4,G,11,G11,L6A2,L6,L6A2-MT3-L,MT3-L,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,4,G,12,G12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,4,H,1,H01,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,4,H,2,H02,,,,,True
@@ -396,76 +396,76 @@ vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTRO
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,5,A,11,A11,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,5,A,12,A12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,5,B,1,B01,,,,,True
-futibatinib,compound,continuous,growth factor / cytokine,ASSAY CONTROL ONLY - canonical pathway,1,5,B,2,B02,L10A8,L10,L10A8-MT3-L,MT3-L,False
+abametapir,compound,continuous,protease,discovery compound,1,5,B,2,B02,L10A8,L10,L10A8-MT3-L,MT3-L,False
 vehicle,VEHICLE,continuous,control,VEHICLE,6,5,B,3,B03,L7A6,L7,L7A6-MT3-R,MT3-R,False
 ketoconazole,compound,continuous,epigenetic (selective probe),discovery compound,5,5,B,4,B04,L8A1,L8,L8A1-MT3-L,MT3-L,False
 DY131,compound,continuous,GPCR,ASSAY CONTROL ONLY - canonical pathway,3,5,B,5,B05,L3A6,L3,L3A6-MT3-L,MT3-L,False
 bafilomycin A1,TRADE-OFF BENCHMARK,continuous,control,TRADE-OFF BENCHMARK,6,5,B,6,B06,L4A3,L4,L4A3-MT4-R,MT4-R,False
 CNP / FGFR3-pathway stimulus,ASSAY-SENSITIVITY CONTROL,continuous,control,ASSAY-SENSITIVITY CONTROL,2,5,B,7,B07,L1A7,L1,L1A7-MT4-L,MT4-L,False
 maprotiline,compound,continuous,transporter,discovery compound,6,5,B,8,B08,L2A2,L2,L2A2-MT3-L,MT3-L,False
-cinacalcet,compound,continuous,ion channel,discovery compound,4,5,B,9,B09,L9A8,L9,L9A8-MT3-L,MT3-L,False
-doxycycline,compound,continuous,protease,discovery compound,6,5,B,10,B10,L9A5,L9,L9A5-MT3-L,MT3-L,False
+cobimetinib,compound,continuous,kinase,discovery compound,4,5,B,9,B09,L9A8,L9,L9A8-MT3-L,MT3-L,False
+efinaconazole,compound,continuous,epigenetic (selective probe),discovery compound,6,5,B,10,B10,L9A5,L9,L9A5-MT3-L,MT3-L,False
 acebutolol,compound,continuous,GPCR,discovery compound,5,5,B,11,B11,L6A6,L6,L6A6-MT4-R,MT4-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,5,B,12,B12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,5,C,1,C01,,,,,True
 encorafenib,compound,continuous,kinase,discovery compound,3,5,C,2,C02,L1A8,L1,L1A8-MT3-R,MT3-R,False
 entacapone,compound,continuous,epigenetic (selective probe),discovery compound,5,5,C,3,C03,L3A6,L3,L3A6-MT4-R,MT4-R,False
 GW-3965,compound,continuous,nuclear receptor,discovery compound,2,5,C,4,C04,L9A1,L9,L9A1-MT4-R,MT4-R,False
-beta-hydroxy-beta-methylbutyrate,compound,continuous,kinase,discovery compound,4,5,C,5,C05,L5A6,L5,L5A6-MT2-L,MT2-L,False
-cilnidipine,compound,continuous,ion channel,discovery compound,3,5,C,6,C06,L3A8,L3,L3A8-MT3-L,MT3-L,False
-benzethonium,compound,continuous,ion channel,discovery compound,6,5,C,7,C07,L5A1,L5,L5A1-MT2-R,MT2-R,False
+butenafine,compound,continuous,metabolic,discovery compound,4,5,C,5,C05,L5A6,L5,L5A6-MT2-L,MT2-L,False
+cinacalcet,compound,continuous,ion channel,discovery compound,3,5,C,6,C06,L3A8,L3,L3A8-MT3-L,MT3-L,False
+bepridil,compound,continuous,ion channel,discovery compound,6,5,C,7,C07,L5A1,L5,L5A1-MT2-R,MT2-R,False
 fumagillin,compound,continuous,protease,discovery compound,2,5,C,8,C08,L3A6,L3,L3A6-MT4-L,MT4-L,False
-omecamtiv-mecarbil,compound,continuous,mechanotransduction,discovery compound,2,5,C,9,C09,L2A5,L2,L2A5-MT4-R,MT4-R,False
-cilnidipine,compound,continuous,ion channel,discovery compound,2,5,C,10,C10,L6A7,L6,L6A7-MT4-L,MT4-L,False
+cilengitide,compound,continuous,mechanotransduction,discovery compound,2,5,C,9,C09,L2A5,L2,L2A5-MT4-R,MT4-R,False
+cinacalcet,compound,continuous,ion channel,discovery compound,2,5,C,10,C10,L6A7,L6,L6A7-MT4-L,MT4-L,False
 aceclofenac,compound,continuous,GPCR,discovery compound,2,5,C,11,C11,L1A1,L1,L1A1-MT4-L,MT4-L,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,5,C,12,C12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,5,D,1,D01,,,,,True
 CNP / FGFR3-pathway stimulus,ASSAY-SENSITIVITY CONTROL,continuous,control,ASSAY-SENSITIVITY CONTROL,5,5,D,2,D02,L5A5,L5,L5A5-MT2-R,MT2-R,False
-latrunculin-B,compound,continuous,mechanotransduction,discovery compound,5,5,D,3,D03,L4A7,L4,L4A7-MT2-L,MT2-L,False
-trapidil,compound,continuous,kinase,discovery compound,6,5,D,4,D04,L9A1,L9,L9A1-MT4-L,MT4-L,False
-diacerein,compound,continuous,growth factor / cytokine,discovery compound,3,5,D,5,D05,L13A4,L13,L13A4-MT3-R,MT3-R,False
-omecamtiv-mecarbil,compound,continuous,mechanotransduction,discovery compound,4,5,D,6,D06,L1A5,L1,L1A5-MT2-R,MT2-R,False
-tacrolimus,compound,continuous,phosphatase,discovery compound,2,5,D,7,D07,L11A6,L11,L11A6-MT4-L,MT4-L,False
-F351,compound,continuous,growth factor / cytokine,discovery compound,3,5,D,8,D08,L7A8,L7,L7A8-MT4-R,MT4-R,False
-halofuginone,compound,continuous,matrix remodeling,discovery compound,4,5,D,9,D09,L13A3,L13,L13A3-MT3-L,MT3-L,False
+alexidine,compound,continuous,phosphatase,discovery compound,5,5,D,3,D03,L4A7,L4,L4A7-MT2-L,MT2-L,False
+halofuginone,compound,continuous,matrix remodeling,discovery compound,6,5,D,4,D04,L9A1,L9,L9A1-MT4-L,MT4-L,False
+dilazep,compound,continuous,transporter,discovery compound,3,5,D,5,D05,L13A4,L13,L13A4-MT3-R,MT3-R,False
+cilengitide,compound,continuous,mechanotransduction,discovery compound,4,5,D,6,D06,L1A5,L1,L1A5-MT2-R,MT2-R,False
+tazemetostat,compound,continuous,epigenetic (selective probe),discovery compound,2,5,D,7,D07,L11A6,L11,L11A6-MT4-L,MT4-L,False
+STA-5326,compound,continuous,growth factor / cytokine,discovery compound,3,5,D,8,D08,L7A8,L7,L7A8-MT4-R,MT4-R,False
+mycophenolate-mofetil,compound,continuous,phosphatase,discovery compound,4,5,D,9,D09,L13A3,L13,L13A3-MT3-L,MT3-L,False
 lesinurad,compound,continuous,transporter,discovery compound,5,5,D,10,D10,L7A5,L7,L7A5-MT2-R,MT2-R,False
-firategrast,compound,continuous,mechanotransduction,discovery compound,4,5,D,11,D11,L2A6,L2,L2A6-MT2-L,MT2-L,False
+F351,compound,continuous,growth factor / cytokine,discovery compound,4,5,D,11,D11,L2A6,L2,L2A6-MT2-L,MT2-L,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,5,D,12,D12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,5,E,1,E01,,,,,True
 bafilomycin A1,TRADE-OFF BENCHMARK,continuous,control,TRADE-OFF BENCHMARK,5,5,E,2,E02,L5A7,L5,L5A7-MT2-L,MT2-L,False
 NAB-2,compound,continuous,ubiquitin system,discovery compound,5,5,E,3,E03,L12A4,L12,L12A4-MT3-L,MT3-L,False
-azelnidipine,compound,continuous,ion channel,discovery compound,3,5,E,4,E04,L14A6,L14,L14A6-MT4-L,MT4-L,False
-acrivastine,compound,continuous,GPCR,discovery compound,4,5,E,5,E05,L9A5,L9,L9A5-MT3-R,MT3-R,False
-mycophenolate-mofetil,compound,continuous,phosphatase,discovery compound,1,5,E,6,E06,L4A4,L4,L4A4-MT4-R,MT4-R,False
+bempedoic-acid,compound,continuous,metabolic,discovery compound,3,5,E,4,E04,L14A6,L14,L14A6-MT4-L,MT4-L,False
+adiphenine,compound,continuous,GPCR,discovery compound,4,5,E,5,E05,L9A5,L9,L9A5-MT3-R,MT3-R,False
+pirfenidone,compound,continuous,growth factor / cytokine,discovery compound,1,5,E,6,E06,L4A4,L4,L4A4-MT4-R,MT4-R,False
 lesinurad,compound,continuous,transporter,discovery compound,2,5,E,7,E07,L14A8,L14,L14A8-MT3-L,MT3-L,False
-diacerein,compound,continuous,growth factor / cytokine,discovery compound,5,5,E,8,E08,L3A5,L3,L3A5-MT2-R,MT2-R,False
+dilazep,compound,continuous,transporter,discovery compound,5,5,E,8,E08,L3A5,L3,L3A5-MT2-R,MT2-R,False
 antiproliferative control,CYTOTOXIC CONTROL,continuous,control,CYTOTOXIC CONTROL,5,5,E,9,E09,L7A7,L7,L7A7-MT2-L,MT2-L,False
-sodium-stibogluconate,compound,continuous,phosphatase,discovery compound,1,5,E,10,E10,L14A2,L14,L14A2-MT4-R,MT4-R,False
+tacrolimus,compound,continuous,phosphatase,discovery compound,1,5,E,10,E10,L14A2,L14,L14A2-MT4-R,MT4-R,False
 neuropathiazol,compound,continuous,other / unclassified,ASSAY CONTROL ONLY - canonical pathway,6,5,E,11,E11,L11A4,L11,L11A4-MT4-R,MT4-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,5,E,12,E12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,5,F,1,F01,,,,,True
-acrivastine,compound,continuous,GPCR,discovery compound,3,5,F,2,F02,L4A7,L4,L4A7-MT3-R,MT3-R,False
+adiphenine,compound,continuous,GPCR,discovery compound,3,5,F,2,F02,L4A7,L4,L4A7-MT3-R,MT3-R,False
 SP-141,compound,continuous,ubiquitin system,discovery compound,3,5,F,3,F03,L1A2,L1,L1A2-MT3-R,MT3-R,False
 fostamatinib,compound,continuous,kinase,discovery compound,3,5,F,4,F04,L5A3,L5,L5A3-MT2-L,MT2-L,False
-benzethonium,compound,continuous,ion channel,discovery compound,5,5,F,5,F05,L2A8,L2,L2A8-MT4-L,MT4-L,False
+bepridil,compound,continuous,ion channel,discovery compound,5,5,F,5,F05,L2A8,L2,L2A8-MT4-L,MT4-L,False
 acefylline,compound,continuous,GPCR,discovery compound,4,5,F,6,F06,L5A1,L5,L5A1-MT3-L,MT3-L,False
-EW-7197,compound,continuous,growth factor / cytokine,discovery compound,3,5,F,7,F07,L10A2,L10,L10A2-MT3-R,MT3-R,False
-albuterol,compound,continuous,GPCR,discovery compound,5,5,F,8,F08,L6A8,L6,L6A8-MT4-L,MT4-L,False
+ATN-161,compound,continuous,mechanotransduction,discovery compound,3,5,F,7,F07,L10A2,L10,L10A2-MT3-R,MT3-R,False
+alogliptin,compound,continuous,protease,discovery compound,5,5,F,8,F08,L6A8,L6,L6A8-MT4-L,MT4-L,False
 neuropathiazol,compound,continuous,other / unclassified,ASSAY CONTROL ONLY - canonical pathway,1,5,F,9,F09,L14A7,L14,L14A7-MT2-R,MT2-R,False
-benzbromarone,compound,continuous,ion channel,discovery compound,3,5,F,10,F10,L10A4,L10,L10A4-MT3-L,MT3-L,False
+benzethonium,compound,continuous,ion channel,discovery compound,3,5,F,10,F10,L10A4,L10,L10A4-MT3-L,MT3-L,False
 fumagillin,compound,continuous,protease,discovery compound,3,5,F,11,F11,L13A3,L13,L13A3-MT2-R,MT2-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,5,F,12,F12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,5,G,1,G01,,,,,True
-ATN-161,compound,continuous,mechanotransduction,discovery compound,5,5,G,2,G02,L8A1,L8,L8A1-MT4-L,MT4-L,False
+VLX600,compound,continuous,ubiquitin system,discovery compound,5,5,G,2,G02,L8A1,L8,L8A1-MT4-L,MT4-L,False
 vehicle,VEHICLE,continuous,control,VEHICLE,3,5,G,3,G03,L6A4,L6,L6A4-MT4-R,MT4-R,False
 antiproliferative control,CYTOTOXIC CONTROL,continuous,control,CYTOTOXIC CONTROL,6,5,G,4,G04,L13A5,L13,L13A5-MT3-R,MT3-R,False
-abametapir,compound,continuous,protease,discovery compound,2,5,G,5,G05,L5A1,L5,L5A1-MT4-L,MT4-L,False
-cerulenin,compound,continuous,metabolic,discovery compound,4,5,G,6,G06,L9A6,L9,L9A6-MT3-L,MT3-L,False
+aloxistatin,compound,continuous,protease,discovery compound,2,5,G,5,G05,L5A1,L5,L5A1-MT4-L,MT4-L,False
+chlorogenic-acid,compound,continuous,transporter,discovery compound,4,5,G,6,G06,L9A6,L9,L9A6-MT3-L,MT3-L,False
 DY131,compound,continuous,GPCR,ASSAY CONTROL ONLY - canonical pathway,1,5,G,7,G07,L5A7,L5,L5A7-MT3-L,MT3-L,False
-VLX600,compound,continuous,ubiquitin system,discovery compound,6,5,G,8,G08,L1A8,L1,L1A8-MT4-R,MT4-R,False
+hypoestoxide,compound,continuous,growth factor / cytokine,discovery compound,6,5,G,8,G08,L1A8,L1,L1A8-MT4-R,MT4-R,False
 spautin-1,compound,continuous,ubiquitin system,discovery compound,3,5,G,9,G09,L2A3,L2,L2A3-MT2-L,MT2-L,False
 IGF1,PRODUCTIVE BENCHMARK,continuous,control,PRODUCTIVE BENCHMARK,6,5,G,10,G10,L1A5,L1,L1A5-MT4-L,MT4-L,False
-efinaconazole,compound,continuous,epigenetic (selective probe),discovery compound,5,5,G,11,G11,L10A1,L10,L10A1-MT2-L,MT2-L,False
+enasidenib,compound,continuous,metabolic,discovery compound,5,5,G,11,G11,L10A1,L10,L10A1-MT2-L,MT2-L,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,5,G,12,G12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,5,H,1,H01,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,5,H,2,H02,,,,,True
@@ -495,73 +495,73 @@ vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTRO
 aceclofenac,compound,continuous,GPCR,discovery compound,5,6,B,2,B02,L13A1,L13,L13A1-MT2-L,MT2-L,False
 CNP / FGFR3-pathway stimulus,ASSAY-SENSITIVITY CONTROL,continuous,control,ASSAY-SENSITIVITY CONTROL,6,6,B,3,B03,L3A4,L3,L3A4-MT4-L,MT4-L,False
 acetyl-farnesyl-cysteine,compound,continuous,epigenetic (selective probe),discovery compound,1,6,B,4,B04,L2A3,L2,L2A3-MT3-R,MT3-R,False
-ATN-161,compound,continuous,mechanotransduction,discovery compound,1,6,B,5,B05,L9A8,L9,L9A8-MT2-L,MT2-L,False
-chlorogenic-acid,compound,continuous,transporter,discovery compound,6,6,B,6,B06,L12A7,L12,L12A7-MT3-L,MT3-L,False
-ATN-161,compound,continuous,mechanotransduction,discovery compound,4,6,B,7,B07,L12A2,L12,L12A2-MT4-L,MT4-L,False
+VLX600,compound,continuous,ubiquitin system,discovery compound,1,6,B,5,B05,L9A8,L9,L9A8-MT2-L,MT2-L,False
+chlorproguanil,compound,continuous,metabolic,discovery compound,6,6,B,6,B06,L12A7,L12,L12A7-MT3-L,MT3-L,False
+VLX600,compound,continuous,ubiquitin system,discovery compound,4,6,B,7,B07,L12A2,L12,L12A2-MT4-L,MT4-L,False
 metolazone,compound,continuous,transporter,discovery compound,2,6,B,8,B08,L10A4,L10,L10A4-MT4-R,MT4-R,False
-chlorproguanil,compound,continuous,metabolic,discovery compound,1,6,B,9,B09,L11A3,L11,L11A3-MT4-R,MT4-R,False
+cilastatin,compound,continuous,protease,discovery compound,1,6,B,9,B09,L11A3,L11,L11A3-MT4-R,MT4-R,False
 IU1,compound,continuous,ubiquitin system,discovery compound,3,6,B,10,B10,L12A5,L12,L12A5-MT2-R,MT2-R,False
-albuterol,compound,continuous,GPCR,discovery compound,1,6,B,11,B11,L1A2,L1,L1A2-MT2-R,MT2-R,False
+alogliptin,compound,continuous,protease,discovery compound,1,6,B,11,B11,L1A2,L1,L1A2-MT2-R,MT2-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,6,B,12,B12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,6,C,1,C01,,,,,True
-STA-5326,compound,continuous,growth factor / cytokine,discovery compound,3,6,C,2,C02,L11A8,L11,L11A8-MT3-R,MT3-R,False
+BMS-587101,compound,continuous,mechanotransduction,discovery compound,3,6,C,2,C02,L11A8,L11,L11A8-MT3-R,MT3-R,False
 spautin-1,compound,continuous,ubiquitin system,discovery compound,5,6,C,3,C03,L1A6,L1,L1A6-MT4-R,MT4-R,False
-AS-1949490,compound,continuous,phosphatase,discovery compound,6,6,C,4,C04,L2A4,L2,L2A4-MT3-R,MT3-R,False
+DG-172,compound,continuous,nuclear receptor,discovery compound,6,6,C,4,C04,L2A4,L2,L2A4-MT3-R,MT3-R,False
 SMER-28,compound,continuous,lysosomal / autophagy,discovery compound,2,6,C,5,C05,L6A3,L6,L6A3-MT4-L,MT4-L,False
 IGF1,PRODUCTIVE BENCHMARK,continuous,control,PRODUCTIVE BENCHMARK,3,6,C,6,C06,L2A5,L2,L2A5-MT2-L,MT2-L,False
 washout-only,WASHOUT CONTROL,washout + recovery,control,WASHOUT CONTROL,4,6,C,7,C07,L13A3,L13,L13A3-MT2-L,MT2-L,False
-allopurinol,compound,continuous,metabolic,discovery compound,4,6,C,8,C08,L8A1,L8,L8A1-MT4-R,MT4-R,False
-butenafine,compound,continuous,metabolic,discovery compound,1,6,C,9,C09,L7A1,L7,L7A1-MT3-R,MT3-R,False
+ambroxol,compound,continuous,ion channel,discovery compound,4,6,C,8,C08,L8A1,L8,L8A1-MT4-R,MT4-R,False
+butylphthalide,compound,continuous,ion channel,discovery compound,1,6,C,9,C09,L7A1,L7,L7A1-MT3-R,MT3-R,False
 lesinurad,compound,continuous,transporter,discovery compound,1,6,C,10,C10,L2A4,L2,L2A4-MT3-L,MT3-L,False
 lesinurad,compound,continuous,transporter,discovery compound,4,6,C,11,C11,L14A5,L14,L14A5-MT2-R,MT2-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,6,C,12,C12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,6,D,1,D01,,,,,True
-butylphthalide,compound,continuous,ion channel,discovery compound,3,6,D,2,D02,L7A8,L7,L7A8-MT4-L,MT4-L,False
+camostat-mesilate,compound,continuous,protease,discovery compound,3,6,D,2,D02,L7A8,L7,L7A8-MT4-L,MT4-L,False
 encorafenib,compound,continuous,kinase,discovery compound,5,6,D,3,D03,L2A6,L2,L2A6-MT3-L,MT3-L,False
-cilengitide,compound,continuous,mechanotransduction,discovery compound,6,6,D,4,D04,L4A7,L4,L4A7-MT3-L,MT3-L,False
+pevonedistat,compound,continuous,ubiquitin system,discovery compound,6,6,D,4,D04,L4A7,L4,L4A7-MT3-L,MT3-L,False
 FK-409,compound,continuous,other / unclassified,ASSAY CONTROL ONLY - canonical pathway,1,6,D,5,D05,L11A4,L11,L11A4-MT3-R,MT3-R,False
-acrivastine,compound,continuous,GPCR,discovery compound,1,6,D,6,D06,L5A5,L5,L5A5-MT3-R,MT3-R,False
+adiphenine,compound,continuous,GPCR,discovery compound,1,6,D,6,D06,L5A5,L5,L5A5-MT3-R,MT3-R,False
 entacapone,compound,continuous,epigenetic (selective probe),discovery compound,6,6,D,7,D07,L3A1,L3,L3A1-MT4-R,MT4-R,False
 bafilomycin A1,TRADE-OFF BENCHMARK,continuous,control,TRADE-OFF BENCHMARK,1,6,D,8,D08,L5A4,L5,L5A4-MT3-R,MT3-R,False
 pralmorelin,compound,continuous,other / unclassified,ASSAY CONTROL ONLY - canonical pathway,5,6,D,9,D09,L3A6,L3,L3A6-MT2-R,MT2-R,False
-butylphthalide,compound,continuous,ion channel,discovery compound,5,6,D,10,D10,L7A1,L7,L7A1-MT2-R,MT2-R,False
-halofuginone,compound,continuous,matrix remodeling,discovery compound,5,6,D,11,D11,L12A8,L12,L12A8-MT2-R,MT2-R,False
+camostat-mesilate,compound,continuous,protease,discovery compound,5,6,D,10,D10,L7A1,L7,L7A1-MT2-R,MT2-R,False
+mycophenolate-mofetil,compound,continuous,phosphatase,discovery compound,5,6,D,11,D11,L12A8,L12,L12A8-MT2-R,MT2-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,6,D,12,D12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,6,E,1,E01,,,,,True
-cinacalcet,compound,continuous,ion channel,discovery compound,3,6,E,2,E02,L3A4,L3,L3A4-MT3-L,MT3-L,False
-AS-1949490,compound,continuous,phosphatase,discovery compound,1,6,E,3,E03,L4A4,L4,L4A4-MT3-R,MT3-R,False
-trofinetide,compound,continuous,growth factor / cytokine,discovery compound,1,6,E,4,E04,L14A8,L14,L14A8-MT4-L,MT4-L,False
-sodium-stibogluconate,compound,continuous,phosphatase,discovery compound,3,6,E,5,E05,L2A2,L2,L2A2-MT3-R,MT3-R,False
-hypoestoxide,compound,continuous,growth factor / cytokine,discovery compound,1,6,E,6,E06,L14A2,L14,L14A2-MT2-R,MT2-R,False
-latrunculin-B,compound,continuous,mechanotransduction,discovery compound,6,6,E,7,E07,L10A3,L10,L10A3-MT3-L,MT3-L,False
+cobimetinib,compound,continuous,kinase,discovery compound,3,6,E,2,E02,L3A4,L3,L3A4-MT3-L,MT3-L,False
+DG-172,compound,continuous,nuclear receptor,discovery compound,1,6,E,3,E03,L4A4,L4,L4A4-MT3-R,MT3-R,False
+JTE-607,compound,continuous,growth factor / cytokine,discovery compound,1,6,E,4,E04,L14A8,L14,L14A8-MT4-L,MT4-L,False
+tacrolimus,compound,continuous,phosphatase,discovery compound,3,6,E,5,E05,L2A2,L2,L2A2-MT3-R,MT3-R,False
+latrunculin-B,compound,continuous,mechanotransduction,discovery compound,1,6,E,6,E06,L14A2,L14,L14A2-MT2-R,MT2-R,False
+alexidine,compound,continuous,phosphatase,discovery compound,6,6,E,7,E07,L10A3,L10,L10A3-MT3-L,MT3-L,False
 lorlatinib,compound,continuous,kinase,discovery compound,3,6,E,8,E08,L10A8,L10,L10A8-MT2-L,MT2-L,False
 SMER-28,compound,continuous,lysosomal / autophagy,discovery compound,1,6,E,9,E09,L3A1,L3,L3A1-MT3-L,MT3-L,False
-benzbromarone,compound,continuous,ion channel,discovery compound,2,6,E,10,E10,L1A6,L1,L1A6-MT4-L,MT4-L,False
+benzethonium,compound,continuous,ion channel,discovery compound,2,6,E,10,E10,L1A6,L1,L1A6-MT4-L,MT4-L,False
 IU1,compound,continuous,ubiquitin system,discovery compound,2,6,E,11,E11,L1A3,L1,L1A3-MT3-R,MT3-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,6,E,12,E12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,6,F,1,F01,,,,,True
 escitalopram,compound,continuous,transporter,discovery compound,1,6,F,2,F02,L11A7,L11,L11A7-MT4-L,MT4-L,False
-butenafine,compound,continuous,metabolic,discovery compound,2,6,F,3,F03,L7A4,L7,L7A4-MT4-L,MT4-L,False
-F351,compound,continuous,growth factor / cytokine,discovery compound,1,6,F,4,F04,L2A3,L2,L2A3-MT3-L,MT3-L,False
-aloxistatin,compound,continuous,protease,discovery compound,3,6,F,5,F05,L8A2,L8,L8A2-MT4-R,MT4-R,False
-benserazide,compound,continuous,metabolic,discovery compound,1,6,F,6,F06,L8A5,L8,L8A5-MT4-R,MT4-R,False
-retinol,compound,continuous,mechanotransduction,discovery compound,5,6,F,7,F07,L3A7,L3,L3A7-MT3-L,MT3-L,False
-acrivastine,compound,continuous,GPCR,discovery compound,6,6,F,8,F08,L10A2,L10,L10A2-MT4-L,MT4-L,False
+butylphthalide,compound,continuous,ion channel,discovery compound,2,6,F,3,F03,L7A4,L7,L7A4-MT4-L,MT4-L,False
+STA-5326,compound,continuous,growth factor / cytokine,discovery compound,1,6,F,4,F04,L2A3,L2,L2A3-MT3-L,MT3-L,False
+itacitinib,compound,continuous,kinase,discovery compound,3,6,F,5,F05,L8A2,L8,L8A2-MT4-R,MT4-R,False
+benzbromarone,compound,continuous,ion channel,discovery compound,1,6,F,6,F06,L8A5,L8,L8A5-MT4-R,MT4-R,False
+futibatinib,compound,continuous,growth factor / cytokine,ASSAY CONTROL ONLY - canonical pathway,5,6,F,7,F07,L3A7,L3,L3A7-MT3-L,MT3-L,False
+adiphenine,compound,continuous,GPCR,discovery compound,6,6,F,8,F08,L10A2,L10,L10A2-MT4-L,MT4-L,False
 acebutolol,compound,continuous,GPCR,discovery compound,4,6,F,9,F09,L2A5,L2,L2A5-MT2-R,MT2-R,False
-bis(maltolato)oxovanadium(IV),compound,continuous,phosphatase,discovery compound,4,6,F,10,F10,L12A6,L12,L12A6-MT3-L,MT3-L,False
-CPI-0610,compound,continuous,epigenetic (selective probe),discovery compound,3,6,F,11,F11,L9A3,L9,L9A3-MT2-R,MT2-R,False
+CPI-0610,compound,continuous,epigenetic (selective probe),discovery compound,4,6,F,10,F10,L12A6,L12,L12A6-MT3-L,MT3-L,False
+firategrast,compound,continuous,mechanotransduction,discovery compound,3,6,F,11,F11,L9A3,L9,L9A3-MT2-R,MT2-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,6,F,12,F12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,6,G,1,G01,,,,,True
-EW-7197,compound,continuous,growth factor / cytokine,discovery compound,2,6,G,2,G02,L1A4,L1,L1A4-MT4-L,MT4-L,False
-pevonedistat,compound,continuous,ubiquitin system,discovery compound,3,6,G,3,G03,L10A2,L10,L10A2-MT3-L,MT3-L,False
+ATN-161,compound,continuous,mechanotransduction,discovery compound,2,6,G,2,G02,L1A4,L1,L1A4-MT4-L,MT4-L,False
+bis(maltolato)oxovanadium(IV),compound,continuous,phosphatase,discovery compound,3,6,G,3,G03,L10A2,L10,L10A2-MT3-L,MT3-L,False
 neuropathiazol,compound,continuous,other / unclassified,ASSAY CONTROL ONLY - canonical pathway,5,6,G,4,G04,L10A7,L10,L10A7-MT2-R,MT2-R,False
-ambroxol,compound,continuous,ion channel,discovery compound,2,6,G,5,G05,L13A5,L13,L13A5-MT3-L,MT3-L,False
-beta-hydroxy-beta-methylbutyrate,compound,continuous,kinase,discovery compound,2,6,G,6,G06,L11A7,L11,L11A7-MT2-L,MT2-L,False
-alogliptin,compound,continuous,protease,discovery compound,2,6,G,7,G07,L6A3,L6,L6A3-MT2-R,MT2-R,False
+amisulpride,compound,continuous,GPCR,discovery compound,2,6,G,5,G05,L13A5,L13,L13A5-MT3-L,MT3-L,False
+butenafine,compound,continuous,metabolic,discovery compound,2,6,G,6,G06,L11A7,L11,L11A7-MT2-L,MT2-L,False
+aminopentamide,compound,continuous,GPCR,discovery compound,2,6,G,7,G07,L6A3,L6,L6A3-MT2-R,MT2-R,False
 glasdegib,compound,continuous,other / unclassified,ASSAY CONTROL ONLY - canonical pathway,4,6,G,8,G08,L4A6,L4,L4A6-MT4-L,MT4-L,False
-alogliptin,compound,continuous,protease,discovery compound,4,6,G,9,G09,L9A8,L9,L9A8-MT4-R,MT4-R,False
-latrunculin-B,compound,continuous,mechanotransduction,discovery compound,2,6,G,10,G10,L3A7,L3,L3A7-MT4-L,MT4-L,False
-aminopentamide,compound,continuous,GPCR,discovery compound,3,6,G,11,G11,L12A1,L12,L12A1-MT3-L,MT3-L,False
+aminopentamide,compound,continuous,GPCR,discovery compound,4,6,G,9,G09,L9A8,L9,L9A8-MT4-R,MT4-R,False
+alexidine,compound,continuous,phosphatase,discovery compound,2,6,G,10,G10,L3A7,L3,L3A7-MT4-L,MT4-L,False
+azelnidipine,compound,continuous,ion channel,discovery compound,3,6,G,11,G11,L12A1,L12,L12A1-MT3-L,MT3-L,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,6,G,12,G12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,6,H,1,H01,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,6,H,2,H02,,,,,True
@@ -588,76 +588,76 @@ vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTRO
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,7,A,11,A11,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,7,A,12,A12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,7,B,1,B01,,,,,True
-bempedoic-acid,compound,continuous,metabolic,discovery compound,3,7,B,2,B02,L4A3,L4,L4A3-MT2-L,MT2-L,False
+benserazide,compound,continuous,metabolic,discovery compound,3,7,B,2,B02,L4A3,L4,L4A3-MT2-L,MT2-L,False
 vehicle,VEHICLE,continuous,control,VEHICLE,4,7,B,3,B03,L8A7,L8,L8A7-MT3-L,MT3-L,False
 neuropathiazol,compound,continuous,other / unclassified,ASSAY CONTROL ONLY - canonical pathway,2,7,B,4,B04,L9A6,L9,L9A6-MT4-R,MT4-R,False
-dilazep,compound,continuous,transporter,discovery compound,1,7,B,5,B05,L11A8,L11,L11A8-MT4-L,MT4-L,False
+doxycycline,compound,continuous,protease,discovery compound,1,7,B,5,B05,L11A8,L11,L11A8-MT4-L,MT4-L,False
 GW-3965,compound,continuous,nuclear receptor,discovery compound,4,7,B,6,B06,L3A5,L3,L3A5-MT3-L,MT3-L,False
 DY131,compound,continuous,GPCR,ASSAY CONTROL ONLY - canonical pathway,2,7,B,7,B07,L7A7,L7,L7A7-MT4-L,MT4-L,False
-odanacatib,compound,continuous,protease,discovery compound,1,7,B,8,B08,L11A7,L11,L11A7-MT4-R,MT4-R,False
-odanacatib,compound,continuous,protease,discovery compound,2,7,B,9,B09,L11A1,L11,L11A1-MT2-R,MT2-R,False
-dilazep,compound,continuous,transporter,discovery compound,3,7,B,10,B10,L6A3,L6,L6A3-MT2-L,MT2-L,False
-cobimetinib,compound,continuous,kinase,discovery compound,2,7,B,11,B11,L13A5,L13,L13A5-MT4-R,MT4-R,False
+omecamtiv-mecarbil,compound,continuous,mechanotransduction,discovery compound,1,7,B,8,B08,L11A7,L11,L11A7-MT4-R,MT4-R,False
+omecamtiv-mecarbil,compound,continuous,mechanotransduction,discovery compound,2,7,B,9,B09,L11A1,L11,L11A1-MT2-R,MT2-R,False
+doxycycline,compound,continuous,protease,discovery compound,3,7,B,10,B10,L6A3,L6,L6A3-MT2-L,MT2-L,False
+cyclovalone,compound,continuous,transporter,discovery compound,2,7,B,11,B11,L13A5,L13,L13A5-MT4-R,MT4-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,7,B,12,B12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,7,C,1,C01,,,,,True
 aceclofenac,compound,continuous,GPCR,discovery compound,4,7,C,2,C02,L12A3,L12,L12A3-MT4-R,MT4-R,False
-chlorogenic-acid,compound,continuous,transporter,discovery compound,3,7,C,3,C03,L1A8,L1,L1A8-MT2-L,MT2-L,False
-omecamtiv-mecarbil,compound,continuous,mechanotransduction,discovery compound,6,7,C,4,C04,L13A1,L13,L13A1-MT2-R,MT2-R,False
+chlorproguanil,compound,continuous,metabolic,discovery compound,3,7,C,3,C03,L1A8,L1,L1A8-MT2-L,MT2-L,False
+cilengitide,compound,continuous,mechanotransduction,discovery compound,6,7,C,4,C04,L13A1,L13,L13A1-MT2-R,MT2-R,False
 acebutolol,compound,continuous,GPCR,discovery compound,6,7,C,5,C05,L8A4,L8,L8A4-MT3-L,MT3-L,False
 acefylline,compound,continuous,GPCR,discovery compound,6,7,C,6,C06,L4A5,L4,L4A5-MT4-L,MT4-L,False
 phenylbutyrate,compound,continuous,epigenetic (selective probe),discovery compound,2,7,C,7,C07,L2A8,L2,L2A8-MT2-L,MT2-L,False
 washout-only,WASHOUT CONTROL,washout + recovery,control,WASHOUT CONTROL,6,7,C,8,C08,L9A4,L9,L9A4-MT2-L,MT2-L,False
-trapidil,compound,continuous,kinase,discovery compound,3,7,C,9,C09,L1A8,L1,L1A8-MT3-L,MT3-L,False
+halofuginone,compound,continuous,matrix remodeling,discovery compound,3,7,C,9,C09,L1A8,L1,L1A8-MT3-L,MT3-L,False
 acebutolol,compound,continuous,GPCR,discovery compound,2,7,C,10,C10,L1A5,L1,L1A5-MT2-L,MT2-L,False
-itacitinib,compound,continuous,kinase,discovery compound,3,7,C,11,C11,L10A6,L10,L10A6-MT2-L,MT2-L,False
+odanacatib,compound,continuous,protease,discovery compound,3,7,C,11,C11,L10A6,L10,L10A6-MT2-L,MT2-L,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,7,C,12,C12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,7,D,1,D01,,,,,True
 acebutolol,compound,continuous,GPCR,discovery compound,1,7,D,2,D02,L2A8,L2,L2A8-MT4-R,MT4-R,False
 bafilomycin A1,TRADE-OFF BENCHMARK,continuous,control,TRADE-OFF BENCHMARK,4,7,D,3,D03,L8A8,L8,L8A8-MT4-R,MT4-R,False
-adrenalone,compound,continuous,GPCR,discovery compound,3,7,D,4,D04,L12A5,L12,L12A5-MT3-L,MT3-L,False
+allopurinol,compound,continuous,metabolic,discovery compound,3,7,D,4,D04,L12A5,L12,L12A5-MT3-L,MT3-L,False
 CNP / FGFR3-pathway stimulus,ASSAY-SENSITIVITY CONTROL,continuous,control,ASSAY-SENSITIVITY CONTROL,4,7,D,5,D05,L14A5,L14,L14A5-MT3-R,MT3-R,False
 phenylbutyrate,compound,continuous,epigenetic (selective probe),discovery compound,4,7,D,6,D06,L11A3,L11,L11A3-MT2-R,MT2-R,False
-pirfenidone,compound,continuous,growth factor / cytokine,discovery compound,6,7,D,7,D07,L9A1,L9,L9A1-MT3-R,MT3-R,False
-odanacatib,compound,continuous,protease,discovery compound,3,7,D,8,D08,L2A1,L2,L2A1-MT2-R,MT2-R,False
-cinacalcet,compound,continuous,ion channel,discovery compound,5,7,D,9,D09,L3A8,L3,L3A8-MT4-R,MT4-R,False
-benserazide,compound,continuous,metabolic,discovery compound,2,7,D,10,D10,L11A5,L11,L11A5-MT4-L,MT4-L,False
-carglumic-acid,compound,continuous,metabolic,discovery compound,5,7,D,11,D11,L5A3,L5,L5A3-MT3-R,MT3-R,False
+menadione,compound,continuous,phosphatase,discovery compound,6,7,D,7,D07,L9A1,L9,L9A1-MT3-R,MT3-R,False
+omecamtiv-mecarbil,compound,continuous,mechanotransduction,discovery compound,3,7,D,8,D08,L2A1,L2,L2A1-MT2-R,MT2-R,False
+cobimetinib,compound,continuous,kinase,discovery compound,5,7,D,9,D09,L3A8,L3,L3A8-MT4-R,MT4-R,False
+benzbromarone,compound,continuous,ion channel,discovery compound,2,7,D,10,D10,L11A5,L11,L11A5-MT4-L,MT4-L,False
+cerulenin,compound,continuous,metabolic,discovery compound,5,7,D,11,D11,L5A3,L5,L5A3-MT3-R,MT3-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,7,D,12,D12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,7,E,1,E01,,,,,True
 encorafenib,compound,continuous,kinase,discovery compound,4,7,E,2,E02,L2A2,L2,L2A2-MT4-R,MT4-R,False
-alexidine,compound,continuous,phosphatase,discovery compound,3,7,E,3,E03,L6A2,L6,L6A2-MT4-R,MT4-R,False
+AS-1949490,compound,continuous,phosphatase,discovery compound,3,7,E,3,E03,L6A2,L6,L6A2-MT4-R,MT4-R,False
 lorlatinib,compound,continuous,kinase,discovery compound,6,7,E,4,E04,L13A4,L13,L13A4-MT3-L,MT3-L,False
-alexidine,compound,continuous,phosphatase,discovery compound,1,7,E,5,E05,L4A3,L4,L4A3-MT3-R,MT3-R,False
-camostat-mesilate,compound,continuous,protease,discovery compound,2,7,E,6,E06,L1A2,L1,L1A2-MT2-L,MT2-L,False
+AS-1949490,compound,continuous,phosphatase,discovery compound,1,7,E,5,E05,L4A3,L4,L4A3-MT3-R,MT3-R,False
+carglumic-acid,compound,continuous,metabolic,discovery compound,2,7,E,6,E06,L1A2,L1,L1A2-MT2-L,MT2-L,False
 SP-141,compound,continuous,ubiquitin system,discovery compound,1,7,E,7,E07,L9A7,L9,L9A7-MT3-R,MT3-R,False
-BMS-587101,compound,continuous,mechanotransduction,discovery compound,4,7,E,8,E08,L4A7,L4,L4A7-MT4-R,MT4-R,False
+EW-7197,compound,continuous,growth factor / cytokine,discovery compound,4,7,E,8,E08,L4A7,L4,L4A7-MT4-R,MT4-R,False
 lenalidomide,compound,continuous,growth factor / cytokine,discovery compound,4,7,E,9,E09,L12A8,L12,L12A8-MT3-L,MT3-L,False
-dilazep,compound,continuous,transporter,discovery compound,4,7,E,10,E10,L8A1,L8,L8A1-MT3-R,MT3-R,False
-tazemetostat,compound,continuous,epigenetic (selective probe),discovery compound,6,7,E,11,E11,L7A1,L7,L7A1-MT3-L,MT3-L,False
+doxycycline,compound,continuous,protease,discovery compound,4,7,E,10,E10,L8A1,L8,L8A1-MT3-R,MT3-R,False
+trapidil,compound,continuous,kinase,discovery compound,6,7,E,11,E11,L7A1,L7,L7A1-MT3-L,MT3-L,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,7,E,12,E12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,7,F,1,F01,,,,,True
-acipimox,compound,continuous,metabolic,discovery compound,3,7,F,2,F02,L7A2,L7,L7A2-MT2-R,MT2-R,False
-sodium-stibogluconate,compound,continuous,phosphatase,discovery compound,2,7,F,3,F03,L1A8,L1,L1A8-MT2-R,MT2-R,False
+acrivastine,compound,continuous,GPCR,discovery compound,3,7,F,2,F02,L7A2,L7,L7A2-MT2-R,MT2-R,False
+tacrolimus,compound,continuous,phosphatase,discovery compound,2,7,F,3,F03,L1A8,L1,L1A8-MT2-R,MT2-R,False
 neuropathiazol,compound,continuous,other / unclassified,ASSAY CONTROL ONLY - canonical pathway,3,7,F,4,F04,L2A7,L2,L2A7-MT2-R,MT2-R,False
-aminopentamide,compound,continuous,GPCR,discovery compound,6,7,F,5,F05,L5A6,L5,L5A6-MT3-L,MT3-L,False
-butenafine,compound,continuous,metabolic,discovery compound,3,7,F,6,F06,L7A3,L7,L7A3-MT2-L,MT2-L,False
+azelnidipine,compound,continuous,ion channel,discovery compound,6,7,F,5,F05,L5A6,L5,L5A6-MT3-L,MT3-L,False
+butylphthalide,compound,continuous,ion channel,discovery compound,3,7,F,6,F06,L7A3,L7,L7A3-MT2-L,MT2-L,False
 NAB-2,compound,continuous,ubiquitin system,discovery compound,4,7,F,7,F07,L9A2,L9,L9A2-MT3-R,MT3-R,False
-menadione,compound,continuous,phosphatase,discovery compound,4,7,F,8,F08,L14A6,L14,L14A6-MT3-R,MT3-R,False
+retinol,compound,continuous,mechanotransduction,discovery compound,4,7,F,8,F08,L14A6,L14,L14A6-MT3-R,MT3-R,False
 encorafenib,compound,continuous,kinase,discovery compound,1,7,F,9,F09,L7A8,L7,L7A8-MT2-L,MT2-L,False
-VLX600,compound,continuous,ubiquitin system,discovery compound,1,7,F,10,F10,L4A6,L4,L4A6-MT3-L,MT3-L,False
-cilengitide,compound,continuous,mechanotransduction,discovery compound,3,7,F,11,F11,L6A8,L6,L6A8-MT3-R,MT3-R,False
+hypoestoxide,compound,continuous,growth factor / cytokine,discovery compound,1,7,F,10,F10,L4A6,L4,L4A6-MT3-L,MT3-L,False
+pevonedistat,compound,continuous,ubiquitin system,discovery compound,3,7,F,11,F11,L6A8,L6,L6A8-MT3-R,MT3-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,7,F,12,F12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,7,G,1,G01,,,,,True
 maprotiline,compound,continuous,transporter,discovery compound,4,7,G,2,G02,L9A5,L9,L9A5-MT2-L,MT2-L,False
 ertugliflozin,compound,continuous,transporter,discovery compound,2,7,G,3,G03,L10A3,L10,L10A3-MT3-R,MT3-R,False
 T-0901317,compound,continuous,nuclear receptor,discovery compound,2,7,G,4,G04,L10A7,L10,L10A7-MT4-R,MT4-R,False
-dilazep,compound,continuous,transporter,discovery compound,6,7,G,5,G05,L11A7,L11,L11A7-MT2-R,MT2-R,False
-adrenalone,compound,continuous,GPCR,discovery compound,5,7,G,6,G06,L13A8,L13,L13A8-MT3-L,MT3-L,False
-bempedoic-acid,compound,continuous,metabolic,discovery compound,2,7,G,7,G07,L4A6,L4,L4A6-MT2-R,MT2-R,False
-trapidil,compound,continuous,kinase,discovery compound,4,7,G,8,G08,L1A1,L1,L1A1-MT3-L,MT3-L,False
-mycophenolate-mofetil,compound,continuous,phosphatase,discovery compound,6,7,G,9,G09,L5A5,L5,L5A5-MT2-L,MT2-L,False
+doxycycline,compound,continuous,protease,discovery compound,6,7,G,5,G05,L11A7,L11,L11A7-MT2-R,MT2-R,False
+allopurinol,compound,continuous,metabolic,discovery compound,5,7,G,6,G06,L13A8,L13,L13A8-MT3-L,MT3-L,False
+benserazide,compound,continuous,metabolic,discovery compound,2,7,G,7,G07,L4A6,L4,L4A6-MT2-R,MT2-R,False
+halofuginone,compound,continuous,matrix remodeling,discovery compound,4,7,G,8,G08,L1A1,L1,L1A1-MT3-L,MT3-L,False
+pirfenidone,compound,continuous,growth factor / cytokine,discovery compound,6,7,G,9,G09,L5A5,L5,L5A5-MT2-L,MT2-L,False
 entacapone,compound,continuous,epigenetic (selective probe),discovery compound,1,7,G,10,G10,L1A6,L1,L1A6-MT3-R,MT3-R,False
-acipimox,compound,continuous,metabolic,discovery compound,2,7,G,11,G11,L9A6,L9,L9A6-MT3-R,MT3-R,False
+acrivastine,compound,continuous,GPCR,discovery compound,2,7,G,11,G11,L9A6,L9,L9A6-MT3-R,MT3-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,7,G,12,G12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,7,H,1,H01,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,7,H,2,H02,,,,,True
@@ -684,28 +684,28 @@ vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTRO
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,8,A,11,A11,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,8,A,12,A12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,8,B,1,B01,,,,,True
-ambroxol,compound,continuous,ion channel,discovery compound,3,8,B,2,B02,L6A1,L6,L6A1-MT3-R,MT3-R,False
-pevonedistat,compound,continuous,ubiquitin system,discovery compound,2,8,B,3,B03,L3A8,L3,L3A8-MT2-R,MT2-R,False
+amisulpride,compound,continuous,GPCR,discovery compound,3,8,B,2,B02,L6A1,L6,L6A1-MT3-R,MT3-R,False
+bis(maltolato)oxovanadium(IV),compound,continuous,phosphatase,discovery compound,2,8,B,3,B03,L3A8,L3,L3A8-MT2-R,MT2-R,False
 lorlatinib,compound,continuous,kinase,discovery compound,5,8,B,4,B04,L1A1,L1,L1A1-MT2-L,MT2-L,False
-butylphthalide,compound,continuous,ion channel,discovery compound,2,8,B,5,B05,L2A3,L2,L2A3-MT4-L,MT4-L,False
-benzethonium,compound,continuous,ion channel,discovery compound,1,8,B,6,B06,L4A4,L4,L4A4-MT2-L,MT2-L,False
+camostat-mesilate,compound,continuous,protease,discovery compound,2,8,B,5,B05,L2A3,L2,L2A3-MT4-L,MT4-L,False
+bepridil,compound,continuous,ion channel,discovery compound,1,8,B,6,B06,L4A4,L4,L4A4-MT2-L,MT2-L,False
 glasdegib,compound,continuous,other / unclassified,ASSAY CONTROL ONLY - canonical pathway,1,8,B,7,B07,L14A8,L14,L14A8-MT2-L,MT2-L,False
-cyclovalone,compound,continuous,transporter,discovery compound,5,8,B,8,B08,L9A7,L9,L9A7-MT2-R,MT2-R,False
+diacerein,compound,continuous,growth factor / cytokine,discovery compound,5,8,B,8,B08,L9A7,L9,L9A7-MT2-R,MT2-R,False
 ketoconazole,compound,continuous,epigenetic (selective probe),discovery compound,1,8,B,9,B09,L3A1,L3,L3A1-MT4-L,MT4-L,False
-retinol,compound,continuous,mechanotransduction,discovery compound,3,8,B,10,B10,L7A8,L7,L7A8-MT3-L,MT3-L,False
-pevonedistat,compound,continuous,ubiquitin system,discovery compound,6,8,B,11,B11,L3A7,L3,L3A7-MT3-R,MT3-R,False
+futibatinib,compound,continuous,growth factor / cytokine,ASSAY CONTROL ONLY - canonical pathway,3,8,B,10,B10,L7A8,L7,L7A8-MT3-L,MT3-L,False
+bis(maltolato)oxovanadium(IV),compound,continuous,phosphatase,discovery compound,6,8,B,11,B11,L3A7,L3,L3A7-MT3-R,MT3-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,8,B,12,B12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,8,C,1,C01,,,,,True
-cilengitide,compound,continuous,mechanotransduction,discovery compound,2,8,C,2,C02,L6A4,L6,L6A4-MT4-L,MT4-L,False
-trofinetide,compound,continuous,growth factor / cytokine,discovery compound,4,8,C,3,C03,L9A4,L9,L9A4-MT4-L,MT4-L,False
-BMS-587101,compound,continuous,mechanotransduction,discovery compound,6,8,C,4,C04,L10A4,L10,L10A4-MT4-L,MT4-L,False
-bempedoic-acid,compound,continuous,metabolic,discovery compound,6,8,C,5,C05,L13A8,L13,L13A8-MT4-R,MT4-R,False
-abametapir,compound,continuous,protease,discovery compound,4,8,C,6,C06,L12A5,L12,L12A5-MT4-L,MT4-L,False
-efinaconazole,compound,continuous,epigenetic (selective probe),discovery compound,6,8,C,7,C07,L1A3,L1,L1A3-MT3-L,MT3-L,False
+pevonedistat,compound,continuous,ubiquitin system,discovery compound,2,8,C,2,C02,L6A4,L6,L6A4-MT4-L,MT4-L,False
+JTE-607,compound,continuous,growth factor / cytokine,discovery compound,4,8,C,3,C03,L9A4,L9,L9A4-MT4-L,MT4-L,False
+EW-7197,compound,continuous,growth factor / cytokine,discovery compound,6,8,C,4,C04,L10A4,L10,L10A4-MT4-L,MT4-L,False
+benserazide,compound,continuous,metabolic,discovery compound,6,8,C,5,C05,L13A8,L13,L13A8-MT4-R,MT4-R,False
+aloxistatin,compound,continuous,protease,discovery compound,4,8,C,6,C06,L12A5,L12,L12A5-MT4-L,MT4-L,False
+enasidenib,compound,continuous,metabolic,discovery compound,6,8,C,7,C07,L1A3,L1,L1A3-MT3-L,MT3-L,False
 fumagillin,compound,continuous,protease,discovery compound,1,8,C,8,C08,L12A1,L12,L12A1-MT2-L,MT2-L,False
 entacapone,compound,continuous,epigenetic (selective probe),discovery compound,2,8,C,9,C09,L6A4,L6,L6A4-MT3-L,MT3-L,False
-pevonedistat,compound,continuous,ubiquitin system,discovery compound,1,8,C,10,C10,L12A5,L12,L12A5-MT4-R,MT4-R,False
-cinacalcet,compound,continuous,ion channel,discovery compound,2,8,C,11,C11,L9A4,L9,L9A4-MT3-R,MT3-R,False
+bis(maltolato)oxovanadium(IV),compound,continuous,phosphatase,discovery compound,1,8,C,10,C10,L12A5,L12,L12A5-MT4-R,MT4-R,False
+cobimetinib,compound,continuous,kinase,discovery compound,2,8,C,11,C11,L9A4,L9,L9A4-MT3-R,MT3-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,8,C,12,C12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,8,D,1,D01,,,,,True
 ertugliflozin,compound,continuous,transporter,discovery compound,3,8,D,2,D02,L1A3,L1,L1A3-MT2-R,MT2-R,False
@@ -714,46 +714,46 @@ acefylline,compound,continuous,GPCR,discovery compound,5,8,D,4,D04,L6A2,L6,L6A2-
 ketoconazole,compound,continuous,epigenetic (selective probe),discovery compound,4,8,D,5,D05,L12A6,L12,L12A6-MT2-R,MT2-R,False
 acefylline,compound,continuous,GPCR,discovery compound,1,8,D,6,D06,L7A3,L7,L7A3-MT2-R,MT2-R,False
 phenylbutyrate,compound,continuous,epigenetic (selective probe),discovery compound,5,8,D,7,D07,L10A2,L10,L10A2-MT4-R,MT4-R,False
-diacerein,compound,continuous,growth factor / cytokine,discovery compound,2,8,D,8,D08,L9A4,L9,L9A4-MT3-L,MT3-L,False
-STA-5326,compound,continuous,growth factor / cytokine,discovery compound,2,8,D,9,D09,L8A4,L8,L8A4-MT3-R,MT3-R,False
-menadione,compound,continuous,phosphatase,discovery compound,3,8,D,10,D10,L7A6,L7,L7A6-MT4-L,MT4-L,False
+dilazep,compound,continuous,transporter,discovery compound,2,8,D,8,D08,L9A4,L9,L9A4-MT3-L,MT3-L,False
+BMS-587101,compound,continuous,mechanotransduction,discovery compound,2,8,D,9,D09,L8A4,L8,L8A4-MT3-R,MT3-R,False
+retinol,compound,continuous,mechanotransduction,discovery compound,3,8,D,10,D10,L7A6,L7,L7A6-MT4-L,MT4-L,False
 T-0901317,compound,continuous,nuclear receptor,discovery compound,6,8,D,11,D11,L10A5,L10,L10A5-MT3-R,MT3-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,8,D,12,D12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,8,E,1,E01,,,,,True
-doxycycline,compound,continuous,protease,discovery compound,5,8,E,2,E02,L10A1,L10,L10A1-MT4-L,MT4-L,False
-cerulenin,compound,continuous,metabolic,discovery compound,6,8,E,3,E03,L11A5,L11,L11A5-MT4-R,MT4-R,False
-azelnidipine,compound,continuous,ion channel,discovery compound,4,8,E,4,E04,L8A2,L8,L8A2-MT2-R,MT2-R,False
-chlorogenic-acid,compound,continuous,transporter,discovery compound,4,8,E,5,E05,L8A5,L8,L8A5-MT4-L,MT4-L,False
-allopurinol,compound,continuous,metabolic,discovery compound,1,8,E,6,E06,L5A6,L5,L5A6-MT2-R,MT2-R,False
-cilnidipine,compound,continuous,ion channel,discovery compound,4,8,E,7,E07,L12A4,L12,L12A4-MT2-R,MT2-R,False
+efinaconazole,compound,continuous,epigenetic (selective probe),discovery compound,5,8,E,2,E02,L10A1,L10,L10A1-MT4-L,MT4-L,False
+chlorogenic-acid,compound,continuous,transporter,discovery compound,6,8,E,3,E03,L11A5,L11,L11A5-MT4-R,MT4-R,False
+bempedoic-acid,compound,continuous,metabolic,discovery compound,4,8,E,4,E04,L8A2,L8,L8A2-MT2-R,MT2-R,False
+chlorproguanil,compound,continuous,metabolic,discovery compound,4,8,E,5,E05,L8A5,L8,L8A5-MT4-L,MT4-L,False
+ambroxol,compound,continuous,ion channel,discovery compound,1,8,E,6,E06,L5A6,L5,L5A6-MT2-R,MT2-R,False
+cinacalcet,compound,continuous,ion channel,discovery compound,4,8,E,7,E07,L12A4,L12,L12A4-MT2-R,MT2-R,False
 NAB-2,compound,continuous,ubiquitin system,discovery compound,3,8,E,8,E08,L2A1,L2,L2A1-MT3-R,MT3-R,False
-EW-7197,compound,continuous,growth factor / cytokine,discovery compound,6,8,E,9,E09,L10A7,L10,L10A7-MT3-R,MT3-R,False
-acipimox,compound,continuous,metabolic,discovery compound,1,8,E,10,E10,L2A1,L2,L2A1-MT4-R,MT4-R,False
-bempedoic-acid,compound,continuous,metabolic,discovery compound,5,8,E,11,E11,L6A1,L6,L6A1-MT2-R,MT2-R,False
+ATN-161,compound,continuous,mechanotransduction,discovery compound,6,8,E,9,E09,L10A7,L10,L10A7-MT3-R,MT3-R,False
+acrivastine,compound,continuous,GPCR,discovery compound,1,8,E,10,E10,L2A1,L2,L2A1-MT4-R,MT4-R,False
+benserazide,compound,continuous,metabolic,discovery compound,5,8,E,11,E11,L6A1,L6,L6A1-MT2-R,MT2-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,8,E,12,E12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,8,F,1,F01,,,,,True
-retinol,compound,continuous,mechanotransduction,discovery compound,6,8,F,2,F02,L4A6,L4,L4A6-MT3-R,MT3-R,False
-AS-1949490,compound,continuous,phosphatase,discovery compound,4,8,F,3,F03,L4A5,L4,L4A5-MT2-R,MT2-R,False
+futibatinib,compound,continuous,growth factor / cytokine,ASSAY CONTROL ONLY - canonical pathway,6,8,F,2,F02,L4A6,L4,L4A6-MT3-R,MT3-R,False
+DG-172,compound,continuous,nuclear receptor,discovery compound,4,8,F,3,F03,L4A5,L4,L4A5-MT2-R,MT2-R,False
 spautin-1,compound,continuous,ubiquitin system,discovery compound,4,8,F,4,F04,L14A7,L14,L14A7-MT3-L,MT3-L,False
-chlorogenic-acid,compound,continuous,transporter,discovery compound,5,8,F,5,F05,L10A4,L10,L10A4-MT2-L,MT2-L,False
+chlorproguanil,compound,continuous,metabolic,discovery compound,5,8,F,5,F05,L10A4,L10,L10A4-MT2-L,MT2-L,False
 acalabrutinib,compound,continuous,kinase,discovery compound,6,8,F,6,F06,L10A3,L10,L10A3-MT4-L,MT4-L,False
-omecamtiv-mecarbil,compound,continuous,mechanotransduction,discovery compound,1,8,F,7,F07,L6A7,L6,L6A7-MT2-L,MT2-L,False
+cilengitide,compound,continuous,mechanotransduction,discovery compound,1,8,F,7,F07,L6A7,L6,L6A7-MT2-L,MT2-L,False
 IU1,compound,continuous,ubiquitin system,discovery compound,5,8,F,8,F08,L13A7,L13,L13A7-MT2-R,MT2-R,False
-hypoestoxide,compound,continuous,growth factor / cytokine,discovery compound,5,8,F,9,F09,L3A5,L3,L3A5-MT3-R,MT3-R,False
-firategrast,compound,continuous,mechanotransduction,discovery compound,5,8,F,10,F10,L12A6,L12,L12A6-MT2-L,MT2-L,False
+latrunculin-B,compound,continuous,mechanotransduction,discovery compound,5,8,F,9,F09,L3A5,L3,L3A5-MT3-R,MT3-R,False
+F351,compound,continuous,growth factor / cytokine,discovery compound,5,8,F,10,F10,L12A6,L12,L12A6-MT2-L,MT2-L,False
 washout-only,WASHOUT CONTROL,washout + recovery,control,WASHOUT CONTROL,1,8,F,11,F11,L8A2,L8,L8A2-MT3-R,MT3-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,8,F,12,F12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,8,G,1,G01,,,,,True
-bepridil,compound,continuous,ion channel,discovery compound,5,8,G,2,G02,L10A5,L10,L10A5-MT4-L,MT4-L,False
-chlorproguanil,compound,continuous,metabolic,discovery compound,5,8,G,3,G03,L1A2,L1,L1A2-MT3-L,MT3-L,False
-itacitinib,compound,continuous,kinase,discovery compound,5,8,G,4,G04,L9A8,L9,L9A8-MT2-R,MT2-R,False
+beta-hydroxy-beta-methylbutyrate,compound,continuous,kinase,discovery compound,5,8,G,2,G02,L10A5,L10,L10A5-MT4-L,MT4-L,False
+cilastatin,compound,continuous,protease,discovery compound,5,8,G,3,G03,L1A2,L1,L1A2-MT3-L,MT3-L,False
+odanacatib,compound,continuous,protease,discovery compound,5,8,G,4,G04,L9A8,L9,L9A8-MT2-R,MT2-R,False
 acetyl-farnesyl-cysteine,compound,continuous,epigenetic (selective probe),discovery compound,2,8,G,5,G05,L2A6,L2,L2A6-MT2-R,MT2-R,False
 SMER-28,compound,continuous,lysosomal / autophagy,discovery compound,5,8,G,6,G06,L4A2,L4,L4A2-MT4-R,MT4-R,False
-trofinetide,compound,continuous,growth factor / cytokine,discovery compound,3,8,G,7,G07,L10A4,L10,L10A4-MT2-R,MT2-R,False
-bis(maltolato)oxovanadium(IV),compound,continuous,phosphatase,discovery compound,5,8,G,8,G08,L11A6,L11,L11A6-MT4-R,MT4-R,False
+JTE-607,compound,continuous,growth factor / cytokine,discovery compound,3,8,G,7,G07,L10A4,L10,L10A4-MT2-R,MT2-R,False
+CPI-0610,compound,continuous,epigenetic (selective probe),discovery compound,5,8,G,8,G08,L11A6,L11,L11A6-MT4-R,MT4-R,False
 lorlatinib,compound,continuous,kinase,discovery compound,2,8,G,9,G09,L14A4,L14,L14A4-MT3-R,MT3-R,False
-futibatinib,compound,continuous,growth factor / cytokine,ASSAY CONTROL ONLY - canonical pathway,5,8,G,10,G10,L4A2,L4,L4A2-MT3-R,MT3-R,False
-benzethonium,compound,continuous,ion channel,discovery compound,4,8,G,11,G11,L4A8,L4,L4A8-MT4-R,MT4-R,False
+abametapir,compound,continuous,protease,discovery compound,5,8,G,10,G10,L4A2,L4,L4A2-MT3-R,MT3-R,False
+bepridil,compound,continuous,ion channel,discovery compound,4,8,G,11,G11,L4A8,L4,L4A8-MT4-R,MT4-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,8,G,12,G12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,8,H,1,H01,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,8,H,2,H02,,,,,True
@@ -780,76 +780,76 @@ vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTRO
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,9,A,11,A11,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,9,A,12,A12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,9,B,1,B01,,,,,True
-cerulenin,compound,continuous,metabolic,discovery compound,3,9,B,2,B02,L9A6,L9,L9A6-MT2-L,MT2-L,False
-firategrast,compound,continuous,mechanotransduction,discovery compound,2,9,B,3,B03,L9A8,L9,L9A8-MT3-R,MT3-R,False
+chlorogenic-acid,compound,continuous,transporter,discovery compound,3,9,B,2,B02,L9A6,L9,L9A6-MT2-L,MT2-L,False
+F351,compound,continuous,growth factor / cytokine,discovery compound,2,9,B,3,B03,L9A8,L9,L9A8-MT3-R,MT3-R,False
 pralmorelin,compound,continuous,other / unclassified,ASSAY CONTROL ONLY - canonical pathway,4,9,B,4,B04,L8A2,L8,L8A2-MT2-L,MT2-L,False
-beta-hydroxy-beta-methylbutyrate,compound,continuous,kinase,discovery compound,5,9,B,5,B05,L14A7,L14,L14A7-MT3-R,MT3-R,False
-acrivastine,compound,continuous,GPCR,discovery compound,2,9,B,6,B06,L6A4,L6,L6A4-MT2-R,MT2-R,False
-albuterol,compound,continuous,GPCR,discovery compound,3,9,B,7,B07,L14A1,L14,L14A1-MT2-R,MT2-R,False
-doxycycline,compound,continuous,protease,discovery compound,3,9,B,8,B08,L3A3,L3,L3A3-MT2-L,MT2-L,False
-bepridil,compound,continuous,ion channel,discovery compound,1,9,B,9,B09,L2A4,L2,L2A4-MT4-L,MT4-L,False
+butenafine,compound,continuous,metabolic,discovery compound,5,9,B,5,B05,L14A7,L14,L14A7-MT3-R,MT3-R,False
+adiphenine,compound,continuous,GPCR,discovery compound,2,9,B,6,B06,L6A4,L6,L6A4-MT2-R,MT2-R,False
+alogliptin,compound,continuous,protease,discovery compound,3,9,B,7,B07,L14A1,L14,L14A1-MT2-R,MT2-R,False
+efinaconazole,compound,continuous,epigenetic (selective probe),discovery compound,3,9,B,8,B08,L3A3,L3,L3A3-MT2-L,MT2-L,False
+beta-hydroxy-beta-methylbutyrate,compound,continuous,kinase,discovery compound,1,9,B,9,B09,L2A4,L2,L2A4-MT4-L,MT4-L,False
 pralmorelin,compound,continuous,other / unclassified,ASSAY CONTROL ONLY - canonical pathway,1,9,B,10,B10,L9A3,L9,L9A3-MT4-R,MT4-R,False
-halofuginone,compound,continuous,matrix remodeling,discovery compound,2,9,B,11,B11,L11A1,L11,L11A1-MT2-L,MT2-L,False
+mycophenolate-mofetil,compound,continuous,phosphatase,discovery compound,2,9,B,11,B11,L11A1,L11,L11A1-MT2-L,MT2-L,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,9,B,12,B12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,9,C,1,C01,,,,,True
 phenylbutyrate,compound,continuous,epigenetic (selective probe),discovery compound,6,9,C,2,C02,L2A8,L2,L2A8-MT3-R,MT3-R,False
 GW-3965,compound,continuous,nuclear receptor,discovery compound,1,9,C,3,C03,L7A6,L7,L7A6-MT2-L,MT2-L,False
-butenafine,compound,continuous,metabolic,discovery compound,5,9,C,4,C04,L1A5,L1,L1A5-MT3-R,MT3-R,False
-bis(maltolato)oxovanadium(IV),compound,continuous,phosphatase,discovery compound,3,9,C,5,C05,L7A4,L7,L7A4-MT3-R,MT3-R,False
-chlorproguanil,compound,continuous,metabolic,discovery compound,2,9,C,6,C06,L6A6,L6,L6A6-MT2-R,MT2-R,False
+butylphthalide,compound,continuous,ion channel,discovery compound,5,9,C,4,C04,L1A5,L1,L1A5-MT3-R,MT3-R,False
+CPI-0610,compound,continuous,epigenetic (selective probe),discovery compound,3,9,C,5,C05,L7A4,L7,L7A4-MT3-R,MT3-R,False
+cilastatin,compound,continuous,protease,discovery compound,2,9,C,6,C06,L6A6,L6,L6A6-MT2-R,MT2-R,False
 lenalidomide,compound,continuous,growth factor / cytokine,discovery compound,6,9,C,7,C07,L2A3,L2,L2A3-MT2-R,MT2-R,False
 acalabrutinib,compound,continuous,kinase,discovery compound,3,9,C,8,C08,L8A7,L8,L8A7-MT3-R,MT3-R,False
-STA-5326,compound,continuous,growth factor / cytokine,discovery compound,1,9,C,9,C09,L9A3,L9,L9A3-MT4-L,MT4-L,False
+BMS-587101,compound,continuous,mechanotransduction,discovery compound,1,9,C,9,C09,L9A3,L9,L9A3-MT4-L,MT4-L,False
 T-0901317,compound,continuous,nuclear receptor,discovery compound,1,9,C,10,C10,L5A4,L5,L5A4-MT2-L,MT2-L,False
 pralmorelin,compound,continuous,other / unclassified,ASSAY CONTROL ONLY - canonical pathway,2,9,C,11,C11,L8A4,L8,L8A4-MT4-R,MT4-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,9,C,12,C12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,9,D,1,D01,,,,,True
-bempedoic-acid,compound,continuous,metabolic,discovery compound,4,9,D,2,D02,L1A2,L1,L1A2-MT4-R,MT4-R,False
-ambroxol,compound,continuous,ion channel,discovery compound,5,9,D,3,D03,L12A8,L12,L12A8-MT3-R,MT3-R,False
-menadione,compound,continuous,phosphatase,discovery compound,2,9,D,4,D04,L14A3,L14,L14A3-MT2-R,MT2-R,False
-diacerein,compound,continuous,growth factor / cytokine,discovery compound,6,9,D,5,D05,L11A4,L11,L11A4-MT2-R,MT2-R,False
-benserazide,compound,continuous,metabolic,discovery compound,6,9,D,6,D06,L3A2,L3,L3A2-MT3-R,MT3-R,False
-beta-hydroxy-beta-methylbutyrate,compound,continuous,kinase,discovery compound,3,9,D,7,D07,L5A2,L5,L5A2-MT2-R,MT2-R,False
-latrunculin-B,compound,continuous,mechanotransduction,discovery compound,3,9,D,8,D08,L6A5,L6,L6A5-MT3-R,MT3-R,False
-aminopentamide,compound,continuous,GPCR,discovery compound,2,9,D,9,D09,L5A5,L5,L5A5-MT4-L,MT4-L,False
-aloxistatin,compound,continuous,protease,discovery compound,2,9,D,10,D10,L12A1,L12,L12A1-MT4-L,MT4-L,False
+benserazide,compound,continuous,metabolic,discovery compound,4,9,D,2,D02,L1A2,L1,L1A2-MT4-R,MT4-R,False
+amisulpride,compound,continuous,GPCR,discovery compound,5,9,D,3,D03,L12A8,L12,L12A8-MT3-R,MT3-R,False
+retinol,compound,continuous,mechanotransduction,discovery compound,2,9,D,4,D04,L14A3,L14,L14A3-MT2-R,MT2-R,False
+dilazep,compound,continuous,transporter,discovery compound,6,9,D,5,D05,L11A4,L11,L11A4-MT2-R,MT2-R,False
+benzbromarone,compound,continuous,ion channel,discovery compound,6,9,D,6,D06,L3A2,L3,L3A2-MT3-R,MT3-R,False
+butenafine,compound,continuous,metabolic,discovery compound,3,9,D,7,D07,L5A2,L5,L5A2-MT2-R,MT2-R,False
+alexidine,compound,continuous,phosphatase,discovery compound,3,9,D,8,D08,L6A5,L6,L6A5-MT3-R,MT3-R,False
+azelnidipine,compound,continuous,ion channel,discovery compound,2,9,D,9,D09,L5A5,L5,L5A5-MT4-L,MT4-L,False
+itacitinib,compound,continuous,kinase,discovery compound,2,9,D,10,D10,L12A1,L12,L12A1-MT4-L,MT4-L,False
 lorlatinib,compound,continuous,kinase,discovery compound,1,9,D,11,D11,L7A5,L7,L7A5-MT3-L,MT3-L,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,9,D,12,D12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,9,E,1,E01,,,,,True
 FK-409,compound,continuous,other / unclassified,ASSAY CONTROL ONLY - canonical pathway,3,9,E,2,E02,L6A1,L6,L6A1-MT2-L,MT2-L,False
-trapidil,compound,continuous,kinase,discovery compound,2,9,E,3,E03,L2A6,L2,L2A6-MT4-L,MT4-L,False
+halofuginone,compound,continuous,matrix remodeling,discovery compound,2,9,E,3,E03,L2A6,L2,L2A6-MT4-L,MT4-L,False
 SP-141,compound,continuous,ubiquitin system,discovery compound,6,9,E,4,E04,L9A7,L9,L9A7-MT2-L,MT2-L,False
-butylphthalide,compound,continuous,ion channel,discovery compound,4,9,E,5,E05,L10A7,L10,L10A7-MT4-L,MT4-L,False
-butylphthalide,compound,continuous,ion channel,discovery compound,1,9,E,6,E06,L7A4,L7,L7A4-MT2-R,MT2-R,False
+camostat-mesilate,compound,continuous,protease,discovery compound,4,9,E,5,E05,L10A7,L10,L10A7-MT4-L,MT4-L,False
+camostat-mesilate,compound,continuous,protease,discovery compound,1,9,E,6,E06,L7A4,L7,L7A4-MT2-R,MT2-R,False
 fostamatinib,compound,continuous,kinase,discovery compound,4,9,E,7,E07,L13A2,L13,L13A2-MT2-R,MT2-R,False
 isoconazole,compound,continuous,epigenetic (selective probe),discovery compound,5,9,E,8,E08,L4A2,L4,L4A2-MT4-L,MT4-L,False
-diacerein,compound,continuous,growth factor / cytokine,discovery compound,4,9,E,9,E09,L10A8,L10,L10A8-MT4-L,MT4-L,False
+dilazep,compound,continuous,transporter,discovery compound,4,9,E,9,E09,L10A8,L10,L10A8-MT4-L,MT4-L,False
 IGF1,PRODUCTIVE BENCHMARK,continuous,control,PRODUCTIVE BENCHMARK,4,9,E,10,E10,L1A6,L1,L1A6-MT2-R,MT2-R,False
-VLX600,compound,continuous,ubiquitin system,discovery compound,2,9,E,11,E11,L5A7,L5,L5A7-MT4-L,MT4-L,False
+hypoestoxide,compound,continuous,growth factor / cytokine,discovery compound,2,9,E,11,E11,L5A7,L5,L5A7-MT4-L,MT4-L,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,9,E,12,E12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,9,F,1,F01,,,,,True
 SP-141,compound,continuous,ubiquitin system,discovery compound,4,9,F,2,F02,L10A6,L10,L10A6-MT3-L,MT3-L,False
 acalabrutinib,compound,continuous,kinase,discovery compound,5,9,F,3,F03,L1A6,L1,L1A6-MT3-L,MT3-L,False
-cobimetinib,compound,continuous,kinase,discovery compound,6,9,F,4,F04,L14A2,L14,L14A2-MT2-L,MT2-L,False
+cyclovalone,compound,continuous,transporter,discovery compound,6,9,F,4,F04,L14A2,L14,L14A2-MT2-L,MT2-L,False
 entacapone,compound,continuous,epigenetic (selective probe),discovery compound,4,9,F,5,F05,L9A7,L9,L9A7-MT3-L,MT3-L,False
 IU1,compound,continuous,ubiquitin system,discovery compound,1,9,F,6,F06,L14A5,L14,L14A5-MT4-L,MT4-L,False
-allopurinol,compound,continuous,metabolic,discovery compound,3,9,F,7,F07,L13A1,L13,L13A1-MT3-L,MT3-L,False
-AS-1949490,compound,continuous,phosphatase,discovery compound,5,9,F,8,F08,L7A3,L7,L7A3-MT3-R,MT3-R,False
-firategrast,compound,continuous,mechanotransduction,discovery compound,1,9,F,9,F09,L8A2,L8,L8A2-MT3-L,MT3-L,False
-tacrolimus,compound,continuous,phosphatase,discovery compound,4,9,F,10,F10,L6A6,L6,L6A6-MT3-R,MT3-R,False
-F351,compound,continuous,growth factor / cytokine,discovery compound,2,9,F,11,F11,L13A8,L13,L13A8-MT3-R,MT3-R,False
+ambroxol,compound,continuous,ion channel,discovery compound,3,9,F,7,F07,L13A1,L13,L13A1-MT3-L,MT3-L,False
+DG-172,compound,continuous,nuclear receptor,discovery compound,5,9,F,8,F08,L7A3,L7,L7A3-MT3-R,MT3-R,False
+F351,compound,continuous,growth factor / cytokine,discovery compound,1,9,F,9,F09,L8A2,L8,L8A2-MT3-L,MT3-L,False
+tazemetostat,compound,continuous,epigenetic (selective probe),discovery compound,4,9,F,10,F10,L6A6,L6,L6A6-MT3-R,MT3-R,False
+STA-5326,compound,continuous,growth factor / cytokine,discovery compound,2,9,F,11,F11,L13A8,L13,L13A8-MT3-R,MT3-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,9,F,12,F12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,9,G,1,G01,,,,,True
-firategrast,compound,continuous,mechanotransduction,discovery compound,3,9,G,2,G02,L10A1,L10,L10A1-MT2-R,MT2-R,False
-acipimox,compound,continuous,metabolic,discovery compound,4,9,G,3,G03,L2A7,L2,L2A7-MT2-L,MT2-L,False
+F351,compound,continuous,growth factor / cytokine,discovery compound,3,9,G,2,G02,L10A1,L10,L10A1-MT2-R,MT2-R,False
+acrivastine,compound,continuous,GPCR,discovery compound,4,9,G,3,G03,L2A7,L2,L2A7-MT2-L,MT2-L,False
 glasdegib,compound,continuous,other / unclassified,ASSAY CONTROL ONLY - canonical pathway,6,9,G,4,G04,L11A2,L11,L11A2-MT3-R,MT3-R,False
-cerulenin,compound,continuous,metabolic,discovery compound,1,9,G,5,G05,L7A2,L7,L7A2-MT3-L,MT3-L,False
-cilastatin,compound,continuous,protease,discovery compound,2,9,G,6,G06,L6A4,L6,L6A4-MT2-L,MT2-L,False
+chlorogenic-acid,compound,continuous,transporter,discovery compound,1,9,G,5,G05,L7A2,L7,L7A2-MT3-L,MT3-L,False
+cilnidipine,compound,continuous,ion channel,discovery compound,2,9,G,6,G06,L6A4,L6,L6A4-MT2-L,MT2-L,False
 fostamatinib,compound,continuous,kinase,discovery compound,6,9,G,7,G07,L7A4,L7,L7A4-MT4-R,MT4-R,False
-cilastatin,compound,continuous,protease,discovery compound,4,9,G,8,G08,L7A5,L7,L7A5-MT4-L,MT4-L,False
+cilnidipine,compound,continuous,ion channel,discovery compound,4,9,G,8,G08,L7A5,L7,L7A5-MT4-L,MT4-L,False
 escitalopram,compound,continuous,transporter,discovery compound,5,9,G,9,G09,L13A8,L13,L13A8-MT4-L,MT4-L,False
 glasdegib,compound,continuous,other / unclassified,ASSAY CONTROL ONLY - canonical pathway,5,9,G,10,G10,L6A2,L6,L6A2-MT2-R,MT2-R,False
-sodium-stibogluconate,compound,continuous,phosphatase,discovery compound,5,9,G,11,G11,L2A7,L2,L2A7-MT4-R,MT4-R,False
+tacrolimus,compound,continuous,phosphatase,discovery compound,5,9,G,11,G11,L2A7,L2,L2A7-MT4-R,MT4-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,9,G,12,G12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,9,H,1,H01,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,9,H,2,H02,,,,,True
@@ -876,75 +876,75 @@ vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTRO
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,10,A,11,A11,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,10,A,12,A12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,10,B,1,B01,,,,,True
-carglumic-acid,compound,continuous,metabolic,discovery compound,2,10,B,2,B02,L14A5,L14,L14A5-MT4-R,MT4-R,False
+cerulenin,compound,continuous,metabolic,discovery compound,2,10,B,2,B02,L14A5,L14,L14A5-MT4-R,MT4-R,False
 fostamatinib,compound,continuous,kinase,discovery compound,2,10,B,3,B03,L8A5,L8,L8A5-MT2-R,MT2-R,False
 metolazone,compound,continuous,transporter,discovery compound,1,10,B,4,B04,L10A3,L10,L10A3-MT4-R,MT4-R,False
-doxycycline,compound,continuous,protease,discovery compound,2,10,B,5,B05,L12A2,L12,L12A2-MT3-R,MT3-R,False
-bis(maltolato)oxovanadium(IV),compound,continuous,phosphatase,discovery compound,6,10,B,6,B06,L10A5,L10,L10A5-MT3-L,MT3-L,False
-albuterol,compound,continuous,GPCR,discovery compound,4,10,B,7,B07,L12A3,L12,L12A3-MT3-R,MT3-R,False
-cerulenin,compound,continuous,metabolic,discovery compound,5,10,B,8,B08,L1A3,L1,L1A3-MT2-L,MT2-L,False
-tazemetostat,compound,continuous,epigenetic (selective probe),discovery compound,5,10,B,9,B09,L14A4,L14,L14A4-MT3-L,MT3-L,False
-STA-5326,compound,continuous,growth factor / cytokine,discovery compound,4,10,B,10,B10,L5A8,L5,L5A8-MT2-R,MT2-R,False
+efinaconazole,compound,continuous,epigenetic (selective probe),discovery compound,2,10,B,5,B05,L12A2,L12,L12A2-MT3-R,MT3-R,False
+CPI-0610,compound,continuous,epigenetic (selective probe),discovery compound,6,10,B,6,B06,L10A5,L10,L10A5-MT3-L,MT3-L,False
+alogliptin,compound,continuous,protease,discovery compound,4,10,B,7,B07,L12A3,L12,L12A3-MT3-R,MT3-R,False
+chlorogenic-acid,compound,continuous,transporter,discovery compound,5,10,B,8,B08,L1A3,L1,L1A3-MT2-L,MT2-L,False
+trapidil,compound,continuous,kinase,discovery compound,5,10,B,9,B09,L14A4,L14,L14A4-MT3-L,MT3-L,False
+BMS-587101,compound,continuous,mechanotransduction,discovery compound,4,10,B,10,B10,L5A8,L5,L5A8-MT2-R,MT2-R,False
 acetyl-farnesyl-cysteine,compound,continuous,epigenetic (selective probe),discovery compound,4,10,B,11,B11,L5A8,L5,L5A8-MT3-L,MT3-L,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,10,B,12,B12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,10,C,1,C01,,,,,True
-menadione,compound,continuous,phosphatase,discovery compound,6,10,C,2,C02,L2A1,L2,L2A1-MT2-L,MT2-L,False
+retinol,compound,continuous,mechanotransduction,discovery compound,6,10,C,2,C02,L2A1,L2,L2A1-MT2-L,MT2-L,False
 antiproliferative control,CYTOTOXIC CONTROL,continuous,control,CYTOTOXIC CONTROL,3,10,C,3,C03,L9A7,L9,L9A7-MT4-R,MT4-R,False
-halofuginone,compound,continuous,matrix remodeling,discovery compound,1,10,C,4,C04,L11A2,L11,L11A2-MT3-L,MT3-L,False
-bis(maltolato)oxovanadium(IV),compound,continuous,phosphatase,discovery compound,1,10,C,5,C05,L10A5,L10,L10A5-MT2-R,MT2-R,False
-trapidil,compound,continuous,kinase,discovery compound,5,10,C,6,C06,L7A5,L7,L7A5-MT3-R,MT3-R,False
-CPI-0610,compound,continuous,epigenetic (selective probe),discovery compound,2,10,C,7,C07,L6A2,L6,L6A2-MT3-R,MT3-R,False
+mycophenolate-mofetil,compound,continuous,phosphatase,discovery compound,1,10,C,4,C04,L11A2,L11,L11A2-MT3-L,MT3-L,False
+CPI-0610,compound,continuous,epigenetic (selective probe),discovery compound,1,10,C,5,C05,L10A5,L10,L10A5-MT2-R,MT2-R,False
+halofuginone,compound,continuous,matrix remodeling,discovery compound,5,10,C,6,C06,L7A5,L7,L7A5-MT3-R,MT3-R,False
+firategrast,compound,continuous,mechanotransduction,discovery compound,2,10,C,7,C07,L6A2,L6,L6A2-MT3-R,MT3-R,False
 lesinurad,compound,continuous,transporter,discovery compound,3,10,C,8,C08,L8A8,L8,L8A8-MT2-L,MT2-L,False
-adiphenine,compound,continuous,GPCR,discovery compound,3,10,C,9,C09,L4A8,L4,L4A8-MT3-R,MT3-R,False
-ATN-161,compound,continuous,mechanotransduction,discovery compound,2,10,C,10,C10,L3A1,L3,L3A1-MT3-R,MT3-R,False
-futibatinib,compound,continuous,growth factor / cytokine,ASSAY CONTROL ONLY - canonical pathway,4,10,C,11,C11,L11A7,L11,L11A7-MT3-R,MT3-R,False
+albuterol,compound,continuous,GPCR,discovery compound,3,10,C,9,C09,L4A8,L4,L4A8-MT3-R,MT3-R,False
+VLX600,compound,continuous,ubiquitin system,discovery compound,2,10,C,10,C10,L3A1,L3,L3A1-MT3-R,MT3-R,False
+abametapir,compound,continuous,protease,discovery compound,4,10,C,11,C11,L11A7,L11,L11A7-MT3-R,MT3-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,10,C,12,C12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,10,D,1,D01,,,,,True
-F351,compound,continuous,growth factor / cytokine,discovery compound,4,10,D,2,D02,L3A8,L3,L3A8-MT2-L,MT2-L,False
-BMS-587101,compound,continuous,mechanotransduction,discovery compound,3,10,D,3,D03,L7A8,L7,L7A8-MT2-R,MT2-R,False
+STA-5326,compound,continuous,growth factor / cytokine,discovery compound,4,10,D,2,D02,L3A8,L3,L3A8-MT2-L,MT2-L,False
+EW-7197,compound,continuous,growth factor / cytokine,discovery compound,3,10,D,3,D03,L7A8,L7,L7A8-MT2-R,MT2-R,False
 vehicle,VEHICLE,continuous,control,VEHICLE,5,10,D,4,D04,L12A4,L12,L12A4-MT3-R,MT3-R,False
 T-0901317,compound,continuous,nuclear receptor,discovery compound,3,10,D,5,D05,L2A4,L2,L2A4-MT4-R,MT4-R,False
-benzbromarone,compound,continuous,ion channel,discovery compound,1,10,D,6,D06,L10A1,L10,L10A1-MT3-R,MT3-R,False
-futibatinib,compound,continuous,growth factor / cytokine,ASSAY CONTROL ONLY - canonical pathway,3,10,D,7,D07,L6A7,L6,L6A7-MT2-R,MT2-R,False
-butenafine,compound,continuous,metabolic,discovery compound,4,10,D,8,D08,L9A6,L9,L9A6-MT4-L,MT4-L,False
-cilastatin,compound,continuous,protease,discovery compound,6,10,D,9,D09,L10A1,L10,L10A1-MT3-L,MT3-L,False
+benzethonium,compound,continuous,ion channel,discovery compound,1,10,D,6,D06,L10A1,L10,L10A1-MT3-R,MT3-R,False
+abametapir,compound,continuous,protease,discovery compound,3,10,D,7,D07,L6A7,L6,L6A7-MT2-R,MT2-R,False
+butylphthalide,compound,continuous,ion channel,discovery compound,4,10,D,8,D08,L9A6,L9,L9A6-MT4-L,MT4-L,False
+cilnidipine,compound,continuous,ion channel,discovery compound,6,10,D,9,D09,L10A1,L10,L10A1-MT3-L,MT3-L,False
 DY131,compound,continuous,GPCR,ASSAY CONTROL ONLY - canonical pathway,4,10,D,10,D10,L10A2,L10,L10A2-MT2-L,MT2-L,False
-cilastatin,compound,continuous,protease,discovery compound,1,10,D,11,D11,L1A1,L1,L1A1-MT2-R,MT2-R,False
+cilnidipine,compound,continuous,ion channel,discovery compound,1,10,D,11,D11,L1A1,L1,L1A1-MT2-R,MT2-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,10,D,12,D12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,10,E,1,E01,,,,,True
-odanacatib,compound,continuous,protease,discovery compound,4,10,E,2,E02,L10A8,L10,L10A8-MT3-R,MT3-R,False
+omecamtiv-mecarbil,compound,continuous,mechanotransduction,discovery compound,4,10,E,2,E02,L10A8,L10,L10A8-MT3-R,MT3-R,False
 NAB-2,compound,continuous,ubiquitin system,discovery compound,2,10,E,3,E03,L12A2,L12,L12A2-MT3-L,MT3-L,False
-cilengitide,compound,continuous,mechanotransduction,discovery compound,4,10,E,4,E04,L5A1,L5,L5A1-MT3-R,MT3-R,False
+pevonedistat,compound,continuous,ubiquitin system,discovery compound,4,10,E,4,E04,L5A1,L5,L5A1-MT3-R,MT3-R,False
 lesinurad,compound,continuous,transporter,discovery compound,6,10,E,5,E05,L11A2,L11,L11A2-MT2-R,MT2-R,False
 ertugliflozin,compound,continuous,transporter,discovery compound,4,10,E,6,E06,L4A1,L4,L4A1-MT3-R,MT3-R,False
-menadione,compound,continuous,phosphatase,discovery compound,1,10,E,7,E07,L13A7,L13,L13A7-MT2-L,MT2-L,False
+retinol,compound,continuous,mechanotransduction,discovery compound,1,10,E,7,E07,L13A7,L13,L13A7-MT2-L,MT2-L,False
 metolazone,compound,continuous,transporter,discovery compound,3,10,E,8,E08,L5A4,L5,L5A4-MT4-R,MT4-R,False
 fostamatinib,compound,continuous,kinase,discovery compound,1,10,E,9,E09,L7A6,L7,L7A6-MT3-L,MT3-L,False
 acebutolol,compound,continuous,GPCR,discovery compound,3,10,E,10,E10,L12A6,L12,L12A6-MT4-L,MT4-L,False
-azelnidipine,compound,continuous,ion channel,discovery compound,2,10,E,11,E11,L5A4,L5,L5A4-MT2-R,MT2-R,False
+bempedoic-acid,compound,continuous,metabolic,discovery compound,2,10,E,11,E11,L5A4,L5,L5A4-MT2-R,MT2-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,10,E,12,E12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,10,F,1,F01,,,,,True
 glasdegib,compound,continuous,other / unclassified,ASSAY CONTROL ONLY - canonical pathway,2,10,F,2,F02,L13A1,L13,L13A1-MT3-R,MT3-R,False
 encorafenib,compound,continuous,kinase,discovery compound,2,10,F,3,F03,L3A3,L3,L3A3-MT3-R,MT3-R,False
-albuterol,compound,continuous,GPCR,discovery compound,6,10,F,4,F04,L12A1,L12,L12A1-MT4-R,MT4-R,False
-tazemetostat,compound,continuous,epigenetic (selective probe),discovery compound,1,10,F,5,F05,L5A5,L5,L5A5-MT3-L,MT3-L,False
-butenafine,compound,continuous,metabolic,discovery compound,6,10,F,6,F06,L14A7,L14,L14A7-MT2-L,MT2-L,False
+alogliptin,compound,continuous,protease,discovery compound,6,10,F,4,F04,L12A1,L12,L12A1-MT4-R,MT4-R,False
+trapidil,compound,continuous,kinase,discovery compound,1,10,F,5,F05,L5A5,L5,L5A5-MT3-L,MT3-L,False
+butylphthalide,compound,continuous,ion channel,discovery compound,6,10,F,6,F06,L14A7,L14,L14A7-MT2-L,MT2-L,False
 DY131,compound,continuous,GPCR,ASSAY CONTROL ONLY - canonical pathway,5,10,F,7,F07,L4A5,L4,L4A5-MT3-L,MT3-L,False
-hypoestoxide,compound,continuous,growth factor / cytokine,discovery compound,4,10,F,8,F08,L1A7,L1,L1A7-MT4-R,MT4-R,False
+latrunculin-B,compound,continuous,mechanotransduction,discovery compound,4,10,F,8,F08,L1A7,L1,L1A7-MT4-R,MT4-R,False
 IU1,compound,continuous,ubiquitin system,discovery compound,6,10,F,9,F09,L7A3,L7,L7A3-MT4-R,MT4-R,False
-retinol,compound,continuous,mechanotransduction,discovery compound,1,10,F,10,F10,L8A6,L8,L8A6-MT2-R,MT2-R,False
+futibatinib,compound,continuous,growth factor / cytokine,ASSAY CONTROL ONLY - canonical pathway,1,10,F,10,F10,L8A6,L8,L8A6-MT2-R,MT2-R,False
 ketoconazole,compound,continuous,epigenetic (selective probe),discovery compound,6,10,F,11,F11,L11A7,L11,L11A7-MT3-L,MT3-L,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,10,F,12,F12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,10,G,1,G01,,,,,True
-mycophenolate-mofetil,compound,continuous,phosphatase,discovery compound,2,10,G,2,G02,L6A3,L6,L6A3-MT3-R,MT3-R,False
-trofinetide,compound,continuous,growth factor / cytokine,discovery compound,5,10,G,3,G03,L11A5,L11,L11A5-MT2-L,MT2-L,False
-cyclovalone,compound,continuous,transporter,discovery compound,1,10,G,4,G04,L5A8,L5,L5A8-MT3-R,MT3-R,False
+pirfenidone,compound,continuous,growth factor / cytokine,discovery compound,2,10,G,2,G02,L6A3,L6,L6A3-MT3-R,MT3-R,False
+JTE-607,compound,continuous,growth factor / cytokine,discovery compound,5,10,G,3,G03,L11A5,L11,L11A5-MT2-L,MT2-L,False
+diacerein,compound,continuous,growth factor / cytokine,discovery compound,1,10,G,4,G04,L5A8,L5,L5A8-MT3-R,MT3-R,False
 isoconazole,compound,continuous,epigenetic (selective probe),discovery compound,2,10,G,5,G05,L4A4,L4,L4A4-MT3-L,MT3-L,False
-trofinetide,compound,continuous,growth factor / cytokine,discovery compound,6,10,G,6,G06,L13A4,L13,L13A4-MT2-L,MT2-L,False
-menadione,compound,continuous,phosphatase,discovery compound,5,10,G,7,G07,L7A3,L7,L7A3-MT4-L,MT4-L,False
-ambroxol,compound,continuous,ion channel,discovery compound,1,10,G,8,G08,L8A3,L8,L8A3-MT3-R,MT3-R,False
-carglumic-acid,compound,continuous,metabolic,discovery compound,4,10,G,9,G09,L1A7,L1,L1A7-MT2-L,MT2-L,False
-VLX600,compound,continuous,ubiquitin system,discovery compound,5,10,G,10,G10,L5A2,L5,L5A2-MT4-R,MT4-R,False
+JTE-607,compound,continuous,growth factor / cytokine,discovery compound,6,10,G,6,G06,L13A4,L13,L13A4-MT2-L,MT2-L,False
+retinol,compound,continuous,mechanotransduction,discovery compound,5,10,G,7,G07,L7A3,L7,L7A3-MT4-L,MT4-L,False
+amisulpride,compound,continuous,GPCR,discovery compound,1,10,G,8,G08,L8A3,L8,L8A3-MT3-R,MT3-R,False
+cerulenin,compound,continuous,metabolic,discovery compound,4,10,G,9,G09,L1A7,L1,L1A7-MT2-L,MT2-L,False
+hypoestoxide,compound,continuous,growth factor / cytokine,discovery compound,5,10,G,10,G10,L5A2,L5,L5A2-MT4-R,MT4-R,False
 acefylline,compound,continuous,GPCR,discovery compound,2,10,G,11,G11,L1A3,L1,L1A3-MT4-R,MT4-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,10,G,12,G12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,10,H,1,H01,,,,,True
@@ -973,19 +973,19 @@ vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTRO
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,11,A,12,A12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,11,B,1,B01,,,,,True
 GS-143,compound,continuous,ubiquitin system,discovery compound,1,11,B,2,B02,L2A4,L2,L2A4-MT2-L,MT2-L,False
-retinol,compound,continuous,mechanotransduction,discovery compound,4,11,B,3,B03,L9A1,L9,L9A1-MT2-R,MT2-R,False
-efinaconazole,compound,continuous,epigenetic (selective probe),discovery compound,3,11,B,4,B04,L11A8,L11,L11A8-MT3-L,MT3-L,False
+futibatinib,compound,continuous,growth factor / cytokine,ASSAY CONTROL ONLY - canonical pathway,4,11,B,3,B03,L9A1,L9,L9A1-MT2-R,MT2-R,False
+enasidenib,compound,continuous,metabolic,discovery compound,3,11,B,4,B04,L11A8,L11,L11A8-MT3-L,MT3-L,False
 T-0901317,compound,continuous,nuclear receptor,discovery compound,5,11,B,5,B05,L8A7,L8,L8A7-MT2-L,MT2-L,False
-butylphthalide,compound,continuous,ion channel,discovery compound,6,11,B,6,B06,L2A7,L2,L2A7-MT4-L,MT4-L,False
+camostat-mesilate,compound,continuous,protease,discovery compound,6,11,B,6,B06,L2A7,L2,L2A7-MT4-L,MT4-L,False
 fumagillin,compound,continuous,protease,discovery compound,5,11,B,7,B07,L3A4,L3,L3A4-MT4-R,MT4-R,False
 GW-3965,compound,continuous,nuclear receptor,discovery compound,3,11,B,8,B08,L11A2,L11,L11A2-MT2-L,MT2-L,False
 antiproliferative control,CYTOTOXIC CONTROL,continuous,control,CYTOTOXIC CONTROL,1,11,B,9,B09,L14A6,L14,L14A6-MT2-R,MT2-R,False
-benzbromarone,compound,continuous,ion channel,discovery compound,5,11,B,10,B10,L8A6,L8,L8A6-MT4-R,MT4-R,False
+benzethonium,compound,continuous,ion channel,discovery compound,5,11,B,10,B10,L8A6,L8,L8A6-MT4-R,MT4-R,False
 ketoconazole,compound,continuous,epigenetic (selective probe),discovery compound,2,11,B,11,B11,L11A3,L11,L11A3-MT3-L,MT3-L,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,11,B,12,B12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,11,C,1,C01,,,,,True
-bepridil,compound,continuous,ion channel,discovery compound,4,11,C,2,C02,L13A2,L13,L13A2-MT3-L,MT3-L,False
-futibatinib,compound,continuous,growth factor / cytokine,ASSAY CONTROL ONLY - canonical pathway,6,11,C,3,C03,L10A4,L10,L10A4-MT3-R,MT3-R,False
+beta-hydroxy-beta-methylbutyrate,compound,continuous,kinase,discovery compound,4,11,C,2,C02,L13A2,L13,L13A2-MT3-L,MT3-L,False
+abametapir,compound,continuous,protease,discovery compound,6,11,C,3,C03,L10A4,L10,L10A4-MT3-R,MT3-R,False
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,11,C,12,C12,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,11,D,1,D01,,,,,True
 vehicle (edge position control),VEHICLE,continuous,control,PLATE-POSITION CONTROL,1,11,D,12,D12,,,,,True

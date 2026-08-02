@@ -6,7 +6,7 @@ It chooses the 384-compound expansion from the pilot's results. It is **not** a 
 
 ## Why it does not maximise predicted length
 
-If the expansion were chosen by predicted durable length gain alone, **64%** of the selection would be the same compounds. The rest of the difference is the point. A pure maximiser trained on 96 compounds selects neighbours of whatever the pilot's best compound happened to be - the same failure mode as ranking genes by a connectivity score (stages 15-22) or by a phenotype-first literature score (stages 23-35). Both produced a lead that later collapsed.
+If the expansion were chosen by predicted durable length gain alone, **68%** of the selection would be the same compounds. The rest of the difference is the point. A pure maximiser trained on 96 compounds selects neighbours of whatever the pilot's best compound happened to be - the same failure mode as ranking genes by a connectivity score (stages 15-22) or by a phenotype-first literature score (stages 23-35). Both produced a lead that later collapsed.
 
 ## Acquisition function
 
@@ -39,11 +39,11 @@ Random forest, 400 trees, minimum leaf 2, one model per objective. Uncertainty i
 
 | objective | out-of-bag R² |
 |---|---:|
-| durable_length_gain | 0.189 |
-| edu_preserved | 0.285 |
-| viability_preserved | 0.325 |
-| matrix_preserved | 0.071 |
-| cytotoxicity | 0.429 |
+| durable_length_gain | 0.217 |
+| edu_preserved | 0.541 |
+| viability_preserved | 0.551 |
+| matrix_preserved | 0.424 |
+| cytotoxicity | 0.711 |
 
 **These R² values are on simulated pilot data and mean nothing about real compounds.** They are here to show the code fits and reports honestly. The out-of-bag score on real pilot data is itself a gate: if it is not clearly positive, the model is not informative and the expansion should be selected by mechanistic diversity alone. Stage 56 makes that an explicit decision point.
 

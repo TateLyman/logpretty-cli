@@ -38,7 +38,7 @@ The 96 compounds in `pilot_96_compound_library.csv` and `pilot_96_order_sheet.cs
 
 ### 5. Does the library cover diverse mechanisms without being dominated by oncology or cytotoxic chemistry?
 
-**Yes, by construction and by exclusion.** 744 compounds are removed by hard rule, including every proteasome, PLK, Aurora and survivin inhibitor and every compound annotated as a broad cytotoxic chemotherapeutic. The pilot spreads across GPCR, kinase, protease, transporter, ion channel, phosphatase, ubiquitin, metabolic, mechanotransduction, matrix-remodeling, lysosomal, nuclear-receptor and growth-factor families.
+**Yes, by construction and by exclusion.** 814 compounds are removed by hard rule, including every proteasome, PLK, Aurora and survivin inhibitor and every compound annotated as a broad cytotoxic chemotherapeutic. The pilot spreads across GPCR, kinase, protease, transporter, ion channel, phosphatase, ubiquitin, metabolic, mechanotransduction, matrix-remodeling, lysosomal, nuclear-receptor and growth-factor families.
 
 Two exclusions are worth naming because they cut against this project's own history: **direct V-ATPase poisons** are excluded as candidates even though bafilomycin A1 produced the only verified elongation result in the entire literature corpus, and **GSK3 inhibitors** are excluded because stage 21 showed GSK3 loss drives precocious remodeling. Bafilomycin appears only as a hazard benchmark.
 

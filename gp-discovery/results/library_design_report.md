@@ -9,8 +9,9 @@ A target-agnostic elongation screen in normal postnatal metatarsal organ culture
 | library | compounds | mechanism families | distinct primary targets | assay controls |
 |---|---:|---:|---:|---:|
 | PILOT_96 | 96 | 15 | 93 | 6 |
-| EXPANSION_384 | 384 | 15 | 271 | 6 |
-| FULL_SCREEN | 1134 | 15 | 324 | 63 |
+| EXPANSION_384 | 384 | 15 | 270 | 6 |
+| FULL_SCREEN (screenable) | 1064 | 15 | 309 | 63 |
+| FULL catalogue (incl. excluded) | 1134 | 15 | 324 | 63 |
 
 The pilot takes **at most one compound per primary target** and round-robins across mechanism families, so 96 wells buy 96 distinct targets rather than 96 shots at the same pathway. Within a family, compounds are ordered by existing cartilage literature, then by human exposure precedent, then by *fewest* annotated targets - a cleaner probe is worth more than a better story.
 
@@ -18,15 +19,15 @@ The pilot takes **at most one compound per primary target** and round-robins acr
 
 | family | FULL | EXPANSION_384 | PILOT_96 |
 |---|---:|---:|---:|
-| GPCR | 141 | 34 | 9 |
+| GPCR | 141 | 33 | 9 |
 | other / unclassified | 139 | 4 | 4 |
-| kinase | 123 | 46 | 8 |
-| ion channel | 120 | 46 | 8 |
-| protease | 120 | 46 | 8 |
-| metabolic | 120 | 46 | 8 |
-| epigenetic (selective probe) | 120 | 47 | 8 |
-| transporter | 120 | 46 | 8 |
-| growth factor / cytokine | 56 | 24 | 9 |
+| kinase | 123 | 48 | 8 |
+| ion channel | 120 | 47 | 8 |
+| protease | 120 | 48 | 8 |
+| metabolic | 120 | 43 | 8 |
+| epigenetic (selective probe) | 120 | 48 | 8 |
+| transporter | 120 | 47 | 8 |
+| growth factor / cytokine | 56 | 21 | 9 |
 | phosphatase | 24 | 13 | 7 |
 | mechanotransduction | 24 | 16 | 7 |
 | ubiquitin system | 15 | 10 | 7 |
@@ -36,7 +37,7 @@ The pilot takes **at most one compound per primary target** and round-robins acr
 
 ## Exclusions
 
-**1391** compounds are excluded and every one is kept with its reason in `excluded_screen_compounds.csv`. **744** are excluded by the brief's hard rules; the rest lack an orderable sample or an annotated mechanism.
+**1461** compounds are excluded and every one is kept with its reason in `excluded_screen_compounds.csv`. **814** are excluded by the brief's hard rules; the rest lack an orderable sample or an annotated mechanism.
 
 | hard rule | compounds |
 |---|---:|
@@ -45,6 +46,7 @@ The pilot takes **at most one compound per primary target** and round-robins acr
 | anti-angiogenic with juvenile growth-plate toxicity | 78 |
 | systemic glucocorticoid manipulation | 73 |
 | known to suppress chondrocyte proliferation | 72 |
+| requires grossly suprapharmacological concentration | 70 |
 | Aurora inhibitor | 33 |
 | GSK3 inhibition | 31 |
 | known plate-fusion or premature-remodeling hazard | 26 |
@@ -85,7 +87,13 @@ Two of these deserve comment. **Direct V-ATPase poisons are excluded as candidat
 
 Every row in the catalogue carries: identifiers (Broad ID, InChIKey, PubChem CID, ChEMBL ID, SMILES); development status from the Hub and ChEMBL max phase; primary and secondary targets with a promiscuity count; mechanism and action type; Guide to Pharmacology affinity with its parameter and species; molecule class; vendor, catalogue number and purity; and six literature-derived phenotype axes - proliferation, apoptosis, matrix secretion, hypertrophy, angiogenesis and developmental toxicity - each as a record count rather than as a claim.
 
+Potency is carried **separated by assay type and species**, from ChEMBL activity records: `biochemical_potency_nM` (assay_type B), `cellular_potency_nM` (assay_type F), `mouse_potency_nM` and `human_potency_nM`, each with its measurement count. 701 compounds have biochemical potency, 675 cellular, and 159 have mouse-specific values - the last number matters, because this is a mouse assay and most published potency is human.
+
+The per-stratum estimate is the **10th percentile** of measured values, not the median. A first implementation used the median and it excluded half the catalogue as suprapharmacological, including simvastatin: ChEMBL holds many weak counter-screen measurements per compound and the median is dominated by them. The 10th percentile is a primary-target proxy, and `best_potency_nM` keeps the single most potent recorded activity alongside it.
+
 Two structural flags come from RDKit Morgan fingerprints over the catalogue itself: `orthogonal_compound_available` is true when another catalogue compound hits the same primary target at Tanimoto < 0.40, which is what Tier 5 replication will need; `close_analogue_different_target` is true when a compound at Tanimoto > 0.85 has a different annotated primary target, which is where inactive-analogue controls come from.
+
+`inactive_analogue_available` is computed explicitly: a catalogue member at Tanimoto >= 0.80 sharing no annotated target. 25 of 1134 compounds have such a candidate, and the partner is named in `inactive_analogue_candidate`. This identifies what an experimentalist would consider as a structural control; it does not establish that the analogue is inactive at the target, which needs a measurement.
 
 926 of 1134 catalogue compounds have an orthogonal partner already in the library; 51 of 96 pilot compounds do. For the rest, a Tier-5 hit would require ordering a partner compound, and that is a known cost of the pilot rather than a surprise.
 

@@ -70,9 +70,10 @@ def figure32(pilot, expansion, full, exc) -> None:
     fig.suptitle("Phenotypic screening library: mechanism coverage", x=0.006, y=0.985,
                  ha="left", fontsize=14, fontweight="bold", color=INK)
     fig.text(0.006, 0.935,
-             f"{len(full)} orderable compounds spanning {full.family_primary.nunique()} mechanism "
-             f"families; the {len(pilot)}-compound pilot takes at most one compound per primary "
-             "target.",
+             f"{int((~full.get('requires_suprapharmacological_conc', False)).sum())} screenable "
+             f"of {len(full)} catalogued compounds, spanning "
+             f"{full.family_primary.nunique()} mechanism families; the {len(pilot)}-compound "
+             "pilot takes at most one compound per primary target.",
              fontsize=9.3, color=INK2, ha="left", va="top")
     fig.subplots_adjust(top=0.845, bottom=0.085, left=0.145, right=0.985)
     fig.savefig(FIG / "32_library_mechanism_coverage.png", facecolor=SURFACE, dpi=170)
@@ -97,8 +98,10 @@ def main() -> None:
          "matrix and post-washout growth.", "",
          "## Sizes", "", "| library | compounds | mechanism families | distinct primary targets | "
          "assay controls |", "|---|---:|---:|---:|---:|"]
+    screenable = full[~full.get("requires_suprapharmacological_conc", False)]
     for name, df in (("PILOT_96", pilot), ("EXPANSION_384", expansion),
-                     ("FULL_SCREEN", full)):
+                     ("FULL_SCREEN (screenable)", screenable),
+                     ("FULL catalogue (incl. excluded)", full)):
         L.append(f"| {name} | {len(df)} | {df.family_primary.nunique()} | "
                  f"{df.primary_target.nunique()} | "
                  f"{int(df.role.str.startswith('ASSAY').sum())} |")
@@ -154,12 +157,32 @@ def main() -> None:
           "catalogue number and purity; and six literature-derived phenotype axes - proliferation, "
           "apoptosis, matrix secretion, hypertrophy, angiogenesis and developmental toxicity - "
           "each as a record count rather than as a claim.", "",
+          "Potency is carried **separated by assay type and species**, from ChEMBL activity "
+          "records: `biochemical_potency_nM` (assay_type B), `cellular_potency_nM` (assay_type "
+          f"F), `mouse_potency_nM` and `human_potency_nM`, each with its measurement count. "
+          f"{int(full.biochemical_potency_nM.notna().sum())} compounds have biochemical potency, "
+          f"{int(full.cellular_potency_nM.notna().sum())} cellular, and "
+          f"{int(full.mouse_potency_nM.notna().sum())} have mouse-specific values - the last "
+          "number matters, because this is a mouse assay and most published potency is human.",
+          "",
+          "The per-stratum estimate is the **10th percentile** of measured values, not the "
+          "median. A first implementation used the median and it excluded half the catalogue as "
+          "suprapharmacological, including simvastatin: ChEMBL holds many weak counter-screen "
+          "measurements per compound and the median is dominated by them. The 10th percentile is "
+          "a primary-target proxy, and `best_potency_nM` keeps the single most potent recorded "
+          "activity alongside it.", "",
           "Two structural flags come from RDKit Morgan fingerprints over the catalogue itself: "
           "`orthogonal_compound_available` is true when another catalogue compound hits the same "
           "primary target at Tanimoto < 0.40, which is what Tier 5 replication will need; "
           "`close_analogue_different_target` is true when a compound at Tanimoto > 0.85 has a "
           "different annotated primary target, which is where inactive-analogue controls come "
           "from.", "",
+          f"`inactive_analogue_available` is computed explicitly: a catalogue member at Tanimoto "
+          f">= 0.80 sharing no annotated target. "
+          f"{int(full.inactive_analogue_available.sum())} of {len(full)} compounds have such a "
+          "candidate, and the partner is named in `inactive_analogue_candidate`. This identifies "
+          "what an experimentalist would consider as a structural control; it does not establish "
+          "that the analogue is inactive at the target, which needs a measurement.", "",
           f"{int(full.orthogonal_compound_available.sum())} of {len(full)} catalogue compounds "
           f"have an orthogonal partner already in the library; "
           f"{int(pilot.orthogonal_compound_available.sum())} of {len(pilot)} pilot compounds do. "
