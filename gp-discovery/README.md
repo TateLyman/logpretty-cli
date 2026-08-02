@@ -112,6 +112,17 @@ python s65_geometry_panel.py        # the 48-well panel and its order sheet, fig
 python s66_geometry_analysis.py     # 3D geometry schema + phantom validation, figure 48
 python s67_geometry_hit_calling.py  # gates 0-6, tested against 9 decoys, figure 49
 python s68_final_dossier.py         # the twelve answers, figures 50-51
+
+# five-lead verification (stages 69-77)
+python s69_lead_mechanism_audit.py      # genome-wide audit of the 5 leads + 38 comparators
+python s70_terminal_zone_penetration.py # penetration design + feasibility, figure 52
+python s71_range_finding.py             # engagement window ladders, anchored not invented
+python s72_blinded_geometry_experiment.py # preregistration, plate map, real-image power
+python s73_productive_output.py         # columns x cells x axial contribution
+python s74_washout_durability.py        # four schedules, followed to plateau
+python s75_mechanistic_replication.py   # orthogonal chemotype + rescue per node
+python s76_independent_replication.py   # replication conditions and acceptance rules
+python s77_final_evidence_ladder.py     # the ladder, scorecard, figures 53-54
 ```
 
 Network calls are cached and checksummed, so re-runs are cheap and the stages are resumable.
@@ -126,7 +137,7 @@ Network calls are cached and checksummed, so re-runs are cheap and the stages ar
 | `excluded_targets_with_reasons.csv` | every excluded gene and why |
 | `dataset_qc_report.md` | provenance, checksums, per-dataset QC, deviations, limitations |
 | `evidence_report.md` | direction logic, gene sets, per-target evidence and validation experiment |
-| `figures/` | 51 figures: CRISPR-vs-fast-growth, zone heatmap, human/mouse concordance, target–compound network, risk-vs-potential, mechanism decision trees, DDIT4 localization/stress/factorial/go-no-go, spatial-first funnel, manual image reclassification, screen design/validation/gates/readiness, geometry evidence map, axial-shape pathway map, geometry candidate matrix, panel coverage, 3D geometry schema, gate funnel, mechanism decision tree |
+| `figures/` | 54 figures: CRISPR-vs-fast-growth, zone heatmap, human/mouse concordance, target–compound network, risk-vs-potential, mechanism decision trees, DDIT4 localization/stress/factorial/go-no-go, spatial-first funnel, manual image reclassification, screen design/validation/gates/readiness, geometry evidence map, axial-shape pathway map, geometry candidate matrix, panel coverage, 3D geometry schema, gate funnel, mechanism decision tree, terminal-zone penetration design, five-lead verification funnel, five-lead final matrix |
 | `gene_sets/` | CRISPR_CAUSAL, FAST_GROWTH, HUMAN_CONSERVED, TRACTABLE, COMPOUND_MAPPED, BLACKLIST |
 | `top_20_compounds.csv` | perturbational matches with mechanism, direction, exposure, safety |
 | `compound_report.md` | per-compound mechanism/direction/exposure/safety and the validating experiment |
@@ -173,6 +184,15 @@ Network calls are cached and checksummed, so re-runs are cheap and the stages ar
 | `geometry_measurement_schema.csv`, `geometry_pipeline_validation.csv`, `geometry_segmentation_validation_plan.md`, `manual_geometry_annotation_template.csv` | 25 endpoints, phantom-validated 3D measurement error, and the blinded-annotation plan |
 | `geometry_hit_gate_definitions.csv`, `geometry_gate_decoy_results.csv`, `geometry_hit_calling_report.md` | gates 0-6 and their sensitivity/specificity against nine synthetic decoys |
 | `top_20_geometry_first_candidates.csv`, `top_10_geometry_experimental_compounds.csv`, `top_5_geometry_priority_panel.csv`, `final_geometry_first_report.md` | the dossier and the twelve required answers |
+| `geometry_lead_mechanism_audit.csv`, `orthogonal_comparator_validity.csv`, `geometry_pathway_rescue_options.csv`, `geometry_lead_audit_report.md` | genome-wide ChEMBL audit of the 5 index compounds and 38 proposed comparators: potency by assay and species, targets under 1 µM, structural relatedness, and 12 rescue designs |
+| `terminal_zone_penetration_plan.md`, `penetration_feasibility_arithmetic.csv`, `penetration_sample_manifest_template.csv`, `penetration_target_engagement_matrix.csv`, `penetration_go_no_go.csv` | the control the literature never ran, with the pooling arithmetic that decides whether the measurement is possible per compound |
+| `geometry_range_finding_plan.csv`, `geometry_target_engagement_thresholds.csv`, `selective_window_go_no_go.md` | engagement-window ladders anchored on measured exposure or measured potency, never chosen |
+| `geometry_experiment_preregistration.md`, `geometry_experiment_plate_map.csv`, `geometry_primary_endpoint_definitions.csv`, `geometry_real_image_power_plan.md`, `geometry_real_image_power_table.csv` | blinded, animal-blocked 3D geometry experiment with the animal number derived from the power table |
+| `productive_geometry_output_plan.md`, `growth_output_decomposition_schema.csv`, `growth_output_scenario_arithmetic.csv`, `productive_geometry_go_no_go.csv` | columns × cells per column × axial contribution, and what each failure mode does to the product |
+| `geometry_washout_preregistration.md`, `geometry_durability_endpoint_matrix.csv`, `geometry_washout_go_no_go.csv` | four schedules followed to each explant's own plateau, with target-engagement decay paired to the phenotype |
+| `geometry_mechanistic_replication_plan.md`, `geometry_rescue_matrix.csv`, `geometry_replication_requirements.csv`, `geometry_target_assignment_go_no_go.csv` | five replication requirements per node, and which compounds can satisfy them at all |
+| `geometry_independent_replication_plan.md`, `geometry_replication_acceptance_rules.csv` | new cohort, fresh compound, unchanged endpoints, effect-size bands rather than p-values |
+| `five_lead_verification_scorecard.csv`, `five_lead_final_decision_rules.md`, `five_lead_experimental_sequence.md`, `five_lead_final_report.md` | one row per index compound, the nine-rung ladder, and the thirteen answers |
 | `download_manifest.json` | source URL + sha256 + size + timestamp for every downloaded file |
 | `qc/` | per-stage QC artifacts the reports are generated from |
 
@@ -337,3 +357,41 @@ Network calls are cached and checksummed, so re-runs are cheap and the stages ar
   deliverable is a 48-well plate, a characterised imaging protocol, seven gates with measured
   discriminating power, and the single cheapest experiment that would change the answer — a
   penetration control nobody in the corpus ever ran.
+- **Then the five leads were audited before anything was designed around them.** Stages 69-77
+  take the five priority probes — Y-27632, simvastatin, vismodegib, LX-7101, bosutinib — and ask
+  what would have to be true before any of them could be called worth serious research. **They are
+  never combined; every plate map in every stage puts one compound per well.**
+- **Auditing the compounds' own potency tables genome-wide broke two of the five.** ChEMBL activity
+  records pulled per molecule across all targets (after filtering out cell-line "targets", which
+  otherwise make bosutinib's most potent target the K562 cell line at 9 pM) show that **LX-7101's
+  most potent proteins are PKA and AKT, not LIMK2** — so no concentration makes it a LIMK-selective
+  probe — and that **bosutinib's most potent protein target is ABL1, not SRC**, with 127 protein
+  targets under 1 µM. Stage 68 had labelled them the LIMK arm and a SRC/adhesion arm. Both labels
+  were artefacts of stage 63 assigning compounds within an eleven-family map.
+- **Two proposed comparators were retracted.** Fasudil engages 18 targets under 1 µM against
+  Y-27632's 5 — a comparator more promiscuous than the compound it is meant to confirm confirms
+  nothing. Sorafenib's on-LIMK potency is orders below its VEGFR/EGFR potency, so it cannot be the
+  orthogonal check for LX-7101; the brief's own condition for using it was not met and the analysis
+  says so. TH-257 is the clean LIMK probe the audit surfaces.
+- **The penetration measurement may not be feasible for every compound.** The terminal hypertrophic
+  zone of one metatarsal end is ~12.6 nL. At a tissue concentration equal to each compound's own
+  cellular potency, that is 0.67 pg for bosutinib and 0.0047 pg for simvastatin — **3 bones pooled
+  per LC-MS/MS sample versus 353**. For the least potent compounds LC-MS/MS is impractical and MALDI
+  imaging becomes primary. That arithmetic sets the animal number for the whole programme and is
+  computed before the first run rather than discovered after it.
+- **The geometry experiment is powered from its own error model.** 28 animals, 10 arms, 112
+  explants — derived as 11 animals per arm × 10 arms ÷ 4 explants per animal, not chosen. An earlier
+  draft drew 12 animals, which powers a 15% effect while the preregistration claimed to target 10%.
+  At a plausible 8% between-explant CV the imaging pipeline contributes **0.7% of the total
+  variance**: counting more cells is nearly worthless, more animals is not.
+- **No compound rises above `PENETRATION_UNRESOLVED`, and that is the answer.** Not five failures —
+  one fact: the experiment that would move any of them has been designed and not run, and the ladder
+  forbids skipping a rung. Only three of the five could reach `MECHANISM_VALIDATED` even in
+  principle. **No compound is an `INDEPENDENTLY_REPLICATED_EX_VIVO_HIT`, so none may be called good
+  enough to seriously consider for further research, and none deserves juvenile in vivo testing
+  today.**
+- **The most valuable experiment in the plan is not about a compound.** If IGF1 lengthens an explant
+  with no change in terminal-cell height-to-width ratio, length and shape are demonstrably separable
+  and the geometry-first hypothesis gains its first structural support. If IGF1 moves the ratio too,
+  the ratio is a correlate rather than a mechanism and the framing loses most of its force. Either
+  result outranks all five compounds, and it is one arm on a plate being run anyway.

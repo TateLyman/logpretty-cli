@@ -1,0 +1,9 @@
+term,endpoint,definition,role,measured_daily,replicate_unit
+N_col,active_columns_per_section,"columns containing at least one EdU+ proliferative cell, per calibrated section area",the number of production lines,False,"animal (bones nested in animal, animals nested in litter)"
+n_cells,terminal_cells_per_active_column_per_day,"terminal-classified cells per active column, per day of culture",the rate each line produces at,True,"animal (bones nested in animal, animals nested in litter)"
+h_axial,axial_contribution_per_terminal_cell_um,terminal-cell axial height PLUS its extracellular matrix-domain height,"how much length each unit contributes - cell AND the matrix it lays down, because a taller cell in a collapsed matrix domain has moved nothing",True,"animal (bones nested in animal, animals nested in litter)"
+-,daily_absolute_elongation_um,length today minus length yesterday,the raw series; every derived quantity comes from it,True,"animal (bones nested in animal, animals nested in litter)"
+-,growth_velocity_um_per_day,slope over a rolling 3-day window,separates a compound that raises the rate from one that shifts the curve once,True,"animal (bones nested in animal, animals nested in litter)"
+-,velocity_trajectory_shape,linear / decelerating / accelerate-then-collapse,"an accelerate-then-collapse trajectory is a failure even if the endpoint length is higher, and it is only visible in the daily series",True,"animal (bones nested in animal, animals nested in litter)"
+-,appositional_width_um,daily transverse caliper,measured on the same schedule so widening and lengthening are compared on equal footing,True,"animal (bones nested in animal, animals nested in litter)"
+-,plateau_length_um,length once daily elongation falls below 10% of its peak,"the endpoint that matters; measured per explant against its own peak, not against a fixed day",True,"animal (bones nested in animal, animals nested in litter)"

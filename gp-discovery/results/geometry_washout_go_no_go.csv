@@ -1,0 +1,6 @@
+classification,definition,what_it_means,advances_to_stage_75,status
+TRANSIENT_GEOMETRY_ONLY,geometry reverts to vehicle after washout AND plateau length is not increased,the shape was a state maintained by the drug; nothing was built,False,NOT YET MEASURED
+ACCELERATE_THEN_COLLAPSE,"elongation above vehicle during exposure, then recovery growth below vehicle, plateau length at or below vehicle",growth was borrowed from the proliferative or resting pool and repaid; this is the phenotype stage 67's growth-borrower decoy models and the one that cannot be detected during treatment,False,NOT YET MEASURED
+WASHOUT_REVERSIBLE_NO_LENGTH_GAIN,"geometry and engagement both revert cleanly, plateau length unchanged",a well-behaved reversible pharmacology with no productive consequence - the most likely outcome for a clean compound,False,NOT YET MEASURED
+DURABLE_PRODUCTIVE_EX_VIVO_HIT,"plateau length above vehicle, recovery growth not below vehicle, active columns preserved, geometry advantage not attributable to a swelling state, no delayed matrix or survival defect, AND target engagement has decayed by the plateau",the only classification that advances to stage 75,True,NOT YET MEASURED
+REJECT,"any delayed defect, or a plateau length at or below vehicle with a cost in any guard endpoint",the arm ends,False,NOT YET MEASURED

@@ -1,0 +1,39 @@
+index_compound,node,comparator,comparator_role,comparator_chembl_id,comparator_primary_target,comparator_primary_potency_nM,on_node_potency_nM,engages_same_node,tanimoto_to_index,structurally_unrelated,index_targets_under_1uM,comparator_targets_under_1uM,more_polypharmacologic_than_index,genome_wide_selectivity_fold,verdict,failure_reasons
+BOSUTINIB,SRC,PF-00562271,COMPARATOR,CHEMBL1084546,Focal adhesion kinase 1,1.0,1.0,False,0.132,True,127.0,82.0,False,1.0,REJECTED_AS_COMPARATOR,its node potency is more than 10x weaker than its own strongest target (Focal adhesion kinase 1 at 1 nM)
+BOSUTINIB,SRC,DEFACTINIB,COMPARATOR,CHEMBL3137331,Protein-tyrosine kinase 2-beta,0.2,0.5,False,0.09,True,127.0,25.0,False,0.4,REJECTED_AS_COMPARATOR,its node potency is more than 10x weaker than its own strongest target (Protein-tyrosine kinase 2-beta at 0.2 nM)
+BOSUTINIB,SRC,PONATINIB,COMPARATOR,CHEMBL1171837,Receptor-type tyrosine-protein kinase FLT3,0.04,0.307,False,0.179,True,127.0,64.0,False,0.13,REJECTED_AS_COMPARATOR,its node potency is more than 10x weaker than its own strongest target (Receptor-type tyrosine-protein kinase FLT3 at 0.04 nM)
+BOSUTINIB,SRC,IMATINIB,COMPARATOR,CHEMBL941,Epithelial discoidin domain-containing receptor 1,0.7,10.0,False,0.202,True,127.0,42.0,False,0.07,REJECTED_AS_COMPARATOR,its node potency is more than 10x weaker than its own strongest target (Epithelial discoidin domain-containing receptor 1 at 0.7 nM)
+BOSUTINIB,SRC,PP2,COMPARATOR,CHEMBL2268748,,,,True,0.042,True,127.0,,,,REJECTED_AS_COMPARATOR,no ChEMBL potency data - cannot be audited
+BOSUTINIB,SRC,A-419259,COMPARATOR,,,,,True,,False,127.0,,,,REJECTED_AS_COMPARATOR,no ChEMBL potency data - cannot be audited; structure unavailable
+BOSUTINIB,SRC,ECF506,COMPARATOR,CHEMBL3824089,Tyrosine-protein kinase Yes,0.5,0.5,True,0.182,True,127.0,15.0,False,20.0,VALID_ORTHOGONAL_COMPARATOR,
+BOSUTINIB,SRC,DASATINIB,COMPARATOR,CHEMBL5416410,Proto-oncogene tyrosine-protein kinase Src,0.025800000000000003,0.025800000000000003,True,0.248,True,127.0,93.0,False,1.16,VALID_ORTHOGONAL_COMPARATOR,
+BOSUTINIB,SRC,SARACATINIB,COMPARATOR,CHEMBL217092,Receptor-interacting serine/threonine-protein kinase 2,2.0,2.35,True,0.26,True,127.0,28.0,False,0.85,VALID_ORTHOGONAL_COMPARATOR,
+LX-7101,LIMK,DAMNACANTHAL,COMPARATOR,CHEMBL212948,Tyrosine-protein kinase Lck,17.0,800.0,False,0.099,True,8.0,2.0,False,0.02,REJECTED_AS_COMPARATOR,its node potency is more than 10x weaker than its own strongest target (Tyrosine-protein kinase Lck at 17 nM)
+LX-7101,LIMK,SORAFENIB,COMPARATOR,CHEMBL1336,Ephrin type-B receptor 4,0.22,1115.48,False,0.16,True,8.0,69.0,True,0.0,REJECTED_AS_COMPARATOR,its node potency is more than 10x weaker than its own strongest target (Ephrin type-B receptor 4 at 0.22 nM); more promiscuous than the index compound (69.0 vs 8.0 targets under 1 µM)
+LX-7101,LIMK,LIMKI-3,COMPARATOR,,,,,True,,False,8.0,,,,REJECTED_AS_COMPARATOR,no ChEMBL potency data - cannot be audited; structure unavailable
+LX-7101,LIMK,BMS-5,COMPARATOR,,,,,True,,False,8.0,,,,REJECTED_AS_COMPARATOR,no ChEMBL potency data - cannot be audited; structure unavailable
+LX-7101,LIMK,CRT0105446,COMPARATOR,,,,,True,,False,8.0,,,,REJECTED_AS_COMPARATOR,no ChEMBL potency data - cannot be audited; structure unavailable
+LX-7101,LIMK,TH-257,COMPARATOR,CHEMBL4790618,LIM domain kinase 2,15.386000000000001,15.386000000000001,True,0.137,True,8.0,3.0,False,649.94,VALID_ORTHOGONAL_COMPARATOR,
+SIMVASTATIN,HMGCR,MEVASTATIN,COMPARATOR,CHEMBL54440,3-hydroxy-3-methylglutaryl-coenzyme A reductase,2.66,2.66,True,0.568,False,3.0,2.0,False,10150.38,REJECTED_AS_COMPARATOR,Tanimoto 0.568 - not structurally unrelated
+SIMVASTATIN,HMGCR,LOVASTATIN,COMPARATOR,CHEMBL503,3-hydroxy-3-methylglutaryl-coenzyme A reductase,1.1600000000000001,1.1600000000000001,True,0.742,False,3.0,3.0,False,948.28,REJECTED_AS_COMPARATOR,Tanimoto 0.742 - not structurally unrelated
+SIMVASTATIN,HMGCR,FLUVASTATIN,COMPARATOR,CHEMBL2220442,3-hydroxy-3-methylglutaryl-coenzyme A reductase,0.353,0.353,True,0.08,True,3.0,3.0,False,1133.14,VALID_ORTHOGONAL_COMPARATOR,
+SIMVASTATIN,HMGCR,ROSUVASTATIN,COMPARATOR,CHEMBL1496,3-hydroxy-3-methylglutaryl-coenzyme A reductase,2.22,2.22,True,0.086,True,3.0,2.0,False,563.06,VALID_ORTHOGONAL_COMPARATOR,
+SIMVASTATIN,HMGCR,PRAVASTATIN,COMPARATOR,CHEMBL1144,3-hydroxy-3-methylglutaryl-coenzyme A reductase,10.4728,10.4728,True,0.386,True,3.0,2.0,False,324.65,VALID_ORTHOGONAL_COMPARATOR,
+SIMVASTATIN,HMGCR,ATORVASTATIN,COMPARATOR,CHEMBL1487,3-hydroxy-3-methylglutaryl-coenzyme A reductase,2.5362,2.5362,True,0.075,True,3.0,3.0,False,260.23,VALID_ORTHOGONAL_COMPARATOR,
+SIMVASTATIN,HMGCR,PITAVASTATIN,COMPARATOR,CHEMBL1201753,3-hydroxy-3-methylglutaryl-coenzyme A reductase,4.1,4.1,True,0.087,True,3.0,2.0,False,29.27,VALID_ORTHOGONAL_COMPARATOR,
+VISMODEGIB,SMO,PURMORPHAMINE,RESCUE,CHEMBL1221984,Secretin receptor,48.809,800.0,False,0.1,True,4.0,4.0,False,0.06,OPPOSING_PERTURBATION,its node potency is more than 10x weaker than its own strongest target (Secretin receptor at 48.8 nM)
+VISMODEGIB,SMO,CYCLOPAMINE,COMPARATOR,CHEMBL254129,Protein smoothened,12.61,12.61,True,0.039,True,4.0,5.0,True,47.48,REJECTED_AS_COMPARATOR,more promiscuous than the index compound (5.0 vs 4.0 targets under 1 µM)
+VISMODEGIB,SMO,SANT-1,COMPARATOR,,,,,True,,False,4.0,,,,REJECTED_AS_COMPARATOR,no ChEMBL potency data - cannot be audited; structure unavailable
+VISMODEGIB,SMO,GLASDEGIB,COMPARATOR,CHEMBL2043437,Protein smoothened,5.0,5.0,True,0.18,True,4.0,1.0,False,6000.0,VALID_ORTHOGONAL_COMPARATOR,
+VISMODEGIB,SMO,SONIDEGIB,COMPARATOR,CHEMBL2105737,Sonic hedgehog protein,5.5,5.5,True,0.211,True,4.0,2.0,False,577.0,VALID_ORTHOGONAL_COMPARATOR,
+VISMODEGIB,SMO,PATIDEGIB,COMPARATOR,CHEMBL538867,Protein smoothened,1.4,1.4,True,0.075,True,4.0,2.0,False,14.29,VALID_ORTHOGONAL_COMPARATOR,
+VISMODEGIB,SMO,TALADEGIB,COMPARATOR,CHEMBL2142592,Protein smoothened,1.18,1.18,True,0.149,True,4.0,2.0,False,,VALID_ORTHOGONAL_COMPARATOR,
+Y-27632,ROCK,FASUDIL,COMPARATOR,CHEMBL38380,Rho-associated protein kinase 1,44.486000000000004,44.486000000000004,True,0.134,True,5.0,18.0,True,1.13,REJECTED_AS_COMPARATOR,more promiscuous than the index compound (18.0 vs 5.0 targets under 1 µM)
+Y-27632,ROCK,GSK-269962A,COMPARATOR,,,,,True,,False,5.0,,,,REJECTED_AS_COMPARATOR,no ChEMBL potency data - cannot be audited; structure unavailable
+Y-27632,ROCK,H-1152,COMPARATOR,,,,,True,,False,5.0,,,,REJECTED_AS_COMPARATOR,no ChEMBL potency data - cannot be audited; structure unavailable
+Y-27632,ROCK,Y-33075,COMPARATOR,,,,,True,,False,5.0,,,,REJECTED_AS_COMPARATOR,no ChEMBL potency data - cannot be audited; structure unavailable
+Y-27632,ROCK,SR-3677,COMPARATOR,CHEMBL521179,Rho-associated protein kinase 2,3.0,3.0,True,0.173,True,5.0,2.0,False,2497.0,VALID_ORTHOGONAL_COMPARATOR,
+Y-27632,ROCK,NETARSUDIL,COMPARATOR,CHEMBL4594250,Rho-associated protein kinase 2,1.0,1.0,True,0.203,True,5.0,3.0,False,1000.0,VALID_ORTHOGONAL_COMPARATOR,
+Y-27632,ROCK,RIPASUDIL,COMPARATOR,CHEMBL3426621,Rho-associated protein kinase 2,13.1,13.1,True,0.122,True,5.0,4.0,False,21.76,VALID_ORTHOGONAL_COMPARATOR,
+Y-27632,ROCK,HYDROXYFASUDIL,COMPARATOR,CHEMBL1233300,Rho-associated protein kinase 1,114.48600000000002,114.48600000000002,True,0.116,True,5.0,2.0,False,19.22,VALID_ORTHOGONAL_COMPARATOR,
+Y-27632,ROCK,BELUMOSUDIL,COMPARATOR,CHEMBL2005186,Rho-associated protein kinase 2,40.0,40.0,True,0.14,True,5.0,4.0,False,2.5,VALID_ORTHOGONAL_COMPARATOR,

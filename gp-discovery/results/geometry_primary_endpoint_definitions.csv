@@ -1,0 +1,24 @@
+endpoint,tier,definition,psf_corrected,orientation_covariate,replicate_unit,blinded
+terminal_cell_axial_height_um,PRIMARY,extent along the local bone axis,True,True,"animal (bones nested in animal, animals nested in litter)",True
+terminal_cell_transverse_width_um,PRIMARY,mean of the two orthogonal extents,True,True,"animal (bones nested in animal, animals nested in litter)",True
+terminal_cell_depth_um,PRIMARY,"the second transverse extent, reported separately",True,True,"animal (bones nested in animal, animals nested in litter)",True
+terminal_cell_volume_um3,PRIMARY,segmented voxel volume,True,True,"animal (bones nested in animal, animals nested in litter)",True
+axial_height_to_width_ratio,PRIMARY,**THE PRIMARY ENDPOINT**,True,True,"animal (bones nested in animal, animals nested in litter)",True
+sphericity,PRIMARY,36^(1/3)·π^(1/3)·V^(2/3)/A - shape independent of size,True,True,"animal (bones nested in animal, animals nested in litter)",True
+long_axis_deviation_deg,PRIMARY,angle between the cell's principal axis and the bone axis,True,True,"animal (bones nested in animal, animals nested in litter)",True
+nearest_neighbour_orientation,PRIMARY,mean |cos| to the 6 nearest neighbours,True,True,"animal (bones nested in animal, animals nested in litter)",True
+column_straightness,PRIMARY,end-to-end length / summed inter-cell path,True,True,"animal (bones nested in animal, animals nested in litter)",True
+active_columns_per_section,PRIMARY,columns containing at least one EdU+ nucleus,True,True,"animal (bones nested in animal, animals nested in litter)",True
+terminal_cells_per_active_column,PRIMARY,the per-column output term,True,True,"animal (bones nested in animal, animals nested in litter)",True
+matrix_domain_height_um,PRIMARY,extracellular axial domain attributable to each cell,True,True,"animal (bones nested in animal, animals nested in litter)",True
+total_bone_length_um,SECONDARY,the outcome the whole project is about,False,False,"animal (bones nested in animal, animals nested in litter)",True
+appositional_width_um,SECONDARY,the confound the brief names first,False,False,"animal (bones nested in animal, animals nested in litter)",True
+explant_curvature,SECONDARY,asymmetric growth,False,False,"animal (bones nested in animal, animals nested in litter)",True
+edu_positive_fraction,SECONDARY,proliferation,False,False,"animal (bones nested in animal, animals nested in litter)",True
+tunel_positive_fraction,SECONDARY,survival,False,False,"animal (bones nested in animal, animals nested in litter)",True
+col2a1_area_fraction,SECONDARY,resting/proliferative matrix,False,False,"animal (bones nested in animal, animals nested in litter)",True
+acan_area_fraction,SECONDARY,proteoglycan,False,False,"animal (bones nested in animal, animals nested in litter)",True
+col10a1_extracellular_area_fraction,SECONDARY,hypertrophic matrix,False,False,"animal (bones nested in animal, animals nested in litter)",True
+col10a1_intracellular_to_extracellular,SECONDARY,secretory block detector,False,False,"animal (bones nested in animal, animals nested in litter)",True
+pathway_engagement_primary,SECONDARY,the compound's own marker from stage 70,False,False,"animal (bones nested in animal, animals nested in litter)",True
+pathway_engagement_offtarget,SECONDARY,mandatory for LX-7101 and bosutinib,False,False,"animal (bones nested in animal, animals nested in litter)",True

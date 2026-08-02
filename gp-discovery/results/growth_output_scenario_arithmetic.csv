@@ -1,0 +1,8 @@
+scenario,active_columns_fold,cells_per_column_fold,axial_contribution_fold,predicted_output_fold,output_increases,would_pass_a_height_only_test,passes_stage_73
+PRODUCTIVE_OUTPUT_SIGNAL,1.0,1.02,1.18,1.204,True,True,True
+AXIAL_GAIN_OFFSET_BY_COLUMN_LOSS,0.72,0.95,1.22,0.834,False,True,False
+PROLIFERATION_TRADEOFF,0.78,0.86,1.2,0.805,False,True,False
+LENGTH_GAIN_FROM_ISOTROPIC_SWELLING,1.0,1.0,1.17,1.17,True,True,False
+MATRIX_TRADEOFF,1.0,1.01,1.19,1.202,True,True,False
+DISORGANIZED_OVERGROWTH,0.88,1.05,1.24,1.146,True,True,False
+APPOSITIONAL_WIDENING,1.0,1.0,1.06,1.06,True,True,False

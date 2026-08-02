@@ -1,0 +1,8 @@
+classification,arithmetic_signature,why_it_matters,advances_to_stage_74,status
+AXIAL_GAIN_OFFSET_BY_COLUMN_LOSS,"h_axial up, N_col or n_cells down, product not up","stage 67's column-collapser decoy, in real tissue. Per cell it is exactly the target phenotype; per bone it is nothing",False,NOT YET MEASURED
+LENGTH_GAIN_FROM_ISOTROPIC_SWELLING,"length up, h_axial up, but the height-to-width ratio flat and volume fold >1.25",the osmotic arm calibrates the threshold; a hit that looks like that arm is that arm,False,NOT YET MEASURED
+APPOSITIONAL_WIDENING,length up but relative transverse-width increase >= half the relative length increase,the anchor paper's two largest length gains both did this and the brief explicitly refuses to count it,False,NOT YET MEASURED
+PROLIFERATION_TRADEOFF,"length up during treatment, EdU below 0.85x vehicle",the proliferative pool feeding every future column is being spent; the length gain is borrowed and stage 74 is where it is repaid,False,NOT YET MEASURED
+MATRIX_TRADEOFF,"length up, any matrix endpoint below 0.85x vehicle or the intracellular:extracellular collagen X ratio above 1.3x",a secretory block looks like preserved collagen X on a total-signal stain,False,NOT YET MEASURED
+DISORGANIZED_OVERGROWTH,"length up, column straightness or coherence down, curvature up",the cytochalasin phenotype,False,NOT YET MEASURED
+PRODUCTIVE_OUTPUT_SIGNAL,"the product of all three terms is up, every guard endpoint is inside the vehicle band, and the decomposition attributes the gain to a specific term",the only classification that proceeds to stage 74,True,NOT YET MEASURED
