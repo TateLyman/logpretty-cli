@@ -101,6 +101,17 @@ python s53_secondary_panel.py       # secondary endpoint matrix, figure 36
 python s54_active_learning.py       # expansion selection, figure 37
 python s55_deconvolution.py         # post-hit framework, figure 38
 python s56_readiness.py             # readiness dossier, order sheet, figure 39
+
+# geometry-first compound discovery (stages 61-68)
+python s61_geometry_literature.py   # geometry corpus + figure retrieval, figure 44
+python s61b_geometry_report.py      # manual figure review and the literature verdict
+python s62_target_map.py            # 74 axial-geometry targets, 8 classes, figure 45
+python s63_compound_universe.py     # ChEMBL compound universe, potency never collapsed
+python s64_candidate_filter.py      # five separate rankings, 8 classes, figure 46
+python s65_geometry_panel.py        # the 48-well panel and its order sheet, figure 47
+python s66_geometry_analysis.py     # 3D geometry schema + phantom validation, figure 48
+python s67_geometry_hit_calling.py  # gates 0-6, tested against 9 decoys, figure 49
+python s68_final_dossier.py         # the twelve answers, figures 50-51
 ```
 
 Network calls are cached and checksummed, so re-runs are cheap and the stages are resumable.
@@ -115,7 +126,7 @@ Network calls are cached and checksummed, so re-runs are cheap and the stages ar
 | `excluded_targets_with_reasons.csv` | every excluded gene and why |
 | `dataset_qc_report.md` | provenance, checksums, per-dataset QC, deviations, limitations |
 | `evidence_report.md` | direction logic, gene sets, per-target evidence and validation experiment |
-| `figures/` | 39 figures: CRISPR-vs-fast-growth, zone heatmap, human/mouse concordance, target–compound network, risk-vs-potential, mechanism decision trees, DDIT4 localization/stress/factorial/go-no-go, spatial-first funnel, manual image reclassification, screen design/validation/gates/readiness |
+| `figures/` | 51 figures: CRISPR-vs-fast-growth, zone heatmap, human/mouse concordance, target–compound network, risk-vs-potential, mechanism decision trees, DDIT4 localization/stress/factorial/go-no-go, spatial-first funnel, manual image reclassification, screen design/validation/gates/readiness, geometry evidence map, axial-shape pathway map, geometry candidate matrix, panel coverage, 3D geometry schema, gate funnel, mechanism decision tree |
 | `gene_sets/` | CRISPR_CAUSAL, FAST_GROWTH, HUMAN_CONSERVED, TRACTABLE, COMPOUND_MAPPED, BLACKLIST |
 | `top_20_compounds.csv` | perturbational matches with mechanism, direction, exposure, safety |
 | `compound_report.md` | per-compound mechanism/direction/exposure/safety and the validating experiment |
@@ -154,6 +165,14 @@ Network calls are cached and checksummed, so re-runs are cheap and the stages ar
 | `active_learning_feature_schema.csv`, `expansion_selection_plan.md` | multi-objective acquisition for the 384 expansion |
 | `post_hit_target_deconvolution_template.csv`, `post_hit_mechanism_framework.md` | the nine-step evidence chain, empty until a hit exists |
 | `screen_readiness_go_no_go.csv`, `final_phenotypic_screen_plan.md`, `pilot_96_order_sheet.csv`, `pilot_96_control_layout.csv` | nine readiness gates, the twelve answers, and a real order sheet |
+| `geometry_literature_corpus.csv`, `geometry_experiment_extraction.csv`, `geometry_literature_report.md` | 276 figure-level geometry records over 119 papers, split into three evidence classes, with the anchor's figures described from the images |
+| `axial_geometry_target_map.csv`, `geometry_target_evidence_chains.csv`, `geometry_target_report.md` | 74 targets over six families with gnomAD, Open Targets, MGI and literature evidence, classified into 8 geometry classes |
+| `geometry_compound_universe.csv`, `geometry_compound_potency_by_assay.csv`, `geometry_compound_species_gaps.csv` | 6,053 compounds with biochemical/cellular/mouse/human potency kept in separate columns and the species gap computed |
+| `geometry_compound_rankings.csv`, `top_50_geometry_compounds.csv`, `rejected_geometry_compounds.csv`, `geometry_candidate_report.md` | five rankings deliberately never summed, and every rejection with its reason |
+| `geometry_48_panel.csv`, `geometry_panel_order_sheet.csv`, `geometry_panel_controls.csv`, `geometry_panel_design_report.md` | the 48-well panel, its concentration provenance, and what each control falsifies |
+| `geometry_measurement_schema.csv`, `geometry_pipeline_validation.csv`, `geometry_segmentation_validation_plan.md`, `manual_geometry_annotation_template.csv` | 25 endpoints, phantom-validated 3D measurement error, and the blinded-annotation plan |
+| `geometry_hit_gate_definitions.csv`, `geometry_gate_decoy_results.csv`, `geometry_hit_calling_report.md` | gates 0-6 and their sensitivity/specificity against nine synthetic decoys |
+| `top_20_geometry_first_candidates.csv`, `top_10_geometry_experimental_compounds.csv`, `top_5_geometry_priority_panel.csv`, `final_geometry_first_report.md` | the dossier and the twelve required answers |
 | `download_manifest.json` | source URL + sha256 + size + timestamp for every downloaded file |
 | `qc/` | per-stage QC artifacts the reports are generated from |
 
@@ -280,3 +299,41 @@ Network calls are cached and checksummed, so re-runs are cheap and the stages ar
 - **Nothing is integrated early.** Every within-dataset effect is computed first; datasets meet
   only in stage 10, and each line of evidence stays its own column rather than being folded
   into one embedding.
+- **Then the question changed from "which compound" to "what shape".** Stages 61-68 test a
+  geometry-first hypothesis: that fast growth comes from terminal hypertrophic chondrocytes
+  becoming taller along the bone axis and relatively narrower, rather than merely larger or more
+  swollen. **Across 276 figure-level records in 119 papers, zero measure terminal-chondrocyte
+  axial height under compound treatment and zero report a height-to-width ratio.** The single
+  record the classifier promoted to class 1 was opened and demoted — its "anisotropy" was actin
+  *fibre* anisotropy in cultured osteocytes.
+- **The anchor paper does not contain a cell dimension.** PMC4516504's figures were retrieved and
+  read. It measures zone lengths and whole-bone dimensions; the two compounds with the largest
+  length gain, cytochalasin D and jasplakinolide, are also visibly wider. Y-27632 gives the
+  smallest gain of the three, through **resting-zone** expansion in embryonic tissue — a mechanism
+  with no necessary connection to terminal-cell shape.
+- **0 of 74 targets reach AXIAL_ELONGATION_SUPPORT**, and the 14 ion/water targets are classified
+  CELL_SWELLING_ONLY precisely because their phenotype is volume — which the brief forbids
+  counting as elongation. `top_20_geometry_first_candidates.csv` ranks how *testable* each
+  compound is, not how likely it is to work.
+- **Two data-quality bugs had to be fixed before any of it meant anything.** ChEMBL's symbol
+  search is fuzzy across a family: `q=RORA` returned opioid receptors, so morphine entered as a
+  RORalpha ligand. Requiring a GENE_SYMBOL synonym match and dropping PROTEIN FAMILY targets cut
+  the universe from 8,632 compounds to 6,053. Separately, "selectivity" inside an eleven-family
+  target map is not selectivity — BI-2536 scored 103-fold selective for MYLK and is a PLK1
+  inhibitor — so every named compound now carries a genome-wide count of targets hit under 1 µM.
+- **The measurement pipeline was validated and it corrected its own hypothesis.** The first version
+  predicted a 1 µm z-step would wreck the height-to-width ratio; on 900 synthetic cells with exact
+  ground truth it does not, because sampling error cancels in a ratio. The anisotropy that does
+  bite is the point-spread function, and mounting orientation shifts the measured ratio by 0.030
+  on a median of 1.44 — about the size of the effect being hunted. That wrong prediction is
+  recorded rather than deleted.
+- **The gates were tested against nine decoys, 300 repeats each.** The true axial remodeller passes
+  88% of the time; **no decoy false-passes even once**. The two that matter: a *column collapser*
+  produces exactly the target phenotype per cell and dies at gate 2 for leaving 30% fewer
+  productive columns, and a *single-compound artefact* is numerically identical to the real thing
+  on every endpoint and dies only at gate 6.
+- **No compound qualifies as a GEOMETRY_FIRST_CANDIDATE, and that is the finding.** The class needs
+  a direct measured axial-geometry increase, and none exists in the accessible literature. The
+  deliverable is a 48-well plate, a characterised imaging protocol, seven gates with measured
+  discriminating power, and the single cheapest experiment that would change the answer — a
+  penetration control nobody in the corpus ever ran.

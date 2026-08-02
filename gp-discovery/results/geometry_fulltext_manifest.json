@@ -1,0 +1,720 @@
+{
+ "n_articles": 119,
+ "anchor": "PMC4516504",
+ "articles": [
+  {
+   "pmcid": "PMC10077675",
+   "sha256": "0f04af300e211bfaab4e5598137321b10b4c1c48505ea32a9593e3e651b65d8f",
+   "bytes": 109054,
+   "url": "https://europepmc.org/article/PMC/PMC10077675"
+  },
+  {
+   "pmcid": "PMC10104879",
+   "sha256": "e37cd123b23d904ee235d02f9a6760a8b0130123d278a44385074727feb89504",
+   "bytes": 170105,
+   "url": "https://europepmc.org/article/PMC/PMC10104879"
+  },
+  {
+   "pmcid": "PMC10178441",
+   "sha256": "4f3feffff17b3e9fd4635ce767d61d8dba8897d82ad971d9e8f3f890a5e66991",
+   "bytes": 118175,
+   "url": "https://europepmc.org/article/PMC/PMC10178441"
+  },
+  {
+   "pmcid": "PMC10189446",
+   "sha256": "f32db23cb79759a83d127501259bd7a374ee67df9926108f8b7b513b4b82abed",
+   "bytes": 159789,
+   "url": "https://europepmc.org/article/PMC/PMC10189446"
+  },
+  {
+   "pmcid": "PMC10279950",
+   "sha256": "336beb9f9614cdf92e9042e624575d952168d71902d178b2685cbb5ff504e752",
+   "bytes": 76355,
+   "url": "https://europepmc.org/article/PMC/PMC10279950"
+  },
+  {
+   "pmcid": "PMC10283062",
+   "sha256": "3dca6a2c0fc6ed9e9fc1109fd9770ad1953316fe213af9f9a120372b98d1fa3f",
+   "bytes": 129613,
+   "url": "https://europepmc.org/article/PMC/PMC10283062"
+  },
+  {
+   "pmcid": "PMC10319900",
+   "sha256": "eb0769a3cc28259101e32e65f77eb33141b70301511c5f19d69b1e8aa0a5c894",
+   "bytes": 721674,
+   "url": "https://europepmc.org/article/PMC/PMC10319900"
+  },
+  {
+   "pmcid": "PMC10371340",
+   "sha256": "ea9dcc5add95cfc8f56ff10d2ef3c08c10c1d9d4b1d98b03e9ef029b781eb039",
+   "bytes": 106056,
+   "url": "https://europepmc.org/article/PMC/PMC10371340"
+  },
+  {
+   "pmcid": "PMC10372640",
+   "sha256": "5ebc4ade339b83fccf41da5e75c6c0da9feae6b6fa39ed436a191c757ff9b8f7",
+   "bytes": 167585,
+   "url": "https://europepmc.org/article/PMC/PMC10372640"
+  },
+  {
+   "pmcid": "PMC10508846",
+   "sha256": "05830140742082171994dbe64a6d772ae978d72d3fa893ce33627f79484b5b9d",
+   "bytes": 91560,
+   "url": "https://europepmc.org/article/PMC/PMC10508846"
+  },
+  {
+   "pmcid": "PMC10551038",
+   "sha256": "3f14dfe992a8444b54c4a19943fae5398119e7c7fc4d70db1c238edc1e9b24ae",
+   "bytes": 283320,
+   "url": "https://europepmc.org/article/PMC/PMC10551038"
+  },
+  {
+   "pmcid": "PMC10658171",
+   "sha256": "9522b5fbc931cedca8f304d715e82292016da838768eddabf1277bbe66e2a54e",
+   "bytes": 715195,
+   "url": "https://europepmc.org/article/PMC/PMC10658171"
+  },
+  {
+   "pmcid": "PMC10698167",
+   "sha256": "a7c17ef8473edad305f866dad0e83438bc0eb236216ab3444d665a4ad86989c2",
+   "bytes": 258823,
+   "url": "https://europepmc.org/article/PMC/PMC10698167"
+  },
+  {
+   "pmcid": "PMC10728492",
+   "sha256": "53560bf5e06f6ab86cfc5475d139426a3318196ac2f588c84c37238bb4e44626",
+   "bytes": 171694,
+   "url": "https://europepmc.org/article/PMC/PMC10728492"
+  },
+  {
+   "pmcid": "PMC10891122",
+   "sha256": "5d4f6669eb4755f501d14b6a77bc4110200afc1476d039b5733c6f4eb01136a4",
+   "bytes": 163562,
+   "url": "https://europepmc.org/article/PMC/PMC10891122"
+  },
+  {
+   "pmcid": "PMC10994658",
+   "sha256": "abc22de0f945147c41a202452ca044c0b519006552395903ee68998a2384499d",
+   "bytes": 229871,
+   "url": "https://europepmc.org/article/PMC/PMC10994658"
+  },
+  {
+   "pmcid": "PMC11074336",
+   "sha256": "f7060afce5f083a6b5ee37e64bf4688a3b834268145001a96cbcd369bf9d85ef",
+   "bytes": 105931,
+   "url": "https://europepmc.org/article/PMC/PMC11074336"
+  },
+  {
+   "pmcid": "PMC11154833",
+   "sha256": "aeced70061022318c644dd80a40319d049ca532352ab92e4e614a4e22d997727",
+   "bytes": 126630,
+   "url": "https://europepmc.org/article/PMC/PMC11154833"
+  },
+  {
+   "pmcid": "PMC11403584",
+   "sha256": "543286b78b45f6472dc542a7edb81df8237c216fde1f223b8e3bbd9b17c3afa1",
+   "bytes": 274611,
+   "url": "https://europepmc.org/article/PMC/PMC11403584"
+  },
+  {
+   "pmcid": "PMC11491146",
+   "sha256": "28ffe36bae5a56185ef41150e77fbd5302e1a34f86130d5815c90bea41e75d42",
+   "bytes": 121140,
+   "url": "https://europepmc.org/article/PMC/PMC11491146"
+  },
+  {
+   "pmcid": "PMC11564563",
+   "sha256": "53bffc2c2a77aec11440657a9bd37a742dbc27ce45585954442b62b906f1c19d",
+   "bytes": 149536,
+   "url": "https://europepmc.org/article/PMC/PMC11564563"
+  },
+  {
+   "pmcid": "PMC11600216",
+   "sha256": "6fbd84e63bbb90081d945839edb2e0d75ac40f59d13e9d244f85a47e341b41dd",
+   "bytes": 175270,
+   "url": "https://europepmc.org/article/PMC/PMC11600216"
+  },
+  {
+   "pmcid": "PMC11633519",
+   "sha256": "d3b52dfbdefc11121a7d7b63e074d11e1f78929da2d71cfc32cd9da6aead2257",
+   "bytes": 178083,
+   "url": "https://europepmc.org/article/PMC/PMC11633519"
+  },
+  {
+   "pmcid": "PMC11665451",
+   "sha256": "6373329967be8da6cf0b27762be7e33fa817965b9a70511497080075ec4a00f1",
+   "bytes": 206783,
+   "url": "https://europepmc.org/article/PMC/PMC11665451"
+  },
+  {
+   "pmcid": "PMC11673816",
+   "sha256": "0f42a462fdd12ab4761dfe5c754555c5640455a1bb0faa714895e0aa54bd24ac",
+   "bytes": 96454,
+   "url": "https://europepmc.org/article/PMC/PMC11673816"
+  },
+  {
+   "pmcid": "PMC11852791",
+   "sha256": "4fa1a40618c2f51d568e4c3cfa15d18606e7a0d19926bed121a076171912a773",
+   "bytes": 133485,
+   "url": "https://europepmc.org/article/PMC/PMC11852791"
+  },
+  {
+   "pmcid": "PMC11873292",
+   "sha256": "fe9b5bd8c7531fa50a964bb33b58293d61d6e52161e88cc7eeafb93a8f0468f2",
+   "bytes": 152470,
+   "url": "https://europepmc.org/article/PMC/PMC11873292"
+  },
+  {
+   "pmcid": "PMC11889814",
+   "sha256": "938a16b94075896d917df370b12c933ce792192af25e8a697f680d7081b9946e",
+   "bytes": 160466,
+   "url": "https://europepmc.org/article/PMC/PMC11889814"
+  },
+  {
+   "pmcid": "PMC11900466",
+   "sha256": "5a7235c86cd67aaa3f3f35f8e3b666e48341867e64ad881ece8f3d719141f00f",
+   "bytes": 121116,
+   "url": "https://europepmc.org/article/PMC/PMC11900466"
+  },
+  {
+   "pmcid": "PMC11941300",
+   "sha256": "b7620e8ba241569bafb311eeccc083dc3c2cd439e4f1093e618aaa45bd21ee55",
+   "bytes": 102978,
+   "url": "https://europepmc.org/article/PMC/PMC11941300"
+  },
+  {
+   "pmcid": "PMC12005758",
+   "sha256": "cd0526bd49d01b3d72c1f4f1bf5295336ba141456ccdcd690a1ee040c017c133",
+   "bytes": 300212,
+   "url": "https://europepmc.org/article/PMC/PMC12005758"
+  },
+  {
+   "pmcid": "PMC12037013",
+   "sha256": "f3e8cfc30811b6f7431ad3731a18f1d1152ec36d712618980bae3508112d8a36",
+   "bytes": 141758,
+   "url": "https://europepmc.org/article/PMC/PMC12037013"
+  },
+  {
+   "pmcid": "PMC12065127",
+   "sha256": "032c27af25547eed28bb4077e46ea5985185104a8361835433e967b8babcf1b5",
+   "bytes": 132647,
+   "url": "https://europepmc.org/article/PMC/PMC12065127"
+  },
+  {
+   "pmcid": "PMC12123560",
+   "sha256": "85605c6e7f43d562d3658129c71ad1bd025c8a13da85963a2635ae2063ee1cc6",
+   "bytes": 154318,
+   "url": "https://europepmc.org/article/PMC/PMC12123560"
+  },
+  {
+   "pmcid": "PMC12190546",
+   "sha256": "d33dfdddc842c645a390f26189802ad1bd84c53666a1b42596d64e9b8c5cf742",
+   "bytes": 143995,
+   "url": "https://europepmc.org/article/PMC/PMC12190546"
+  },
+  {
+   "pmcid": "PMC12275339",
+   "sha256": "dc23295acc494bdaf321577c67e467c587a05e10e45718eecd3b99eec5104b61",
+   "bytes": 227714,
+   "url": "https://europepmc.org/article/PMC/PMC12275339"
+  },
+  {
+   "pmcid": "PMC12313542",
+   "sha256": "c05ba6e6de19c28392787b94aa5ab743bd2866a149ad3e526da74a8e45a9b3a5",
+   "bytes": 115206,
+   "url": "https://europepmc.org/article/PMC/PMC12313542"
+  },
+  {
+   "pmcid": "PMC12320791",
+   "sha256": "04f196d2cb1e9399cbb3f03da06e2cb41849b87e440d1b5e2116cda49007b4e7",
+   "bytes": 214860,
+   "url": "https://europepmc.org/article/PMC/PMC12320791"
+  },
+  {
+   "pmcid": "PMC12347751",
+   "sha256": "4261627efe800c4f98614bed0780fdb707242f564d5d79b373aa4c803232eb25",
+   "bytes": 108894,
+   "url": "https://europepmc.org/article/PMC/PMC12347751"
+  },
+  {
+   "pmcid": "PMC12533149",
+   "sha256": "5bd2f324c897f13f21075f039b741ba458dd2fdb63f51fc2f6da3e5012a8668b",
+   "bytes": 208530,
+   "url": "https://europepmc.org/article/PMC/PMC12533149"
+  },
+  {
+   "pmcid": "PMC12575704",
+   "sha256": "4fe9b0f246d74e8d400b952c9c29bfa301f9868e8630153adb5f6d580f487d4e",
+   "bytes": 184413,
+   "url": "https://europepmc.org/article/PMC/PMC12575704"
+  },
+  {
+   "pmcid": "PMC12585761",
+   "sha256": "aa7ed5e0251e10d5e3d742a908d528f1fbeb1ceb5fd1bc6dd6bb505210bee795",
+   "bytes": 111644,
+   "url": "https://europepmc.org/article/PMC/PMC12585761"
+  },
+  {
+   "pmcid": "PMC12702332",
+   "sha256": "4527b4254c77dbec1ab338fa834a8d8000008db7a070604ea7d9a00714cacd74",
+   "bytes": 105384,
+   "url": "https://europepmc.org/article/PMC/PMC12702332"
+  },
+  {
+   "pmcid": "PMC12841728",
+   "sha256": "7170fa5cd9734706e90ee7beae7a271fbe1cca29f19cfbe88f1ce2f5a1222225",
+   "bytes": 148039,
+   "url": "https://europepmc.org/article/PMC/PMC12841728"
+  },
+  {
+   "pmcid": "PMC12858872",
+   "sha256": "8da545e92a5c924819d911c990fbcdf1fc1067c3023396aecf1d433e30228977",
+   "bytes": 250380,
+   "url": "https://europepmc.org/article/PMC/PMC12858872"
+  },
+  {
+   "pmcid": "PMC12905582",
+   "sha256": "048bcc514113135998d640bb5a1d33416a8d332ea75ed7895885d9fa97829ef8",
+   "bytes": 145683,
+   "url": "https://europepmc.org/article/PMC/PMC12905582"
+  },
+  {
+   "pmcid": "PMC12959397",
+   "sha256": "3e5a6ee21411e6fcc108a706f91a10fcc9eee6e3f52b5f8230bddd592bb177ab",
+   "bytes": 283762,
+   "url": "https://europepmc.org/article/PMC/PMC12959397"
+  },
+  {
+   "pmcid": "PMC13182562",
+   "sha256": "3f13966d34d5a42821cd86bfd103326509590639255862b5031768ba66e8a483",
+   "bytes": 112357,
+   "url": "https://europepmc.org/article/PMC/PMC13182562"
+  },
+  {
+   "pmcid": "PMC13226731",
+   "sha256": "18b19f5d5ed32f356ee5696b2da8cd1dbcc7728d4fef57b2f0fb45dbca641277",
+   "bytes": 295679,
+   "url": "https://europepmc.org/article/PMC/PMC13226731"
+  },
+  {
+   "pmcid": "PMC13284457",
+   "sha256": "0967776d7a2c6a4d84d5e9e0adc6e0bfd1804f6ab3a47ff9a2ed2af95e92faa0",
+   "bytes": 153763,
+   "url": "https://europepmc.org/article/PMC/PMC13284457"
+  },
+  {
+   "pmcid": "PMC1584246",
+   "sha256": "db2794a0713880220d5bec153f60c7265783b357f6bf7376a8997bbfb85900ec",
+   "bytes": 117636,
+   "url": "https://europepmc.org/article/PMC/PMC1584246"
+  },
+  {
+   "pmcid": "PMC2638010",
+   "sha256": "d7e4d140e556fd6a0751901ac88695c827e5dfaf9fd32d8e7aed9cef0d6e5ee2",
+   "bytes": 129422,
+   "url": "https://europepmc.org/article/PMC/PMC2638010"
+  },
+  {
+   "pmcid": "PMC2700520",
+   "sha256": "8a8dd95e5f3a1234a48dc307d24d79ad2fd1d47fce690c7189cebfbec5498332",
+   "bytes": 131293,
+   "url": "https://europepmc.org/article/PMC/PMC2700520"
+  },
+  {
+   "pmcid": "PMC3154001",
+   "sha256": "c35b4246cbfb576e54d1745d81edff9ae06369a5c409c2e94c7979db527e8aaa",
+   "bytes": 99400,
+   "url": "https://europepmc.org/article/PMC/PMC3154001"
+  },
+  {
+   "pmcid": "PMC3509456",
+   "sha256": "9f2ad981149eb5ac89dcdf8a8ee625297855aba5565f22c561c6ae81ba06249d",
+   "bytes": 118691,
+   "url": "https://europepmc.org/article/PMC/PMC3509456"
+  },
+  {
+   "pmcid": "PMC3611596",
+   "sha256": "a963d349a2e89d2dfd0322aee82b3a71cdca696c8a3ca85a6a00b63d491964f4",
+   "bytes": 118431,
+   "url": "https://europepmc.org/article/PMC/PMC3611596"
+  },
+  {
+   "pmcid": "PMC3879916",
+   "sha256": "7a288d9acfcf3f16bec316057cf9ba882cc497b428e6d038cd5e95bf6e788281",
+   "bytes": 71195,
+   "url": "https://europepmc.org/article/PMC/PMC3879916"
+  },
+  {
+   "pmcid": "PMC3907862",
+   "sha256": "15e9f6244ccdbaeb4518794ff39a45f9972f08b38df1cc67f5434eacdaacf632",
+   "bytes": 70796,
+   "url": "https://europepmc.org/article/PMC/PMC3907862"
+  },
+  {
+   "pmcid": "PMC3978574",
+   "sha256": "c634bf3eb4dd1593c4ce21c76c457604ae7095c5279b2ae63204154a8adb4289",
+   "bytes": 116170,
+   "url": "https://europepmc.org/article/PMC/PMC3978574"
+  },
+  {
+   "pmcid": "PMC4042480",
+   "sha256": "de742869960dc35d75cf4c37b853b1d372c946012682ec3faa8c49d757d8003d",
+   "bytes": 109819,
+   "url": "https://europepmc.org/article/PMC/PMC4042480"
+  },
+  {
+   "pmcid": "PMC4161385",
+   "sha256": "47a7ee1d3e0713a8aae40d7282b48c972749f0412bffcb5598d7c7d0cf149ad6",
+   "bytes": 165988,
+   "url": "https://europepmc.org/article/PMC/PMC4161385"
+  },
+  {
+   "pmcid": "PMC4225469",
+   "sha256": "b85e87ba000a8dfe69685f40d7f7a4bc30c76f6d2e0d5eab5879b07beaa30c86",
+   "bytes": 118648,
+   "url": "https://europepmc.org/article/PMC/PMC4225469"
+  },
+  {
+   "pmcid": "PMC4333081",
+   "sha256": "a38f60ce28255af7d21ae7e903875ee565ecb070350f7ca0f2559925afde7f8b",
+   "bytes": 155408,
+   "url": "https://europepmc.org/article/PMC/PMC4333081"
+  },
+  {
+   "pmcid": "PMC4462245",
+   "sha256": "e00524c7147a4bf392ffcc773e29b190102ce7e6fc4cf3a8630f2b6b6ce38a93",
+   "bytes": 108830,
+   "url": "https://europepmc.org/article/PMC/PMC4462245"
+  },
+  {
+   "pmcid": "PMC4516504",
+   "sha256": "6cc69a44fe9977a7c8bf7bb7f9d863479399158bf7b5765e93fb991adb9b8492",
+   "bytes": 174828,
+   "url": "https://europepmc.org/article/PMC/PMC4516504"
+  },
+  {
+   "pmcid": "PMC4523177",
+   "sha256": "a5112ba16fb234b3cab830d99400a52937ddc8ab43ecac5fbfabe50fa3d2b883",
+   "bytes": 149599,
+   "url": "https://europepmc.org/article/PMC/PMC4523177"
+  },
+  {
+   "pmcid": "PMC4605238",
+   "sha256": "4222e41207279cbdf80c172bfe85c67a7af6f23d11e9a7b93a600197ed898488",
+   "bytes": 71871,
+   "url": "https://europepmc.org/article/PMC/PMC4605238"
+  },
+  {
+   "pmcid": "PMC4677323",
+   "sha256": "b034aac34423ce3a3bd953489d1db13be369141e6ace8dbea363943874cbbd91",
+   "bytes": 111048,
+   "url": "https://europepmc.org/article/PMC/PMC4677323"
+  },
+  {
+   "pmcid": "PMC4769095",
+   "sha256": "ba90a38daf03232d03f936e097b705a0bff23105536d83137786b18119a37bad",
+   "bytes": 113592,
+   "url": "https://europepmc.org/article/PMC/PMC4769095"
+  },
+  {
+   "pmcid": "PMC4802171",
+   "sha256": "9ff42d36508cefe6259065f607aa75b0530b80fb665158efc58ae5105be4f8b5",
+   "bytes": 160084,
+   "url": "https://europepmc.org/article/PMC/PMC4802171"
+  },
+  {
+   "pmcid": "PMC4804234",
+   "sha256": "bff7d75ba623459ec71fc3de9260ab48a84f561ce26c245bb4ae19d1ed3ccb42",
+   "bytes": 131520,
+   "url": "https://europepmc.org/article/PMC/PMC4804234"
+  },
+  {
+   "pmcid": "PMC4855537",
+   "sha256": "f79c3a11b4d6a264fc78a2e69ccf220a551f0586636e0857aa0a5ec044e68daa",
+   "bytes": 157102,
+   "url": "https://europepmc.org/article/PMC/PMC4855537"
+  },
+  {
+   "pmcid": "PMC4909859",
+   "sha256": "dbe08c0ea34b841ff4fd4a85a8a6953692157f768e1c08065f2c66fb61135127",
+   "bytes": 139276,
+   "url": "https://europepmc.org/article/PMC/PMC4909859"
+  },
+  {
+   "pmcid": "PMC5279942",
+   "sha256": "0f015d5e979cf92c99d3f1f0771512a70b36a490b05456a24478411baa478bf9",
+   "bytes": 243908,
+   "url": "https://europepmc.org/article/PMC/PMC5279942"
+  },
+  {
+   "pmcid": "PMC5333381",
+   "sha256": "6b8aeb91418446371f03a715f1b667440e0ac275ccce71fe476b59b3895d3632",
+   "bytes": 93608,
+   "url": "https://europepmc.org/article/PMC/PMC5333381"
+  },
+  {
+   "pmcid": "PMC5584733",
+   "sha256": "5110b121dee1676c205e84d07b9c5e4b529d301fe59399c04704b88f8cf26764",
+   "bytes": 299767,
+   "url": "https://europepmc.org/article/PMC/PMC5584733"
+  },
+  {
+   "pmcid": "PMC5903644",
+   "sha256": "85feeb57a9fcba3bfe975ab244d3beb521e11e9f2b4183244565f4a5b2599bcb",
+   "bytes": 97540,
+   "url": "https://europepmc.org/article/PMC/PMC5903644"
+  },
+  {
+   "pmcid": "PMC6009972",
+   "sha256": "5570436186b7bffd5c0938b5c09ecc2ec8aaf958ce40b3f59e044efa25605224",
+   "bytes": 222095,
+   "url": "https://europepmc.org/article/PMC/PMC6009972"
+  },
+  {
+   "pmcid": "PMC6056413",
+   "sha256": "9b1f1f727d655654945bb038ae68945c67e6b6ac64cfe418a379fde7dae60e60",
+   "bytes": 85236,
+   "url": "https://europepmc.org/article/PMC/PMC6056413"
+  },
+  {
+   "pmcid": "PMC6296470",
+   "sha256": "fd609c281a05a1c106e58e8f765967e050c7106ffdcb6cd0eb590f3875e7cf5d",
+   "bytes": 299562,
+   "url": "https://europepmc.org/article/PMC/PMC6296470"
+  },
+  {
+   "pmcid": "PMC6345564",
+   "sha256": "81440eb8c0dbddb6bf1411d87313f6ab1b5aef4560cf2cab792491cf690e1225",
+   "bytes": 260250,
+   "url": "https://europepmc.org/article/PMC/PMC6345564"
+  },
+  {
+   "pmcid": "PMC6349341",
+   "sha256": "e1d65db2ee1aca46e9785d3750a9c1c539b94996e039d84bdfadfce8533dbee0",
+   "bytes": 164681,
+   "url": "https://europepmc.org/article/PMC/PMC6349341"
+  },
+  {
+   "pmcid": "PMC6362014",
+   "sha256": "dd3bfb4c7b25d8f7173a04c6df9098aa49ed44d7eda06d2843be8805a2fa26bc",
+   "bytes": 155699,
+   "url": "https://europepmc.org/article/PMC/PMC6362014"
+  },
+  {
+   "pmcid": "PMC6383868",
+   "sha256": "1e36be9b02384415eceed6875d20c4b0616134309f905b4e169c3e52e86cc3c4",
+   "bytes": 282887,
+   "url": "https://europepmc.org/article/PMC/PMC6383868"
+  },
+  {
+   "pmcid": "PMC6396101",
+   "sha256": "f9ee6c1714606223bdea30d9b7a033ac80a06e292356d7b2226a216898fe16a0",
+   "bytes": 107532,
+   "url": "https://europepmc.org/article/PMC/PMC6396101"
+  },
+  {
+   "pmcid": "PMC6416271",
+   "sha256": "2a6e9267304d2c9f26f1c73f15fdf47c3819736e19039a09a585531e3a918bec",
+   "bytes": 154225,
+   "url": "https://europepmc.org/article/PMC/PMC6416271"
+  },
+  {
+   "pmcid": "PMC6441020",
+   "sha256": "031d8bdcd0b23e5093b34458decac57ad421eb33c4872d1aa7ac1968c4eca719",
+   "bytes": 127683,
+   "url": "https://europepmc.org/article/PMC/PMC6441020"
+  },
+  {
+   "pmcid": "PMC6554687",
+   "sha256": "b130d8a56259c5128409aecf2a2ef91476dae42974109efd0064fb3569361a34",
+   "bytes": 90355,
+   "url": "https://europepmc.org/article/PMC/PMC6554687"
+  },
+  {
+   "pmcid": "PMC6628028",
+   "sha256": "4911006f9a2f3b8a0f7d8cdb4dcc52254da1ebcc541c6896017c21767ce38a4a",
+   "bytes": 109086,
+   "url": "https://europepmc.org/article/PMC/PMC6628028"
+  },
+  {
+   "pmcid": "PMC6637207",
+   "sha256": "dac8d987ea53659448c75c6d085b0c0dded84cc5a8e9570c3e6e89ae04c6eebb",
+   "bytes": 122115,
+   "url": "https://europepmc.org/article/PMC/PMC6637207"
+  },
+  {
+   "pmcid": "PMC6685704",
+   "sha256": "e0991a223d6fe8e927fd314369424179a6fd5d225efaf05ef818441dee258796",
+   "bytes": 221962,
+   "url": "https://europepmc.org/article/PMC/PMC6685704"
+  },
+  {
+   "pmcid": "PMC7014472",
+   "sha256": "4f9b304d94283f3d5eb3632d771f6a7c11777a58fd9e7c024305e605be461de0",
+   "bytes": 113937,
+   "url": "https://europepmc.org/article/PMC/PMC7014472"
+  },
+  {
+   "pmcid": "PMC7567845",
+   "sha256": "d3b5536139e5bd16502b58c4a99ed66811bdf0fbb0a578123e565a26a5e9ed8e",
+   "bytes": 137386,
+   "url": "https://europepmc.org/article/PMC/PMC7567845"
+  },
+  {
+   "pmcid": "PMC7791185",
+   "sha256": "10da4fea017bb4396a024bddef9385d56f165e63030d76a5ba5e5ce42210457c",
+   "bytes": 123108,
+   "url": "https://europepmc.org/article/PMC/PMC7791185"
+  },
+  {
+   "pmcid": "PMC7796437",
+   "sha256": "78e7b6e6cb92d9bb6a6778b1198b0a9f17d910aa929d45f8fc8dacd078ad7a2d",
+   "bytes": 345861,
+   "url": "https://europepmc.org/article/PMC/PMC7796437"
+  },
+  {
+   "pmcid": "PMC7925793",
+   "sha256": "fc2086feb4569307967d082c26bcb166fd3620b559cc37f3f792c60018d198b3",
+   "bytes": 168528,
+   "url": "https://europepmc.org/article/PMC/PMC7925793"
+  },
+  {
+   "pmcid": "PMC7960671",
+   "sha256": "5c3fe2616d58b50931513e5d944a0c03c5bd758bf4ed24158960fa72d7979b93",
+   "bytes": 140267,
+   "url": "https://europepmc.org/article/PMC/PMC7960671"
+  },
+  {
+   "pmcid": "PMC7986016",
+   "sha256": "65972adae3bdc46756ae3c8bfc87d46cff59b556515cee766086d1ae9638304c",
+   "bytes": 120099,
+   "url": "https://europepmc.org/article/PMC/PMC7986016"
+  },
+  {
+   "pmcid": "PMC8085225",
+   "sha256": "2488d2eb234f9879cc50de68e33f0b5531dae6f34342ea7f3ccf7fe0fbba428b",
+   "bytes": 138471,
+   "url": "https://europepmc.org/article/PMC/PMC8085225"
+  },
+  {
+   "pmcid": "PMC8104237",
+   "sha256": "605fe6cf2e870c244724b978ee698adc942f9599483ebe604214f6ce064c8898",
+   "bytes": 110569,
+   "url": "https://europepmc.org/article/PMC/PMC8104237"
+  },
+  {
+   "pmcid": "PMC8140822",
+   "sha256": "584c1020c59d2cd952203fa581d9dd9545d9d193292cc353082121b0ca2407f3",
+   "bytes": 92346,
+   "url": "https://europepmc.org/article/PMC/PMC8140822"
+  },
+  {
+   "pmcid": "PMC8478414",
+   "sha256": "447b6687dc15d73c1bb076d84f4b47e7f755e0f478bdc8d79155a058e75b9a72",
+   "bytes": 306463,
+   "url": "https://europepmc.org/article/PMC/PMC8478414"
+  },
+  {
+   "pmcid": "PMC8519677",
+   "sha256": "08c48a0a0ea17d4ef0b1e34a065b110cce8e8d89af62ca7cf8eafabc04f8e982",
+   "bytes": 99531,
+   "url": "https://europepmc.org/article/PMC/PMC8519677"
+  },
+  {
+   "pmcid": "PMC8526690",
+   "sha256": "6b27c02473a2416e4779c5495d2ac148a69e104df3dfd334c568fe2829923837",
+   "bytes": 265469,
+   "url": "https://europepmc.org/article/PMC/PMC8526690"
+  },
+  {
+   "pmcid": "PMC8564058",
+   "sha256": "b3a93e738cf378aac93f0613a953fc269284996505d1765a0a5d7bd334ec5fd8",
+   "bytes": 210057,
+   "url": "https://europepmc.org/article/PMC/PMC8564058"
+  },
+  {
+   "pmcid": "PMC8724769",
+   "sha256": "35adb09f6d382fbb47c64a839ce66dd80c7c84e764b00c59eca5b24de95b213f",
+   "bytes": 231054,
+   "url": "https://europepmc.org/article/PMC/PMC8724769"
+  },
+  {
+   "pmcid": "PMC9114637",
+   "sha256": "5008cdb0c29ed296bafec1efb2a42e04c0ffea7e37c81a280ddf4711754040d1",
+   "bytes": 216522,
+   "url": "https://europepmc.org/article/PMC/PMC9114637"
+  },
+  {
+   "pmcid": "PMC9259205",
+   "sha256": "a770193a3372781c56364dcebf362f60dbcf16a42769b94d1b12688bfef75c14",
+   "bytes": 76712,
+   "url": "https://europepmc.org/article/PMC/PMC9259205"
+  },
+  {
+   "pmcid": "PMC9321928",
+   "sha256": "2de4c067894cae07175dd502118f92f60475f291c6b36bd6b73ff6740525e1ef",
+   "bytes": 117330,
+   "url": "https://europepmc.org/article/PMC/PMC9321928"
+  },
+  {
+   "pmcid": "PMC9338847",
+   "sha256": "b9d645c7c8b11f55d0256646de91902b1c31d5e820b172a66a5cd7234f3ef2fa",
+   "bytes": 87411,
+   "url": "https://europepmc.org/article/PMC/PMC9338847"
+  },
+  {
+   "pmcid": "PMC9402923",
+   "sha256": "ad94e71e97838637ff5cb7c52163efb8f4293f1b380c7e7a8b62b0671a98fd9c",
+   "bytes": 124860,
+   "url": "https://europepmc.org/article/PMC/PMC9402923"
+  },
+  {
+   "pmcid": "PMC9470311",
+   "sha256": "36164d47de53445bdfc7933f44c529ef0a2cec50440f62d5f6987cfd911147fe",
+   "bytes": 293255,
+   "url": "https://europepmc.org/article/PMC/PMC9470311"
+  },
+  {
+   "pmcid": "PMC9621586",
+   "sha256": "03e1620069ba1824ed4c3682a69a4286e79a7555a12a2c4ecad30737855e5873",
+   "bytes": 129453,
+   "url": "https://europepmc.org/article/PMC/PMC9621586"
+  },
+  {
+   "pmcid": "PMC9626489",
+   "sha256": "4830ab9464cd54aa2da6661c62bb0d93187a09124efa212907ad6a5c0385e6b5",
+   "bytes": 197604,
+   "url": "https://europepmc.org/article/PMC/PMC9626489"
+  },
+  {
+   "pmcid": "PMC9637484",
+   "sha256": "c4f569a7afc9c43ad7179e35c0ce73375423d09e301aa99c150e2f4d048255a0",
+   "bytes": 124898,
+   "url": "https://europepmc.org/article/PMC/PMC9637484"
+  },
+  {
+   "pmcid": "PMC9832042",
+   "sha256": "94adee4bbab7b60f52db060d7cc00cc824efe0db2d3aa79c744da00a26a6d98e",
+   "bytes": 192334,
+   "url": "https://europepmc.org/article/PMC/PMC9832042"
+  },
+  {
+   "pmcid": "PMC9851748",
+   "sha256": "f39b00da176331bd0c44361188c9545a633bb01159074e1c305b53dfd20057f9",
+   "bytes": 173134,
+   "url": "https://europepmc.org/article/PMC/PMC9851748"
+  },
+  {
+   "pmcid": "PMC9916999",
+   "sha256": "4488383061f8de638acc94275ea5c0973d216ac0ac021a288a68542b872fd184",
+   "bytes": 186267,
+   "url": "https://europepmc.org/article/PMC/PMC9916999"
+  },
+  {
+   "pmcid": "PMC9984452",
+   "sha256": "80b1863981e422abd0688e4781e8f60723690882b8a48195d627d1515ab01842",
+   "bytes": 266190,
+   "url": "https://europepmc.org/article/PMC/PMC9984452"
+  }
+ ]
+}

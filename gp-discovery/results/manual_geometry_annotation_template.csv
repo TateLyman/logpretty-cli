@@ -1,0 +1,2 @@
+explant_id,animal_id,litter_id,panel_id,concentration,annotator_id,annotation_round,column_id,cell_index_from_hypertrophic_front,axial_height_um,transverse_width_a_um,transverse_width_b_um,long_axis_deviation_deg,cell_is_terminal,segmentation_confidence_1_to_5,excluded,exclusion_reason,blinded_to_treatment
+,,,,,,,,,,,,,,,,,TRUE
