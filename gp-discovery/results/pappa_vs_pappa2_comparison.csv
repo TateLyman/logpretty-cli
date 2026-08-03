@@ -1,0 +1,7 @@
+comparison_axis,PAPPA_query,PAPPA_records,PAPPA2_query,PAPPA2_records,ratio_PAPPA_to_PAPPA2,reading
+preferred IGFBP substrate,"(PAPPA OR ""PAPP-A"") AND ""IGFBP-4"" AND substrate",197,"(""PAPP-A2"" OR PAPPA2) AND (""IGFBP-3"" OR ""IGFBP-5"") AND substrate",91,2.16,both enzymes have a literature on this axis
+human loss-of-function phenotype,"(PAPPA OR ""PAPP-A"") AND (mutation OR variant) AND (stature OR height OR growth)",3680,"(""PAPP-A2"" OR PAPPA2) AND (mutation OR deficiency) AND (""short stature"" OR growth)",469,7.85,both enzymes have a literature on this axis
+inhibition by stanniocalcin,"(PAPPA OR ""PAPP-A"") AND (STC1 OR STC2 OR stanniocalcin) AND inhibit*",232,"(""PAPP-A2"" OR PAPPA2) AND (STC1 OR STC2 OR stanniocalcin) AND inhibit*",89,2.61,both enzymes have a literature on this axis
+cell-surface / proteoglycan tethering,"(PAPPA OR ""PAPP-A"") AND (""cell surface"" OR proteoglycan OR heparin OR tether*)",3743,"(""PAPP-A2"" OR PAPPA2) AND (""cell surface"" OR proteoglycan OR heparin OR tether*)",347,10.79,both enzymes have a literature on this axis
+skeletal / growth-plate expression,"(PAPPA OR ""PAPP-A"") AND (""growth plate"" OR chondrocyte OR bone)",3879,"(""PAPP-A2"" OR PAPPA2) AND (""growth plate"" OR chondrocyte OR bone)",384,10.1,both enzymes have a literature on this axis
+oncology interest (inhibitor development),"(PAPPA OR ""PAPP-A"") AND (cancer OR tumour OR tumor) AND inhibitor",5260,"(""PAPP-A2"" OR PAPPA2) AND (cancer OR tumour OR tumor) AND inhibitor",337,15.61,both enzymes have a literature on this axis
