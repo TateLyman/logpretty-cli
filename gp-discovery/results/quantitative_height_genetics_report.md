@@ -21,9 +21,9 @@ Every row in the atlas therefore carries `gene_assignment_basis`, and only varia
 | distinct variants | 9,818 |
 | variants with a coding functional class | 384 |
 | of those, carried forward to VEP + association lookup | 376 |
-| height-trait associations found on them | 248 |
+| height-trait associations found on them | 249 |
 | **height-INCREASING** associations | **121** |
-| with a causal-grade gene assignment | 171 |
+| with a causal-grade gene assignment | 172 |
 | **both height-increasing and causal-grade** | **89** |
 
 The seed is curated and confers nothing. Membership does not make a gene a candidate; every gene is tested against the catalogue and against VEP, and the columns record which tests it passed.
@@ -32,69 +32,69 @@ The seed is curated and confers nothing. Membership does not make a gene a candi
 
 | variant | gene | class | allele | frequency | effect | direction | p | consequence | protein change |
 |---|---|---|---|---|---:|---|---:|---|---|
-| `rs72755233` | **ADAMTS17** | extracellular protease | rs72755233-G | — (not reported) | 0.238 (unit not stated by depositor) | increase | 1e-323 | missense_variant | p.Thr446Ile |
-| `rs72755233` | **ADAMTS17** | extracellular protease | rs72755233-G | — (not reported) | 0.213 (unit not stated by depositor) | increase | 1e-323 | missense_variant | p.Thr446Ile |
-| `rs72755233` | **ADAMTS17** | extracellular protease | rs72755233-G | — (not reported) | 0.227 (unit not stated by depositor) | increase | 1e-323 | missense_variant | p.Thr446Ile |
-| `rs72755233` | **ADAMTS17** | extracellular protease | rs72755233-G | — (not reported) | 0.192 (unit not stated by depositor) | increase | 1e-323 | missense_variant | p.Thr446Ile |
-| `rs62621197` | **ADAMTS10** | extracellular protease | rs62621197-C | — (not reported) | 0.335 (unit not stated by depositor) | increase | 1e-323 | missense_variant | p.Arg62Leu |
-| `rs62621197` | **ADAMTS10** | extracellular protease | rs62621197-C | — (not reported) | 0.302 (unit not stated by depositor) | increase | 3e-228 | missense_variant | p.Arg62Leu |
-| `rs62621197` | **ADAMTS10** | extracellular protease | rs62621197-C | — (not reported) | 0.106 (unit not stated by depositor) | increase | 9e-201 | missense_variant | p.Arg62Leu |
-| `rs28559926` | **ACAN** | binding protein / matrix | rs28559926-G | — (not reported) | 0.258 (unit not stated by depositor) | increase | 2e-200 | missense_variant | p.Glu1409Asp |
-| `rs72755233` | **ADAMTS17** | extracellular protease | rs72755233-G | — (not reported) | 0.0591 (unit not stated by depositor) | increase | 4e-189 | missense_variant | p.Thr446Ile |
-| `rs10761129` | **ROR2** | cell-surface receptor | rs10761129-C | — (not reported) | 0.0189 (unit not stated by depositor) | increase | 3e-169 | missense_variant | p.Val819Ile |
-| `rs1042630` | **ACAN** | binding protein / matrix | rs1042630-A | — (not reported) | 0.0171 (unit not stated by depositor) | increase | 2e-138 | missense_variant | p.Ile2079Leu |
-| `rs72755233` | **ADAMTS17** | extracellular protease | rs72755233-G | — (not reported) | 0.18 (unit not stated by depositor) | increase | 7e-132 | missense_variant | p.Thr446Ile |
+| `rs62621197` | **ADAMTS10** | extracellular protease | rs62621197-C | 0.9656 (common (>=5%)) | 0.335 (unit not stated by depositor) | increase | 1e-323 | missense_variant | p.Arg62Leu |
+| `rs72755233` | **ADAMTS17** | extracellular protease | rs72755233-G | 0.892 (common (>=5%)) | 0.238 (unit not stated by depositor) | increase | 1e-323 | missense_variant | p.Thr446Ile |
+| `rs72755233` | **ADAMTS17** | extracellular protease | rs72755233-G | 0.892 (common (>=5%)) | 0.213 (unit not stated by depositor) | increase | 1e-323 | missense_variant | p.Thr446Ile |
+| `rs72755233` | **ADAMTS17** | extracellular protease | rs72755233-G | 0.892 (common (>=5%)) | 0.227 (unit not stated by depositor) | increase | 1e-323 | missense_variant | p.Thr446Ile |
+| `rs72755233` | **ADAMTS17** | extracellular protease | rs72755233-G | 0.8918 (common (>=5%)) | 0.192 (unit not stated by depositor) | increase | 1e-323 | missense_variant | p.Thr446Ile |
+| `rs62621197` | **ADAMTS10** | extracellular protease | rs62621197-C | 0.9656 (common (>=5%)) | 0.302 (unit not stated by depositor) | increase | 3e-228 | missense_variant | p.Arg62Leu |
+| `rs62621197` | **ADAMTS10** | extracellular protease | rs62621197-C | 0.9636 (common (>=5%)) | 0.106 (unit not stated by depositor) | increase | 9e-201 | missense_variant | p.Arg62Leu |
+| `rs28559926` | **ACAN** | binding protein / matrix | rs28559926-G | 0.9584 (common (>=5%)) | 0.258 (unit not stated by depositor) | increase | 2e-200 | missense_variant | p.Glu1409Asp |
+| `rs72755233` | **ADAMTS17** | extracellular protease | rs72755233-G | 0.8872 (common (>=5%)) | 0.0591 (unit not stated by depositor) | increase | 4e-189 | missense_variant | p.Thr446Ile |
+| `rs10761129` | **ROR2** | cell-surface receptor | rs10761129-C | 0.3012 (common (>=5%)) | 0.0189 (unit not stated by depositor) | increase | 3e-169 | missense_variant | p.Val819Ile |
+| `rs1042630` | **ACAN** | binding protein / matrix | rs1042630-A | 0.285 (common (>=5%)) | 0.0171 (unit not stated by depositor) | increase | 2e-138 | missense_variant | p.Ile2079Leu |
+| `rs72755233` | **ADAMTS17** | extracellular protease | rs72755233-G | 0.9153 (common (>=5%)) | 0.18 (unit not stated by depositor) | increase | 7e-132 | missense_variant | p.Thr446Ile |
 | `rs111588693` | **BMP6** | ligand / local hormone | rs111588693-? | — (not reported) | 0.0426 (unit not stated by depositor) | increase | 1e-129 | missense_variant | p.Arg28Gln |
-| `rs72755233` | **ADAMTS17** | extracellular protease | rs72755233-G | — (not reported) | 0.175 (unit not stated by depositor) | increase | 2e-128 | missense_variant | p.Thr446Ile |
-| `rs72755233` | **ADAMTS17** | extracellular protease | rs72755233-G | — (not reported) | 0.165 (unit not stated by depositor) | increase | 6e-122 | missense_variant | p.Thr446Ile |
-| `rs62621197` | **ADAMTS10** | extracellular protease | rs62621197-C | — (not reported) | 0.27 (unit not stated by depositor) | increase | 2e-105 | missense_variant | p.Arg62Leu |
-| `rs28559926` | **ACAN** | binding protein / matrix | rs28559926-G | — (not reported) | 0.111 (unit not stated by depositor) | increase | 4e-105 | missense_variant | p.Glu1409Asp |
-| `rs28559926` | **ACAN** | binding protein / matrix | rs28559926-G | — (not reported) | 0.107 (unit not stated by depositor) | increase | 5e-104 | missense_variant | p.Glu1409Asp |
-| `rs62621197` | **ADAMTS10** | extracellular protease | rs62621197-C | — (not reported) | 0.264 (unit not stated by depositor) | increase | 7e-104 | missense_variant | p.Arg62Leu |
-| `rs28559926` | **ACAN** | binding protein / matrix | rs28559926-G | — (not reported) | 0.11 (unit not stated by depositor) | increase | 2e-103 | missense_variant | p.Glu1409Asp |
-| `rs62621197` | **ADAMTS10** | extracellular protease | rs62621197-C | — (not reported) | 0.246 (unit not stated by depositor) | increase | 3e-95 | missense_variant | p.Arg62Leu |
-| `rs72755233` | **ADAMTS17** | extracellular protease | rs72755233-G | — (not reported) | 0.159 (unit not stated by depositor) | increase | 6e-91 | missense_variant | p.Thr446Ile |
-| `rs28559926` | **ACAN** | binding protein / matrix | rs28559926-G | — (not reported) | 0.0838 (unit not stated by depositor) | increase | 5e-78 | missense_variant | p.Glu1409Asp |
-| `rs28559926` | **ACAN** | binding protein / matrix | rs28559926-G | — (not reported) | 0.0856 (unit not stated by depositor) | increase | 2e-77 | missense_variant | p.Glu1409Asp |
-| `rs3817428` | **ACAN** | binding protein / matrix | rs3817428-C | — (not reported) | 0.0264 (unit not stated by depositor) | increase | 1e-74 | missense_variant | p.Asp2335Glu |
-| `rs28559926` | **ACAN** | binding protein / matrix | rs28559926-G | — (not reported) | 0.0844 (unit not stated by depositor) | increase | 2e-74 | missense_variant | p.Glu1409Asp |
-| `rs62621197` | **ADAMTS10** | extracellular protease | rs62621197-C | — (not reported) | 0.24 (unit not stated by depositor) | increase | 2e-70 | missense_variant | p.Arg62Leu |
-| `rs4369638` | **ADAMTS17** | extracellular protease | rs4369638-C | — (not reported) | 0.0243 (unit not stated by depositor) | increase | 8e-67 | missense_variant | p.Lys351Asn |
-| `rs28559926` | **ACAN** | binding protein / matrix | rs28559926-G | — (not reported) | 0.113 (unit not stated by depositor) | increase | 3e-66 | missense_variant | p.Glu1409Asp |
-| `rs62621400` | **CHSY1** | binding protein / matrix | rs62621400-C | — (not reported) | 0.0472 (unit not stated by depositor) | increase | 5e-65 | missense_variant | p.Arg588Thr |
+| `rs72755233` | **ADAMTS17** | extracellular protease | rs72755233-G | 0.9153 (common (>=5%)) | 0.175 (unit not stated by depositor) | increase | 2e-128 | missense_variant | p.Thr446Ile |
+| `rs72755233` | **ADAMTS17** | extracellular protease | rs72755233-G | 0.9153 (common (>=5%)) | 0.165 (unit not stated by depositor) | increase | 6e-122 | missense_variant | p.Thr446Ile |
+| `rs62621197` | **ADAMTS10** | extracellular protease | rs62621197-C | 0.9716 (common (>=5%)) | 0.27 (unit not stated by depositor) | increase | 2e-105 | missense_variant | p.Arg62Leu |
+| `rs28559926` | **ACAN** | binding protein / matrix | rs28559926-G | 0.9091 (common (>=5%)) | 0.111 (unit not stated by depositor) | increase | 4e-105 | missense_variant | p.Glu1409Asp |
+| `rs28559926` | **ACAN** | binding protein / matrix | rs28559926-G | 0.9091 (common (>=5%)) | 0.107 (unit not stated by depositor) | increase | 5e-104 | missense_variant | p.Glu1409Asp |
+| `rs62621197` | **ADAMTS10** | extracellular protease | rs62621197-C | 0.9716 (common (>=5%)) | 0.264 (unit not stated by depositor) | increase | 7e-104 | missense_variant | p.Arg62Leu |
+| `rs28559926` | **ACAN** | binding protein / matrix | rs28559926-G | 0.9091 (common (>=5%)) | 0.11 (unit not stated by depositor) | increase | 2e-103 | missense_variant | p.Glu1409Asp |
+| `rs62621197` | **ADAMTS10** | extracellular protease | rs62621197-C | 0.9716 (common (>=5%)) | 0.246 (unit not stated by depositor) | increase | 3e-95 | missense_variant | p.Arg62Leu |
+| `rs72755233` | **ADAMTS17** | extracellular protease | rs72755233-G | 0.9088 (common (>=5%)) | 0.159 (unit not stated by depositor) | increase | 6e-91 | missense_variant | p.Thr446Ile |
+| `rs28559926` | **ACAN** | binding protein / matrix | rs28559926-G | 0.7138 (common (>=5%)) | 0.0838 (unit not stated by depositor) | increase | 5e-78 | missense_variant | p.Glu1409Asp |
+| `rs28559926` | **ACAN** | binding protein / matrix | rs28559926-G | 0.7138 (common (>=5%)) | 0.0856 (unit not stated by depositor) | increase | 2e-77 | missense_variant | p.Glu1409Asp |
+| `rs3817428` | **ACAN** | binding protein / matrix | rs3817428-C | 0.7329 (common (>=5%)) | 0.0264 (unit not stated by depositor) | increase | 1e-74 | missense_variant | p.Asp2335Glu |
+| `rs28559926` | **ACAN** | binding protein / matrix | rs28559926-G | 0.7138 (common (>=5%)) | 0.0844 (unit not stated by depositor) | increase | 2e-74 | missense_variant | p.Glu1409Asp |
+| `rs62621197` | **ADAMTS10** | extracellular protease | rs62621197-C | 0.9699 (common (>=5%)) | 0.24 (unit not stated by depositor) | increase | 2e-70 | missense_variant | p.Arg62Leu |
+| `rs4369638` | **ADAMTS17** | extracellular protease | rs4369638-C | 0.2965 (common (>=5%)) | 0.0243 (unit not stated by depositor) | increase | 8e-67 | missense_variant | p.Lys351Asn |
+| `rs28559926` | **ACAN** | binding protein / matrix | rs28559926-G | 0.9232 (common (>=5%)) | 0.113 (unit not stated by depositor) | increase | 3e-66 | missense_variant | p.Glu1409Asp |
+| `rs62621400` | **CHSY1** | binding protein / matrix | rs62621400-C | 0.9435 (common (>=5%)) | 0.0472 (unit not stated by depositor) | increase | 5e-65 | missense_variant | p.Arg588Thr |
 
 ## All catalogued height associations on coding-class variants
 
 | variant | seed gene | assignment basis | direction | effect | frequency | trait |
 |---|---|---|---|---:|---|---|
-| `rs72755233` | ADAMTS17 | **causal-grade** | increase | 0.238 (unit not stated by depositor) | not reported | body height |
-| `rs72755233` | ADAMTS17 | **causal-grade** | increase | 0.213 (unit not stated by depositor) | not reported | body height |
-| `rs72755233` | ADAMTS17 | **causal-grade** | increase | 0.227 (unit not stated by depositor) | not reported | body height |
-| `rs72755233` | ADAMTS17 | **causal-grade** | increase | 0.192 (unit not stated by depositor) | not reported | body height |
-| `rs62621197` | ADAMTS10 | **causal-grade** | increase | 0.335 (unit not stated by depositor) | not reported | body height |
-| `rs62621197` | ADAMTS10 | **causal-grade** | increase | 0.302 (unit not stated by depositor) | not reported | body height |
-| `rs62621197` | ADAMTS10 | **causal-grade** | increase | 0.106 (unit not stated by depositor) | not reported | body height |
-| `rs28559926` | ACAN | **causal-grade** | increase | 0.258 (unit not stated by depositor) | not reported | body height |
-| `rs72755233` | ADAMTS17 | **causal-grade** | increase | 0.0591 (unit not stated by depositor) | not reported | body height |
-| `rs10761129` | ROR2 | **causal-grade** | increase | 0.0189 (unit not stated by depositor) | not reported | body height |
-| `rs1042630` | ACAN | **causal-grade** | increase | 0.0171 (unit not stated by depositor) | not reported | body height |
-| `rs72755233` | ADAMTS17 | **causal-grade** | increase | 0.18 (unit not stated by depositor) | not reported | body height |
+| `rs62621197` | ADAMTS10 | **causal-grade** | increase | 0.335 (unit not stated by depositor) | common (>=5%) | body height |
+| `rs72755233` | ADAMTS17 | **causal-grade** | increase | 0.238 (unit not stated by depositor) | common (>=5%) | body height |
+| `rs72755233` | ADAMTS17 | **causal-grade** | increase | 0.213 (unit not stated by depositor) | common (>=5%) | body height |
+| `rs72755233` | ADAMTS17 | **causal-grade** | increase | 0.227 (unit not stated by depositor) | common (>=5%) | body height |
+| `rs72755233` | ADAMTS17 | **causal-grade** | increase | 0.192 (unit not stated by depositor) | common (>=5%) | body height |
+| `rs62621197` | ADAMTS10 | **causal-grade** | increase | 0.302 (unit not stated by depositor) | common (>=5%) | body height |
+| `rs62621197` | ADAMTS10 | **causal-grade** | increase | 0.106 (unit not stated by depositor) | common (>=5%) | body height |
+| `rs28559926` | ACAN | **causal-grade** | increase | 0.258 (unit not stated by depositor) | common (>=5%) | body height |
+| `rs72755233` | ADAMTS17 | **causal-grade** | increase | 0.0591 (unit not stated by depositor) | common (>=5%) | body height |
+| `rs10761129` | ROR2 | **causal-grade** | increase | 0.0189 (unit not stated by depositor) | common (>=5%) | body height |
+| `rs1042630` | ACAN | **causal-grade** | increase | 0.0171 (unit not stated by depositor) | common (>=5%) | body height |
+| `rs72755233` | ADAMTS17 | **causal-grade** | increase | 0.18 (unit not stated by depositor) | common (>=5%) | body height |
 | `rs111588693` | BMP6 | **causal-grade** | increase | 0.0426 (unit not stated by depositor) | not reported | body height |
-| `rs72755233` | ADAMTS17 | **causal-grade** | increase | 0.175 (unit not stated by depositor) | not reported | body height |
-| `rs72755233` | ADAMTS17 | **causal-grade** | increase | 0.165 (unit not stated by depositor) | not reported | body height |
-| `rs62621197` | ADAMTS10 | **causal-grade** | increase | 0.27 (unit not stated by depositor) | not reported | body height |
-| `rs28559926` | ACAN | **causal-grade** | increase | 0.111 (unit not stated by depositor) | not reported | body height |
-| `rs28559926` | ACAN | **causal-grade** | increase | 0.107 (unit not stated by depositor) | not reported | body height |
-| `rs62621197` | ADAMTS10 | **causal-grade** | increase | 0.264 (unit not stated by depositor) | not reported | body height |
-| `rs28559926` | ACAN | **causal-grade** | increase | 0.11 (unit not stated by depositor) | not reported | body height |
-| `rs62621197` | ADAMTS10 | **causal-grade** | increase | 0.246 (unit not stated by depositor) | not reported | body height |
-| `rs72755233` | ADAMTS17 | **causal-grade** | increase | 0.159 (unit not stated by depositor) | not reported | body height |
-| `rs28559926` | ACAN | **causal-grade** | increase | 0.0838 (unit not stated by depositor) | not reported | body height |
-| `rs28559926` | ACAN | **causal-grade** | increase | 0.0856 (unit not stated by depositor) | not reported | body height |
-| `rs3817428` | ACAN | **causal-grade** | increase | 0.0264 (unit not stated by depositor) | not reported | body height |
-| `rs28559926` | ACAN | **causal-grade** | increase | 0.0844 (unit not stated by depositor) | not reported | body height |
-| `rs62621197` | ADAMTS10 | **causal-grade** | increase | 0.24 (unit not stated by depositor) | not reported | body height |
-| `rs4369638` | ADAMTS17 | **causal-grade** | increase | 0.0243 (unit not stated by depositor) | not reported | body height |
+| `rs72755233` | ADAMTS17 | **causal-grade** | increase | 0.175 (unit not stated by depositor) | common (>=5%) | body height |
+| `rs72755233` | ADAMTS17 | **causal-grade** | increase | 0.165 (unit not stated by depositor) | common (>=5%) | body height |
+| `rs62621197` | ADAMTS10 | **causal-grade** | increase | 0.27 (unit not stated by depositor) | common (>=5%) | body height |
+| `rs28559926` | ACAN | **causal-grade** | increase | 0.111 (unit not stated by depositor) | common (>=5%) | body height |
+| `rs28559926` | ACAN | **causal-grade** | increase | 0.107 (unit not stated by depositor) | common (>=5%) | body height |
+| `rs62621197` | ADAMTS10 | **causal-grade** | increase | 0.264 (unit not stated by depositor) | common (>=5%) | body height |
+| `rs28559926` | ACAN | **causal-grade** | increase | 0.11 (unit not stated by depositor) | common (>=5%) | body height |
+| `rs62621197` | ADAMTS10 | **causal-grade** | increase | 0.246 (unit not stated by depositor) | common (>=5%) | body height |
+| `rs72755233` | ADAMTS17 | **causal-grade** | increase | 0.159 (unit not stated by depositor) | common (>=5%) | body height |
+| `rs28559926` | ACAN | **causal-grade** | increase | 0.0838 (unit not stated by depositor) | common (>=5%) | body height |
+| `rs28559926` | ACAN | **causal-grade** | increase | 0.0856 (unit not stated by depositor) | common (>=5%) | body height |
+| `rs3817428` | ACAN | **causal-grade** | increase | 0.0264 (unit not stated by depositor) | common (>=5%) | body height |
+| `rs28559926` | ACAN | **causal-grade** | increase | 0.0844 (unit not stated by depositor) | common (>=5%) | body height |
+| `rs62621197` | ADAMTS10 | **causal-grade** | increase | 0.24 (unit not stated by depositor) | common (>=5%) | body height |
+| `rs4369638` | ADAMTS17 | **causal-grade** | increase | 0.0243 (unit not stated by depositor) | common (>=5%) | body height |
 
 ## Per-gene evidence breadth
 
@@ -124,14 +124,14 @@ Literature counts per gene, used in stage 88 to weigh direction and in stage 93 
 | **SOST** | secreted inhibitor | 1,964 | 58 | 1,607 | 5,322 | 2,089 | 873 | 4,989 | 3,588 | 3,608 | 345 |
 | **PAPPA** | extracellular protease | 1,001 | 54 | 395 | 1,622 | 200 | 407 | 3,137 | 2,230 | 2,548 | 602 |
 | **IGFBP5** | secreted inhibitor | 722 | 48 | 876 | 4,173 | 284 | 335 | 4,891 | 2,650 | 5,435 | 330 |
-| **PAPPA2** | extracellular protease | 232 | 47 | 170 | 487 | 79 | 144 | 545 | 368 | 521 | 121 |
 | **IGF2R** | cell-surface receptor | 1,100 | 47 | 1,821 | 8,525 | 171 | 587 | 8,742 | 3,770 | 9,790 | 975 |
+| **PAPPA2** | extracellular protease | 232 | 47 | 170 | 487 | 79 | 144 | 545 | 368 | 521 | 121 |
 | **ZBTB38** | transcriptional / other | 161 | 46 | 137 | 358 | 27 | 42 | 551 | 173 | 253 | 72 |
 | **NPPC** | ligand / local hormone | 302 | 43 | 206 | 723 | 144 | 152 | 606 | 456 | 572 | 101 |
 | **PTH1R** | cell-surface receptor | 508 | 39 | 571 | 1,833 | 658 | 426 | 1,644 | 1,069 | 1,238 | 196 |
 | **COL11A1** | binding protein / matrix | 655 | 38 | 789 | 2,562 | 351 | 692 | 3,497 | 1,911 | 1,652 | 351 |
-| **IGFBP1** | secreted inhibitor | 686 | 33 | 603 | 2,997 | 134 | 253 | 4,015 | 2,197 | 4,743 | 307 |
 | **EFEMP1** | binding protein / matrix | 284 | 33 | 375 | 1,328 | 53 | 176 | 1,857 | 1,188 | 1,051 | 187 |
+| **IGFBP1** | secreted inhibitor | 686 | 33 | 603 | 2,997 | 134 | 253 | 4,015 | 2,197 | 4,743 | 307 |
 
 ## What this atlas does not contain, and why
 

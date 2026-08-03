@@ -134,6 +134,16 @@ python s83_mendelian_triangulation.py   # proportionate tall-stature genetics, f
 python s84_causal_triangulation.py      # 10 streams, 17 penalties, figure 60
 python s85_human_signal_panel.py        # human-signal-led ex vivo panel, figure 61
 python s86_final_human_dossier.py       # the twelve answers, figures 62-63
+
+# allelic-series-first pathway discovery (stages 87-94)
+python s87_height_variant_atlas.py           # height variants, VEP-confirmed gene assignment
+python s88_bidirectional_allelic_series.py   # human + mouse allelic series, 8 classes
+python s89_stc2_pappa_audit.py               # the STC/pappalysin axis, node by node
+python s90_structure_guided_modalities.py    # solved interfaces -> modality matrix
+python s91_genetically_anchored_pathways.py  # every pathway against the four requirements
+python s92_normal_ex_vivo_validation.py      # normal postnatal explant design
+python s93_safety_and_localization.py        # safety matrix and localisation strategy
+python s94_final_allelic_dossier.py          # the twelve answers
 ```
 
 Network calls are cached and checksummed, so re-runs are cheap and the stages are resumable.
@@ -458,3 +468,76 @@ Network calls are cached and checksummed, so re-runs are cheap and the stages ar
   from human data of this kind at all. **The human-signal-first strategy converges on the same
   place the geometry-first strategy did — an experiment in normally growing tissue — with a better
   justification and no new compound.**
+
+### allelic-series-first pathway discovery (stages 87-94)
+
+- **The instrument was the problem, not the question.** Stage 83 worked from OMIM and ClinVar and
+  found 0 of 38 stature genes reaching proportionate tall stature. Alleles that make healthy adults
+  taller cause no disease, so they appear in no disease database. Switching to quantitative human
+  genetics found them.
+- **A positional gene label is not causal evidence, and the rule earns its keep immediately.** Of
+  4,655 distinct variants near the 77 seed genes, **4.7% have a coding functional class at all**;
+  the rest are intergenic or intronic and their gene labels are statements about distance. Querying
+  the catalogue for STC2 returns intergenic variants whose nearest features are RNA pseudogenes 5 kb
+  away. Every variant is put through Ensembl VEP, and `rs35816944` — labelled **IGFALS** by the
+  catalogue — turns out to truncate **SPSB3**.
+- **A truncated query and a real negative look identical.** Stage 87's first version paged the
+  catalogue's gene search at 120 records, silently truncating **69 of 77 genes**. STC2's only
+  protein-altering variants sit past position 120, so the atlas reported STC2 as having no coding
+  variant — a clean, confident, wrong answer. The cap was removed and STC2 went from `REJECT` to
+  the top of the table.
+- **Two genes reach `CLEAN_HEIGHT_INCREASING_HYPOMORPH`: STC2 and NPR3.** STC2 `rs148833559`
+  (p.Arg44Leu), NPR3 `rs146301345` (p.Gly478Ser) and `rs142228984` (p.Arg530Trp) — all rare
+  (0.14–0.20%), all deleterious by SIFT and PolyPhen, each replicated across three independent
+  studies. No effect size is quoted in centimetres: the catalogue records the unit as the literal
+  string `"unit"` for 115 of 116 betas, and converting an unstated unit would be inventing a number.
+- **The text-mining tail nearly threw away the best result.** Open Targets returns an association
+  for anything with any evidence. An early version let a 0.08-scoring association put **NPR3** —
+  the cleanest series in the table — into `SYNDROMIC_OVERGROWTH` on the strength of another gene's
+  syndrome. Real gene-disease pairs score 0.45–0.83; the veto floor now sits at 0.40, in the empty
+  middle of a bimodal distribution.
+- **The two anchors point opposite ways, which is what makes the axis an axis.** A damaging variant
+  in the *inhibitor* (STC2 p.Arg44Leu) raises height; a damaging variant in the *protease* (PAPP-A
+  p.Glu863Ala) lowers it. That is what a dose-limiting cascade predicts and a positional association
+  would not.
+- **Counting boolean matches does not test a claim.** A count-based rule marked "STC2 variants
+  associate with human height" *supported* on a hit set topped by **cattle stature GWAS**. Reading
+  the first 25 records for whether they state the claim moves that claim, and the STC2 mouse-growth
+  claim, to *carried by the structured databases rather than by retrievable literature* — and the
+  report says which instrument carries what.
+- **Entry titles are not statements about what was solved.** A PDB full-text search for
+  "pappalysin" returns **2CKI**, which contains *ulilysin*, a bacterial enzyme — and its 1.70 Å
+  resolution became the "best resolution" of a human interface only ever solved by cryo-EM at 3 Å
+  and worse. The natriuretic search filed **NPR1** structures under NPR3. Classification moved to
+  the macromolecule names.
+- **The STC2:PAPP-A interface is solved four times (best 3.06 Å), extracellular, and chemically
+  untouched.** PAPPA, PAPPA2, STC1 and STC2 have **no single-protein ChEMBL target entry at all**.
+  NPR3 has 230 catalogued activities and **not one named compound**. The brief permits a target
+  class where no small molecule exists; that permission is used because it is what the evidence
+  supports.
+- **PAPP-A inhibitors are the wrong direction and are kept, not dropped.** 7 modality/interface
+  pairs are excluded on direction alone, with reasons. PAPP-A inhibition is a real, funded,
+  structurally supported programme — for oncology, where *reducing* IGF bioavailability is the goal.
+  Those molecules would score well on every ranking except the one that asks which way they push.
+- **Accessibility is not this field's binding constraint; corroborated direction is.** 46 of 52
+  genes are secreted or cell-surface, but **50 of 52 cannot show that human and mouse point the same
+  way**, and 47 of 52 cannot state the molecular direction at all. A pathway can be perfectly
+  druggable and still leave an intervention with no way to know which way to push.
+- **An API error was being printed as biology.** Open Targets v4 has no `expressions` field; the
+  query errored and the stage recorded "0 tissues with detectable RNA" for every gene — which in a
+  safety report reads as *not expressed anywhere*. Expression moved to GTEx, which puts STC2 above
+  1 TPM in 38 of 54 tissues and NPR3 in 31 of 54, **highest in aorta**.
+- **The safety question is the direction, not the phenotype record.** STC2's mouse record shows no
+  neoplasia term, and that silence is not reassurance: the intervention raises local free IGF, and
+  9,489 records exist on PAPP-A as an oncology target pursued by inhibition. NPR3 is the one pair
+  flagged HIGH by both instruments — mouse hypotension plus high-confidence human associations to
+  increased blood pressure and essential hypertension.
+- **Nothing localises yet, and the two requirements are in tension.** Four of five localisation
+  approaches have never been demonstrated for this axis, and the one that has does not localise at
+  all. An agent big enough to stay where it is put is too big to reach the terminal zone through
+  100 µm of avascular matrix.
+- **0 compounds, 2 target classes, and 9 of 11 ex vivo arms with no stateable concentration.** The
+  branch ends with `GENETICALLY_ANCHORED_TARGET_AWAITING_DIRECTIONAL_TEST` for STC2 and NPR3, and
+  a single blocking item: **no reagent in the plan has a measured potency**. The geometry branch had
+  compounds and no direction; this branch has a direction and no compounds. That is a reversal of
+  position, not a victory — nothing here has yet lengthened a bone.

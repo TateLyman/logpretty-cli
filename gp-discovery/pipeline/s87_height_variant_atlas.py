@@ -82,6 +82,43 @@ def snp_assoc(rsid: str) -> list[dict]:
     return (j.get("_embedded") or {}).get("associations") or []
 
 
+def study_of(assoc: dict) -> dict:
+    """Ancestry, sample size and provenance for one association.
+
+    The brief asks for ancestry and replication per variant. Neither lives on the
+    association record - both live on the study it links to, so the link is followed.
+    """
+    href = ((assoc.get("_links") or {}).get("study") or {}).get("href", "")
+    if not href:
+        return {}
+    j = A.jget(href.replace("{?projection}", ""), "s87st")
+    anc = j.get("ancestries") or []
+    groups, n_init, countries = set(), 0, set()
+    for a in anc:
+        for g in a.get("ancestralGroups") or []:
+            if g.get("ancestralGroup"):
+                groups.add(g["ancestralGroup"])
+        for c in a.get("countryOfRecruitment") or []:
+            if c.get("countryName"):
+                countries.add(c["countryName"])
+        if a.get("type") == "initial":
+            try:
+                n_init += int(a.get("numberOfIndividuals") or 0)
+            except (TypeError, ValueError):
+                pass
+    return {
+        "ancestry": "; ".join(sorted(groups)) or "not stated",
+        "countries_of_recruitment": "; ".join(sorted(countries))[:80],
+        "initial_sample_size": j.get("initialSampleSize", ""),
+        "replication_sample_size": j.get("replicationSampleSize", ""),
+        "n_individuals_initial": n_init or np.nan,
+        "study_accession": j.get("accessionId", ""),
+        "pubmed_id": (j.get("publicationInfo") or {}).get("pubmedId", ""),
+        "study_trait": j.get("diseaseTrait", {}).get("trait", "")
+                       if isinstance(j.get("diseaseTrait"), dict) else "",
+    }
+
+
 def vep(rsid: str) -> dict:
     # hgvs=1 is what makes VEP return hgvsp, i.e. the actual protein change. Without
     # it the atlas records "missense_variant" but not which residue - and the residue
@@ -168,10 +205,18 @@ def main() -> None:
                                 if g.get("geneName")})
             beta, direction = a.get("betaNum"), a.get("betaDirection")
             unit = str(a.get("betaUnit") or "")
-            try:
-                freq = float(ra.get("riskFrequency"))
-            except (TypeError, ValueError):
-                freq = np.nan
+            # riskFrequency is populated at the ASSOCIATION level; the copy inside
+            # strongestRiskAlleles is usually null. Reading only the latter reported
+            # "frequency not reported" for 111 of 116 rows when the number was one
+            # level up - and frequency is what separates a rare large-effect allele
+            # from a common small-effect one.
+            freq = np.nan
+            for src in (a.get("riskFrequency"), ra.get("riskFrequency")):
+                try:
+                    freq = float(src)
+                    break
+                except (TypeError, ValueError):
+                    continue
             # The catalogue's betaUnit is very often the literal string "unit",
             # which means the depositor did not state a unit. An earlier version of
             # this block matched "unit" into the SD branch and the report then
@@ -221,12 +266,12 @@ def main() -> None:
                 "vep_hgvsp": hgvsp or "",
                 "sift": sift, "polyphen": polyphen,
                 "author_reported_genes": "; ".join(rep_genes),
+                **study_of(a),
                 "gene_assignment_basis":
                     ("VEP protein-altering consequence in the seed gene - CAUSAL-GRADE"
                      if causal_grade else
                      "positional / mapped only - NOT causal evidence"),
                 "causal_grade_gene_assignment": causal_grade,
-                "study_accession": (a.get("study") or {}).get("accessionId", ""),
             })
     at = pd.DataFrame(rows)
     if len(at):

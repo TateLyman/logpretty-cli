@@ -1,0 +1,8 @@
+gene,chembl_targets,n_chembl_targets,n_activities,named_molecules,n_named_molecules
+IGFBP4,CHEMBL2310,1,2,,0
+NPR2,CHEMBL2156; CHEMBL1795,2,29,CARPERITIDE,1
+NPR3,CHEMBL2247; CHEMBL4711; CHEMBL5169133,3,230,,0
+PAPPA,,0,0,,0
+PAPPA2,,0,0,,0
+STC1,,0,0,,0
+STC2,,0,0,,0

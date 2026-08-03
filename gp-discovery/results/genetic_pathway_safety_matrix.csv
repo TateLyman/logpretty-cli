@@ -1,0 +1,71 @@
+gene,system,mouse_phenotype_terms,n_mouse_terms,human_high_confidence_disease,signal,concern
+STC2,cancer / neoplasia,,0,,no signal in either instrument,not flagged by these instruments
+STC2,vascular,,0,,no signal in either instrument,not flagged by these instruments
+STC2,cardiac,,0,,no signal in either instrument,not flagged by these instruments
+STC2,blood pressure / haemodynamic,,0,,no signal in either instrument,not flagged by these instruments
+STC2,organ overgrowth,,0,,no signal in either instrument,not flagged by these instruments
+STC2,muscle growth,,0,,no signal in either instrument,not flagged by these instruments
+STC2,insulin resistance / hypoglycaemia,,0,,no signal in either instrument,not flagged by these instruments
+STC2,metabolic / adiposity,,0,,no signal in either instrument,not flagged by these instruments
+STC2,renal,,0,,no signal in either instrument,not flagged by these instruments
+STC2,retinal / ocular,,0,,no signal in either instrument,not flagged by these instruments
+STC2,puberty / bone age,,0,,no signal in either instrument,not flagged by these instruments
+STC2,reproductive,small testis,1,,mouse phenotype only,MODERATE - one instrument flags it
+STC2,skeletal off-target,,0,,no signal in either instrument,not flagged by these instruments
+STC2,lethality / viability,,0,,no signal in either instrument,not flagged by these instruments
+NPR3,cancer / neoplasia,,0,,no signal in either instrument,not flagged by these instruments
+NPR3,vascular,,0,cardiovascular disorder,human disease association only,MODERATE - one instrument flags it
+NPR3,cardiac,,0,,no signal in either instrument,not flagged by these instruments
+NPR3,blood pressure / haemodynamic,hypotension,1,Increased blood pressure; essential hypertension,mouse AND human evidence,HIGH - the intervention direction increases the same activity implicated here
+NPR3,organ overgrowth,,0,,no signal in either instrument,not flagged by these instruments
+NPR3,muscle growth,,0,,no signal in either instrument,not flagged by these instruments
+NPR3,insulin resistance / hypoglycaemia,,0,,no signal in either instrument,not flagged by these instruments
+NPR3,metabolic / adiposity,abnormal abdominal fat pad morphology; abnormal adipose tissue distribution; abnormal adipose tissue morphology; abnormal interscapular fat pad morphology; decreased brown fat cell lipid droplet size; decreased epididymal fat pad weight,10,,mouse phenotype only,MODERATE - one instrument flags it
+NPR3,renal,abnormal urine nucleotide level; decreased urine osmolality,2,,mouse phenotype only,MODERATE - one instrument flags it
+NPR3,retinal / ocular,,0,,no signal in either instrument,not flagged by these instruments
+NPR3,puberty / bone age,delayed bone ossification; delayed endochondral bone ossification,2,,mouse phenotype only,MODERATE - one instrument flags it
+NPR3,reproductive,abnormal testis morphology; reduced fertility; small testis,3,,mouse phenotype only,MODERATE - one instrument flags it
+NPR3,skeletal off-target,abnormal osteoclast morphology; increased bone mineral content; increased osteoblast cell number,3,,mouse phenotype only,MODERATE - one instrument flags it
+NPR3,lethality / viability,"postnatal lethality, incomplete penetrance; premature death",2,,mouse phenotype only,MODERATE - one instrument flags it
+PAPPA,cancer / neoplasia,,0,,no signal in either instrument,not flagged by these instruments
+PAPPA,vascular,,0,,no signal in either instrument,not flagged by these instruments
+PAPPA,cardiac,,0,,no signal in either instrument,not flagged by these instruments
+PAPPA,blood pressure / haemodynamic,,0,,no signal in either instrument,not flagged by these instruments
+PAPPA,organ overgrowth,,0,,no signal in either instrument,not flagged by these instruments
+PAPPA,muscle growth,,0,,no signal in either instrument,not flagged by these instruments
+PAPPA,insulin resistance / hypoglycaemia,,0,,no signal in either instrument,not flagged by these instruments
+PAPPA,metabolic / adiposity,,0,,no signal in either instrument,not flagged by these instruments
+PAPPA,renal,,0,,no signal in either instrument,not flagged by these instruments
+PAPPA,retinal / ocular,,0,,no signal in either instrument,not flagged by these instruments
+PAPPA,puberty / bone age,delayed bone ossification,1,,mouse phenotype only,MODERATE - one instrument flags it
+PAPPA,reproductive,decreased ovary weight; reduced female fertility; small ovary,3,,mouse phenotype only,MODERATE - one instrument flags it
+PAPPA,skeletal off-target,decreased bone mineral content; decreased bone mineral density; decreased bone mineral density of femur,3,,mouse phenotype only,MODERATE - one instrument flags it
+PAPPA,lethality / viability,,0,,no signal in either instrument,not flagged by these instruments
+PAPPA2,cancer / neoplasia,,0,,no signal in either instrument,not flagged by these instruments
+PAPPA2,vascular,,0,,no signal in either instrument,not flagged by these instruments
+PAPPA2,cardiac,increased heart weight,1,,mouse phenotype only,MODERATE - one instrument flags it
+PAPPA2,blood pressure / haemodynamic,,0,,no signal in either instrument,not flagged by these instruments
+PAPPA2,organ overgrowth,,0,,no signal in either instrument,not flagged by these instruments
+PAPPA2,muscle growth,,0,,no signal in either instrument,not flagged by these instruments
+PAPPA2,insulin resistance / hypoglycaemia,,0,,no signal in either instrument,not flagged by these instruments
+PAPPA2,metabolic / adiposity,,0,,no signal in either instrument,not flagged by these instruments
+PAPPA2,renal,,0,,no signal in either instrument,not flagged by these instruments
+PAPPA2,retinal / ocular,,0,,no signal in either instrument,not flagged by these instruments
+PAPPA2,puberty / bone age,,0,,no signal in either instrument,not flagged by these instruments
+PAPPA2,reproductive,,0,,no signal in either instrument,not flagged by these instruments
+PAPPA2,skeletal off-target,,0,,no signal in either instrument,not flagged by these instruments
+PAPPA2,lethality / viability,,0,,no signal in either instrument,not flagged by these instruments
+NPR2,cancer / neoplasia,,0,,no signal in either instrument,not flagged by these instruments
+NPR2,vascular,,0,,no signal in either instrument,not flagged by these instruments
+NPR2,cardiac,,0,,no signal in either instrument,not flagged by these instruments
+NPR2,blood pressure / haemodynamic,,0,,no signal in either instrument,not flagged by these instruments
+NPR2,organ overgrowth,enlarged interparietal bone; enlarged parietal bone,2,,mouse phenotype only,MODERATE - one instrument flags it
+NPR2,muscle growth,impaired muscle relaxation,1,,mouse phenotype only,MODERATE - one instrument flags it
+NPR2,insulin resistance / hypoglycaemia,,0,,no signal in either instrument,not flagged by these instruments
+NPR2,metabolic / adiposity,,0,,no signal in either instrument,not flagged by these instruments
+NPR2,renal,,0,,no signal in either instrument,not flagged by these instruments
+NPR2,retinal / ocular,,0,,no signal in either instrument,not flagged by these instruments
+NPR2,puberty / bone age,abnormal endochondral bone ossification; absent estrous cycle,2,,mouse phenotype only,MODERATE - one instrument flags it
+NPR2,reproductive,female infertility; reduced fertility; reduced male fertility; small ovary,4,,mouse phenotype only,MODERATE - one instrument flags it
+NPR2,skeletal off-target,,0,,no signal in either instrument,not flagged by these instruments
+NPR2,lethality / viability,"decreased survivor rate; embryonic lethality, incomplete penetrance; postnatal lethality, incomplete penetrance; premature death; preweaning lethality, incomplete penetrance",5,,mouse phenotype only,MODERATE - one instrument flags it
