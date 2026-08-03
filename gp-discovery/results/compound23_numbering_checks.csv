@@ -1,0 +1,5 @@
+position,predicted_residue,residue_in_mature_ANP,consistent,reasoning
+7,C,C,True,compound 1 is [Cha8]-ANP(7-16)-NH2 and the abstract says it has a FREE THIOL; a thiol at the start of a 7-16 fragment means position 7 is Cys
+8,F,F,True,"position 8 is substituted to Cha (3-cyclohexylalanine), which is the saturated analogue of Phe - an isosteric swap, not a random one"
+11,R,R,True,"position 11 is substituted to Hyp, and the abstract says substitutions were made AT THE CLEAVAGE SITES; Arg is a trypsin-like cleavage site"
+14,R,R,True,"position 14 is substituted to Arg(Me) - methylation of a native Arg, which only makes sense if position 14 already is Arg, and which again blocks a trypsin-like cleavage site"

@@ -1,0 +1,14 @@
+element,specification,specified_by_the_compound_name,chirality,noncanonical,synthesis_note,basis
+N-terminus,hydroxyacetyl,True,n/a,True,caps the N-terminus; blocks aminopeptidase attack,read directly from the compound name
+C-terminus,-NHCH3 (N-methylamide),True,n/a,True,caps the C-terminus; blocks carboxypeptidase attack,read directly from the compound name
+position 5,Phe,True,D,False,d-Phe5 - inverted stereocentre at the N-terminal residue of the fragment,read directly from the compound name
+position 7,Hyp,True,D,True,"d-Hyp7 - 4-hydroxyproline, D configuration",read directly from the compound name
+position 8,Cha,True,L (not stated as D),True,Cha8 - 3-cyclohexylalanine; the residue carried through from the [Cha8]-ANP(7-16) precursor,read directly from the compound name
+position 9,Ser,True,D,False,d-Ser9,read directly from the compound name
+position 11,Hyp,True,L (not stated as D),True,"Hyp11 - 4-hydroxyproline, no D prefix given, therefore L",read directly from the compound name
+position 14,Arg(Me),True,L (not stated as D),True,Arg(Me)14 - methylated arginine; the name does not specify WHICH nitrogen is methylated,read directly from the compound name
+position 6,"S (parent ANP residue, carried through unmodified)",False,L (no D prefix given in the name),False,derived from mature alpha-ANP after the numbering convention was confirmed,"DERIVED - UniProt P01160 feature 'Atrial natriuretic peptide' (124-151), numbering confirmed by 4/4 independent checks"
+position 10,"G (parent ANP residue, carried through unmodified)",False,L (no D prefix given in the name),False,derived from mature alpha-ANP after the numbering convention was confirmed,"DERIVED - UniProt P01160 feature 'Atrial natriuretic peptide' (124-151), numbering confirmed by 4/4 independent checks"
+position 12,"M (parent ANP residue, carried through unmodified)",False,L (no D prefix given in the name),False,derived from mature alpha-ANP after the numbering convention was confirmed,"DERIVED - UniProt P01160 feature 'Atrial natriuretic peptide' (124-151), numbering confirmed by 4/4 independent checks"
+position 13,"D (parent ANP residue, carried through unmodified)",False,L (no D prefix given in the name),False,derived from mature alpha-ANP after the numbering convention was confirmed,"DERIVED - UniProt P01160 feature 'Atrial natriuretic peptide' (124-151), numbering confirmed by 4/4 independent checks"
+position 15,"I (parent ANP residue, carried through unmodified)",False,L (no D prefix given in the name),False,derived from mature alpha-ANP after the numbering convention was confirmed,"DERIVED - UniProt P01160 feature 'Atrial natriuretic peptide' (124-151), numbering confirmed by 4/4 independent checks"

@@ -1,0 +1,13 @@
+reagent,declared_structure,structure_type,pubchem_cid,molecular_formula,molecular_weight,smiles,structure_basis
+compound 23,"hydroxyacetyl-[d-Phe5,d-Hyp7,Cha8,d-Ser9,Hyp11,Arg(Me)14]-ANP(5-15)-NHCH3",synthetic peptide analogue,,,,,"NOT RETRIEVABLE - REFUSED - 'compound 23' is a paper-internal label, not a chemical identifier; a name lookup on it returns an unrelated depositor's molecule"
+[Cha8]-ANP(7-16)-NH2 (compound 1),[Cha8]-ANP(7-16)-NH2,linear ANP fragment analogue (precursor in the same series),,,,,NOT RETRIEVABLE - not present in PubChem under this name
+compound 9 (12-mer hybrid),"ANP-fragment / musclin hybrid 12-mer, thiol-free",synthetic peptide analogue (precursor in the same series),,,,,NOT RETRIEVABLE - not present in PubChem under this name
+AZ12107657,AZ12107657 (reported in the literature as the same entity as M372049),peptidomimetic small molecule,,,,,NOT RETRIEVABLE - not present in PubChem under this name
+M372049,M372049,peptidomimetic small molecule,59787819,C43H58N12O9,887.0,CCC(C)C(C(=O)N)NC(=O)C(CCCN=C(N)N)NC(=O)C(CC(=O)O)NC(=O)C(C(C)CC)N1CCC(C1=O)NC(=O)CC2=CC=C(C=C2)NC(=O)C3=NC4=CC=CC=C4N=C3,DATABASE RECORD
+ANP(4-23),ANP(4-23),ANP fragment,,,,,NOT RETRIEVABLE - not present in PubChem under this name
+cANP(4-23),"des[Gln18,Ser19,Gly20,Leu21,Gly22]-ANP(4-23)-NH2, the standard NPR3-selective agonist",truncated/ring ANP analogue,,,,,NOT RETRIEVABLE - not present in PubChem under this name
+osteocrin / musclin,"osteocrin (OSTN), also called musclin",endogenous secreted peptide,,,,,NOT RETRIEVABLE - not present in PubChem under this name
+osteocrin-derived peptides,fragments of OSTN spanning the natriuretic-peptide-like motifs,peptide fragments,,,,,NOT RETRIEVABLE - not present in PubChem under this name
+bis-aminotriazine series,substituted bis-aminotriazines,small molecule,,,,,NOT RETRIEVABLE - not present in PubChem under this name
+osteocrin / musclin (human),"UniProt P61366 (OSTN_HUMAN), 133 aa precursor",endogenous secreted peptide,,,,MLDWRLASAHFILAVTLTLWSSGKVLSVDVTTTEAFDSGVIDVQSTPTVREEKSATDLTAKLLLLDELVSLENDVIETKKKRSFSGFGSPLDRLSAGSVDHKGKQRKVVDHPKRRFGIPMDRIGRNRLSNSRG,DATABASE RECORD - UniProt reviewed entry
+osteocrin / musclin (mouse),"UniProt P61364 (OSTN_MOUSE), 130 aa precursor",endogenous secreted peptide,,,,MLDWRLASTHFILAMIVMLWGSGKAFSVDLASQEFGTASLQSPPTAREEKSATELSAKLLRLDDLVSLENDVFETKKKRSFSGFGSPLDRLSAGSVEHRGKQRKAVDHSKKRFGIPMDRIGRNRLSSSRG,DATABASE RECORD - UniProt reviewed entry
