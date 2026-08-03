@@ -1,0 +1,7 @@
+measurement,method,why
+terminal-zone concentration,LC-MS/MS or labelled construct on the microdissected terminal hypertrophic zone,stage 92's tier-0 endpoint; nothing is interpretable without it
+tissue-to-plasma ratio,paired measurement in growth plate and plasma,targeting is a claim about a RATIO; a high local concentration with an equally high systemic one is not targeting
+growth plate versus the organs of concern,"paired measurement in growth plate, aorta (NPR3 designs) and proliferative tissue (STC2/PAPP-A designs)","the platform paper measured tibial cartilage against heart and kidney proliferation, which is the standard to match"
+payload activity after conjugation,"the payload's own functional assay, run on the fusion",a targeted construct whose payload was inactivated by conjugation is a delivery success and a pharmacological failure
+matrix retention over time,washout of the construct from explanted tissue,retention is what converts a single exposure into a local depot
+free versus bound fraction,measurement of the unbound construct in tissue,a construct bound tightly to matrix may be unable to reach its target at all - this is design 1's blocking question
