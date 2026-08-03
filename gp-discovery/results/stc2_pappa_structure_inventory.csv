@@ -8,16 +8,16 @@ pdb_id,title,macromolecules,method,resolution_angstrom,protein_entities,ligand_e
 1BOE,STRUCTURE OF THE IGF BINDING DOMAIN OF THE INSULIN-LIKE GROWTH FACTOR-BINDING PROTEIN-5 (IGFBP-5): IMPLICATIONS FOR IGF AND IGF-I RECEPTOR INTERACTIONS,PROTEIN (INSULIN-LIKE GROWTH FACTOR-BINDING PROTEIN-5 (IGFBP-5)),SOLUTION NMR,,1,0,1998,IGFBP,False
 2H7T,Solution Structure of the C-terminal Domain of Insulin-like Growth Factor Binding Protein 2 (IGFBP-2),Insulin-like growth factor-binding protein 2,SOLUTION NMR,,1,0,2007,IGFBP,False
 1DP4,DIMERIZED HORMONE BINDING DOMAIN OF THE ATRIAL NATRIURETIC PEPTIDE RECEPTOR,ATRIAL NATRIURETIC PEPTIDE RECEPTOR A,X-RAY DIFFRACTION,2.0,1,3,2000,NPR1 (wrong receptor - excluded),False
-7BRI,Atrial Natriuretic Peptide Receptor complexed with Dendroaspis Natriuretic Peptide,Atrial natriuretic peptide receptor 1; Natriuretic peptide DNP,X-RAY DIFFRACTION,2.45,2,1,2021,NPR1 (wrong receptor - excluded),False
 7BRG,Atrial Natriuretic Peptide Receptor complexed with rat Atrial Natriuretic Peptide,Atrial natriuretic peptide receptor 1; Natriuretic peptides A,X-RAY DIFFRACTION,2.45,2,1,2021,NPR1 (wrong receptor - excluded),False
 7BRH,Atrial Natriuretic Peptide Receptor complexed with human Atrial Natriuretic Peptide,Atrial natriuretic peptide receptor 1; Natriuretic peptides A,X-RAY DIFFRACTION,2.45,2,1,2021,NPR1 (wrong receptor - excluded),False
+7BRI,Atrial Natriuretic Peptide Receptor complexed with Dendroaspis Natriuretic Peptide,Atrial natriuretic peptide receptor 1; Natriuretic peptide DNP,X-RAY DIFFRACTION,2.45,2,1,2021,NPR1 (wrong receptor - excluded),False
 3A3K,Reversibly bound chloride in the atrial natriuretic peptide receptor hormone-binding domain,Atrial natriuretic peptide receptor A,X-RAY DIFFRACTION,2.5,1,3,2010,NPR1 (wrong receptor - excluded),False
 7BRJ,Atrial Natriuretic Peptide Receptor complexed with deletion mutant of human Atrial Natriuretic Peptide[7-28],Atrial natriuretic peptide receptor 1; Urodilatin,X-RAY DIFFRACTION,2.7,2,1,2021,NPR1 (wrong receptor - excluded),False
 9DZF,Human GC-A bound to ANP and XX16,Atrial natriuretic peptide receptor 1; Atrial natriuretic peptide; XX16 - Heavy chain; XX16 - Light chain,ELECTRON MICROSCOPY,2.7,4,1,2026,NPR1 (wrong receptor - excluded),True
 9DZJ,Human GC-A bound to ANP and 2xREGN5308,REGN5308 - Heavy chain; REGN5308 - Light chain; Atrial natriuretic peptide receptor 1; Atrial natriuretic peptide,ELECTRON MICROSCOPY,2.7,4,2,2026,NPR1 (wrong receptor - excluded),True
 7BRK,Atrial Natriuretic Peptide Receptor complexed with deletion mutant of human Atrial Natriuretic Peptide[5-27],Atrial natriuretic peptide receptor 1; Natriuretic peptides A,X-RAY DIFFRACTION,2.85,2,1,2021,NPR1 (wrong receptor - excluded),False
-9BCN,"Extracellular domain of apo GC-A, state 2",Atrial natriuretic peptide receptor 1,ELECTRON MICROSCOPY,2.9,1,2,2024,NPR1 (wrong receptor - excluded),False
 9BCL,"Extracellular domain of apo GC-A, state 1",Atrial natriuretic peptide receptor 1,ELECTRON MICROSCOPY,2.9,1,2,2024,NPR1 (wrong receptor - excluded),False
+9BCN,"Extracellular domain of apo GC-A, state 2",Atrial natriuretic peptide receptor 1,ELECTRON MICROSCOPY,2.9,1,2,2024,NPR1 (wrong receptor - excluded),False
 9DZK,Human GC-A bound to REGN5308,Atrial natriuretic peptide receptor 1; REGN5308 - Heavy chain; REGN5308 - Light chain,ELECTRON MICROSCOPY,2.9,3,2,2026,NPR1 (wrong receptor - excluded),True
 1T34,ROTATION MECHANISM FOR TRANSMEMBRANE SIGNALING BY THE ATRIAL NATRIURETIC PEPTIDE RECEPTOR,Atrial natriuretic peptide receptor A; Atrial natriuretic peptide factor,X-RAY DIFFRACTION,2.95,2,1,2004,NPR1 (wrong receptor - excluded),False
 9DZH,Human GC-A bound to ANP and REGN5308,Atrial natriuretic peptide receptor 1; Atrial natriuretic peptide; REGN5308 - Heavy chain; REGN5308 - Light chain,ELECTRON MICROSCOPY,3.0,4,2,2026,NPR1 (wrong receptor - excluded),True
@@ -26,8 +26,8 @@ pdb_id,title,macromolecules,method,resolution_angstrom,protein_entities,ligand_e
 7BRL,"Atrial Natriuretic Peptide Receptor complexed with Deletion mutant of rat Atrial Natriuretic Peptide[4-17,23]",Atrial natriuretic peptide receptor 1; Natriuretic peptides A,X-RAY DIFFRACTION,3.2,2,1,2021,NPR1 (wrong receptor - excluded),False
 9DZG,Human GC-A bound to XX16,Atrial natriuretic peptide receptor 1; XX16 - Heavy Chain; XX16 - Light chain,ELECTRON MICROSCOPY,3.3,3,1,2026,NPR1 (wrong receptor - excluded),True
 9BCP,Kinase homology domain of apo GC-A,Atrial natriuretic peptide receptor 1,ELECTRON MICROSCOPY,4.1,1,1,2024,NPR1 (wrong receptor - excluded),False
-9BCS,Intracellular domain of GC-A bound to ANP,Atrial natriuretic peptide receptor 1,ELECTRON MICROSCOPY,4.4,1,1,2024,NPR1 (wrong receptor - excluded),False
 9BCO,Intracellular domain of apo GC-A,Atrial natriuretic peptide receptor 1,ELECTRON MICROSCOPY,4.4,1,1,2024,NPR1 (wrong receptor - excluded),False
+9BCS,Intracellular domain of GC-A bound to ANP,Atrial natriuretic peptide receptor 1,ELECTRON MICROSCOPY,4.4,1,1,2024,NPR1 (wrong receptor - excluded),False
 1JDP,Crystal Structure of Hormone/Receptor Complex,ATRIAL NATRIURETIC PEPTIDE CLEARANCE RECEPTOR; C-TYPE NATRIURETIC PEPTIDE,X-RAY DIFFRACTION,2.0,2,2,2001,NPR3 ligand-binding pocket : CNP,False
 1YK0,structure of natriuretic peptide receptor-C complexed with atrial natriuretic peptide,Atrial natriuretic peptide clearance receptor; Atrial natriuretic factor,X-RAY DIFFRACTION,2.4,2,2,2006,NPR3 ligand-binding pocket : CNP,False
 1JDN,Crystal Structure of Hormone Receptor,ATRIAL NATRIURETIC PEPTIDE CLEARANCE RECEPTOR,X-RAY DIFFRACTION,2.9,1,1,2001,NPR3 ligand-binding pocket : CNP,False
@@ -39,8 +39,8 @@ pdb_id,title,macromolecules,method,resolution_angstrom,protein_entities,ligand_e
 7Y5Q,Structure of 1:1 PAPP-A.STC2 complex(half map),"Maltose/maltodextrin-binding periplasmic protein,Pappalysin-1; Stanniocalcin-2",ELECTRON MICROSCOPY,3.8,2,1,2023,STC2 : PAPP-A,False
 8HGH,Structure of 2:2 PAPP-A.STC2 complex,"Maltose/maltodextrin-binding periplasmic protein,Pappalysin-1; Stanniocalcin-2",ELECTRON MICROSCOPY,4.16,2,1,2023,STC2 : PAPP-A,False
 8A7E,PAPP-A dimer in complex with its inhibitor STC2,Stanniocalcin-2; Pappalysin-1,ELECTRON MICROSCOPY,5.02,2,2,2022,STC2 : PAPP-A,False
-7BDS,Structure of CTX-M-15 crystallised in the presence of tazobactam,Beta-lactamase,X-RAY DIFFRACTION,0.91,1,2,2022,other - not a protein of this axis,False
 7BDR,Structure of CTX-M-15 E166Q mutant crystallised in the presence of tazobactam (AAI101),Beta-lactamase,X-RAY DIFFRACTION,0.91,1,3,2022,other - not a protein of this axis,False
+7BDS,Structure of CTX-M-15 crystallised in the presence of tazobactam,Beta-lactamase,X-RAY DIFFRACTION,0.91,1,2,2022,other - not a protein of this axis,False
 7QQ5,Structure of CTX-M-15 K73A mutant crystallised in the presence of enmetazobactam (AAI101),Beta-lactamase,X-RAY DIFFRACTION,0.95,1,2,2022,other - not a protein of this axis,False
 7QQC,Structure of CTX-M-15 K73A mutant,Beta-lactamase,X-RAY DIFFRACTION,0.95,1,2,2022,other - not a protein of this axis,False
 5AMX,Crystal Structure of Proteinase K processed with the CrystalDirect automated mounting and cryo-cooling technology,PROTEINASE K,X-RAY DIFFRACTION,1.01,1,1,2016,other - not a protein of this axis,False
@@ -53,26 +53,26 @@ pdb_id,title,macromolecules,method,resolution_angstrom,protein_entities,ligand_e
 6BN3,CTX-M-151 class A extended-spectrum beta-lactamase apo crystal structure at 1.3 Angstrom resolution,Beta-lactamase,X-RAY DIFFRACTION,1.278,1,1,2018,other - not a protein of this axis,False
 8G2R,CRYSTAL STRUCTURE OF THE KPC-2 D179N VARIANT IN COMPLEX WITH AVIBACTAM,Carbapenem-hydrolyzing beta-lactamase KPC,X-RAY DIFFRACTION,1.28,1,1,2023,other - not a protein of this axis,False
 6BPF,CTX-M-151 class A extended-spectrum beta-lactamase crystal structure in complex with avibactam at 1.32 Angstrom resolution,Beta-lactamase,X-RAY DIFFRACTION,1.318,1,1,2018,other - not a protein of this axis,False
-6R7V,Tannerella forsythia promirolysin mutant E225A,Mirolysin,X-RAY DIFFRACTION,1.4,1,3,2019,other - not a protein of this axis,False
-5AMZ,Crystal Structure of Thaumatin processed with the CrystalDirect automated mounting and cryo-cooling technology,Thaumatin I,X-RAY DIFFRACTION,1.4,1,0,2016,other - not a protein of this axis,False
 3ZXC,E69 deletion mutant single insulin-like growth factor binding domain protein (SIBD-1) from Cupiennius salei,SINGLE INSULIN-LIKE GROWTH FACTOR-BINDING DOMAIN PROTEIN-1,X-RAY DIFFRACTION,1.4,1,1,2012,other - not a protein of this axis,False
+5AMZ,Crystal Structure of Thaumatin processed with the CrystalDirect automated mounting and cryo-cooling technology,Thaumatin I,X-RAY DIFFRACTION,1.4,1,0,2016,other - not a protein of this axis,False
+6R7V,Tannerella forsythia promirolysin mutant E225A,Mirolysin,X-RAY DIFFRACTION,1.4,1,3,2019,other - not a protein of this axis,False
 4ZAM,Crystal structure of SHV-1 beta-lactamase bound to avibactam,Beta-lactamase SHV-1,X-RAY DIFFRACTION,1.42,1,2,2016,other - not a protein of this axis,False
 6Z7H,Structure of CTX-M-15 E166Q mutant crystallised in the presence of enmetazobactam (AAI101),Beta-lactamase,X-RAY DIFFRACTION,1.42,1,3,2021,other - not a protein of this axis,False
-7R3Q,Crystal structure of CTX-M-15 G238C/A240 insert mutant apoenzyme,Beta-lactamase,X-RAY DIFFRACTION,1.46,1,2,2022,other - not a protein of this axis,False
 7AT6,Structure of thaumatin collected by femtosecond serial crystallography on a COC membrane,Thaumatin I,X-RAY DIFFRACTION,1.46,1,3,2021,other - not a protein of this axis,False
-6R7W,Tannerella forsythia mature mirolysin in complex with a cleaved peptide.,Mirolysin; Putative lipoprotein,X-RAY DIFFRACTION,1.5,2,4,2019,other - not a protein of this axis,False
+7R3Q,Crystal structure of CTX-M-15 G238C/A240 insert mutant apoenzyme,Beta-lactamase,X-RAY DIFFRACTION,1.46,1,2,2022,other - not a protein of this axis,False
 6FJ8,Structure of Thaumatin collected from an in situ crystal collected on ID30B at 12.7 keV.,Thaumatin-1,X-RAY DIFFRACTION,1.5,1,1,2018,other - not a protein of this axis,False
 6FJ9,Structure of Thaumatin collected from an in situ crystal on ID30B at 17.5 keV.,Thaumatin-1,X-RAY DIFFRACTION,1.5,1,1,2018,other - not a protein of this axis,False
+6R7W,Tannerella forsythia mature mirolysin in complex with a cleaved peptide.,Mirolysin; Putative lipoprotein,X-RAY DIFFRACTION,1.5,2,4,2019,other - not a protein of this axis,False
 7D5J,CRYSTAL STRUCTURE OF R220A VARIANT PENA BETA-LACTAMASE FROM BURKHOLDERIA MULTIVORANS,PenA Beta-lactamase,X-RAY DIFFRACTION,1.51,1,1,2021,other - not a protein of this axis,False
-7DOO,Crystal Structure of PenA beta-Lactamase-Avibactam Complex,Beta-lactamase,X-RAY DIFFRACTION,1.6,1,1,2020,other - not a protein of this axis,False
 6R7U,Selenomethionine variant of Tannerella forsythia promirolysin mutant E225A,Mirolysin,X-RAY DIFFRACTION,1.6,1,4,2020,other - not a protein of this axis,False
 6X8Q,Crystal structure of 3D11 Fab in complex with Plasmodium berghei circumsporozoite protein PAPP peptide,3D11 Fab heavy chain; 3D11 Fab light chain; PAPP peptide,X-RAY DIFFRACTION,1.6,3,1,2020,other - not a protein of this axis,True
+7DOO,Crystal Structure of PenA beta-Lactamase-Avibactam Complex,Beta-lactamase,X-RAY DIFFRACTION,1.6,1,1,2020,other - not a protein of this axis,False
 3RXX,KPC-2 carbapenemase in complex with 3-NPBA,Carbepenem-hydrolyzing beta-lactamase KPC,X-RAY DIFFRACTION,1.62,1,1,2012,other - not a protein of this axis,False
 6RK1,Crystal structure of TSP1 domain from CCN3,CCN family member 3,X-RAY DIFFRACTION,1.63,1,3,2019,other - not a protein of this axis,False
 5CGS,CRYSTAL STRUCTURE OF Fox-4 cephamycinase,Beta-lactamase,X-RAY DIFFRACTION,1.634,1,1,2016,other - not a protein of this axis,False
 2CKI,"Structure of Ulilysin, a member of the pappalysin family of metzincin metalloendopeptidases.",ULILYSIN,X-RAY DIFFRACTION,1.7,1,5,2006,other - not a protein of this axis,False
-9FTU,Serial microseconds crystallography at ID29 using ASU extruder: Thaumatin,Thaumatin I,X-RAY DIFFRACTION,1.75,1,1,2025,other - not a protein of this axis,False
 9FTS,Serial microseconds crystallography at ID29 using SACLA extruder: Thaumatin,Thaumatin I,X-RAY DIFFRACTION,1.75,1,1,2025,other - not a protein of this axis,False
+9FTU,Serial microseconds crystallography at ID29 using ASU extruder: Thaumatin,Thaumatin I,X-RAY DIFFRACTION,1.75,1,1,2025,other - not a protein of this axis,False
 9FTV,Serial microseconds crystallography at ID29 using MPI extruder: Thaumatin,Thaumatin I,X-RAY DIFFRACTION,1.75,1,1,2025,other - not a protein of this axis,False
 1ZT3,C-terminal domain of Insulin-like Growth Factor Binding Protein-1 isolated from human amniotic fluid,Insulin-like growth factor binding protein 1,X-RAY DIFFRACTION,1.8,1,1,2005,other - not a protein of this axis,False
 6GFE,High-resolution Structure of a therapeutic full-length anti-NPRA Antibody with exceptional Conformational Diversity,Immunoglobulin gamma-4 heavy chain; Immunoglobulin gamma-4 light chain,X-RAY DIFFRACTION,1.8,2,2,2019,other - not a protein of this axis,True
@@ -80,16 +80,16 @@ pdb_id,title,macromolecules,method,resolution_angstrom,protein_entities,ligand_e
 4UMS,The crystal structure of the seventh ScaB type I cohesin from Pseudobacteroides cellulosolvens,CELLULOSOMAL ANCHORING SCAFFOLDIN B,X-RAY DIFFRACTION,1.84,1,0,2015,other - not a protein of this axis,False
 6B22,Crystal structure OXA-24 beta-lactamase complexed with WCK 4234 by co-crystallization,Beta-lactamase,X-RAY DIFFRACTION,1.93,1,2,2018,other - not a protein of this axis,False
 6MPQ,1.95 Ang crystal structure of OXA-24/40 beta-lactamase in complex the inhibitor ETX2514,Beta-lactamase,X-RAY DIFFRACTION,1.95,1,2,2019,other - not a protein of this axis,False
-5FXM,Structure of FAE solved by SAD from data collected by Direct Data Collection (DDC) using the ESRF RoboDiff goniometer,"ENDO-1,4-BETA-XYLANASE Y",X-RAY DIFFRACTION,1.99,1,1,2016,other - not a protein of this axis,False
 4AA2,Crystal structure of ANCE in complex with bradykinin potentiating peptide b,ANGIOTENSIN-CONVERTING ENZYME; BRADYKININ-POTENTIATING PEPTIDE B,X-RAY DIFFRACTION,1.99,2,2,2012,other - not a protein of this axis,False
+5FXM,Structure of FAE solved by SAD from data collected by Direct Data Collection (DDC) using the ESRF RoboDiff goniometer,"ENDO-1,4-BETA-XYLANASE Y",X-RAY DIFFRACTION,1.99,1,1,2016,other - not a protein of this axis,False
 2J83,Ulilysin metalloprotease in complex with batimastat.,ULILYSIN,X-RAY DIFFRACTION,2.0,1,4,2006,other - not a protein of this axis,False
 9FTX,Serial microseconds crystallography at ID29 using fixed-target (small foils): Proteinase K with 10 um spacing between X-ray pulses,Proteinase K,X-RAY DIFFRACTION,2.0,1,2,2025,other - not a protein of this axis,False
-9FU1,Serial microseconds crystallography at ID29 using fixed-target (large foils): Proteinase K with 50 um spacing between X-ray pulses,Proteinase K,X-RAY DIFFRACTION,2.0,1,2,2025,other - not a protein of this axis,False
 9FTY,Serial microseconds crystallography at ID29 using fixed-target (small foils): Proteinase K with 20 um spacing between X-ray pulses,Proteinase K,X-RAY DIFFRACTION,2.0,1,2,2025,other - not a protein of this axis,False
+9FU1,Serial microseconds crystallography at ID29 using fixed-target (large foils): Proteinase K with 50 um spacing between X-ray pulses,Proteinase K,X-RAY DIFFRACTION,2.0,1,2,2025,other - not a protein of this axis,False
 5NB8,Structure of vWC domain from CCN3,Protein NOV homolog,X-RAY DIFFRACTION,2.1,1,2,2017,other - not a protein of this axis,False
-6Z0Y,HtrA1 inactive protease domain S328A with CARASIL mutations D174R R274Q,Serine protease HTRA1,X-RAY DIFFRACTION,2.2,1,1,2021,other - not a protein of this axis,False
 4D0Z,"GalNAc-T2 crystal soaked with UDP-5SGalNAc, mEA2 and manganese (Higher resolution dataset)",POLYPEPTIDE N-ACETYLGALACTOSAMINYLTRANSFERASE 2; PEPTIDE,X-RAY DIFFRACTION,2.2,2,4,2014,other - not a protein of this axis,False
 4FR8,Crystal structure of human aldehyde dehydrogenase-2 in complex with nitroglycerin,"Aldehyde dehydrogenase, mitochondrial",X-RAY DIFFRACTION,2.2,1,7,2012,other - not a protein of this axis,False
+6Z0Y,HtrA1 inactive protease domain S328A with CARASIL mutations D174R R274Q,Serine protease HTRA1,X-RAY DIFFRACTION,2.2,1,1,2021,other - not a protein of this axis,False
 3ZXB,Wild type single insulin-like growth factor binding domain protein (SIBD-1) from Cupiennius salei,SINGLE INSULIN-LIKE GROWTH FACTOR-BINDING DOMAIN PROTEIN-1,X-RAY DIFFRACTION,2.55,1,0,2012,other - not a protein of this axis,False
 4APJ,Human angiotensin-converting enzyme in complex with BPPb,ANGIOTENSIN-CONVERTING ENZYME; BRADYKININ-POTENTIATING PEPTIDE B,X-RAY DIFFRACTION,2.6,2,4,2012,other - not a protein of this axis,False
 6SH2,Crystal structure of human neprilysin E584D in complex with C-type natriuretic peptide.,Neprilysin; C-type natriuretic peptide fragment (CNP),X-RAY DIFFRACTION,2.6,2,3,2019,other - not a protein of this axis,False
@@ -107,8 +107,8 @@ pdb_id,title,macromolecules,method,resolution_angstrom,protein_entities,ligand_e
 7TBX,Crystal structure of D179Y KPC-2 beta-lactamase,Carbapenem-hydrolyzing beta-lactamase KPC,X-RAY DIFFRACTION,3.16,1,0,2022,other - not a protein of this axis,False
 8SE8,HTRA-1 PD/SA bound to CKP 1G10,Serine protease HTRA1; Cysteine knot peptide,X-RAY DIFFRACTION,3.18,2,2,2024,other - not a protein of this axis,False
 3NWU,Substrate induced remodeling of the active site regulates HtrA1 activity,Serine protease HTRA1,X-RAY DIFFRACTION,3.2,1,1,2011,other - not a protein of this axis,False
-9O5A,The KICSTOR-GATOR1 complex,GATOR complex protein NPRL2; GATOR1 complex protein DEPDC5; KICSTOR complex protein SZT2; KICSTOR complex protein kaptin; KICSTOR subunit 2; KICSTOR complex protein ITFG2,ELECTRON MICROSCOPY,3.2,7,0,2026,other - not a protein of this axis,False
 9H5K,Cryo-EM structure of the SEAC-EGOC supercomplex,Maintenance of telomere capping protein 5; Protein transport protein SEC13; Restriction of telomere capping protein 1; Nucleoporin SEH1; SEH-associated protein 4; GTP-binding protein GTR1,ELECTRON MICROSCOPY,3.2,13,4,2025,other - not a protein of this axis,False
+9O5A,The KICSTOR-GATOR1 complex,GATOR complex protein NPRL2; GATOR1 complex protein DEPDC5; KICSTOR complex protein SZT2; KICSTOR complex protein kaptin; KICSTOR subunit 2; KICSTOR complex protein ITFG2,ELECTRON MICROSCOPY,3.2,7,0,2026,other - not a protein of this axis,False
 9RBW,Cryo-EM structure of ANP amyloids from left atrial appendage of atrial fibrillation patient - polymorph B,Atrial natriuretic peptide,ELECTRON MICROSCOPY,3.3,1,0,2025,other - not a protein of this axis,False
 9O5D,The KICSTOR-GATOR1-SAMTOR complex,GATOR complex protein NPRL2; GATOR1 complex protein DEPDC5; S-adenosylmethionine sensor upstream of mTORC1; GATOR complex protein NPRL3; KICSTOR complex protein SZT2,ELECTRON MICROSCOPY,3.34,5,0,2026,other - not a protein of this axis,False
 7T3B,GATOR1-RAG-RAGULATOR - GAP Complex,Ras-related GTP-binding protein C; GATOR complex protein NPRL2; GATOR complex protein DEPDC5; Ragulator complex protein LAMTOR3; Ragulator complex protein LAMTOR2; Ragulator complex protein LAMTOR5,ELECTRON MICROSCOPY,3.9,10,2,2022,other - not a protein of this axis,False
@@ -117,18 +117,18 @@ pdb_id,title,macromolecules,method,resolution_angstrom,protein_entities,ligand_e
 7T3C,GATOR1-RAG-RAGULATOR - Dual Complex,GATOR complex protein NPRL2; GATOR complex protein DEPDC5; Ragulator complex protein LAMTOR3; Ragulator complex protein LAMTOR2; Ragulator complex protein LAMTOR5; Ragulator complex protein LAMTOR4,ELECTRON MICROSCOPY,4.0,11,2,2022,other - not a protein of this axis,False
 6CET,Cryo-EM structure of GATOR1,GATOR complex protein NPRL2; GATOR complex protein NPRL3; GATOR complex protein DEPDC5,ELECTRON MICROSCOPY,4.4,3,0,2018,other - not a protein of this axis,False
 9O5E,The dimeric KICSTOR-GATOR1 supercomplex,GATOR complex protein NPRL3; GATOR complex protein NPRL2; KICSTOR complex protein SZT2; GATOR1 complex protein DEPDC5,ELECTRON MICROSCOPY,5.0,4,0,2026,other - not a protein of this axis,False
-1RMJ,C-terminal domain of insulin-like growth factor (IGF) binding protein-6: structure and interaction with IGF-II,Insulin-like growth factor binding protein 6,SOLUTION NMR,,1,0,2004,other - not a protein of this axis,False
-1MPZ,NMR solution structure of native Viperidae lebetina obtusa protein,Obtustatin,SOLUTION NMR,,1,0,2003,other - not a protein of this axis,False
+1ANP,SOLUTION CONFORMATION OF AN ATRIAL NATRIURETIC PEPTIDE VARIANT SELECTIVE FOR THE TYPE-A RECEPTOR,ATRIAL NATRIURETIC PEPTIDE,SOLUTION NMR,,1,0,1995,other - not a protein of this axis,False
 1FVL,"THE NUCLEAR MAGNETIC RESONANCE SOLUTION STRUCTURE OF FLAVORIDIN, AN ANTAGONIST OF THE PLATELET GP IIB-IIIA RECEPTOR",FLAVORIDIN,SOLUTION NMR,,1,0,1996,other - not a protein of this axis,False
-1N4Y,REFINED STRUCTURE OF KISTRIN,KISTRIN,SOLUTION NMR,,1,0,2003,other - not a protein of this axis,False
-1Q7J,Structural Analysis of Integrin alpha IIb beta 3- Disintegrin with the AKGDWN Motif,Hemorrhagic protein-rhodostomin,SOLUTION NMR,,1,0,2004,other - not a protein of this axis,False
-1RO3,New structural insights on short disintegrin echistatin by NMR,Disintegrin echistatin,SOLUTION NMR,,1,0,2003,other - not a protein of this axis,False
 1L3X,Solution Structure of Novel Disintegrin Salmosin,platelet aggregation inhibitor disintegrin,SOLUTION NMR,,1,0,2003,other - not a protein of this axis,False
-2PJG,Solution structure of rhodostomin D51E mutant,Rhodostoxin-disintegrin rhodostomin,SOLUTION NMR,,1,0,2007,other - not a protein of this axis,False
-2PJF,Solution structure of rhodostomin,Rhodostoxin-disintegrin rhodostomin,SOLUTION NMR,,1,0,2007,other - not a protein of this axis,False
+1MPZ,NMR solution structure of native Viperidae lebetina obtusa protein,Obtustatin,SOLUTION NMR,,1,0,2003,other - not a protein of this axis,False
+1N4Y,REFINED STRUCTURE OF KISTRIN,KISTRIN,SOLUTION NMR,,1,0,2003,other - not a protein of this axis,False
 1Q7I,Structural Analysis of Integrin alpha IIb beta 3- Disintegrin with the AKGDWN Motif,Hemorrhagic protein-rhodostomin,SOLUTION NMR,,1,0,2004,other - not a protein of this axis,False
+1Q7J,Structural Analysis of Integrin alpha IIb beta 3- Disintegrin with the AKGDWN Motif,Hemorrhagic protein-rhodostomin,SOLUTION NMR,,1,0,2004,other - not a protein of this axis,False
+1RMJ,C-terminal domain of insulin-like growth factor (IGF) binding protein-6: structure and interaction with IGF-II,Insulin-like growth factor binding protein 6,SOLUTION NMR,,1,0,2004,other - not a protein of this axis,False
+1RO3,New structural insights on short disintegrin echistatin by NMR,Disintegrin echistatin,SOLUTION NMR,,1,0,2003,other - not a protein of this axis,False
+2PJF,Solution structure of rhodostomin,Rhodostoxin-disintegrin rhodostomin,SOLUTION NMR,,1,0,2007,other - not a protein of this axis,False
+2PJG,Solution structure of rhodostomin D51E mutant,Rhodostoxin-disintegrin rhodostomin,SOLUTION NMR,,1,0,2007,other - not a protein of this axis,False
 2PJI,Solution structure of rhodostomin P48A mutant,Rhodostoxin-disintegrin rhodostomin,SOLUTION NMR,,1,0,2007,other - not a protein of this axis,False
 8S9Y,Taipan Natriuretic Peptide C -TNPc,Peptide TNP-c,SOLUTION NMR,,1,0,2023,other - not a protein of this axis,False
-1ANP,SOLUTION CONFORMATION OF AN ATRIAL NATRIURETIC PEPTIDE VARIANT SELECTIVE FOR THE TYPE-A RECEPTOR,ATRIAL NATRIURETIC PEPTIDE,SOLUTION NMR,,1,0,1995,other - not a protein of this axis,False
 7Y5N,Structure of 1:1 PAPP-A.ProMBP complex(half map),Bone marrow proteoglycan; Pappalysin-1,ELECTRON MICROSCOPY,3.45,2,3,2023,proMBP : PAPP-A,False
 8HGG,Structure of 2:2 PAPP-A.ProMBP complex,Bone marrow proteoglycan; Pappalysin-1,ELECTRON MICROSCOPY,3.64,2,1,2023,proMBP : PAPP-A,False

@@ -209,10 +209,11 @@ def main() -> None:
         G.log(f"   PDB '{term}': {total} entries")
     entries = {}
     with ThreadPoolExecutor(max_workers=6) as ex:
-        futs = {ex.submit(rcsb_entry, p): p for p in ids}
+        futs = {ex.submit(rcsb_entry, p): p for p in sorted(ids)}
         for f in as_completed(futs):
             entries[futs[f]] = f.result()
-    inv = pd.DataFrame(entries.values())
+    # sorted, not completion-ordered, so the inventory is byte-identical across reruns
+    inv = pd.DataFrame([entries[k] for k in sorted(entries)])
 
     # ---- which interface each structure actually shows ---------------------
     def interface_of(row) -> str:

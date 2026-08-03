@@ -141,7 +141,11 @@ def main() -> None:
     # ---- the positional trap, quantified ----------------------------------
     ctx_rows = []
     coding_candidates = {}
-    for gene, ss in snps.items():
+    # iterate genes in a fixed order: `snps` was filled by as_completed, so its
+    # insertion order varies run to run and every downstream row order varied with it.
+    # Identical reruns produced 9,392-line diffs that were pure reshuffling.
+    for gene in GENES:
+        ss = snps.get(gene, [])
         seen = set()
         n_cod = 0
         for s in ss:
@@ -312,7 +316,8 @@ def main() -> None:
             ev[futs[f]] = f.result()
             if i % 20 == 0:
                 G.log(f"   gene evidence {i}/{len(GENES)}")
-    gev = pd.DataFrame(ev.values())
+    # keyed by gene and emitted in seed order, not completion order
+    gev = pd.DataFrame([ev[g] for g in GENES if g in ev])
 
     if len(at):
         at = at.merge(gev, left_on="seed_gene", right_on="gene", how="left").drop(
