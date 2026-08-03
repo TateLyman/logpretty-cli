@@ -1,0 +1,11 @@
+arm,purpose,separate,concentration_basis
+vehicle,reference distribution,True,RANGE_UNDETERMINED - established by range-finding against a measured response before the experiment runs
+compound 23,NPR3 probe 1 - sequence-defined,True,RANGE_UNDETERMINED - established by range-finding against a measured response before the experiment runs
+osteocrin,NPR3 probe 2 - endogenous ligand,True,RANGE_UNDETERMINED - established by range-finding against a measured response before the experiment runs
+M372049 (AZ12107657),NPR3 probe 3 - chemically unrelated small molecule,True,RANGE_UNDETERMINED - established by range-finding against a measured response before the experiment runs
+wild-type PAPP-A,pappalysin axis - does adding protease move bone length at all,True,RANGE_UNDETERMINED - established by range-finding against a measured response before the experiment runs
+PAPP-A C732A,pappalysin axis - does covalent escape change anything,True,RANGE_UNDETERMINED - established by range-finding against a measured response before the experiment runs
+CNP,positive control - what a real effect looks like,True,RANGE_UNDETERMINED - established by range-finding against a measured response before the experiment runs
+cANP(4-23),wrong-direction control - agonist at the same receptor,True,RANGE_UNDETERMINED - established by range-finding against a measured response before the experiment runs
+catalytically dead PAPP-A,negative control - separates proteolysis from protein load,True,RANGE_UNDETERMINED - established by range-finding against a measured response before the experiment runs
+scrambled compound 23,negative control - separates sequence from peptide load,True,RANGE_UNDETERMINED - established by range-finding against a measured response before the experiment runs

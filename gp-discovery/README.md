@@ -144,6 +144,16 @@ python s91_genetically_anchored_pathways.py  # every pathway against the four re
 python s92_normal_ex_vivo_validation.py      # normal postnatal explant design
 python s93_safety_and_localization.py        # safety matrix and localisation strategy
 python s94_final_allelic_dossier.py          # the twelve answers
+
+# obscure-reagent recovery (stages 95-102)
+python s95_npr3_hidden_reagent_audit.py       # named NPR3 reagents the registries missed
+python s96_compound23_reconstruction.py       # compound 23, parsed and derived
+python s97_npr3_three_probe_design.py         # three chemically unrelated NPR3 probes
+python s98_pappa_stc2_resistant_engineering.py  # PAPP-A variant matrix, exosite problem
+python s99_stc2_binder_discovery.py           # binder campaign against STC2
+python s100_cartilage_targeted_fusions.py     # matrilin-3 scFv fusion designs
+python s101_shortest_experimental_path.py     # reagent ranking, first experiment
+python s102_final_obscure_reagent_dossier.py  # the twelve answers
 ```
 
 Network calls are cached and checksummed, so re-runs are cheap and the stages are resumable.
@@ -541,3 +551,64 @@ Network calls are cached and checksummed, so re-runs are cheap and the stages ar
   a single blocking item: **no reagent in the plan has a measured potency**. The geometry branch had
   compounds and no direction; this branch has a direction and no compounds. That is a reversal of
   position, not a victory — nothing here has yet lengthened a bone.
+
+### obscure-reagent recovery (stages 95-102)
+
+- **Stage 94's "no named compound" was an artefact of asking one database.** ChEMBL held 230
+  unnamed NPR3 activities, so the branch concluded there was no reagent. The reagents were
+  elsewhere: **M372049** in PubChem (CID 59787819, C43H58N12O9, MW 887) with a dedicated synthesis
+  paper, **AZ12107657** in a published mouse dosing protocol, **compound 23** in a 2017
+  medicinal-chemistry paper, **osteocrin** in UniProt. A compound registry records what has been
+  deposited, not what has been made — and peptides, pharma peptidomimetics and endogenous ligands
+  are systematically under-represented in it. **7 of 10 reagents now exist or can be made today.**
+- **AZ12107657 and M372049 are the same compound**, and that is stated in a retrieved primary
+  source rather than inferred: a full text writes `AZ12107657/M372049` in its methods, at 15 mg/kg
+  by osmotic minipump in mice.
+- **Compound 23 was reconstructed by testing the numbering convention, not assuming it.** The name
+  specifies 6 of 11 positions. Mature α-ANP predicts Cys at 7 (the free thiol the abstract says
+  broke the precursor), Phe at 8 (→ cyclohexylalanine, its saturated analogue), and Arg at 11 and
+  14 — which the abstract calls *the cleavage sites*. Four checks pass and ANP(5-15) is an 11-mer,
+  matching the paper's title. Derived, and labelled `DERIVED`:
+  `hydroxyacetyl-D-Phe-Ser-D-Hyp-Cha-D-Ser-Gly-Hyp-Met-Asp-Arg(Me)-Ile-NHCH3`.
+- **A paper label is not a chemical identifier.** PubChem resolves `compound 23` to CID 146161288,
+  *PROTAC BRAF-V600E degrader-1*. The give-away was chemical rather than bibliographic: the hit
+  contains fluorine and sulfur, and the whole point of the peptide series was removing a thiol.
+- **The paywall is a finding, not an inconvenience.** PMID 28596054 is not open access and not in
+  Europe PMC, so **no affinity, ratio or half-life is quoted anywhere in this pipeline**. Two gaps
+  it leaves are load-bearing: NPR2 selectivity is never mentioned, and "blocker" is not a mechanism.
+- **The reciprocal experiment settles C732A.** PAPP-A C732A cannot form a covalent complex with
+  STC2 — and STC2 C120A, which likewise cannot bind covalently, is *still a relatively potent
+  competitive inhibitor*. Removing the disulfide removes the covalency, not the inhibition.
+  **C732A is not called active**, because its cleavage of intact IGFBP-4 is unmeasured.
+- **STC2 is an exosite inhibitor, and that constrains everything.** It binds the PAPP-A C domain
+  where IGFBP-4 also binds; the active-site cleft is unoccupied. The inhibited complex still
+  cleaves a 26-residue peptide spanning the scissile bond while being completely inactive toward
+  intact IGFBP-4 — **so the convenient fluorogenic assay would score an inhibited enzyme as
+  active.** Intact substrate is assay 1 on all 11 variants.
+- **The wrong-side binder has already been made.** The monoclonal **PA141** binds the PAPP-A
+  exosite and, in the source's words, *mimics the mechanism of the endogenous inhibitor*. That is
+  the strongest possible argument for targeting STC2 instead, and it is preserved as
+  wrong-direction evidence.
+- **The intuitive epitope is the wrong one.** Cys120 looks like the target and is demonstrably
+  insufficient, since STC2 C120A still inhibits competitively. The primary epitope is the K104
+  basic patch and the V63 contact, where the competitive inhibition actually lives.
+- **Stage 93's "nothing localises" was out of date.** A published platform fuses an scFv against
+  **matrilin-3** — not collagen II, as assumed — to IGF-1; it was measured in tibial epiphyseal
+  cartilage against heart, restored growth-plate height without increasing kidney cell
+  proliferation, and showed **significantly reduced hypoglycaemia versus IGF-1 itself**. All six
+  platform claims are substantiated from retrieved full text. It is the first evidence in the
+  programme that targeting reduces a real systemic toxicity while retaining growth-plate activity.
+- **The most expensive branch can be falsified by the cheapest arm.** Wild-type recombinant PAPP-A
+  added to a normal explant tests whether adding protease activity moves bone length at all. If it
+  does nothing, relieving its inhibitor cannot work, and the entire variant-engineering and
+  binder-discovery programme is answered before it is funded.
+- **Three chemically unrelated NPR3 probes, tested separately.** An 11-mer armoured peptide, an
+  887 Da peptidomimetic and a secreted endogenous protein cannot share an off-target. Two of three
+  must agree, and **NPR2 dependence is a veto**: a phenotype that survives NPR2 blockade did not
+  travel the CNP route and the human genetic anchor does not apply to it. cANP(4-23) — the field's
+  standard "NPR3-selective" reagent, and an **agonist** — is retained as the control that would
+  falsify the clearance mechanism.
+- **Still zero results.** Nothing here has lengthened a bone, no reagent has demonstrated
+  terminal-zone penetration, and every arm carries `RANGE_UNDETERMINED` because no reagent has a
+  measured potency in cartilage. The branch converted two target classes into testable objects.
+  That is a change in position, not a result.
